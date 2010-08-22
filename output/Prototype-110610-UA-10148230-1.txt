@@ -1,0 +1,184 @@
+I am a test - my numbers aren't useful
+
+
+Report run 2010-06-11T14:22:49+12:00
+
+
+Profile: UA-10148230-1
+
+Reporting period starts 2010-01-09
+
+Reporting period ends 2010-03-09
+
+Previous period starts 2009-11-08
+
+Previous period ends 2010-01-08
+
+Baseline period starts 2009-07-08
+
+Baseline period ends 2010-01-08
+
+
+
+===========--------Page 1---------============
+
+
+
+Average daily value is 0
+Average baseline daily value is 0
+Reporting daily visit values for graph:
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+1
+2
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+1
+1
+0
+0
+1
+0
+0
+1
+0
+0
+2
+0
+0
+0
+0
+0
+1
+1
+0
+1
+0
+0
+0
+
+
+Report visits is 21
+Percentage change from last period is -22% (Down (Red))
+Baseline change is 9% (UP (Green))
+Previous visits is 27
+Baseline reporting-period-based average visits is 19
+
+
+Report monthly average uniques is 8
+Percentage change from last period is -19% (Down (Red))
+Baseline change from last period is -9% (Down (Red))
+Previous monthly average uniques is 10
+Baseline monthly average uniques is 9
+
+
+Reporting period bounce-rate is 86%
+Previous period bounce-rate is 41%
+Baseline period bounce-rate is 47%
+Percentage change from last period is 110% (UP (Red))
+Percentage change against baseline is 84% (UP (Red))
+
+
+New Zealand/international percentages for reporting period were 5 / 95%
+New Zealand/international percentages for previous period were 41 / 59%
+New Zealand/international percentages for baseline period were 47 / 53%
+New Zealand visits against baseline changed -90% (DOWN (Grey))
+
+
+New/Returning visit percentages for reporting period was 62 / 38%
+New/Returning visit percentages for reporting period was 63 / 37%
+New/Returning visit percentages for reporting period was 71 / 29%
+New visits against baseline is -12% (DOWN (Grey))
+
+
+google
+visits/total 76%
+bouncerate 94%
+average session time 00:00.
+images.google.com
+visits/total 14%
+bouncerate 67%
+average session time 00:09.
+(direct)
+visits/total 5%
+bouncerate 100%
+average session time 00:00.
+images.google.nl
+visits/total 5%
+bouncerate 0%
+average session time 00:06.
+
+
+===========--------Page 2---------============
+
+
+
+Reporting period ave time is 00:02
+Previous period ave time is 03:01
+Baseline period ave time is 01:57
+Percentage change from previous period is -99% (Down (Red))
+Percentage change from baseline period is -98% (Down (Red))
+
+
+Reporting period Pages/Visits is 1.14
+Previous period Pages/Visits is 2.89
+Baseline period Pages/Visits is 2.76
+Percentage change from previous period is -60% (Down (Red))
+Percentage change from baseline period is -59% (Down (Red))
+
+
+Reporting period homepage bounce-rate is 75%
+Previous period homepage bounce-rate is 29%
+Baseline period homepage bounce-rate is 34%
+Percentage change from last period is 163% (UP (Red))
+Percentage change against baseline is 117% (UP (Red))
+
+
+1 time = 13
+2 times = 4
+3 times = 2
+4 times = 1
+>4 times = 1
+
+
+1 page = 18
+2 pages = 3
+3 pages = 0
+4 pages = 0
+>4 pages = 0
+
+
+
+
+I took 72 seconds.

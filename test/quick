@@ -1,0 +1,48 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/biotech_segment.rb")
+
+$display = Unix.new
+Biotech_session.new
+$format = XML.new
+
+
+
+visits = Visits.new
+bounces = BounceRate.new
+countryvisits = CountryVisits.new("New Zealand")
+new_returning = NewVisits.new
+pages_visits = PageViews.new
+
+$format.header
+
+$format.x.comment!("Body!")
+
+$format.x.body {
+  
+  $format.x.block_wrapper { 
+                            $format.x.block_wrapper_header {
+                              $format.x.key_string("Previous")
+                              $format.x.key_string("Baseline")
+                              
+                            }
+                      
+          
+                            $format.block_full(visits.three_with_changes) 
+                            $format.block_full(bounces.three_with_changes)
+                            $format.block_full(countryvisits.three_with_changes)
+                            $format.block_full(new_returning.three_with_changes)
+                            $format.block_full(pages_visits.three_with_changes_per_visit)
+
+                            $format.relative(new_returning.reporting_only)    #bar                      
+                          }
+                 }       
+
+
+
+
+puts $collector
+
+
+
+

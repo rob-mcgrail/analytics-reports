@@ -1,0 +1,3583 @@
+
+Report run 2010-08-09T16:27:06+12:00
+
+
+Profile: Sceincelearn
+
+Reporting period starts 2010-03-01
+
+Reporting period ends 2010-06-30
+
+Previous period starts 2009-10-28
+
+Previous period ends 2010-02-28
+
+Baseline period starts 2009-02-28
+
+Baseline period ends 2010-02-28
+
+
+
+/
+
+Reporting
+
+214629
+Previous
+
+202822
+Change
+
+
+5.82136060190709
+
+
+
+Content pageviews limit is 122
+
+By Time for /
+
+/Contexts/See-through-Body/Sci-Media/Video/So-how-does-MRI-work, pageviews: 348, average time: 09:26
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 1431, average time: 08:24
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 316, average time: 06:25
+/News-Events/News/MMR-vaccine-controversy, pageviews: 195, average time: 05:13
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 1706, average time: 05:08
+
+
+
+By Views for /
+
+/, pageviews: 9598, average time: 01:27
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 6136, average time: 04:47
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 4391, average time: 02:26
+/Contexts, pageviews: 3331, average time: 00:36
+/Science-Stories, pageviews: 2036, average time: 00:44
+
+
+
+Navigation for /
+
+
+Previous pages for /
+
+(entrance) (5406)
+/ (977)
+/Contexts (159)
+/Science-Stories (152)
+/search (83)
+/My-Sci (59)
+/Thinking-Tools (57)
+
+Next pages for /
+
+/Contexts (1104)
+/ (977)
+/Science-Stories (520)
+/search (346)
+/Thinking-Tools (185)
+/contexts (176)
+/News-Events (170)
+
+
+
+/Contexts
+
+Reporting
+
+152934
+Previous
+
+152343
+Change
+
+
+0.387940371398751
+
+
+
+Content pageviews limit is 97
+
+By Time for /Contexts
+
+/Contexts/See-through-Body/Sci-Media/Video/So-how-does-MRI-work, pageviews: 348, average time: 09:26
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 1431, average time: 08:24
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 1706, average time: 05:08
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 447, average time: 04:58
+/Contexts/See-through-Body/NZ-Research/X-ray-technology-for-the-future, pageviews: 334, average time: 04:56
+
+
+
+By Views for /Contexts
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 6136, average time: 04:47
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 4391, average time: 02:26
+/Contexts, pageviews: 3331, average time: 00:36
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 1706, average time: 05:08
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 1488, average time: 01:30
+
+
+
+Navigation for /Contexts
+
+
+Previous pages for /Contexts
+
+/ (1104)
+(entrance) (236)
+/ (176)
+/Science-Stories (112)
+/Contexts (111)
+/Contexts/(offset)/9 (61)
+/My-Sci (46)
+
+Next pages for /Contexts
+
+/Contexts/(offset)/9 (285)
+/Contexts/Volcanoes (272)
+/Contexts/See-through-Body (196)
+/Contexts/Saving-Reptiles-and-Amphibians (177)
+/Contexts/H2O-On-the-Go (171)
+/ (159)
+/Contexts/Earthquakes (149)
+
+
+
+/Contexts/Earthquakes
+
+Reporting
+
+11025
+Previous
+
+12168
+Change
+
+
+-9.39349112426036
+
+
+
+Content pageviews limit is 27
+
+By Time for /Contexts/Earthquakes
+
+/Contexts/Earthquakes/Sci-Media/Images/Ductile-building, pageviews: 31, average time: 04:35
+/Contexts/Earthquakes/Sci-Media/Video/Is-base-isolation-always-appropriate, pageviews: 50, average time: 03:54
+/Contexts/Earthquakes/Sci-Media/Video/Using-advanced-concrete-technology, pageviews: 29, average time: 03:42
+/Contexts/Earthquakes/Sci-Media/Video/What-skills-do-seismic-engineers-need, pageviews: 64, average time: 03:38
+/Contexts/Earthquakes/Sci-Media/Video/Protecting-Wellington-Hospital, pageviews: 33, average time: 03:18
+
+
+
+By Views for /Contexts/Earthquakes
+
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Seismic-waves, pageviews: 602, average time: 02:04
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Plate-tectonics, pageviews: 575, average time: 01:39
+/Contexts/Earthquakes, pageviews: 518, average time: 00:52
+/Contexts/Earthquakes/Looking-Closer/How-do-base-isolators-work, pageviews: 513, average time: 02:46
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Inside-the-Earth, pageviews: 411, average time: 01:51
+
+
+
+Navigation for /Contexts/Earthquakes
+
+
+Previous pages for /Contexts/Earthquakes
+
+/Contexts (149)
+(entrance) (91)
+/contexts (45)
+(entrance) (38)
+/ (35)
+/Contexts/(offset)/9 (27)
+/Contexts/Earthquakes/NZ-Research/Earthquakes (27)
+
+Next pages for /Contexts/Earthquakes
+
+/Contexts/Earthquakes/NZ-Research/Earthquakes (82)
+/Contexts/Earthquakes/Question-Bank (44)
+/Contexts/Earthquakes/Teaching-and-Learning-Approaches (44)
+/contexts/earthquakes/nz_research/earthquakes (29)
+/Contexts/Earthquakes/Science-Ideas-and-Concepts (28)
+/Contexts/Earthquakes/Sci-Media (27)
+/Contexts (25)
+
+
+
+/Contexts/Enviro-imprints
+
+Reporting
+
+5377
+Previous
+
+6044
+Change
+
+
+-11.035737921906
+
+
+
+Content pageviews limit is 13
+
+By Time for /Contexts/Enviro-imprints
+
+/contexts/enviro_imprints/sci_media/video/what_is_a_bacteriophage, pageviews: 19, average time: 26:17
+/contexts/enviro_imprints/sci_media/images/scrap_metal, pageviews: 19, average time: 19:24
+/contexts/enviro_imprints/sci_media/images/ddt_spraying, pageviews: 40, average time: 07:35
+/Contexts/Enviro-imprints/Sci-Media/Video/Temperature-inversion, pageviews: 49, average time: 07:29
+/Contexts/Enviro-imprints/Looking-closer/Organochlorines, pageviews: 34, average time: 05:25
+
+
+
+By Views for /Contexts/Enviro-imprints
+
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches/Air-pollution-activities, pageviews: 438, average time: 02:11
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches/Sources-and-effects-of-air-pollution, pageviews: 307, average time: 01:30
+/Contexts/Enviro-imprints/Looking-closer/Air-pollution-in-Christchurch, pageviews: 185, average time: 02:37
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches/Biodegradability-experiment, pageviews: 163, average time: 02:16
+/Contexts/Enviro-imprints, pageviews: 142, average time: 00:24
+
+
+
+Navigation for /Contexts/Enviro-imprints
+
+
+Previous pages for /Contexts/Enviro-imprints
+
+/Contexts (71)
+(entrance) (11)
+/Contexts/Enviro-imprints/NZ-Research/Enviro-imprints (8)
+/ (7)
+/Contexts/(offset)/9 (6)
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches (4)
+/Contexts/Enviro-imprints/NZ-Research (3)
+
+Next pages for /Contexts/Enviro-imprints
+
+/Contexts/Enviro-imprints/NZ-Research/Enviro-imprints (29)
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches (16)
+/Contexts (15)
+/Contexts/Enviro-imprints/Science-Ideas-and-Concepts (13)
+/Contexts/Enviro-imprints/Sci-Media (12)
+/Contexts/Enviro-imprints/NZ-Research (9)
+/Contexts/Enviro-imprints/Looking-closer/Air-pollution-in-Christchurch (3)
+
+
+
+/Contexts/Fire
+
+Reporting
+
+7196
+Previous
+
+5616
+Change
+
+
+28.1339031339031
+
+
+
+Content pageviews limit is 23
+
+By Time for /Contexts/Fire
+
+/Contexts/Fire/Sci-Media/Images/Mont-Blanc-tunnel-fire, pageviews: 55, average time: 03:52
+/Contexts/Fire/Teaching-and-Learning-Approaches/Alternative-conceptions-about-fire, pageviews: 56, average time: 03:43
+/Contexts/Fire/Sci-Media/Video/Slowing-down-fire, pageviews: 24, average time: 03:25
+/Contexts/Fire/NZ-Research/Fire-and-people, pageviews: 37, average time: 03:11
+/Contexts/Fire/Teaching-and-Learning-Approaches/The-great-candle-experiment, pageviews: 66, average time: 02:51
+
+
+
+By Views for /Contexts/Fire
+
+/Contexts/Fire/Science-Ideas-and-Concepts/What-is-fire, pageviews: 988, average time: 02:47
+/Contexts/Fire, pageviews: 465, average time: 00:45
+/Contexts/Fire/Science-Ideas-and-Concepts/Heat-energy, pageviews: 256, average time: 02:08
+/Contexts/Fire/Science-Ideas-and-Concepts/What-is-smoke, pageviews: 255, average time: 02:02
+/contexts/fire/science_ideas_and_concepts/what_is_fire, pageviews: 224, average time: 02:33
+
+
+
+Navigation for /Contexts/Fire
+
+
+Previous pages for /Contexts/Fire
+
+/Contexts (124)
+(entrance) (98)
+/ (56)
+(entrance) (37)
+/contexts (35)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (29)
+/Contexts/Fire/NZ-Research/Fire (18)
+
+Next pages for /Contexts/Fire
+
+/Contexts/Fire/NZ-Research/Fire (69)
+/Contexts/Fire/Sci-Media (52)
+/Contexts/Fire/Teaching-and-Learning-Approaches (41)
+/Contexts (28)
+/contexts/fire/nz_research/fire (24)
+/Contexts/Fire/Science-Ideas-and-Concepts (21)
+/Contexts/Fire/NZ-Research (19)
+
+
+
+/Contexts/Future-Fuels
+
+Reporting
+
+6494
+Previous
+
+6956
+Change
+
+
+-6.64174813110983
+
+
+
+Content pageviews limit is 15
+
+By Time for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/Sci-Media/Video/A-career-in-the-oil-industry, pageviews: 29, average time: 05:45
+/contexts/future_fuels/sci_media/images/simple_ecosystem_diagram, pageviews: 21, average time: 04:41
+/contexts/future_fuels/sci_media/images/wood_logging_residue, pageviews: 27, average time: 04:12
+/contexts/future_fuels/sci_media/video/why_is_energy_important, pageviews: 55, average time: 04:10
+/Contexts/Future-Fuels/Looking-closer/New-Zealand-s-biomass-resources, pageviews: 236, average time: 03:46
+
+
+
+By Views for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Non-renewable-energy-sources, pageviews: 406, average time: 03:00
+/Contexts/Future-Fuels/Sci-Media/Images/Simple-ecosystem-diagram, pageviews: 385, average time: 03:33
+/Contexts/Future-Fuels/Sci-Media/Animations-and-Interactives/Oil-formation, pageviews: 244, average time: 02:56
+/Contexts/Future-Fuels/Looking-closer/New-Zealand-s-biomass-resources, pageviews: 236, average time: 03:46
+/Contexts/Future-Fuels/Sci-Media/Video/What-is-a-hydrocarbon, pageviews: 232, average time: 03:19
+
+
+
+Navigation for /Contexts/Future-Fuels
+
+
+Previous pages for /Contexts/Future-Fuels
+
+(entrance) (42)
+/Contexts (40)
+/Contexts/(offset)/9 (29)
+/ (26)
+/Contexts/Future-Fuels/NZ-Research/Future-Fuels (12)
+/Contexts/Future-Fuels (4)
+/Contexts/Future-Fuels/Looking-closer/Geothermal-power (3)
+
+Next pages for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/NZ-Research/Future-Fuels (37)
+/Contexts/Future-Fuels/Teaching-and-Learning-Approaches (13)
+/Contexts/Future-Fuels/Sci-Media (12)
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts (12)
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Renewable-energy-sources (9)
+/Contexts (8)
+/Contexts/Future-Fuels/NZ-Research (7)
+
+
+
+/Contexts/H2O-On-the-Go
+
+Reporting
+
+7263
+Previous
+
+4863
+Change
+
+
+49.3522516964837
+
+
+
+Content pageviews limit is 22
+
+By Time for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 1431, average time: 08:24
+/contexts/h2o_on_the_go/sci_media/video/earth_s_water_distribution, pageviews: 32, average time: 06:04
+/contexts/h2o_on_the_go/science_ideas_and_concepts/humans_and_the_water_cycle, pageviews: 263, average time: 04:45
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Peat-bogs, pageviews: 36, average time: 04:41
+/Contexts/H2O-On-the-Go/Sci-Media/Images/Denitrification-wall-diagram, pageviews: 32, average time: 04:24
+
+
+
+By Views for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 1431, average time: 08:24
+/Contexts/H2O-On-the-Go, pageviews: 375, average time: 00:46
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/The-water-cycle, pageviews: 292, average time: 01:30
+/contexts/h2o_on_the_go/science_ideas_and_concepts/humans_and_the_water_cycle, pageviews: 263, average time: 04:45
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches/What-is-the-Earth-system, pageviews: 195, average time: 01:36
+
+
+
+Navigation for /Contexts/H2O-On-the-Go
+
+
+Previous pages for /Contexts/H2O-On-the-Go
+
+/Contexts (171)
+(entrance) (41)
+/ (28)
+/Contexts/H2O-On-the-Go/NZ-Research/H2O-On-the-Go (17)
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches (13)
+/Contexts/H2O-On-the-Go (9)
+/Contexts/H2O-On-the-Go/Sci-Media/Video/The-dynamic-water-cycle (8)
+
+Next pages for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go/NZ-Research/H2O-On-the-Go (60)
+/Contexts/H2O-On-the-Go/Sci-Media (46)
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches (37)
+/Contexts (33)
+/Contexts/H2O-On-the-Go/Sci-Media/Video/The-dynamic-water-cycle (30)
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts (23)
+/ (15)
+
+
+
+/Contexts/Hidden-Taonga
+
+Reporting
+
+5677
+Previous
+
+4447
+Change
+
+
+27.6590960197886
+
+
+
+Content pageviews limit is 20
+
+By Time for /Contexts/Hidden-Taonga
+
+/contexts/hidden_taonga/sci_media/animations_and_interactives/tectonic_plates_animation, pageviews: 253, average time: 03:40
+/Contexts/Hidden-Taonga/Sci-Media/Video/Scale-insect-lifecycle, pageviews: 121, average time: 03:31
+/Contexts/Hidden-Taonga/Sci-Media/Animations-and-Interactives/Tectonic-plates-animation, pageviews: 304, average time: 03:19
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Growing-fungi-on-bread, pageviews: 317, average time: 03:11
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Moth-collecting, pageviews: 63, average time: 03:03
+
+
+
+By Views for /Contexts/Hidden-Taonga
+
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Make-a-wanted-poster, pageviews: 398, average time: 01:55
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Growing-fungi-on-bread, pageviews: 317, average time: 03:11
+/Contexts/Hidden-Taonga/Sci-Media/Animations-and-Interactives/Tectonic-plates-animation, pageviews: 304, average time: 03:19
+/Contexts/Hidden-Taonga, pageviews: 277, average time: 00:50
+/Contexts/Hidden-Taonga/Sci-Media/Images/Scale-insect-anal-tubes, pageviews: 271, average time: 00:49
+
+
+
+Navigation for /Contexts/Hidden-Taonga
+
+
+Previous pages for /Contexts/Hidden-Taonga
+
+/Contexts (94)
+(entrance) (91)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (14)
+/ (12)
+/Contexts/Hidden-Taonga/NZ-Research/Hidden-Taonga (9)
+/Contexts/Connections/(start_node)/4068 (5)
+/Contexts/Hidden-Taonga/NZ-Research (5)
+
+Next pages for /Contexts/Hidden-Taonga
+
+/Contexts/Hidden-Taonga/NZ-Research/Hidden-Taonga (40)
+/Contexts (22)
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches (21)
+/Contexts/Hidden-Taonga/Science-Ideas-and-Concepts (17)
+/Contexts/Hidden-Taonga/Sci-Media (13)
+/Contexts/Hidden-Taonga/NZ-Research (11)
+/ (7)
+
+
+
+/Contexts/Icy-Ecosystems
+
+Reporting
+
+9696
+Previous
+
+14593
+Change
+
+
+-33.5571849516892
+
+
+
+Content pageviews limit is 18
+
+By Time for /Contexts/Icy-Ecosystems
+
+/contexts/icy_ecosystems/sci_media/images/a_leopard_seal, pageviews: 27, average time: 16:51
+/contexts/icy_ecosystems/nz_research/studying_oil_spills_in_antarctica, pageviews: 30, average time: 05:16
+/contexts/icy_ecosystems/looking_closer/why_is_antarctica_so_cold, pageviews: 126, average time: 04:45
+/Contexts/Icy-Ecosystems/Sci-Media/Video/How-to-become-a-climate-scientist, pageviews: 62, average time: 04:35
+/Contexts/Icy-Ecosystems/Looking-closer/Why-is-Antarctica-so-cold, pageviews: 676, average time: 04:22
+
+
+
+By Views for /Contexts/Icy-Ecosystems
+
+/Contexts/Icy-Ecosystems/Looking-closer/Why-is-Antarctica-so-cold, pageviews: 676, average time: 04:22
+/Contexts/Icy-Ecosystems/Sci-Media/Images/Simple-ecosystem-diagram, pageviews: 493, average time: 03:40
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts/Water-density, pageviews: 297, average time: 03:07
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches/Animal-adaptations, pageviews: 245, average time: 02:54
+/Contexts/Icy-Ecosystems, pageviews: 214, average time: 00:33
+
+
+
+Navigation for /Contexts/Icy-Ecosystems
+
+
+Previous pages for /Contexts/Icy-Ecosystems
+
+(entrance) (62)
+/Contexts (54)
+/ (20)
+/Contexts/(offset)/9 (16)
+/Contexts/Icy-Ecosystems/NZ-Research/Icy-Ecosystems (8)
+/Contexts/Icy-Ecosystems (6)
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches (5)
+
+Next pages for /Contexts/Icy-Ecosystems
+
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches (42)
+/Contexts/Icy-Ecosystems/NZ-Research/Icy-Ecosystems (27)
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts (20)
+/Contexts/Icy-Ecosystems/Sci-Media (17)
+/Contexts/Icy-Ecosystems/NZ-Research (10)
+/Contexts/Icy-Ecosystems/Looking-closer (8)
+/Contexts (7)
+
+
+
+/Contexts/Just-Elemental
+
+Reporting
+
+4857
+Previous
+
+7906
+Change
+
+
+-38.5656463445484
+
+
+
+Content pageviews limit is 15
+
+By Time for /Contexts/Just-Elemental
+
+/contexts/just_elemental/sci_media/animations_and_interactives/c_14_carbon_dating_process, pageviews: 29, average time: 06:36
+/contexts/just_elemental/science_ideas_and_concepts/metals_alloys_and_metal_compounds, pageviews: 48, average time: 04:53
+/contexts/just_elemental/sci_media/images/smoke_detector_operation, pageviews: 19, average time: 04:20
+/Contexts/Just-Elemental/Looking-Closer/Using-isotopes-as-tracers, pageviews: 37, average time: 03:41
+/contexts/just_elemental/science_ideas_and_concepts/the_essential_elements, pageviews: 37, average time: 03:35
+
+
+
+By Views for /Contexts/Just-Elemental
+
+/Contexts/Just-Elemental, pageviews: 247, average time: 00:38
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/Periodic-table-of-elements, pageviews: 243, average time: 02:15
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/How-elements-are-formed, pageviews: 163, average time: 01:28
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/The-essential-elements, pageviews: 161, average time: 01:58
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/Metals-alloys-and-metal-compounds, pageviews: 155, average time: 02:02
+
+
+
+Navigation for /Contexts/Just-Elemental
+
+
+Previous pages for /Contexts/Just-Elemental
+
+/Contexts (135)
+(entrance) (22)
+/ (17)
+/Contexts/Just-Elemental (10)
+/Contexts/Just-Elemental/NZ-Research/Just-Elemental (8)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (8)
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/Periodic-table-of-elements (4)
+
+Next pages for /Contexts/Just-Elemental
+
+/Contexts/Just-Elemental/NZ-Research/Just-Elemental (47)
+/Contexts (24)
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts (22)
+/Contexts/Just-Elemental/Sci-Media (18)
+/Contexts/Just-Elemental/Teaching-and-Learning-Approaches (16)
+/Contexts/Just-Elemental/NZ-Research (12)
+/Contexts/Just-Elemental (10)
+
+
+
+/Contexts/Life-in-the-Sea
+
+Reporting
+
+9809
+Previous
+
+6712
+Change
+
+
+46.1412395709178
+
+
+
+Content pageviews limit is 28
+
+By Time for /Contexts/Life-in-the-Sea
+
+/Contexts/Life-in-the-Sea/Sci-Media/Video/Ocean-acidification, pageviews: 30, average time: 05:53
+/contexts/life_in_the_sea/sci_media/animations_and_interactives/marine_ecosystem, pageviews: 218, average time: 04:30
+/contexts/life_in_the_sea/looking_closer/cockles, pageviews: 135, average time: 04:14
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Sea-star, pageviews: 747, average time: 04:12
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Human-impacts-on-marine-environments, pageviews: 601, average time: 04:04
+
+
+
+By Views for /Contexts/Life-in-the-Sea
+
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Sea-star, pageviews: 747, average time: 04:12
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Marine-food-webs, pageviews: 721, average time: 02:05
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Adaptations-of-marine-organisms, pageviews: 632, average time: 03:35
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Human-impacts-on-marine-environments, pageviews: 601, average time: 04:04
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem, pageviews: 584, average time: 03:21
+
+
+
+Navigation for /Contexts/Life-in-the-Sea
+
+
+Previous pages for /Contexts/Life-in-the-Sea
+
+/Contexts (145)
+(entrance) (80)
+/ (31)
+/Contexts/Life-in-the-Sea/NZ-Research/Life-in-the-Sea (17)
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem (14)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (12)
+/Contexts/Life-in-the-Sea/Teaching-and-Learning-Approaches (9)
+
+Next pages for /Contexts/Life-in-the-Sea
+
+/Contexts/Life-in-the-Sea/NZ-Research/Life-in-the-Sea (57)
+/Contexts/Life-in-the-Sea/Sci-Media (48)
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem (38)
+/Contexts (32)
+/Contexts/Life-in-the-Sea/Teaching-and-Learning-Approaches (32)
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts (17)
+/Contexts/Life-in-the-Sea/People (13)
+
+
+
+/Contexts/Nanoscience
+
+Reporting
+
+5615
+Previous
+
+5926
+Change
+
+
+-5.24805939925751
+
+
+
+Content pageviews limit is 17
+
+By Time for /Contexts/Nanoscience
+
+/contexts/nanoscience/sci_media/video/plants_making_gold_nanoparticles, pageviews: 56, average time: 34:47
+/Contexts/Nanoscience/Sci-Media/Video/Structure-affects-function, pageviews: 27, average time: 06:05
+/Contexts/Nanoscience/NZ-Research/Electrocatalysts-for-future-fuels, pageviews: 39, average time: 05:09
+/contexts/nanoscience/sci_media/images/gold_nanoparticles_inside_a_plant_cell, pageviews: 18, average time: 04:51
+/contexts/nanoscience/science_ideas_and_concepts/chemical_reactions_and_catalysts, pageviews: 151, average time: 04:47
+
+
+
+By Views for /Contexts/Nanoscience
+
+/Contexts/Nanoscience/Science-Ideas-and-Concepts/Chemical-reactions-and-catalysts, pageviews: 680, average time: 03:00
+/Contexts/Nanoscience/Sci-Media/Video/Scientists-working-together, pageviews: 240, average time: 02:39
+/Contexts/Nanoscience/Sci-Media/Images/An-advantage-of-core-shell-nanoparticles, pageviews: 171, average time: 01:55
+/Contexts/Nanoscience, pageviews: 170, average time: 01:29
+/Contexts/Nanoscience/NZ-Research/Gold-nanoparticles-from-plants, pageviews: 163, average time: 03:04
+
+
+
+Navigation for /Contexts/Nanoscience
+
+
+Previous pages for /Contexts/Nanoscience
+
+(entrance) (58)
+/Contexts (29)
+/ (20)
+(entrance) (13)
+/Contexts/(offset)/9 (12)
+/Contexts/Nanoscience/NZ-Research/Nanoscience (9)
+/contexts (8)
+
+Next pages for /Contexts/Nanoscience
+
+/Contexts/Nanoscience/NZ-Research/Nanoscience (30)
+/Contexts/Nanoscience/NZ-Research (10)
+/ (8)
+/Contexts (7)
+/Contexts/Nanoscience/Sci-Media (7)
+/contexts/nanoscience/nz_research/nanoscience (7)
+/Contexts/Nanoscience/Science-Ideas-and-Concepts (6)
+
+
+
+/Contexts/Saving-Reptiles
+
+Reporting
+
+3773
+Previous
+
+2752
+Change
+
+
+37.1002906976744
+
+
+
+Content pageviews limit is 18
+
+By Time for /Contexts/Saving-Reptiles
+
+/Contexts/Saving-Reptiles-and-Amphibians/Science-Ideas-and-Concepts/Extinction, pageviews: 60, average time: 04:17
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Native-frogs, pageviews: 109, average time: 03:47
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Orokonui-Ecosanctuary-a-mainland-island, pageviews: 44, average time: 03:44
+/Contexts/Saving-Reptiles-and-Amphibians/Teaching-and-Learning-Approaches/Create-a-lizard-friendly-habitat, pageviews: 89, average time: 03:38
+/Contexts/Saving-Reptiles-and-Amphibians/Key-Terms, pageviews: 48, average time: 03:35
+
+
+
+By Views for /Contexts/Saving-Reptiles
+
+/Contexts/Saving-Reptiles-and-Amphibians, pageviews: 323, average time: 00:26
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Native-skinks-and-geckos, pageviews: 206, average time: 02:01
+/Contexts/Saving-Reptiles-and-Amphibians/Teaching-and-Learning-Approaches/Similarities-and-differences-skinks-and-geckos, pageviews: 176, average time: 03:11
+/Contexts/Saving-Reptiles-and-Amphibians/Sci-Media/Animations-and-Interactives/Unique-New-Zealand, pageviews: 150, average time: 02:44
+/contexts/saving_reptiles_and_amphibians, pageviews: 138, average time: 00:38
+
+
+
+Navigation for /Contexts/Saving-Reptiles
+
+
+Previous pages for /Contexts/Saving-Reptiles
+
+
+Next pages for /Contexts/Saving-Reptiles
+
+
+
+
+/Contexts/See-through-Body
+
+Reporting
+
+19465
+Previous
+
+22292
+Change
+
+
+-12.6816795262875
+
+
+
+Content pageviews limit is 33
+
+By Time for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/Sci-Media/Video/So-how-does-MRI-work, pageviews: 348, average time: 09:26
+/contexts/see_through_body/nz_research/x_ray_technology_for_the_future, pageviews: 54, average time: 06:07
+/Contexts/See-through-Body/NZ-Research/X-ray-technology-for-the-future, pageviews: 334, average time: 04:56
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 6136, average time: 04:47
+/contexts/see_through_body/sci_media/animations_and_interactives/label_the_heart, pageviews: 1145, average time: 04:15
+
+
+
+By Views for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 6136, average time: 04:47
+/contexts/see_through_body/sci_media/animations_and_interactives/label_the_heart, pageviews: 1145, average time: 04:15
+/contexts/see_through_body/teaching_and_learning_approaches/student_activity_n_back_test, pageviews: 685, average time: 02:10
+/Contexts/See-through-Body, pageviews: 645, average time: 00:51
+/Contexts/See-through-Body/Sci-Media/Images/Bicep-and-tricep-muscles, pageviews: 454, average time: 01:57
+
+
+
+Navigation for /Contexts/See-through-Body
+
+
+Previous pages for /Contexts/See-through-Body
+
+/Contexts (196)
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart (102)
+(entrance) (98)
+/Contexts/(offset)/9 (48)
+/ (37)
+/Contexts/See-through-Body/NZ-Research/See-Through-Body (28)
+/Contexts/See-through-Body/Teaching-and-Learning-Approaches (16)
+
+Next pages for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart (222)
+/Contexts/See-through-Body/NZ-Research/See-Through-Body (78)
+/Contexts (30)
+/Contexts/See-through-Body/Sci-Media (21)
+/Contexts/See-through-Body/Looking-closer (18)
+/Contexts/See-through-Body/Teaching-and-Learning-Approaches (18)
+/ (16)
+
+
+
+/Contexts/Space-Revealed
+
+Reporting
+
+3815
+Previous
+
+3764
+Change
+
+
+1.35494155154091
+
+
+
+Content pageviews limit is 19
+
+By Time for /Contexts/Space-Revealed
+
+/Contexts/Space-Revealed/Sci-Media/Images/Lifecycle-of-the-Sun, pageviews: 810, average time: 04:44
+/contexts/space_revealed/sci_media/images/lifecycle_of_the_sun, pageviews: 253, average time: 04:01
+/contexts/space_revealed/science_ideas_and_concepts/light_and_telescopes, pageviews: 47, average time: 03:35
+/contexts/space_revealed/teaching_and_learning_approaches/shrink_the_solar_system, pageviews: 26, average time: 03:34
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts/Distances-in-space, pageviews: 156, average time: 03:22
+
+
+
+By Views for /Contexts/Space-Revealed
+
+/Contexts/Space-Revealed/Sci-Media/Images/Lifecycle-of-the-Sun, pageviews: 810, average time: 04:44
+/contexts/space_revealed/sci_media/images/lifecycle_of_the_sun, pageviews: 253, average time: 04:01
+/Contexts/Space-Revealed, pageviews: 211, average time: 00:43
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts/Light-and-telescopes, pageviews: 179, average time: 01:49
+/Contexts/Space-Revealed/Sci-Media/Video/Planets-stars-and-the-Solar-System, pageviews: 162, average time: 01:02
+
+
+
+Navigation for /Contexts/Space-Revealed
+
+
+Previous pages for /Contexts/Space-Revealed
+
+/Contexts (81)
+/ (32)
+(entrance) (22)
+/Contexts/Space-Revealed/NZ-Research/Space-revealed (12)
+/Contexts/Space-Revealed (11)
+/Contexts/Space-Revealed/Timeline (6)
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts (5)
+
+Next pages for /Contexts/Space-Revealed
+
+/Contexts/Space-Revealed/NZ-Research/Space-revealed (36)
+/ (14)
+/Contexts (13)
+/Contexts/Space-Revealed/Teaching-and-Learning-Approaches (13)
+/Contexts/Space-Revealed (11)
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts (11)
+/Contexts/Space-Revealed/NZ-Research (9)
+
+
+
+/Contexts/Sporting-Edge
+
+Reporting
+
+22747
+Previous
+
+29890
+Change
+
+
+-23.8976246236199
+
+
+
+Content pageviews limit is 38
+
+By Time for /Contexts/Sporting-Edge
+
+/contexts/sporting_edge/looking_closer/measuring_muscle_strength, pageviews: 89, average time: 04:38
+/contexts/sporting_edge/looking_closer/energy_for_exercise, pageviews: 46, average time: 03:55
+/contexts/sporting_edge/sci_media/images/pivot_diagram_of_a_class_3_lever, pageviews: 162, average time: 03:16
+/contexts/sporting_edge/looking_closer/what_levers_does_your_body_use, pageviews: 799, average time: 02:57
+/contexts/sporting_edge/sci_media/images/pectoralis_major_muscle, pageviews: 128, average time: 02:57
+
+
+
+By Views for /Contexts/Sporting-Edge
+
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 4391, average time: 02:26
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 1488, average time: 01:30
+/contexts/sporting_edge/looking_closer/what_levers_does_your_body_use, pageviews: 799, average time: 02:57
+/Contexts/Sporting-Edge/Sci-Media/Images/Pivot-diagram-of-a-Class-3-lever, pageviews: 594, average time: 02:09
+/Contexts/Sporting-Edge/Teaching-and-Learning-Approaches/Muscle-dissection, pageviews: 514, average time: 02:29
+
+
+
+Navigation for /Contexts/Sporting-Edge
+
+
+Previous pages for /Contexts/Sporting-Edge
+
+/Contexts (50)
+/ (33)
+/Contexts/(offset)/9 (19)
+(entrance) (13)
+/Contexts/Sporting-Edge/NZ-Research/Sporting-Edge (12)
+/Contexts/Sporting-Edge/NZ-Research/Marathon-versus-sprint (7)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (6)
+
+Next pages for /Contexts/Sporting-Edge
+
+/Contexts/Sporting-Edge/NZ-Research/Sporting-Edge (36)
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts (13)
+/Contexts/Sporting-Edge/Looking-closer (12)
+/ (11)
+/Contexts/Sporting-Edge/Teaching-and-Learning-Approaches (11)
+/Contexts (10)
+/Contexts/Sporting-Edge/NZ-Research (10)
+
+
+
+/Contexts/Volcanoes
+
+Reporting
+
+6685
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 36
+
+By Time for /Contexts/Volcanoes
+
+/Contexts/Volcanoes/Key-Terms, pageviews: 49, average time: 02:43
+/Contexts/Volcanoes/Sci-Media/Video/Plate-tectonics, pageviews: 58, average time: 02:42
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand, pageviews: 385, average time: 02:25
+/Contexts/Volcanoes/Sci-Media/Video/Future-explosions-in-Auckland, pageviews: 122, average time: 02:11
+/Contexts/Volcanoes/NZ-Research/Determining-Auckland-s-volcanic-risk, pageviews: 160, average time: 01:55
+
+
+
+By Views for /Contexts/Volcanoes
+
+/Contexts/Volcanoes, pageviews: 723, average time: 00:56
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand, pageviews: 385, average time: 02:25
+/Contexts/Volcanoes/NZ-Research/Volcanoes, pageviews: 359, average time: 01:11
+/Contexts/Volcanoes/Looking-Closer/Plate-tectonics-volcanoes-and-earthquakes, pageviews: 267, average time: 01:16
+/Contexts/Volcanoes/Looking-Closer/Exercise-Ruaumoko, pageviews: 218, average time: 00:56
+
+
+
+Navigation for /Contexts/Volcanoes
+
+
+Previous pages for /Contexts/Volcanoes
+
+/Contexts (272)
+(entrance) (135)
+/ (65)
+/Contexts/Volcanoes/NZ-Research/Volcanoes (45)
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand (13)
+/Contexts/Volcanoes/Timeline (12)
+/Contexts/Volcanoes (9)
+
+Next pages for /Contexts/Volcanoes
+
+/Contexts/Volcanoes/NZ-Research/Volcanoes (160)
+/Contexts/Volcanoes/Sci-Media (79)
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand (45)
+/Contexts (43)
+/Contexts/Volcanoes/NZ-Research (34)
+/Contexts/Volcanoes/Teaching-and-Learning-Approaches (31)
+/Contexts/Volcanoes/Timeline (28)
+
+
+
+/Contexts/You-Me-and-UV
+
+Reporting
+
+13063
+Previous
+
+14264
+Change
+
+
+-8.41979809310151
+
+
+
+Content pageviews limit is 18
+
+By Time for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/Sci-Media/Video/Creativity-and-imagination-in-science, pageviews: 54, average time: 08:29
+/contexts/you_me_and_uv/sci_media/images/squamous_cell_carcinoma_on_tongue, pageviews: 76, average time: 08:22
+/Contexts/You-Me-and-UV/Sci-Media/Video/Why-are-UV-levels-high-in-New-Zealand-summer, pageviews: 59, average time: 06:07
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 1706, average time: 05:08
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 447, average time: 04:58
+
+
+
+By Views for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 1706, average time: 05:08
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Uses-for-UV, pageviews: 489, average time: 03:00
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 447, average time: 04:58
+/contexts/you_me_and_uv/science_ideas_and_concepts/positive_and_negative_effects_of_uv, pageviews: 362, average time: 04:23
+/Contexts/You-Me-and-UV, pageviews: 297, average time: 00:49
+
+
+
+Navigation for /Contexts/You-Me-and-UV
+
+
+Previous pages for /Contexts/You-Me-and-UV
+
+(entrance) (78)
+/Contexts (60)
+/ (30)
+/Contexts/(offset)/9 (21)
+/Contexts/You-Me-and-UV/NZ-Research/You-Me-and-UV (12)
+/Contexts/You-Me-and-UV (9)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (7)
+
+Next pages for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/NZ-Research/You-Me-and-UV (65)
+/Contexts/You-Me-and-UV/Sci-Media (32)
+/Contexts (14)
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts (13)
+/Contexts/You-Me-and-UV/Teaching-and-Learning-Approaches (13)
+/Contexts/You-Me-and-UV/NZ-Research (11)
+/Contexts/You-Me-and-UV (9)
+
+
+
+/Science-Stories
+
+Reporting
+
+16096
+Previous
+
+12247
+Change
+
+
+31.4281048420021
+
+
+
+Content pageviews limit is 20
+
+By Time for /Science-Stories
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 316, average time: 06:25
+/science_stories/research_voyage_to_antarctica/sci_media/images/brian_samuels_second_cook, pageviews: 33, average time: 05:34
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 71, average time: 04:01
+/Science-Stories/Research-Voyage-to-Antarctica/Sci-Media/Images/Marine-bacteria-on-an-agar-plate, pageviews: 29, average time: 03:42
+/science_stories/microorganisms/make_an_adenovirus, pageviews: 47, average time: 03:39
+
+
+
+By Views for /Science-Stories
+
+/Science-Stories, pageviews: 2036, average time: 00:44
+/Science-Stories/Strange-Liquids, pageviews: 656, average time: 01:07
+/Science-Stories/Butterflies, pageviews: 641, average time: 01:16
+/Science-Stories/Microorganisms, pageviews: 382, average time: 00:52
+/science_stories, pageviews: 373, average time: 00:38
+
+
+
+Navigation for /Science-Stories
+
+
+Previous pages for /Science-Stories
+
+/ (520)
+/Contexts (137)
+(entrance) (116)
+/Science-Stories (72)
+/News-Events (53)
+/Science-Stories/Butterflies (46)
+/Science-Stories/Strange-Liquids (46)
+
+Next pages for /Science-Stories
+
+/Science-Stories/Strange-Liquids (286)
+/Science-Stories/Butterflies (210)
+/ (152)
+/Science-Stories/Our-Heritage-Scientists (133)
+/Science-Stories/Microorganisms (116)
+/Contexts (112)
+/Science-Stories/(offset)/6 (112)
+
+
+
+/Science-Stories/Butterflies
+
+Reporting
+
+2935
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 49
+
+By Time for /Science-Stories/Butterflies
+
+/Science-Stories/Butterflies/Sci-Media/Animations-and-Interactives/Monarch-butterfly-life-cycle, pageviews: 114, average time: 02:37
+/Science-Stories/Butterflies/Tagging-monarch-butterflies-for-science, pageviews: 66, average time: 02:00
+/Science-Stories/Butterflies/Jacqui-Knight, pageviews: 78, average time: 01:59
+/Science-Stories/Butterflies/New-Zealand-native-butterflies, pageviews: 127, average time: 01:54
+/Science-Stories/Butterflies/New-Zealand-butterfly-families, pageviews: 82, average time: 01:50
+
+
+
+By Views for /Science-Stories/Butterflies
+
+/Science-Stories/Butterflies, pageviews: 641, average time: 01:16
+/Science-Stories/Butterflies/Monarch-butterflies, pageviews: 159, average time: 01:33
+/Science-Stories/Butterflies/Our-elusive-native-butterflies, pageviews: 155, average time: 01:36
+/Science-Stories/Butterflies/New-Zealand-butterfly-origins, pageviews: 149, average time: 01:07
+/Science-Stories/Butterflies/Butterfly-defence-mechanisms, pageviews: 127, average time: 01:06
+
+
+
+Navigation for /Science-Stories/Butterflies
+
+
+Previous pages for /Science-Stories/Butterflies
+
+/Science-Stories (210)
+(entrance) (191)
+/Science-Stories/Butterflies (27)
+/Science-Stories/Butterflies/Sci-Media/Images/Rauparaha-s-copper (15)
+/Science-Stories/Butterflies/Monarch-Butterfly-New-Zealand-Trust (14)
+/Science-Stories/Butterflies/Our-elusive-native-butterflies (13)
+/Media/Images/Butterfly-Hero-Temp (12)
+
+Next pages for /Science-Stories/Butterflies
+
+/Science-Stories (46)
+/Science-Stories/Butterflies/Sci-Media/Images/Rauparaha-s-copper (36)
+/Science-Stories/Butterflies/New-Zealand-native-butterflies (35)
+/Science-Stories/Butterflies/Monarch-butterflies (32)
+/Science-Stories/Butterflies/Monarch-Butterfly-New-Zealand-Trust (30)
+/Science-Stories/Butterflies/New-Zealand-butterfly-origins (28)
+/Science-Stories/Butterflies (27)
+
+
+
+/Science-Stories/Celebrating-Science
+
+Reporting
+
+311
+Previous
+
+351
+Change
+
+
+-11.3960113960114
+
+
+
+Content pageviews limit is 3
+
+By Time for /Science-Stories/Celebrating-Science
+
+/Science-Stories/Celebrating-Science/2007-Awards/Professor-Peter-Molan, pageviews: 8, average time: 07:44
+/Science-Stories/Celebrating-Science/2007-Awards/Professor-Warwick-Silvester, pageviews: 5, average time: 05:58
+/Science-Stories/Celebrating-Science/2007-Awards/Sci-Media/Images, pageviews: 4, average time: 05:30
+/Science-Stories/Celebrating-Science/2007-Awards/Sci-Media, pageviews: 5, average time: 03:51
+/Science-Stories/Celebrating-Science/2007-Awards/Sci-Media/Video/Manuka-honey-science-entrepreneur, pageviews: 5, average time: 01:43
+
+
+
+By Views for /Science-Stories/Celebrating-Science
+
+/Science-Stories/Celebrating-Science, pageviews: 76, average time: 01:06
+/science_stories/celebrating_science, pageviews: 29, average time: 00:18
+/Science-Stories/Celebrating-Science/2007-Awards/Dr-Bjorn-Oback, pageviews: 19, average time: 00:16
+/science_stories/celebrating_science/2008_awards/skateboards_made_out_of_harakeke, pageviews: 12, average time: 00:49
+/Science-Stories/Celebrating-Science/2007-Awards/Dr-Alison-Campbell, pageviews: 9, average time: 00:09
+
+
+
+Navigation for /Science-Stories/Celebrating-Science
+
+
+Previous pages for /Science-Stories/Celebrating-Science
+
+/Science-Stories (31)
+/Science-Stories/(offset)/6 (7)
+/Science-Stories/Our-Heritage-Scientists (6)
+/Science-Stories/Butterflies (3)
+/Science-Stories/Celebrating-Science (3)
+/Science-Stories/Strange-Liquids (3)
+/Science-Stories/Microorganisms (2)
+
+Next pages for /Science-Stories/Celebrating-Science
+
+/Science-Stories (11)
+/Science-Stories/Microorganisms (9)
+/Science-Stories/Celebrating-Science/2008-Awards (5)
+/ (4)
+/Science-Stories/Celebrating-Science/2007-Awards (4)
+/Science-Stories/Our-Heritage-Scientists (4)
+/Science-Stories/Strange-Liquids (4)
+
+
+
+/Science-Stories/Microorganisms
+
+Reporting
+
+2860
+Previous
+
+4069
+Change
+
+
+-29.7124600638978
+
+
+
+Content pageviews limit is 27
+
+By Time for /Science-Stories/Microorganisms
+
+/science_stories/microorganisms/make_an_adenovirus, pageviews: 47, average time: 03:39
+/Science-Stories/Microorganisms/Sci-Media/Images/Campylobacter-bacteria, pageviews: 40, average time: 02:41
+/Science-Stories/Microorganisms/How-to-spread-a-virus, pageviews: 56, average time: 02:13
+/Science-Stories/Microorganisms/Viruses, pageviews: 69, average time: 02:07
+/Science-Stories/Microorganisms/Sci-Media/Images/Mouldy-fruit, pageviews: 44, average time: 02:05
+
+
+
+By Views for /Science-Stories/Microorganisms
+
+/Science-Stories/Microorganisms, pageviews: 382, average time: 00:52
+/Science-Stories/Microorganisms/Sci-Media/Images/Different-bacterial-shapes, pageviews: 343, average time: 02:05
+/science_stories/microorganisms/sci_media/images/different_bacterial_shapes, pageviews: 142, average time: 01:38
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly, pageviews: 138, average time: 02:00
+/Science-Stories/Microorganisms/Exploring-microorganisms, pageviews: 119, average time: 00:48
+
+
+
+Navigation for /Science-Stories/Microorganisms
+
+
+Previous pages for /Science-Stories/Microorganisms
+
+/Science-Stories (116)
+(entrance) (78)
+/Science-Stories/Microorganisms/Bacteria (22)
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly (15)
+/Science-Stories/Microorganisms/Sci-Media/Images/Avian-influenza-virus (15)
+/Science-Stories/Microorganisms (14)
+/Science-Stories/Microorganisms/Exploring-microorganisms (13)
+
+Next pages for /Science-Stories/Microorganisms
+
+/Science-Stories/Microorganisms/Bacteria (39)
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly (31)
+/Science-Stories/Microorganisms/Exploring-microorganisms (22)
+/Science-Stories/Microorganisms/Viruses (21)
+/Science-Stories/Microorganisms/Fungi (20)
+/Science-Stories/Microorganisms/Sci-Media/Images/Avian-influenza-virus (20)
+/Science-Stories (19)
+
+
+
+/Science-Stories/Our-Heritage-Scientists
+
+Reporting
+
+530
+Previous
+
+611
+Change
+
+
+-13.2569558101473
+
+
+
+Content pageviews limit is 40
+
+By Time for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 71, average time: 04:01
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley, pageviews: 104, average time: 02:51
+/Science-Stories/Our-Heritage-Scientists, pageviews: 223, average time: 01:19
+/science_stories/our_heritage_scientists, pageviews: 42, average time: 00:30
+
+
+
+By Views for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists, pageviews: 223, average time: 01:19
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley, pageviews: 104, average time: 02:51
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 71, average time: 04:01
+/science_stories/our_heritage_scientists, pageviews: 42, average time: 00:30
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter, pageviews: 33, average time: 03:15
+
+
+
+Navigation for /Science-Stories/Our-Heritage-Scientists
+
+
+Previous pages for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories (133)
+(entrance) (18)
+/Media/Images/Teaching-Learning/Our-heritage-scientists (17)
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley (7)
+/Media/Images/Icons/Key-for-the-interactive-timeline (4)
+/Science-Stories/Celebrating-Science (4)
+/Science-Stories/Our-Heritage-Scientists (4)
+
+Next pages for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley (33)
+/Science-Stories (29)
+/Media/Images/Teaching-Learning/Our-heritage-scientists (26)
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter (21)
+/Science-Stories/Our-Heritage-Scientists/Profile-Beatrice-Hill-Tinsley (11)
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter (10)
+/Contexts (8)
+
+
+
+/Science-Stories/Research-Voyage-to-Antarctica
+
+Reporting
+
+2977
+Previous
+
+4825
+Change
+
+
+-38.300518134715
+
+
+
+Content pageviews limit is 8
+
+By Time for /Science-Stories/Research-Voyage-to-Antarctica
+
+/science_stories/research_voyage_to_antarctica/sci_media/images/antarctic_phytoplankton, pageviews: 19, average time: 07:52
+/science_stories/research_voyage_to_antarctica/sci_media/images/mountains_under_the_sea, pageviews: 16, average time: 06:40
+/science_stories/research_voyage_to_antarctica/sci_media/images/brian_samuels_second_cook, pageviews: 33, average time: 05:34
+/science_stories/research_voyage_to_antarctica/sci_media/images/phytoplankton_concentrations_in_the_ross_sea, pageviews: 12, average time: 05:06
+/Science-Stories/Research-Voyage-to-Antarctica/Sci-Media/Images/The-glacial-squid, pageviews: 10, average time: 04:48
+
+
+
+By Views for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories/Research-Voyage-to-Antarctica/The-benthic-zone, pageviews: 154, average time: 03:10
+/Science-Stories/Research-Voyage-to-Antarctica, pageviews: 135, average time: 00:54
+/Science-Stories/Research-Voyage-to-Antarctica/Making-a-food-web, pageviews: 106, average time: 01:52
+/Science-Stories/Research-Voyage-to-Antarctica/Week-8-Food-web-of-the-Ross-Sea, pageviews: 88, average time: 01:19
+/Science-Stories/Research-Voyage-to-Antarctica/Week-6-Currents-in-the-Southern-Ocean, pageviews: 75, average time: 03:05
+
+
+
+Navigation for /Science-Stories/Research-Voyage-to-Antarctica
+
+
+Previous pages for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories (65)
+(entrance) (10)
+/About-this-site/Glossary/plankton (3)
+/Science-Stories/Our-Heritage-Scientists (3)
+/Science-Stories/Research-Voyage-to-Antarctica (3)
+/Contexts/Connections/(start_node)/4905 (2)
+/Science-Stories/Microorganisms (2)
+
+Next pages for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories (14)
+/Science-Stories/Research-Voyage-to-Antarctica/People-on-board (7)
+/Science-Stories/Research-Voyage-to-Antarctica/A-day-in-the-life-of-a-scientist (6)
+/ (5)
+/Science-Stories/Research-Voyage-to-Antarctica/Making-a-food-web (5)
+/Contexts (4)
+/Contexts/Connections/(start_node)/4905 (4)
+
+
+
+/Science-Stories/Resource-Management
+
+Reporting
+
+1131
+Previous
+
+810
+Change
+
+
+39.6296296296296
+
+
+
+Content pageviews limit is 13
+
+By Time for /Science-Stories/Resource-Management
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 316, average time: 06:25
+/science_stories/resource_management/rabbit_control, pageviews: 52, average time: 03:15
+/Science-Stories/Resource-Management/Sci-Media/Images/Brush-tailed-possum, pageviews: 57, average time: 03:11
+/Science-Stories/Resource-Management/Research-in-biosecurity, pageviews: 14, average time: 03:08
+/Science-Stories/Resource-Management/Deforestation, pageviews: 38, average time: 02:15
+
+
+
+By Views for /Science-Stories/Resource-Management
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 316, average time: 06:25
+/Science-Stories/Resource-Management, pageviews: 89, average time: 01:01
+/Science-Stories/Resource-Management/Middens, pageviews: 65, average time: 01:40
+/Science-Stories/Resource-Management/Sci-Media/Images/Brush-tailed-possum, pageviews: 57, average time: 03:11
+/science_stories/resource_management/rabbit_control, pageviews: 52, average time: 03:15
+
+
+
+Navigation for /Science-Stories/Resource-Management
+
+
+Previous pages for /Science-Stories/Resource-Management
+
+/Science-Stories (60)
+(entrance) (6)
+/Science-Stories/Resource-Management/Deforestation (3)
+/Science-Stories/Resource-Management/Rabbit-control (2)
+/Science-Stories/Strange-Liquids (2)
+/ (1)
+/Science-Stories/(offset)/6 (1)
+
+Next pages for /Science-Stories/Resource-Management
+
+/Science-Stories (11)
+/Science-Stories/Resource-Management/Rabbit-control (9)
+/Science-Stories/Resource-Management/Deforestation (7)
+/Contexts (5)
+/Science-Stories/Strange-Liquids (5)
+/ (4)
+/Science-Stories/Resource-Management/Middens (4)
+
+
+
+/Science-Stories/Strange-Liquids
+
+Reporting
+
+2799
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 44
+
+By Time for /Science-Stories/Strange-Liquids
+
+/Science-Stories/Strange-Liquids/Sci-Media/Images/Shear-thinning-and-shear-thickening-liquids, pageviews: 55, average time: 02:33
+/Science-Stories/Strange-Liquids/Sci-Media/Video/Oobleck, pageviews: 53, average time: 02:31
+/Science-Stories/Strange-Liquids/Sir-Isaac-Newton, pageviews: 58, average time: 02:24
+/Science-Stories/Strange-Liquids/Walking-on-custard, pageviews: 131, average time: 02:19
+/Science-Stories/Strange-Liquids/Racing-marbles, pageviews: 83, average time: 02:06
+
+
+
+By Views for /Science-Stories/Strange-Liquids
+
+/Science-Stories/Strange-Liquids, pageviews: 656, average time: 01:07
+/Science-Stories/Strange-Liquids/Non-Newtonian-fluids, pageviews: 257, average time: 01:35
+/Science-Stories/Strange-Liquids/States-of-matter, pageviews: 213, average time: 01:50
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber, pageviews: 144, average time: 01:44
+/Science-Stories/Strange-Liquids/Walking-on-custard, pageviews: 131, average time: 02:19
+
+
+
+Navigation for /Science-Stories/Strange-Liquids
+
+
+Previous pages for /Science-Stories/Strange-Liquids
+
+/Science-Stories (286)
+(entrance) (89)
+/Science-Stories/Strange-Liquids/Sci-Media/Images/Honey (19)
+/Science-Stories/Strange-Liquids/Slump-solids-or-lumpy-liquids (19)
+/Science-Stories/Strange-Liquids (15)
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber (14)
+/Science-Stories/Strange-Liquids/Danger-quicksand (12)
+
+Next pages for /Science-Stories/Strange-Liquids
+
+/Science-Stories (46)
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber (46)
+/Science-Stories/Strange-Liquids/Sick-cows-soap-and-science (41)
+/Science-Stories/Strange-Liquids/Sci-Media/Images/Honey (39)
+/Science-Stories/Strange-Liquids/Walking-on-custard (35)
+/Science-Stories/Strange-Liquids/Sci-Media (30)
+/Science-Stories/Strange-Liquids/Slump-solids-or-lumpy-liquids (29)
+
+
+
+/News-Events
+
+Reporting
+
+5570
+Previous
+
+4830
+Change
+
+
+15.3209109730849
+
+
+
+Content pageviews limit is 15
+
+By Time for /News-Events
+
+/news_events/news_archive/2009_news_archive/our_daily_bread, pageviews: 17, average time: 08:09
+/News-Events/News/Oil-exploration-survey-in-New-Zealand, pageviews: 78, average time: 07:34
+/News-Events/News-Archive/2008-News-archive/Ozone-hole-biggest-on-record, pageviews: 22, average time: 07:00
+/News-Events/News-Archive/2009-News-archive/Ultra-high-caffeine-drinks, pageviews: 38, average time: 06:18
+/news_events/news_archive/2009_news_archive/ultra_high_caffeine_drinks, pageviews: 29, average time: 05:49
+
+
+
+By Views for /News-Events
+
+/News-Events, pageviews: 748, average time: 00:58
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010, pageviews: 387, average time: 00:54
+/news_events, pageviews: 206, average time: 00:50
+/News-Events/News/Ancient-dinosaur-footprints-discovered-near-Nelson, pageviews: 196, average time: 01:46
+/News-Events/News/MMR-vaccine-controversy, pageviews: 195, average time: 05:13
+
+
+
+Navigation for /News-Events
+
+
+Previous pages for /News-Events
+
+/ (170)
+/Science-Stories (62)
+(entrance) (37)
+/search (35)
+/News-Events (31)
+/Thinking-Tools (30)
+/Contexts (27)
+
+Next pages for /News-Events
+
+/News-Events/Events (60)
+/News-Events/Latest-Newsletter (57)
+/ (53)
+/Science-Stories (53)
+/Thinking-Tools (39)
+/Contexts (35)
+/News-Events (31)
+
+
+
+/Thinking-Tools
+
+Reporting
+
+5147
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 9
+
+By Time for /Thinking-Tools
+
+/Thinking-Tools/Ethics-thinking-tool/Sci-Media/Images, pageviews: 15, average time: 04:20
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/register, pageviews: 44, average time: 01:31
+/Thinking-Tools/Ethics-thinking-tool/Tool-Ethics-thinking/login, pageviews: 288, average time: 01:18
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/login, pageviews: 333, average time: 01:07
+/Thinking-Tools/Ethics-thinking-tool/Teaching-Ethics, pageviews: 47, average time: 01:04
+
+
+
+By Views for /Thinking-Tools
+
+/Thinking-Tools, pageviews: 920, average time: 00:46
+/Thinking-Tools/Futures-thinking-tool, pageviews: 354, average time: 00:23
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/login, pageviews: 333, average time: 01:07
+/Thinking-Tools/Ethics-thinking-tool, pageviews: 301, average time: 00:51
+/Thinking-Tools/Ethics-thinking-tool/Tool-Ethics-thinking/login, pageviews: 288, average time: 01:18
+
+
+
+Navigation for /Thinking-Tools
+
+
+Previous pages for /Thinking-Tools
+
+/ (185)
+(entrance) (78)
+/Science-Stories (46)
+/News-Events (39)
+/Thinking-Tools/Futures-thinking-tool (39)
+/Contexts (32)
+/Thinking-Tools (32)
+
+Next pages for /Thinking-Tools
+
+/Thinking-Tools/Futures-thinking-tool (238)
+/Thinking-Tools/Ethics-thinking-tool (184)
+/ (57)
+/Science-Stories (46)
+/Contexts (43)
+/My-Sci (35)
+/Thinking-Tools (32)
+
+
+
+/My-Sci
+
+Reporting
+
+904
+Previous
+
+745
+Change
+
+
+21.3422818791946
+
+
+
+Content pageviews limit is 83
+
+By Time for /My-Sci
+
+/My-Sci, pageviews: 474, average time: 00:54
+/my_sci, pageviews: 362, average time: 00:34
+
+
+
+By Views for /My-Sci
+
+/My-Sci, pageviews: 474, average time: 00:54
+/my_sci, pageviews: 362, average time: 00:34
+/My-Sci/Help, pageviews: 25, average time: 00:41
+/My-Sci/Profile-Updated, pageviews: 16, average time: 00:29
+/my_sci/help, pageviews: 10, average time: 01:49
+
+
+
+Navigation for /My-Sci
+
+
+Previous pages for /My-Sci
+
+/ (61)
+/My-Sci (47)
+/Thinking-Tools (35)
+(entrance) (26)
+/Contexts (22)
+/News-Events (21)
+/Science-Stories (20)
+
+Next pages for /My-Sci
+
+/ (59)
+/My-Sci (47)
+/Contexts (46)
+/Science-Stories (32)
+/user/register (24)
+/News-Events (22)
+/user/login (21)
+
+
+
+New Zealand Only Content Summaries
+/
+
+Reporting
+
+95857
+Previous
+
+58724
+Change
+
+
+63.2330903889381
+
+
+
+Content pageviews limit is 53
+
+By Time for /
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 269, average time: 06:34
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 304, average time: 05:41
+/contexts/life_in_the_sea/sci_media/animations_and_interactives/marine_ecosystem, pageviews: 115, average time: 04:47
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 103, average time: 04:45
+/contexts/see_through_body/sci_media/animations_and_interactives/label_the_heart, pageviews: 65, average time: 04:24
+
+
+
+By Views for /
+
+/, pageviews: 7334, average time: 01:31
+/Contexts, pageviews: 2785, average time: 00:35
+/Science-Stories, pageviews: 1559, average time: 00:42
+/search, pageviews: 892, average time: 00:43
+/Thinking-Tools, pageviews: 705, average time: 00:49
+
+
+
+Navigation for /
+
+
+Previous pages for /
+
+(entrance) (4228)
+/ (795)
+/Contexts (133)
+/Science-Stories (112)
+/search (56)
+/News-Events (48)
+/user/login (45)
+
+Next pages for /
+
+/Contexts (919)
+/ (795)
+/Science-Stories (457)
+/search (266)
+/Thinking-Tools (164)
+/News-Events (157)
+/contexts (155)
+
+
+
+/Contexts
+
+Reporting
+
+57495
+Previous
+
+37654
+Change
+
+
+52.6929409890052
+
+
+
+Content pageviews limit is 36
+
+By Time for /Contexts
+
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 304, average time: 05:41
+/contexts/life_in_the_sea/sci_media/animations_and_interactives/marine_ecosystem, pageviews: 115, average time: 04:47
+/Contexts/Enviro-imprints/Sci-Media/Video/Christchurch-pollution-problem, pageviews: 41, average time: 04:45
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 103, average time: 04:45
+/contexts/see_through_body/sci_media/animations_and_interactives/label_the_heart, pageviews: 65, average time: 04:24
+
+
+
+By Views for /Contexts
+
+/Contexts, pageviews: 2785, average time: 00:35
+/Contexts/Volcanoes, pageviews: 676, average time: 00:56
+/contexts, pageviews: 544, average time: 00:38
+/Contexts/Earthquakes, pageviews: 435, average time: 00:45
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Plate-tectonics, pageviews: 401, average time: 01:45
+
+
+
+Navigation for /Contexts
+
+
+Previous pages for /Contexts
+
+/ (919)
+(entrance) (215)
+/ (155)
+/Science-Stories (99)
+/Contexts (91)
+/Contexts/(offset)/9 (55)
+/Contexts/Volcanoes (41)
+
+Next pages for /Contexts
+
+/Contexts/Volcanoes (262)
+/Contexts/(offset)/9 (244)
+/Contexts/Saving-Reptiles-and-Amphibians (174)
+/Contexts/H2O-On-the-Go (162)
+/Contexts/Earthquakes (138)
+/ (133)
+/Contexts/Life-in-the-Sea (130)
+
+
+
+/Contexts/Earthquakes
+
+Reporting
+
+5935
+Previous
+
+3357
+Change
+
+
+76.7947572237116
+
+
+
+Content pageviews limit is 18
+
+By Time for /Contexts/Earthquakes
+
+/Contexts/Earthquakes/Sci-Media/Video/Protecting-Wellington-Hospital, pageviews: 20, average time: 04:09
+/contexts/earthquakes/nz_research/strengthening_parliament_house, pageviews: 29, average time: 02:45
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Seismic-waves, pageviews: 162, average time: 02:16
+/Contexts/Earthquakes/Sci-Media/Images/Earth-s-structural-layers, pageviews: 23, average time: 02:10
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Inside-the-Earth, pageviews: 153, average time: 02:01
+
+
+
+By Views for /Contexts/Earthquakes
+
+/Contexts/Earthquakes, pageviews: 435, average time: 00:45
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Plate-tectonics, pageviews: 401, average time: 01:45
+/Contexts/Earthquakes/Question-Bank, pageviews: 341, average time: 01:27
+/Contexts/Earthquakes/Science-Ideas-and-Concepts/Fault-lines, pageviews: 209, average time: 01:47
+/Contexts/Earthquakes/NZ-Research/Earthquakes, pageviews: 167, average time: 01:16
+
+
+
+Navigation for /Contexts/Earthquakes
+
+
+Previous pages for /Contexts/Earthquakes
+
+/Contexts (138)
+(entrance) (59)
+/contexts (39)
+/ (33)
+(entrance) (27)
+/Contexts/(offset)/9 (26)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (25)
+
+Next pages for /Contexts/Earthquakes
+
+/Contexts/Earthquakes/NZ-Research/Earthquakes (71)
+/Contexts/Earthquakes/Question-Bank (44)
+/Contexts/Earthquakes/Teaching-and-Learning-Approaches (40)
+/Contexts/Earthquakes/Sci-Media (26)
+/contexts/earthquakes/nz_research/earthquakes (25)
+/Contexts/Earthquakes/Science-Ideas-and-Concepts (24)
+/Contexts (23)
+
+
+
+/Contexts/Enviro-imprints
+
+Reporting
+
+1677
+Previous
+
+1262
+Change
+
+
+32.8843106180666
+
+
+
+Content pageviews limit is 6
+
+By Time for /Contexts/Enviro-imprints
+
+/Contexts/Enviro-imprints/Looking-closer/Organochlorines, pageviews: 8, average time: 10:04
+/Contexts/Enviro-imprints/People/Dr-Peyman-Zawar-Reza, pageviews: 9, average time: 07:49
+/Contexts/Enviro-imprints/Looking-closer/Soil-contamination, pageviews: 11, average time: 06:33
+/contexts/enviro_imprints/sci_media/images/insecticide_spraying, pageviews: 9, average time: 05:30
+/Contexts/Enviro-imprints/Looking-closer/Measuring-biodegradability, pageviews: 7, average time: 04:52
+
+
+
+By Views for /Contexts/Enviro-imprints
+
+/Contexts/Enviro-imprints/Looking-closer/Air-pollution-in-Christchurch, pageviews: 162, average time: 02:39
+/Contexts/Enviro-imprints, pageviews: 117, average time: 00:23
+/contexts/enviro_imprints, pageviews: 43, average time: 00:40
+/Contexts/Enviro-imprints/Sci-Media/Images/Smog-in-Christchurch, pageviews: 43, average time: 03:19
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches, pageviews: 42, average time: 00:19
+
+
+
+Navigation for /Contexts/Enviro-imprints
+
+
+Previous pages for /Contexts/Enviro-imprints
+
+/Contexts (65)
+(entrance) (9)
+/Contexts/Enviro-imprints/NZ-Research/Enviro-imprints (8)
+/ (6)
+/Contexts/(offset)/9 (5)
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches (4)
+/Contexts/Enviro-imprints/NZ-Research (3)
+
+Next pages for /Contexts/Enviro-imprints
+
+/Contexts/Enviro-imprints/NZ-Research/Enviro-imprints (23)
+/Contexts (14)
+/Contexts/Enviro-imprints/Teaching-and-Learning-Approaches (13)
+/Contexts/Enviro-imprints/Sci-Media (12)
+/Contexts/Enviro-imprints/Science-Ideas-and-Concepts (11)
+/Contexts/Enviro-imprints/NZ-Research (9)
+/ (2)
+
+
+
+/Contexts/Fire
+
+Reporting
+
+3291
+Previous
+
+3948
+Change
+
+
+-16.6413373860182
+
+
+
+Content pageviews limit is 13
+
+By Time for /Contexts/Fire
+
+/Contexts/Fire/Teaching-and-Learning-Approaches/Alternative-conceptions-about-fire, pageviews: 23, average time: 03:54
+/contexts/fire/science_ideas_and_concepts/what_is_smoke, pageviews: 16, average time: 03:11
+/Contexts/Fire/NZ-Research/A-truck-and-a-tunnel, pageviews: 16, average time: 03:03
+/contexts/fire/science_ideas_and_concepts/what_is_fire, pageviews: 27, average time: 02:59
+/Contexts/Fire/Teaching-and-Learning-Approaches/Drama-in-the-microworld, pageviews: 15, average time: 02:44
+
+
+
+By Views for /Contexts/Fire
+
+/Contexts/Fire, pageviews: 375, average time: 00:39
+/Contexts/Fire/Teaching-and-Learning-Approaches, pageviews: 147, average time: 00:24
+/Contexts/Fire/NZ-Research/Fire, pageviews: 130, average time: 01:02
+/Contexts/Fire/Sci-Media/Images/Ballantynes-fire-in-1947, pageviews: 119, average time: 01:17
+/Contexts/Fire/Science-Ideas-and-Concepts/What-is-fire, pageviews: 111, average time: 01:54
+
+
+
+Navigation for /Contexts/Fire
+
+
+Previous pages for /Contexts/Fire
+
+/Contexts (115)
+(entrance) (64)
+/ (50)
+/contexts (33)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (29)
+(entrance) (27)
+/Contexts/Fire/NZ-Research/Fire (14)
+
+Next pages for /Contexts/Fire
+
+/Contexts/Fire/NZ-Research/Fire (56)
+/Contexts/Fire/Sci-Media (51)
+/Contexts/Fire/Teaching-and-Learning-Approaches (40)
+/Contexts (26)
+/contexts/fire/nz_research/fire (23)
+/Contexts/Fire/Science-Ideas-and-Concepts (19)
+/Contexts/Fire/NZ-Research (18)
+
+
+
+/Contexts/Future-Fuels
+
+Reporting
+
+2550
+Previous
+
+1555
+Change
+
+
+63.9871382636656
+
+
+
+Content pageviews limit is 8
+
+By Time for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/Sci-Media/Video/New-Zealand-s-energy-demand, pageviews: 10, average time: 07:55
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Carbon-cycle, pageviews: 15, average time: 06:17
+/Contexts/Future-Fuels/Looking-closer/New-Zealand-s-biomass-resources, pageviews: 209, average time: 04:06
+/contexts/future_fuels/nz_research/future_fuels, pageviews: 16, average time: 03:21
+/Contexts/Future-Fuels/Sci-Media/Video/Why-is-energy-important, pageviews: 17, average time: 03:19
+
+
+
+By Views for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/Looking-closer/New-Zealand-s-biomass-resources, pageviews: 209, average time: 04:06
+/Contexts/Future-Fuels, pageviews: 154, average time: 01:04
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Non-renewable-energy-sources, pageviews: 104, average time: 02:32
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Renewable-energy-sources, pageviews: 89, average time: 02:34
+/Contexts/Future-Fuels/Teaching-and-Learning-Approaches/Renewable-energy-fact-sheets, pageviews: 65, average time: 01:18
+
+
+
+Navigation for /Contexts/Future-Fuels
+
+
+Previous pages for /Contexts/Future-Fuels
+
+/Contexts (38)
+/Contexts/(offset)/9 (27)
+/ (20)
+(entrance) (16)
+/Contexts/Future-Fuels/NZ-Research/Future-Fuels (9)
+/Contexts/Future-Fuels/Looking-closer/Geothermal-power (3)
+/Contexts/Future-Fuels/People (3)
+
+Next pages for /Contexts/Future-Fuels
+
+/Contexts/Future-Fuels/NZ-Research/Future-Fuels (29)
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts (12)
+/Contexts/Future-Fuels/Teaching-and-Learning-Approaches (11)
+/Contexts/Future-Fuels/Sci-Media (10)
+/Contexts (7)
+/Contexts/Future-Fuels/NZ-Research (7)
+/Contexts/Future-Fuels/Science-Ideas-and-Concepts/Renewable-energy-sources (6)
+
+
+
+/Contexts/H2O-On-the-Go
+
+Reporting
+
+3651
+Previous
+
+1489
+Change
+
+
+145.198119543318
+
+
+
+Content pageviews limit is 14
+
+By Time for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go/Sci-Media/Images/New-Zealand-weather-map, pageviews: 17, average time: 11:54
+/contexts/h2o_on_the_go/sci_media/animations_and_interactives/dynamic_and_complex_the_global_water_cycle, pageviews: 15, average time: 06:17
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Lake-Rotorua-water-quality, pageviews: 39, average time: 03:59
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Building-an-aquifer-model, pageviews: 18, average time: 03:58
+/Contexts/H2O-On-the-Go/Sci-Media/Animations-and-Interactives/Dynamic-and-complex-the-global-water-cycle, pageviews: 88, average time: 03:45
+
+
+
+By Views for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go, pageviews: 349, average time: 00:47
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 264, average time: 01:39
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/The-water-cycle, pageviews: 205, average time: 01:17
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches, pageviews: 163, average time: 00:37
+/Contexts/H2O-On-the-Go/NZ-Research/H2O-On-the-Go, pageviews: 120, average time: 00:37
+
+
+
+Navigation for /Contexts/H2O-On-the-Go
+
+
+Previous pages for /Contexts/H2O-On-the-Go
+
+/Contexts (162)
+(entrance) (34)
+/ (26)
+/Contexts/H2O-On-the-Go/NZ-Research/H2O-On-the-Go (16)
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches (13)
+/Contexts/H2O-On-the-Go (8)
+/Contexts/H2O-On-the-Go/Sci-Media/Video/The-dynamic-water-cycle (8)
+
+Next pages for /Contexts/H2O-On-the-Go
+
+/Contexts/H2O-On-the-Go/NZ-Research/H2O-On-the-Go (57)
+/Contexts/H2O-On-the-Go/Sci-Media (45)
+/Contexts/H2O-On-the-Go/Teaching-and-Learning-Approaches (36)
+/Contexts (31)
+/Contexts/H2O-On-the-Go/Sci-Media/Video/The-dynamic-water-cycle (30)
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts (23)
+/ (14)
+
+
+
+/Contexts/Hidden-Taonga
+
+Reporting
+
+2424
+Previous
+
+1704
+Change
+
+
+42.2535211267606
+
+
+
+Content pageviews limit is 10
+
+By Time for /Contexts/Hidden-Taonga
+
+/contexts/hidden_taonga/science_ideas_and_concepts/naming_species, pageviews: 11, average time: 04:45
+/Contexts/Hidden-Taonga/Sci-Media/Animations-and-Interactives/Tectonic-plates-animation, pageviews: 56, average time: 03:49
+/contexts/hidden_taonga/teaching_and_learning_approaches/insect_mihi, pageviews: 17, average time: 03:48
+/contexts/hidden_taonga/timeline, pageviews: 11, average time: 02:45
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Constructing-food-webs, pageviews: 34, average time: 02:33
+
+
+
+By Views for /Contexts/Hidden-Taonga
+
+/Contexts/Hidden-Taonga, pageviews: 193, average time: 00:43
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches, pageviews: 85, average time: 00:27
+/Contexts/Hidden-Taonga/Looking-Closer/New-Zealand-s-unique-ecology, pageviews: 75, average time: 01:04
+/contexts/hidden_taonga, pageviews: 68, average time: 00:35
+/Contexts/Hidden-Taonga/NZ-Research/Hidden-Taonga, pageviews: 66, average time: 00:42
+
+
+
+Navigation for /Contexts/Hidden-Taonga
+
+
+Previous pages for /Contexts/Hidden-Taonga
+
+/Contexts (89)
+(entrance) (18)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (14)
+/ (10)
+/Contexts/Hidden-Taonga/NZ-Research/Hidden-Taonga (9)
+/Contexts/Hidden-Taonga/NZ-Research (5)
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches (5)
+
+Next pages for /Contexts/Hidden-Taonga
+
+/Contexts/Hidden-Taonga/NZ-Research/Hidden-Taonga (38)
+/Contexts (22)
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches (19)
+/Contexts/Hidden-Taonga/Science-Ideas-and-Concepts (15)
+/Contexts/Hidden-Taonga/Sci-Media (13)
+/Contexts/Hidden-Taonga/NZ-Research (10)
+/ (7)
+
+
+
+/Contexts/Icy-Ecosystems
+
+Reporting
+
+2045
+Previous
+
+1956
+Change
+
+
+4.55010224948875
+
+
+
+Content pageviews limit is 6
+
+By Time for /Contexts/Icy-Ecosystems
+
+/Contexts/Icy-Ecosystems/Sci-Media/Video/Measuring-salinity, pageviews: 21, average time: 04:25
+/Contexts/Icy-Ecosystems/Looking-closer/Antarctica-hut-data, pageviews: 7, average time: 04:04
+/Contexts/Icy-Ecosystems/Sci-Media/Video/Antarctic-field-toilet, pageviews: 9, average time: 03:57
+/contexts/icy_ecosystems/science_ideas_and_concepts/continental_drift, pageviews: 7, average time: 03:54
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts/Ecosystems, pageviews: 33, average time: 03:39
+
+
+
+By Views for /Contexts/Icy-Ecosystems
+
+/Contexts/Icy-Ecosystems, pageviews: 172, average time: 00:27
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches/Animal-adaptations, pageviews: 115, average time: 02:53
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches, pageviews: 95, average time: 00:18
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts, pageviews: 81, average time: 00:34
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches/Why-do-we-have-different-seasons, pageviews: 54, average time: 02:27
+
+
+
+Navigation for /Contexts/Icy-Ecosystems
+
+
+Previous pages for /Contexts/Icy-Ecosystems
+
+(entrance) (52)
+/Contexts (52)
+/ (17)
+/Contexts/(offset)/9 (14)
+/Contexts/Icy-Ecosystems (5)
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches (5)
+/Contexts/Icy-Ecosystems/NZ-Research/Icy-Ecosystems (3)
+
+Next pages for /Contexts/Icy-Ecosystems
+
+/Contexts/Icy-Ecosystems/Teaching-and-Learning-Approaches (40)
+/Contexts/Icy-Ecosystems/NZ-Research/Icy-Ecosystems (18)
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts (16)
+/Contexts/Icy-Ecosystems/Sci-Media (15)
+/Contexts/Icy-Ecosystems/NZ-Research (10)
+/Contexts (7)
+/Contexts/Icy-Ecosystems/Looking-closer (7)
+
+
+
+/Contexts/Just-Elemental
+
+Reporting
+
+2275
+Previous
+
+4171
+Change
+
+
+-45.4567250059938
+
+
+
+Content pageviews limit is 9
+
+By Time for /Contexts/Just-Elemental
+
+/contexts/just_elemental/science_ideas_and_concepts/metals_alloys_and_metal_compounds, pageviews: 15, average time: 05:04
+/Contexts/Just-Elemental/Sci-Media/Animations-and-Interactives/C-14-carbon-dating-process, pageviews: 63, average time: 03:21
+/Contexts/Just-Elemental/Looking-Closer/Titanium-metal-of-the-future, pageviews: 24, average time: 03:20
+/Contexts/Just-Elemental/Teaching-and-Learning-Approaches/Red-giants-in-the-night-sky, pageviews: 16, average time: 03:02
+/Contexts/Just-Elemental/Sci-Media/Animations-and-Interactives/Universal-element-formation, pageviews: 76, average time: 02:50
+
+
+
+By Views for /Contexts/Just-Elemental
+
+/Contexts/Just-Elemental, pageviews: 230, average time: 00:38
+/Contexts/Just-Elemental/NZ-Research/Just-Elemental, pageviews: 100, average time: 00:43
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/Periodic-table-of-elements, pageviews: 96, average time: 02:35
+/Contexts/Just-Elemental/Teaching-and-Learning-Approaches, pageviews: 88, average time: 00:22
+/contexts/just_elemental, pageviews: 76, average time: 00:25
+
+
+
+Navigation for /Contexts/Just-Elemental
+
+
+Previous pages for /Contexts/Just-Elemental
+
+/Contexts (129)
+(entrance) (18)
+/ (14)
+/Contexts/Just-Elemental (10)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (8)
+/Contexts/Just-Elemental/NZ-Research/Just-Elemental (7)
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts/Periodic-table-of-elements (4)
+
+Next pages for /Contexts/Just-Elemental
+
+/Contexts/Just-Elemental/NZ-Research/Just-Elemental (43)
+/Contexts (22)
+/Contexts/Just-Elemental/Science-Ideas-and-Concepts (21)
+/Contexts/Just-Elemental/Sci-Media (18)
+/Contexts/Just-Elemental/Teaching-and-Learning-Approaches (14)
+/Contexts/Just-Elemental/NZ-Research (12)
+/Contexts/Just-Elemental (10)
+
+
+
+/Contexts/Life-in-the-Sea
+
+Reporting
+
+3846
+Previous
+
+3662
+Change
+
+
+5.02457673402512
+
+
+
+Content pageviews limit is 16
+
+By Time for /Contexts/Life-in-the-Sea
+
+/contexts/life_in_the_sea/sci_media/animations_and_interactives/marine_ecosystem, pageviews: 115, average time: 04:47
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Sea-star, pageviews: 86, average time: 04:20
+/contexts/life_in_the_sea/looking_closer/cockles, pageviews: 100, average time: 04:17
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Human-impacts-on-marine-environments, pageviews: 185, average time: 03:53
+/Contexts/Life-in-the-Sea/Sci-Media/Images/Portobello-Marine-Laboratory, pageviews: 17, average time: 03:43
+
+
+
+By Views for /Contexts/Life-in-the-Sea
+
+/Contexts/Life-in-the-Sea, pageviews: 323, average time: 00:40
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem, pageviews: 190, average time: 03:37
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Human-impacts-on-marine-environments, pageviews: 185, average time: 03:53
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Marine-food-webs, pageviews: 153, average time: 01:35
+/Contexts/Life-in-the-Sea/Looking-Closer/Cockles, pageviews: 142, average time: 03:14
+
+
+
+Navigation for /Contexts/Life-in-the-Sea
+
+
+Previous pages for /Contexts/Life-in-the-Sea
+
+/Contexts (130)
+(entrance) (46)
+/ (26)
+/Contexts/Life-in-the-Sea/NZ-Research/Life-in-the-Sea (12)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (12)
+/Contexts/Life-in-the-Sea/Teaching-and-Learning-Approaches (9)
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem (7)
+
+Next pages for /Contexts/Life-in-the-Sea
+
+/Contexts/Life-in-the-Sea/NZ-Research/Life-in-the-Sea (47)
+/Contexts/Life-in-the-Sea/Sci-Media (47)
+/Contexts/Life-in-the-Sea/Teaching-and-Learning-Approaches (30)
+/Contexts (26)
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Marine-ecosystem (25)
+/Contexts/Life-in-the-Sea/NZ-Research (12)
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts (12)
+
+
+
+/Contexts/Nanoscience
+
+Reporting
+
+1076
+Previous
+
+1243
+Change
+
+
+-13.4352373290426
+
+
+
+Content pageviews limit is 5
+
+By Time for /Contexts/Nanoscience
+
+/contexts/nanoscience/sci_media/images/dr_richard_tilley_and_phd_student_john_watt, pageviews: 11, average time: 07:14
+/Contexts/Nanoscience/Sci-Media/Video/Atomic-force-microscope/(quality)/lo, pageviews: 8, average time: 06:34
+/contexts/nanoscience/teaching_and_learning_approaches/seeing_the_invisible, pageviews: 10, average time: 05:18
+/Contexts/Nanoscience/Sci-Media/Video/Catalytic-converters-and-platinum-nanoparticles, pageviews: 24, average time: 03:42
+/Contexts/Nanoscience/NZ-Research/New-nanoparticle-shapes, pageviews: 12, average time: 02:48
+
+
+
+By Views for /Contexts/Nanoscience
+
+/Contexts/Nanoscience, pageviews: 73, average time: 00:59
+/contexts/nanoscience, pageviews: 40, average time: 00:46
+/Contexts/Nanoscience/NZ-Research/Nanoscience, pageviews: 36, average time: 00:43
+/Contexts/Nanoscience/Sci-Media/Video, pageviews: 33, average time: 00:21
+/Contexts/Nanoscience/Sci-Media/Video/Designer-catalysts, pageviews: 32, average time: 02:23
+
+
+
+Navigation for /Contexts/Nanoscience
+
+
+Previous pages for /Contexts/Nanoscience
+
+/Contexts (21)
+/ (14)
+/Contexts/(offset)/9 (12)
+/contexts (7)
+(entrance) (6)
+(entrance) (5)
+/ (5)
+
+Next pages for /Contexts/Nanoscience
+
+/Contexts/Nanoscience/NZ-Research/Nanoscience (13)
+/Contexts/Nanoscience/NZ-Research (10)
+/Contexts/Nanoscience/Sci-Media (7)
+/Contexts (6)
+/ (4)
+/contexts/nanoscience/nz_research/nanoscience (4)
+/Contexts/Nanoscience/NZ-Research/Gold-nanoparticles-from-plants (3)
+
+
+
+/Contexts/Saving-Reptiles
+
+Reporting
+
+2861
+Previous
+
+2589
+Change
+
+
+10.5059868675164
+
+
+
+Content pageviews limit is 15
+
+By Time for /Contexts/Saving-Reptiles
+
+/Contexts/Saving-Reptiles-and-Amphibians/Teaching-and-Learning-Approaches/Create-a-lizard-friendly-habitat, pageviews: 39, average time: 03:55
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Native-frogs, pageviews: 75, average time: 03:45
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Orokonui-Ecosanctuary-a-mainland-island, pageviews: 40, average time: 03:44
+/Contexts/Saving-Reptiles-and-Amphibians/Science-Ideas-and-Concepts/Translocation, pageviews: 25, average time: 03:26
+/Contexts/Saving-Reptiles-and-Amphibians/NZ-Research/Captive-management-of-skinks, pageviews: 46, average time: 03:17
+
+
+
+By Views for /Contexts/Saving-Reptiles
+
+/Contexts/Saving-Reptiles-and-Amphibians, pageviews: 298, average time: 00:26
+/Contexts/Saving-Reptiles-and-Amphibians/Teaching-and-Learning-Approaches/Similarities-and-differences-skinks-and-geckos, pageviews: 149, average time: 03:07
+/Contexts/Saving-Reptiles-and-Amphibians/Looking-Closer/Native-skinks-and-geckos, pageviews: 144, average time: 02:09
+/contexts/saving_reptiles_and_amphibians, pageviews: 131, average time: 00:39
+/Contexts/Saving-Reptiles-and-Amphibians/Sci-Media/Animations-and-Interactives/Unique-New-Zealand, pageviews: 121, average time: 02:38
+
+
+
+Navigation for /Contexts/Saving-Reptiles
+
+
+Previous pages for /Contexts/Saving-Reptiles
+
+
+Next pages for /Contexts/Saving-Reptiles
+
+
+
+
+/Contexts/See-through-Body
+
+Reporting
+
+2941
+Previous
+
+1646
+Change
+
+
+78.6755771567436
+
+
+
+Content pageviews limit is 8
+
+By Time for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/Sci-Media/Video/What-is-an-EEG, pageviews: 10, average time: 05:10
+/Contexts/See-through-Body/Sci-Media/Video/Functional-MRI-looking-at-the-brain-over-time, pageviews: 21, average time: 04:50
+/contexts/see_through_body/sci_media/animations_and_interactives/label_the_heart, pageviews: 65, average time: 04:24
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 361, average time: 04:12
+/Contexts/See-through-Body/People/Wilhelm-Roentgen, pageviews: 20, average time: 03:38
+
+
+
+By Views for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 361, average time: 04:12
+/Contexts/See-through-Body, pageviews: 243, average time: 00:31
+/Contexts/See-through-Body/Science-Ideas-and-Concepts/Positron-emission-tomography-PET, pageviews: 186, average time: 02:08
+/Contexts/See-through-Body/NZ-Research/See-Through-Body, pageviews: 82, average time: 00:27
+/contexts/see_through_body, pageviews: 70, average time: 00:37
+
+
+
+Navigation for /Contexts/See-through-Body
+
+
+Previous pages for /Contexts/See-through-Body
+
+/Contexts (71)
+/Contexts/(offset)/9 (31)
+/ (27)
+(entrance) (20)
+/Contexts/See-through-Body/NZ-Research/See-Through-Body (17)
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart (13)
+/Contexts/See-through-Body/Teaching-and-Learning-Approaches (4)
+
+Next pages for /Contexts/See-through-Body
+
+/Contexts/See-through-Body/NZ-Research/See-Through-Body (43)
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart (35)
+/Contexts (19)
+/Contexts/See-through-Body/Sci-Media (18)
+/Contexts/See-through-Body/Teaching-and-Learning-Approaches (12)
+/ (11)
+/Contexts/See-through-Body/Science-Ideas-and-Concepts (9)
+
+
+
+/Contexts/Space-Revealed
+
+Reporting
+
+1404
+Previous
+
+1448
+Change
+
+
+-3.03867403314917
+
+
+
+Content pageviews limit is 9
+
+By Time for /Contexts/Space-Revealed
+
+/contexts/space_revealed/teaching_and_learning_approaches/shrink_the_solar_system, pageviews: 22, average time: 03:44
+/Contexts/Space-Revealed/Sci-Media/Images/Lifecycle-of-the-Sun, pageviews: 17, average time: 02:54
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts/Distances-in-space, pageviews: 37, average time: 02:43
+/Contexts/Space-Revealed/Sci-Media/Video/Tools-for-the-astronomer, pageviews: 13, average time: 02:30
+/contexts/space_revealed/nz_research/space_revealed, pageviews: 18, average time: 02:15
+
+
+
+By Views for /Contexts/Space-Revealed
+
+/Contexts/Space-Revealed, pageviews: 176, average time: 00:38
+/Contexts/Space-Revealed/Sci-Media/Images/International-Space-Station-over-New-Zealand, pageviews: 90, average time: 01:51
+/contexts/space_revealed, pageviews: 70, average time: 00:47
+/Contexts/Space-Revealed/NZ-Research/Space-revealed, pageviews: 70, average time: 00:30
+/Contexts/Space-Revealed/Teaching-and-Learning-Approaches, pageviews: 40, average time: 00:16
+
+
+
+Navigation for /Contexts/Space-Revealed
+
+
+Previous pages for /Contexts/Space-Revealed
+
+/Contexts (76)
+/ (23)
+(entrance) (16)
+/Contexts/Space-Revealed/NZ-Research/Space-revealed (10)
+/Contexts/Space-Revealed (9)
+/Contexts/Space-Revealed/Timeline (5)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (5)
+
+Next pages for /Contexts/Space-Revealed
+
+/Contexts/Space-Revealed/NZ-Research/Space-revealed (31)
+/ (13)
+/Contexts (12)
+/Contexts/Space-Revealed/Teaching-and-Learning-Approaches (11)
+/Contexts/Space-Revealed (9)
+/Contexts/Space-Revealed/NZ-Research (9)
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts (9)
+
+
+
+/Contexts/Sporting-Edge
+
+Reporting
+
+2581
+Previous
+
+1729
+Change
+
+
+49.277038750723
+
+
+
+Content pageviews limit is 11
+
+By Time for /Contexts/Sporting-Edge
+
+/Contexts/Sporting-Edge/Sci-Media/Images/Masseter-and-temporalis-muscles, pageviews: 17, average time: 04:16
+/contexts/sporting_edge/looking_closer/what_levers_does_your_body_use, pageviews: 40, average time: 03:27
+/Contexts/Sporting-Edge/Sci-Media/Images/Tip-toe, pageviews: 22, average time: 02:56
+/Contexts/Sporting-Edge/Sci-Media/Images/Pivot-diagram-of-a-Class-2-lever, pageviews: 33, average time: 02:51
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 392, average time: 02:42
+
+
+
+By Views for /Contexts/Sporting-Edge
+
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 392, average time: 02:42
+/Contexts/Sporting-Edge, pageviews: 144, average time: 00:38
+/Contexts/Sporting-Edge/Sci-Media/Images/Muscles-in-the-body, pageviews: 117, average time: 02:20
+/Contexts/Sporting-Edge/NZ-Research/Whole-body-vibration-training, pageviews: 87, average time: 01:33
+/Contexts/Sporting-Edge/Looking-closer/Meet-some-muscles, pageviews: 84, average time: 01:39
+
+
+
+Navigation for /Contexts/Sporting-Edge
+
+
+Previous pages for /Contexts/Sporting-Edge
+
+/Contexts (35)
+/ (31)
+/Contexts/(offset)/9 (14)
+/Contexts/Sporting-Edge/NZ-Research/Sporting-Edge (10)
+(entrance) (9)
+/Contexts/Sporting-Edge/NZ-Research/Marathon-versus-sprint (6)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (6)
+
+Next pages for /Contexts/Sporting-Edge
+
+/Contexts/Sporting-Edge/NZ-Research/Sporting-Edge (27)
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts (12)
+/ (10)
+/Contexts/Sporting-Edge/Teaching-and-Learning-Approaches (10)
+/Contexts (9)
+/Contexts/Sporting-Edge/NZ-Research (9)
+/Contexts/Sporting-Edge/Sci-Media (8)
+
+
+
+/Contexts/Volcanoes
+
+Reporting
+
+5858
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 33
+
+By Time for /Contexts/Volcanoes
+
+/Contexts/Volcanoes/Key-Terms, pageviews: 38, average time: 02:47
+/Contexts/Volcanoes/Sci-Media/Video/Plate-tectonics, pageviews: 54, average time: 02:47
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand, pageviews: 356, average time: 02:24
+/Contexts/Volcanoes/Sci-Media/Video/Future-explosions-in-Auckland, pageviews: 118, average time: 02:12
+/Contexts/Volcanoes/Teaching-and-Learning-Approaches/Who-s-on-your-team, pageviews: 34, average time: 02:00
+
+
+
+By Views for /Contexts/Volcanoes
+
+/Contexts/Volcanoes, pageviews: 676, average time: 00:56
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand, pageviews: 356, average time: 02:24
+/Contexts/Volcanoes/NZ-Research/Volcanoes, pageviews: 323, average time: 01:07
+/Contexts/Volcanoes/Looking-Closer/Exercise-Ruaumoko, pageviews: 204, average time: 00:49
+/Contexts/Volcanoes/Science-Ideas-and-Concepts/Types-of-volcanoes, pageviews: 182, average time: 01:40
+
+
+
+Navigation for /Contexts/Volcanoes
+
+
+Previous pages for /Contexts/Volcanoes
+
+/Contexts (262)
+(entrance) (117)
+/ (64)
+/Contexts/Volcanoes/NZ-Research/Volcanoes (36)
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand (13)
+/Contexts/Volcanoes/Timeline (12)
+/News-Events/Latest-Newsletter (9)
+
+Next pages for /Contexts/Volcanoes
+
+/Contexts/Volcanoes/NZ-Research/Volcanoes (145)
+/Contexts/Volcanoes/Sci-Media (78)
+/Contexts/Volcanoes/Sci-Media/Animations-and-Interactives/Volcano-map-of-New-Zealand (45)
+/Contexts (41)
+/Contexts/Volcanoes/NZ-Research (33)
+/Contexts/Volcanoes/Teaching-and-Learning-Approaches (30)
+/Contexts/Volcanoes/Timeline (28)
+
+
+
+/Contexts/You-Me-and-UV
+
+Reporting
+
+4108
+Previous
+
+2925
+Change
+
+
+40.4444444444444
+
+
+
+Content pageviews limit is 8
+
+By Time for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/Sci-Media/Video/Removal-of-lymph-nodes, pageviews: 17, average time: 06:50
+/Contexts/You-Me-and-UV/Sci-Media/Video/Why-are-UV-levels-high-in-New-Zealand-summer, pageviews: 32, average time: 06:38
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 304, average time: 05:41
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 103, average time: 04:45
+/Contexts/You-Me-and-UV/Sci-Media/Video/Sentinel-lymph-nodes, pageviews: 9, average time: 03:53
+
+
+
+By Views for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 304, average time: 05:41
+/Contexts/You-Me-and-UV, pageviews: 201, average time: 00:41
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 103, average time: 04:45
+/Contexts/You-Me-and-UV/NZ-Research/Measuring-Vitamin-D-levels, pageviews: 93, average time: 01:50
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Squamous-cell-carcinoma, pageviews: 81, average time: 01:12
+
+
+
+Navigation for /Contexts/You-Me-and-UV
+
+
+Previous pages for /Contexts/You-Me-and-UV
+
+/Contexts (53)
+(entrance) (25)
+/ (24)
+/Contexts/(offset)/9 (19)
+/Contexts/You-Me-and-UV/NZ-Research/You-Me-and-UV (7)
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010 (7)
+/Contexts/You-Me-and-UV/Timeline (5)
+
+Next pages for /Contexts/You-Me-and-UV
+
+/Contexts/You-Me-and-UV/NZ-Research/You-Me-and-UV (42)
+/Contexts/You-Me-and-UV/Sci-Media (31)
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts (13)
+/Contexts (12)
+/Contexts/You-Me-and-UV/Teaching-and-Learning-Approaches (12)
+/Contexts/You-Me-and-UV/NZ-Research (11)
+/Contexts/You-Me-and-UV/Question-Bank (8)
+
+
+
+/Science-Stories
+
+Reporting
+
+10109
+Previous
+
+3810
+Change
+
+
+165.328083989501
+
+
+
+Content pageviews limit is 16
+
+By Time for /Science-Stories
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 269, average time: 06:34
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 67, average time: 04:01
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter, pageviews: 33, average time: 03:15
+/Science-Stories/Resource-Management/Sci-Media/Images/Brush-tailed-possum, pageviews: 43, average time: 03:11
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley, pageviews: 72, average time: 03:03
+
+
+
+By Views for /Science-Stories
+
+/Science-Stories, pageviews: 1559, average time: 00:42
+/Science-Stories/Strange-Liquids, pageviews: 561, average time: 01:08
+/Science-Stories/Butterflies, pageviews: 559, average time: 01:16
+/Science-Stories/Microorganisms, pageviews: 286, average time: 00:54
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 269, average time: 06:34
+
+
+
+Navigation for /Science-Stories
+
+
+Previous pages for /Science-Stories
+
+/ (457)
+/Contexts (123)
+(entrance) (70)
+/Science-Stories (62)
+/Science-Stories/Butterflies (43)
+/News-Events (40)
+/Thinking-Tools (38)
+
+Next pages for /Science-Stories
+
+/Science-Stories/Strange-Liquids (247)
+/Science-Stories/Butterflies (202)
+/Science-Stories/Our-Heritage-Scientists (117)
+/ (112)
+/Contexts (99)
+/Science-Stories/(offset)/6 (98)
+/Science-Stories/Microorganisms (91)
+
+
+
+/Science-Stories/Butterflies
+
+Reporting
+
+2678
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 48
+
+By Time for /Science-Stories/Butterflies
+
+/Science-Stories/Butterflies/Sci-Media/Animations-and-Interactives/Monarch-butterfly-life-cycle, pageviews: 99, average time: 02:40
+/Science-Stories/Butterflies/Jacqui-Knight, pageviews: 68, average time: 02:07
+/Science-Stories/Butterflies/Tagging-monarch-butterflies-for-science, pageviews: 65, average time: 02:00
+/Science-Stories/Butterflies/New-Zealand-native-butterflies, pageviews: 122, average time: 01:53
+/Science-Stories/Butterflies/New-Zealand-butterfly-families, pageviews: 77, average time: 01:53
+
+
+
+By Views for /Science-Stories/Butterflies
+
+/Science-Stories/Butterflies, pageviews: 559, average time: 01:16
+/Science-Stories/Butterflies/Monarch-butterflies, pageviews: 150, average time: 01:35
+/Science-Stories/Butterflies/New-Zealand-butterfly-origins, pageviews: 146, average time: 01:07
+/Science-Stories/Butterflies/Our-elusive-native-butterflies, pageviews: 143, average time: 01:37
+/Science-Stories/Butterflies/New-Zealand-native-butterflies, pageviews: 122, average time: 01:53
+
+
+
+Navigation for /Science-Stories/Butterflies
+
+
+Previous pages for /Science-Stories/Butterflies
+
+/Science-Stories (202)
+(entrance) (135)
+/Science-Stories/Butterflies (23)
+/Science-Stories/Butterflies/Monarch-Butterfly-New-Zealand-Trust (13)
+/Science-Stories/Butterflies/Sci-Media/Images/Rauparaha-s-copper (13)
+/Media/Images/Butterfly-Hero-Temp (12)
+/Science-Stories/Butterflies/New-Zealand-native-butterflies (12)
+
+Next pages for /Science-Stories/Butterflies
+
+/Science-Stories (43)
+/Science-Stories/Butterflies/New-Zealand-native-butterflies (35)
+/Science-Stories/Butterflies/Sci-Media/Images/Rauparaha-s-copper (34)
+/Science-Stories/Butterflies/Monarch-butterflies (30)
+/Science-Stories/Butterflies/New-Zealand-butterfly-origins (28)
+/Science-Stories/Butterflies/Monarch-Butterfly-New-Zealand-Trust (27)
+/Science-Stories/Butterflies/Sci-Media (26)
+
+
+
+/Science-Stories/Celebrating-Science
+
+Reporting
+
+226
+Previous
+
+270
+Change
+
+
+-16.2962962962963
+
+
+
+Content pageviews limit is 3
+
+By Time for /Science-Stories/Celebrating-Science
+
+/Science-Stories/Celebrating-Science/2007-Awards/Professor-Warwick-Silvester, pageviews: 4, average time: 05:58
+/Science-Stories/Celebrating-Science/2007-Awards/Sci-Media/Images, pageviews: 4, average time: 05:30
+/Science-Stories/Celebrating-Science/2007-Awards/Sci-Media, pageviews: 5, average time: 03:51
+/Science-Stories/Celebrating-Science, pageviews: 62, average time: 01:02
+/science_stories/celebrating_science/2008_awards/skateboards_made_out_of_harakeke, pageviews: 8, average time: 00:49
+
+
+
+By Views for /Science-Stories/Celebrating-Science
+
+/Science-Stories/Celebrating-Science, pageviews: 62, average time: 01:02
+/science_stories/celebrating_science, pageviews: 23, average time: 00:19
+/Science-Stories/Celebrating-Science/2007-Awards/Dr-Bjorn-Oback, pageviews: 9, average time: 00:12
+/Science-Stories/Celebrating-Science/2007-Awards/Dr-Alison-Campbell, pageviews: 8, average time: 00:09
+/science_stories/celebrating_science/2008_awards/skateboards_made_out_of_harakeke, pageviews: 8, average time: 00:49
+
+
+
+Navigation for /Science-Stories/Celebrating-Science
+
+
+Previous pages for /Science-Stories/Celebrating-Science
+
+/Science-Stories (24)
+/Science-Stories/(offset)/6 (7)
+/Science-Stories/Our-Heritage-Scientists (5)
+/Science-Stories/Butterflies (3)
+/Science-Stories/Microorganisms (2)
+/Science-Stories/Strange-Liquids (2)
+/Contexts/Sporting-Edge/NZ-Research/Marathon-versus-sprint (1)
+
+Next pages for /Science-Stories/Celebrating-Science
+
+/Science-Stories/Microorganisms (9)
+/Science-Stories (8)
+/Science-Stories/Celebrating-Science/2007-Awards (4)
+/Science-Stories/Celebrating-Science/2008-Awards (4)
+/ (3)
+/Science-Stories/Butterflies (3)
+/Science-Stories/Strange-Liquids (3)
+
+
+
+/Science-Stories/Microorganisms
+
+Reporting
+
+1047
+Previous
+
+627
+Change
+
+
+66.9856459330144
+
+
+
+Content pageviews limit is 12
+
+By Time for /Science-Stories/Microorganisms
+
+/Science-Stories/Microorganisms/Fungi, pageviews: 45, average time: 02:32
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly, pageviews: 51, average time: 02:32
+/Science-Stories/Microorganisms/How-to-spread-a-virus, pageviews: 23, average time: 02:17
+/Science-Stories/Microorganisms/Viruses, pageviews: 49, average time: 01:55
+/Science-Stories/Microorganisms/Make-an-adenovirus, pageviews: 36, average time: 01:53
+
+
+
+By Views for /Science-Stories/Microorganisms
+
+/Science-Stories/Microorganisms, pageviews: 286, average time: 00:54
+/Science-Stories/Microorganisms/Bacteria, pageviews: 69, average time: 01:35
+/science_stories/microorganisms, pageviews: 67, average time: 01:08
+/Science-Stories/Microorganisms/Exploring-microorganisms, pageviews: 58, average time: 00:59
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly, pageviews: 51, average time: 02:32
+
+
+
+Navigation for /Science-Stories/Microorganisms
+
+
+Previous pages for /Science-Stories/Microorganisms
+
+/Science-Stories (91)
+(entrance) (43)
+/Science-Stories/Microorganisms/Bacteria (19)
+/Science-Stories/Microorganisms (12)
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly (12)
+/Science-Stories/Microorganisms/Exploring-microorganisms (11)
+/Science-Stories/Microorganisms/Sci-Media/Images/Avian-influenza-virus (11)
+
+Next pages for /Science-Stories/Microorganisms
+
+/Science-Stories/Microorganisms/Bacteria (34)
+/Science-Stories/Microorganisms/Bacteria-good-bad-and-ugly (26)
+/Science-Stories/Microorganisms/Exploring-microorganisms (18)
+/Science-Stories/Microorganisms/Viruses (18)
+/Science-Stories/Microorganisms/Fungi (16)
+/Science-Stories/Microorganisms/Grow-your-own-fungus (15)
+/Science-Stories/Microorganisms/Sci-Media/Images/Avian-influenza-virus (14)
+
+
+
+/Science-Stories/Our-Heritage-Scientists
+
+Reporting
+
+450
+Previous
+
+564
+Change
+
+
+-20.2127659574468
+
+
+
+Content pageviews limit is 34
+
+By Time for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 67, average time: 04:01
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley, pageviews: 72, average time: 03:03
+/Science-Stories/Our-Heritage-Scientists, pageviews: 197, average time: 01:26
+
+
+
+By Views for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists, pageviews: 197, average time: 01:26
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley, pageviews: 72, average time: 03:03
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter, pageviews: 67, average time: 04:01
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter, pageviews: 33, average time: 03:15
+/science_stories/our_heritage_scientists, pageviews: 31, average time: 00:21
+
+
+
+Navigation for /Science-Stories/Our-Heritage-Scientists
+
+
+Previous pages for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories (117)
+(entrance) (17)
+/Media/Images/Teaching-Learning/Our-heritage-scientists (15)
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley (6)
+/Media/Images/Icons/Key-for-the-interactive-timeline (4)
+/Science-Stories/Our-Heritage-Scientists (4)
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter (4)
+
+Next pages for /Science-Stories/Our-Heritage-Scientists
+
+/Science-Stories/Our-Heritage-Scientists/Timeline-Beatrice-Hill-Tinsley (31)
+/Media/Images/Teaching-Learning/Our-heritage-scientists (23)
+/Science-Stories/Our-Heritage-Scientists/Timeline-Athol-Rafter (21)
+/Science-Stories (20)
+/Science-Stories/Our-Heritage-Scientists/Profile-Athol-Rafter (10)
+/Science-Stories/Our-Heritage-Scientists/Profile-Beatrice-Hill-Tinsley (9)
+/Contexts (8)
+
+
+
+/Science-Stories/Research-Voyage-to-Antarctica
+
+Reporting
+
+880
+Previous
+
+1072
+Change
+
+
+-17.910447761194
+
+
+
+Content pageviews limit is 3
+
+By Time for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories/Research-Voyage-to-Antarctica/How-much-life-is-in-a-litre-of-sea-water, pageviews: 8, average time: 04:03
+/Science-Stories/Research-Voyage-to-Antarctica/Sci-Media/Images/Antarctic-phytoplankton, pageviews: 11, average time: 03:41
+/Science-Stories/Research-Voyage-to-Antarctica/Week-3-Diversity-of-Ross-Sea-fish, pageviews: 12, average time: 02:37
+/Science-Stories/Research-Voyage-to-Antarctica/Sci-Media/Images/Kim-Ashby-chief-cook, pageviews: 7, average time: 02:35
+/Science-Stories/Research-Voyage-to-Antarctica/Making-a-food-web, pageviews: 31, average time: 02:25
+
+
+
+By Views for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories/Research-Voyage-to-Antarctica, pageviews: 111, average time: 00:46
+/Science-Stories/Research-Voyage-to-Antarctica/People-on-board, pageviews: 33, average time: 00:57
+/Science-Stories/Research-Voyage-to-Antarctica/Making-a-food-web, pageviews: 31, average time: 02:25
+/science_stories/research_voyage_to_antarctica, pageviews: 26, average time: 02:05
+/Science-Stories/Research-Voyage-to-Antarctica/New-Zealand-IPY-CAML-voyage-to-the-Southern-ocean, pageviews: 24, average time: 01:12
+
+
+
+Navigation for /Science-Stories/Research-Voyage-to-Antarctica
+
+
+Previous pages for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories (57)
+(entrance) (5)
+/About-this-site/Glossary/plankton (3)
+/Science-Stories/Research-Voyage-to-Antarctica (3)
+/Contexts/Connections/(start_node)/4905 (2)
+/Science-Stories/Microorganisms (2)
+/Science-Stories/Our-Heritage-Scientists (2)
+
+Next pages for /Science-Stories/Research-Voyage-to-Antarctica
+
+/Science-Stories (10)
+/Science-Stories/Research-Voyage-to-Antarctica/A-day-in-the-life-of-a-scientist (6)
+/Science-Stories/Research-Voyage-to-Antarctica/People-on-board (6)
+/Science-Stories/Research-Voyage-to-Antarctica/Making-a-food-web (5)
+/ (4)
+/Contexts/Connections/(start_node)/4905 (4)
+/Science-Stories/Research-Voyage-to-Antarctica/How-much-life-is-in-a-litre-of-sea-water (4)
+
+
+
+/Science-Stories/Resource-Management
+
+Reporting
+
+878
+Previous
+
+458
+Change
+
+
+91.703056768559
+
+
+
+Content pageviews limit is 10
+
+By Time for /Science-Stories/Resource-Management
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 269, average time: 06:34
+/Science-Stories/Resource-Management/Sci-Media/Images/Brush-tailed-possum, pageviews: 43, average time: 03:11
+/Science-Stories/Resource-Management/Research-in-biosecurity, pageviews: 12, average time: 03:08
+/Science-Stories/Resource-Management/Deforestation, pageviews: 31, average time: 02:22
+/science_stories/resource_management/rabbit_control, pageviews: 42, average time: 02:19
+
+
+
+By Views for /Science-Stories/Resource-Management
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 269, average time: 06:34
+/Science-Stories/Resource-Management, pageviews: 78, average time: 00:36
+/Science-Stories/Resource-Management/Sci-Media/Images/Brush-tailed-possum, pageviews: 43, average time: 03:11
+/science_stories/resource_management/rabbit_control, pageviews: 42, average time: 02:19
+/Science-Stories/Resource-Management/Middens, pageviews: 37, average time: 01:36
+
+
+
+Navigation for /Science-Stories/Resource-Management
+
+
+Previous pages for /Science-Stories/Resource-Management
+
+/Science-Stories (54)
+(entrance) (5)
+/Science-Stories/Resource-Management/Deforestation (2)
+/Science-Stories/Resource-Management/Rabbit-control (2)
+/Science-Stories/Strange-Liquids (2)
+/ (1)
+/Science-Stories/Butterflies (1)
+
+Next pages for /Science-Stories/Resource-Management
+
+/Science-Stories/Resource-Management/Rabbit-control (9)
+/Science-Stories (8)
+/Science-Stories/Resource-Management/Deforestation (6)
+/Contexts (5)
+/Science-Stories/Strange-Liquids (5)
+/Science-Stories/Resource-Management/Middens (4)
+/Science-Stories/Resource-Management/Sci-Media (4)
+
+
+
+/Science-Stories/Strange-Liquids
+
+Reporting
+
+2043
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 35
+
+By Time for /Science-Stories/Strange-Liquids
+
+/Science-Stories/Strange-Liquids/Sci-Media/Video/Oobleck, pageviews: 44, average time: 02:42
+/Science-Stories/Strange-Liquids/Walking-on-custard, pageviews: 85, average time: 02:41
+/Science-Stories/Strange-Liquids/Danger-quicksand, pageviews: 58, average time: 02:06
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber, pageviews: 111, average time: 01:45
+/Science-Stories/Strange-Liquids/Exploring-states-of-matter, pageviews: 80, average time: 01:44
+
+
+
+By Views for /Science-Stories/Strange-Liquids
+
+/Science-Stories/Strange-Liquids, pageviews: 561, average time: 01:08
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber, pageviews: 111, average time: 01:45
+/Science-Stories/Strange-Liquids/States-of-matter, pageviews: 107, average time: 01:12
+/Science-Stories/Strange-Liquids/Non-Newtonian-fluids, pageviews: 103, average time: 01:13
+/Science-Stories/Strange-Liquids/Sick-cows-soap-and-science, pageviews: 92, average time: 01:43
+
+
+
+Navigation for /Science-Stories/Strange-Liquids
+
+
+Previous pages for /Science-Stories/Strange-Liquids
+
+/Science-Stories (247)
+(entrance) (75)
+/Science-Stories/Strange-Liquids/Slump-solids-or-lumpy-liquids (17)
+/Science-Stories/Strange-Liquids/Sci-Media/Images/Honey (16)
+/Science-Stories/Strange-Liquids (14)
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber (14)
+/Science-Stories/Strange-Liquids/Danger-quicksand (11)
+
+Next pages for /Science-Stories/Strange-Liquids
+
+/Science-Stories/Strange-Liquids/Oobleck-versus-flubber (41)
+/Science-Stories (37)
+/Science-Stories/Strange-Liquids/Sick-cows-soap-and-science (37)
+/Science-Stories/Strange-Liquids/Walking-on-custard (33)
+/Science-Stories/Strange-Liquids/Sci-Media (30)
+/Science-Stories/Strange-Liquids/Sci-Media/Images/Honey (30)
+/Science-Stories/Strange-Liquids/Slump-solids-or-lumpy-liquids (27)
+
+
+
+/News-Events
+
+Reporting
+
+4006
+Previous
+
+3503
+Change
+
+
+14.3591207536397
+
+
+
+Content pageviews limit is 13
+
+By Time for /News-Events
+
+/News-Events/News-Archive/2009-News-archive/Ultra-high-caffeine-drinks, pageviews: 27, average time: 09:01
+/news_events/news_archive/2009_news_archive/our_daily_bread, pageviews: 17, average time: 08:09
+/News-Events/News-Archive/2008-News-archive/Ozone-hole-biggest-on-record, pageviews: 19, average time: 07:00
+/news_events/news_archive/2009_news_archive/ultra_high_caffeine_drinks, pageviews: 24, average time: 05:49
+/News-Events/News/Oil-exploration-survey-in-New-Zealand, pageviews: 33, average time: 05:42
+
+
+
+By Views for /News-Events
+
+/News-Events, pageviews: 622, average time: 01:02
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010, pageviews: 383, average time: 00:54
+/news_events, pageviews: 165, average time: 00:52
+/News-Events/News/Ancient-dinosaur-footprints-discovered-near-Nelson, pageviews: 162, average time: 01:43
+/News-Events/Latest-Newsletter, pageviews: 135, average time: 02:49
+
+
+
+Navigation for /News-Events
+
+
+Previous pages for /News-Events
+
+/ (157)
+/Science-Stories (46)
+(entrance) (29)
+/News-Events (27)
+/Contexts (26)
+/Thinking-Tools (26)
+/search (25)
+
+Next pages for /News-Events
+
+/News-Events/Events (58)
+/News-Events/Latest-Newsletter (51)
+/ (48)
+/Science-Stories (40)
+/Thinking-Tools (33)
+/Contexts (29)
+/News-Events (27)
+
+
+
+/Thinking-Tools
+
+Reporting
+
+4262
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 9
+
+By Time for /Thinking-Tools
+
+/Thinking-Tools/Ethics-thinking-tool/Sci-Media/Images, pageviews: 12, average time: 03:55
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/register, pageviews: 35, average time: 01:43
+/Thinking-Tools/Ethics-thinking-tool/Tool-Ethics-thinking/login, pageviews: 261, average time: 01:20
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/login, pageviews: 276, average time: 01:11
+/Thinking-Tools/Ethics-thinking-tool/Tool-Ethics-thinking/register, pageviews: 24, average time: 01:03
+
+
+
+By Views for /Thinking-Tools
+
+/Thinking-Tools, pageviews: 705, average time: 00:49
+/Thinking-Tools/Futures-thinking-tool, pageviews: 280, average time: 00:23
+/Thinking-Tools/Futures-thinking-tool/Tool-Futures-thinking/login, pageviews: 276, average time: 01:11
+/Thinking-Tools/Ethics-thinking-tool/Tool-Ethics-thinking/login, pageviews: 261, average time: 01:20
+/Thinking-Tools/Ethics-thinking-tool, pageviews: 259, average time: 00:47
+
+
+
+Navigation for /Thinking-Tools
+
+
+Previous pages for /Thinking-Tools
+
+/ (164)
+(entrance) (47)
+/Science-Stories (36)
+/News-Events (33)
+/Thinking-Tools/Futures-thinking-tool (29)
+/Thinking-Tools (27)
+/Contexts (26)
+
+Next pages for /Thinking-Tools
+
+/Thinking-Tools/Futures-thinking-tool (186)
+/Thinking-Tools/Ethics-thinking-tool (156)
+/ (44)
+/Science-Stories (38)
+/Contexts (37)
+/Thinking-Tools (27)
+/News-Events (26)
+
+
+
+/My-Sci
+
+Reporting
+
+581
+Previous
+
+506
+Change
+
+
+14.8221343873518
+
+
+
+Content pageviews limit is 53
+
+By Time for /My-Sci
+
+/My-Sci, pageviews: 374, average time: 00:58
+/my_sci, pageviews: 153, average time: 00:48
+
+
+
+By Views for /My-Sci
+
+/My-Sci, pageviews: 374, average time: 00:58
+/my_sci, pageviews: 153, average time: 00:48
+/My-Sci/Help, pageviews: 20, average time: 00:45
+/My-Sci/Profile-Updated, pageviews: 15, average time: 00:31
+/my_sci/help, pageviews: 10, average time: 01:49
+
+
+
+Navigation for /My-Sci
+
+
+Previous pages for /My-Sci
+
+/ (50)
+/My-Sci (42)
+/Thinking-Tools (25)
+(entrance) (24)
+/Contexts (19)
+/News-Events (15)
+/Science-Stories (14)
+
+Next pages for /My-Sci
+
+/ (43)
+/My-Sci (42)
+/Contexts (38)
+/Science-Stories (26)
+/News-Events (21)
+/user/register (21)
+/user/login (18)
+
+
+
+
+
+I took 947 seconds.

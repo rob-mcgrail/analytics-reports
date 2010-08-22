@@ -1,0 +1,315 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/quick_test.rb")
+
+require "test/unit"
+
+class MockData < Crunch
+  attr_writer :nothing, :good, :is_arbitrary, :list_visits, :list_bounces, :list_times
+  
+  attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months, :temporary_results, :array_of_start_dates, :array_of_end_dates, :visits_as_percent, :rates, :average_sessions, :list_visits, :list_bounces, :list_times
+  
+  def initialize
+    @start_date_reporting = Date.new(y=2010,m=1,d=9)
+    @end_date_reporting = Date.new(y=2010,m=3,d=9)
+    @start_date_previous = Date.new(y=2009,m=11,d=8)
+    @end_date_previous = Date.new(y=2010,m=1,d=8)
+    @start_date_baseline = Date.new(y=2009,m=7,d=8)
+    @end_date_baseline = Date.new(y=2010,m=1,d=8)
+    @reporting_number_of_months = 2
+    @baseline_number_of_months = 6
+
+    #initialize default writer values - used to alter behavior of mock object
+    #to simulate different Crunch children
+    
+    @nothing = false
+    @good = true
+    @is_arbitrary = true
+    @list_visits = Array.new
+  end
+  
+  def to_s
+    "#{@baseline_number_of_months}"
+  end
+  
+  def up_is_nothing?
+    @nothing
+  end
+  
+  def up_is_good?
+    @good
+  end
+  
+  def arbitrary?
+    return @is_arbitrary
+  end
+  
+  def arbitrary(start_date, end_date)
+    100
+  end
+end
+
+class CrunchTest < Test::Unit::TestCase
+  
+  def setup
+    $display = Unix.new
+  end
+  
+  def test_percentage
+    assert_equal( 50, Crunch.new.percentage(10, 20), ["Math failure"])
+    assert_equal( 200, Crunch.new.percentage(10, 5), ["Math failure"])
+    assert_equal( 200, Crunch.new.percentage(0.2, 0.1), ["Math failure"])
+    assert_equal( 100, Crunch.new.percentage(10, 10), ["Math failure"])
+    
+    assert_raise(RuntimeError, ["Warning failure"]) {Crunch.new.percentage(20, 0)}
+    
+    assert_equal( 100, Crunch.new.percentage(0.001, 0.001), ["Type failure - float"])
+    assert_equal( 100, Crunch.new.percentage("10", "10"), ["Type failure - string"])
+  end 
+   
+  def test_percentage_change
+    assert_equal( 50, Crunch.new.percentage_change(10, 15), ["Math failure"])
+    assert_equal( 100, Crunch.new.percentage_change(10, 20), ["Math failure"])
+    assert_equal( -50, Crunch.new.percentage_change(10, 5), ["Math failure"])
+    assert_equal( -100, Crunch.new.percentage_change(20, 0), ["Math failure"])
+    assert_equal( 0, Crunch.new.percentage_change(10, 10), ["Math failure"])
+    
+    assert_equal( 0, Crunch.new.percentage_change(0.001, 0.001), ["Type failure - float"])
+    assert_equal( 0, Crunch.new.percentage_change("10", "10"), ["Type failure - string"])
+  end
+  
+  def test_to_p
+    assert_equal( "33%", Crunch.new.to_p("33.33333"), ["Type failure - string"])
+    assert_equal( "33.3%", Crunch.new.to_p("33.33333", 1), ["Type failure - string"])
+    assert_equal( "33.0%", Crunch.new.to_p(33, 1), ["Type failure - int"])
+    
+    
+    assert_equal( "33%", Crunch.new.to_p(33.3333333), ["Format failure"])
+    assert_equal( "33.3%", Crunch.new.to_p(33.3333333, 1), ["Format failure"])
+    assert_equal( "33.30000%", Crunch.new.to_p(33.3, 5), ["Format failure"])
+  end
+  
+  def test_short
+    assert_equal( "33", Crunch.new.short("33.33333"), ["Type failure - string"])
+    assert_equal( "33.3", Crunch.new.short("33.33333", 1), ["Type failure - string"])
+    assert_equal( "33.0", Crunch.new.short(33, 1), ["Type failure - int"])
+    
+    
+    assert_equal( "33", Crunch.new.short(33.3333333), ["Format failure"])
+    assert_equal( "33.3", Crunch.new.short(33.3333333, 1), ["Format failure"])
+    assert_equal( "33.30000", Crunch.new.short(33.3, 5), ["Format failure"])
+  end
+  
+  def test_get_array_of_months
+    #remember that there's also Crunch.inspect_get_array_of_months, if you're worried about what's
+    #going on in here
+    
+    mock = MockData.new
+    
+    dates = mock.get_array_of_months(mock.end_date_baseline, mock.baseline_number_of_months)
+    assert_equal( mock.baseline_number_of_months, dates.length, ["Array length error"])
+    dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    dates.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    dates.each {|thing| assert_equal( thing, mock.end_date_baseline.months_ago(@x), ["Date increment error"]); @x+=1}
+    
+    assert_equal( Date.new(y=2010,m=1,d=8), dates[0], ["Date error"])
+    assert_equal( Date.new(y=2009,m=12,d=8), dates[1], ["Date error"])
+    assert_equal( Date.new(y=2009,m=11,d=8), dates[2], ["Date error"])
+    assert_equal( Date.new(y=2009,m=10,d=8), dates[3], ["Date error"])
+    assert_equal( Date.new(y=2009,m=9,d=8), dates[4], ["Date error"])
+    assert_equal( Date.new(y=2009,m=8,d=8), dates[5], ["Date error"])
+    
+    lots_of_dates = Crunch.new.get_array_of_months(Date.new(y=2010,m=1,d=1), 30)   
+    assert_equal( 30, lots_of_dates.length, ["Array length error"])
+    lots_of_dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    lots_of_dates.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    lots_of_dates.each {|thing| assert_equal( thing, Date.new(y=2010,m=1,d=1).months_ago(@x), ["Date increment error"]); @x+=1}
+
+    extreme_date = Crunch.new.get_array_of_months(Date.new(y=2010,m=3,d=30), 6)
+    assert_equal( 6, extreme_date.length, ["Array length error"])
+    extreme_date.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    extreme_date.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    extreme_date.each {|thing| assert_equal( thing, Date.new(y=2010,m=3,d=30).months_ago(@x), ["Date increment error"]); @x+=1}
+    
+    #need test for new offset optional argument
+  end
+  
+  def test_get_array_of_arbitrary_month_intervals
+    #remember that there's also Crunch.inspect_get_array_of_arbitrary_month_intervals, if you're worried about what's
+    #going on in here
+    
+    mock = MockData.new
+    
+    dates = mock.get_array_of_arbitrary_month_intervals(mock.end_date_baseline)
+    
+    assert_equal( mock.baseline_number_of_months/mock.reporting_number_of_months, dates.length, ["Array length error"])
+    dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    dates.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    dates.each {|thing| assert_equal( thing, mock.end_date_baseline.months_ago(@x), ["Date increment error"]); @x+=2}
+    
+    assert_equal( Date.new(y=2010,m=1,d=8), dates[0], ["Date error"])
+    assert_equal( Date.new(y=2009,m=11,d=8), dates[1], ["Date error"])
+    assert_equal( Date.new(y=2009,m=9,d=8), dates[2], ["Date error"])
+    
+    lots_of_dates = Crunch.new.get_array_of_arbitrary_month_intervals(Date.new(y=2010,m=1,d=1), 30, 3)   
+    assert_equal( 10, lots_of_dates.length, ["Array length error"])
+    lots_of_dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    lots_of_dates.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    lots_of_dates.each {|thing| assert_equal( thing, Date.new(y=2010,m=1,d=1).months_ago(@x), ["Date increment error"]); @x+=3}
+    
+    extreme_date = Crunch.new.get_array_of_arbitrary_month_intervals(Date.new(y=2010,m=3,d=30), 12, 2)
+    assert_equal( 6, extreme_date.length, ["Array length error"])
+    extreme_date.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    extreme_date.each {|thing| assert_kind_of( Date, thing, ["Not returning as instance of Date"])}
+    
+    @x = 0
+    extreme_date.each {|thing| assert_equal( thing, Date.new(y=2010,m=3,d=30).months_ago(@x), ["Date increment error"]); @x+=2}
+    
+    #add test for conditional day offset
+  end
+  
+  def test_average_by_period
+    #remember that there's also Crunch.inspect_average_by_period, if you're worried about what's
+    #going on in here
+    
+    fail_mock = MockData.new
+    fail_mock.is_arbitrary = false
+    assert_raise(RuntimeError, ["Aribtrary method safety switch error"]) {fail_mock.average_by_period}
+    
+    fail_mock_bad_args = MockData.new
+    fail_mock_bad_args.is_arbitrary = true
+    assert_raise(RuntimeError, ["Bad ranges safety switch error"]) {fail_mock_bad_args.average_by_period(fail_mock_bad_args.end_date_baseline, 2, 6)}
+    #testing Array.average
+    
+    array_equal = [10, 10, 10, 10, 10, 10]
+    assert_equal(10.0, array_equal.average, ["Array averaging error"])
+    
+    array_various = [10, 0, 10, 10, 20]
+    assert_equal(10.0, array_various.average, ["Array averaging error"])
+    
+    array_floats = [0.1, 0, 0.1, 0.1, 0.2]
+    assert_equal(0.1, array_floats.average, ["Array averaging error"])
+    
+    #back to main method
+    mock = MockData.new
+    mock.is_arbitrary = true
+    
+    assert_equal(100.0, mock.average_by_period(), ["Basic averaging error"])
+    
+    mock.temporary_results.each {|thing| assert_not_nil( thing, ["Result from arbitrary method returned as nil error"])}
+    mock.temporary_results.each {|thing| assert_equal(100, thing, ["Bad calls to arbitrary error"])}
+    assert_equal(3, mock.temporary_results.length, ["Array length error"])
+    assert_equal(3, mock.array_of_start_dates.length, ["Array length error"])
+    assert_equal(3, mock.array_of_end_dates.length, ["Array length error"])
+    
+    assert_equal(Date.new(y=2009,m=11,d=9), mock.array_of_start_dates[0], ["Date error"])
+    assert_equal(Date.new(y=2009,m=7,d=9), mock.array_of_start_dates[2], ["Date error"])
+    assert_equal(Date.new(y=2010,m=1,d=8), mock.array_of_end_dates[0], ["Date error"])
+    assert_equal(Date.new(y=2009,m=9,d=8), mock.array_of_end_dates[2], ["Date error"])
+    
+    mock_arguments = MockData.new
+    mock_arguments.is_arbitrary = true
+    
+    assert_equal(100.0, mock_arguments.average_by_period(Date.new(y=2010,m=1,d=19), 10, 1), ["Basic averaging error"])
+    
+    mock_arguments.temporary_results.each {|thing| assert_not_nil( thing, ["Result from arbitrary method returned as nil error"])}
+    mock_arguments.temporary_results.each {|thing| assert_equal(100, thing, ["Bad calls to arbitrary error"])}
+    assert_equal(10, mock_arguments.temporary_results.length, ["Array length error"])
+    assert_equal(10, mock_arguments.array_of_start_dates.length, ["Array length error"])
+    assert_equal(10, mock_arguments.array_of_end_dates.length, ["Array length error"])
+  end
+  
+  def test_make_visits_percentages_of_total
+    QuickTest.new
+    mock = MockData.new
+    mock.list_visits = [21, 21, 21, "21", "21", "21", 21.0, 21.0, 21.0]
+    mock.make_visits_percentages_of_total(mock.start_date_reporting, mock.end_date_reporting)
+    mock.visits_as_percent.each { |thing| assert_equal(100.0, thing, ["Percentage error / Type error"])}
+  end
+  
+  def test_make_bounces_rates
+    mock = MockData.new
+    mock.list_visits = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.list_bounces = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.make_bounces_rates
+    assert_equal(mock.rates.length, mock.list_visits.length, ["Array length error"])
+    mock.rates.each { |thing| assert_equal(100.0, thing, ["Percentage / Type error"])}
+    
+    mock.list_bounces = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.list_visits = [21, 22, 23, "24", "25", "26", 27.0, 28.0]
+    assert_raise(RuntimeError, ["Array check error"]) {mock.make_bounces_rates}
+  end
+  
+  def test_make_times_average_sessions
+    mock = MockData.new
+    mock.list_times = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.list_visits = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.make_times_average_sessions
+    assert_equal(mock.average_sessions.length, mock.list_times.length, ["Array length error"])
+    mock.average_sessions.each { |thing| assert_equal(1.0, thing, ["Percentage error / Type error"])}
+    
+    mock.list_times = [21, 22, 23, "24", "25", "26", 27.0, 28.0, 29.0]
+    mock.list_visits = [21, 22, 23, "24", "25", "26", 27.0, 28.0]
+    assert_raise(RuntimeError, ["Array check error"]) {mock.make_times_average_sessions}
+  end
+  
+  def test_make_seconds
+    mock = MockData.new
+    assert_kind_of(Time, mock.make_seconds(120), ["Class type error"])
+    assert_equal("02:00", mock.make_seconds(120).strftime("%M:%S"), ["Order/Format error"])
+    
+    mock = MockData.new
+    times = mock.make_seconds([120, 60, 30, 15, 0.5, 0])
+    assert_kind_of(Array, mock.make_seconds(times), ["Class type error"])
+    assert_equal(6, mock.make_seconds(times).length, ["Array length error"])
+    mock.make_seconds(times).each {|thing| assert_kind_of(Time, thing, ["Class type error"])}
+    assert_equal("02:00", mock.make_seconds(times)[0].strftime("%M:%S"), ["Order/Format error"])
+    assert_equal("00:30", mock.make_seconds(times)[2].strftime("%M:%S"), ["Order/Format error"])
+    assert_equal("00:00", mock.make_seconds(times)[4].strftime("%M:%S"), ["Order/Format error"])
+    assert_equal("00:00", mock.make_seconds(times)[5].strftime("%M:%S"), ["Order/Format error"])
+  end
+  
+  def test_arrow
+    good = MockData.new
+    good.nothing = false
+    good.good = true
+    
+    assert_equal( $display.equals, good.arrow("0"), ["Type failure"])    
+    assert_equal( $display.green_up, good.arrow("0.1"), ["Type failure"])
+    assert_equal( $display.red_down, good.arrow("-0.1"), ["Type failure"])
+    
+    assert_equal( $display.equals, good.arrow(0), ["Loop failure (Up is good)"])    
+    assert_equal( $display.green_up, good.arrow(0.1), ["Loop failure (Up is good)"])
+    assert_equal( $display.red_down, good.arrow(-0.1), ["Loop failure (Up is good)"])
+
+    bad = MockData.new
+    bad.nothing = false
+    bad.good = false
+    assert_equal( $display.equals, bad.arrow(0), ["Loop failure (Up is !good)"])    
+    assert_equal( $display.red_up, bad.arrow(0.1), ["Loop failure (Up is !good)"])
+    assert_equal( $display.green_down, bad.arrow(-0.1), ["Loop failure (Up is !good)"])
+    
+    neutral = MockData.new
+    neutral.nothing = true
+    neutral.good = false
+    assert_equal( $display.equals, neutral.arrow(0), ["Loop failure (Up is ambiguous)"])    
+    assert_equal( $display.grey_up, neutral.arrow(0.1), ["Loop failure (Up is ambiguous)"])
+    assert_equal( $display.grey_down, neutral.arrow(-0.1), ["Loop failure (Up is ambiguous)"])
+
+    neutral.nothing = true
+    neutral.good = true
+    assert_equal( $display.equals, neutral.arrow(0), ["Loop failure (Up is ambiguous)"])    
+    assert_equal( $display.grey_up, neutral.arrow(0.1), ["Loop failure (Up is ambiguous)"])
+    assert_equal( $display.grey_down, neutral.arrow(-0.1), ["Loop failure (Up is ambiguous)"])
+  end
+
+end

@@ -1,0 +1,28 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
+
+require "test/unit"
+
+class MockContent < Content
+  # attr_writer :reporting, :previous, :baseline
+  
+  attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months
+  
+end
+
+class ContentTest < Test::Unit::TestCase
+
+  def setup
+    $display = Unix.new
+    Biotech.new(1)
+  end
+
+  def test_arbitrary
+    test = MockContent.new
+    
+    test.arbitrary(test.start_date_reporting, test.end_date_reporting, 50)
+    
+    
+  end
+
+end

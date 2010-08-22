@@ -1,0 +1,13 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+$display = Unix.new
+
+interface = Startup.new
+
+interface.authenticate_session
+
+report = CWA_Check.new
+report.all
+
+report = TKI_Check.new
+report.all

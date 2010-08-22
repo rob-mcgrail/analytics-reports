@@ -1,0 +1,29 @@
+class Unix < Display
+
+  def initialize
+     @line_break = "\n"
+     
+     #arrow items
+     @green_up = "UP (Green)"
+     @green_down = "DOWN (Green)"
+     @red_up = "UP (Red)"
+     @red_down = "Down (Red)"
+     @grey_up = "UP (Grey)"
+     @grey_down = "DOWN (Grey)"
+     @equals = "Equals Sign (Grey)"
+  end
+
+  def ask_user(thing)
+    say(%{<%= color('#{thing}', GREEN)%>\n})
+  end
+  
+  def tell_user(thing)
+    say(%{<%= color('#{thing}', YELLOW)%>\n})
+  end
+  
+  def get_private(thing, ast = '*')
+    ask(%{<%= color('#{thing}', GREEN)%>\n}) { |pass| pass.echo="#{ast}" }
+  end
+
+end
+

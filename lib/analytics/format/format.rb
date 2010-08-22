@@ -1,0 +1,24 @@
+class Format
+  attr_reader :green_up, :green_down, :red_up, :red_down, :grey_up, :grey_down, :equals
+
+  def initialize
+    
+    #make sure there is a collector object, if not, make one
+
+    if !defined? $collector
+      $display.tell_user("The collector is not defined. I am instantiating it now...")
+      $collector = Array.new
+    end
+    
+    #set values for arrows
+    
+    @green_up = "green_up"
+    @green_down = "green_down"
+    @red_up = "red_up"
+    @red_down = "red_down"
+    @grey_up = "grey_up"
+    @grey_down = "grey_down"
+    @equals = "equals"
+  end
+  
+end

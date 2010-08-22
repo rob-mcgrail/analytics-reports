@@ -1,0 +1,3 @@
+Create Generate classes??
+
+You'll pass in arrays to these? scope??

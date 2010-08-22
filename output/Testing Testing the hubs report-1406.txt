@@ -1,0 +1,1308 @@
+
+Report run 2010-06-14T09:06:10+12:00
+
+
+Profile: Sceincelearn hubs
+
+Reporting period starts 2010-05-01
+
+Reporting period ends 2010-05-31
+
+Previous period starts 2010-04-01
+
+Previous period ends 2010-04-30
+
+Baseline period starts 2009-04-30
+
+Baseline period ends 2010-04-30
+
+
+
+Summary----------------------------------
+
+
+Average daily value is 938
+Average baseline daily value is 681
+Reporting daily visit values for graph:
+560
+561
+984
+1260
+1258
+1038
+269
+541
+558
+925
+1281
+1294
+1364
+1156
+580
+545
+1029
+1274
+1234
+1200
+1229
+646
+568
+1053
+1265
+1143
+1320
+1013
+549
+539
+828
+
+
+
+Report visits is 29064
+Percentage change from last period is 51% (UP (Green))
+Baseline change is 35% (UP (Green))
+Previous visits is 19196
+Baseline reporting-period-based average visits is 21475
+
+
+
+Report monthly average uniques is 26286
+Percentage change from last period is 56% (UP (Green))
+Baseline change from last period is 36% (UP (Green))
+Previous monthly average uniques is 16824
+Baseline monthly average uniques is 19270
+
+
+
+Reporting period bounce-rate is 72%
+Previous period bounce-rate is 73%
+Baseline period bounce-rate is 73%
+Percentage change from last period is -2% (DOWN (Green))
+Percentage change against baseline is -1% (DOWN (Green))
+
+
+
+Reporting period ave time is 02:02
+Previous period ave time is 01:51
+Baseline period ave time is 01:41
+Percentage change from previous period is 10% (UP (Green))
+Percentage change from baseline period is 21% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 2.41
+Previous period Pages/Visits is 2.25
+Baseline period Pages/Visits is 2.15
+Percentage change from previous period is 7% (UP (Green))
+Percentage change from baseline period is 12% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 85 / 15%
+
+
+
+google
+visits/total 73%
+bouncerate 76%
+average session time 01:38.
+(direct)
+visits/total 12%
+bouncerate 54%
+average session time 03:55.
+google.com
+visits/total 2%
+bouncerate 78%
+average session time 00:57.
+yahoo
+visits/total 2%
+bouncerate 68%
+average session time 01:41.
+bing
+visits/total 1%
+bouncerate 69%
+average session time 01:54.
+search
+visits/total 1%
+bouncerate 74%
+average session time 02:15.
+ask
+visits/total 1%
+bouncerate 76%
+average session time 01:23.
+
+
+
+United States
+visits/total 37%
+New Zealand
+visits/total 22%
+United Kingdom
+visits/total 11%
+Australia
+visits/total 8%
+Canada
+visits/total 5%
+India
+visits/total 2%
+Singapore
+visits/total 1%
+Reporting hourly visit values for graph:
+1024
+1191
+1215
+1244
+1313
+1258
+1272
+1200
+1346
+1422
+1327
+1481
+1475
+1575
+1505
+1345
+1313
+991
+884
+888
+936
+1004
+942
+913
+
+NZ Summary----------------------------------
+
+
+Average daily value is 205
+Average baseline daily value is 122
+Reporting daily visit values for graph:
+90
+146
+300
+259
+247
+203
+51
+68
+119
+238
+222
+243
+381
+272
+92
+129
+274
+225
+236
+247
+212
+77
+124
+296
+272
+224
+327
+214
+97
+134
+322
+
+
+
+Report visits is 6341
+Percentage change from last period is 47% (UP (Green))
+Baseline change is 66% (UP (Green))
+Previous visits is 4311
+Baseline reporting-period-based average visits is 3831
+
+
+
+Report monthly average uniques is 4268
+Percentage change from last period is 49% (UP (Green))
+Baseline change from last period is 69% (UP (Green))
+Previous monthly average uniques is 2859
+Baseline monthly average uniques is 2526
+
+
+
+Reporting period bounce-rate is 51%
+Previous period bounce-rate is 53%
+Baseline period bounce-rate is 53%
+Percentage change from last period is -4% (DOWN (Green))
+Percentage change against baseline is -3% (DOWN (Green))
+
+
+
+Reporting period ave time is 04:33
+Previous period ave time is 04:17
+Baseline period ave time is 04:11
+Percentage change from previous period is 6% (UP (Green))
+Percentage change from baseline period is 9% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 4.95
+Previous period Pages/Visits is 4.45
+Baseline period Pages/Visits is 4.48
+Percentage change from previous period is 11% (UP (Green))
+Percentage change from baseline period is 10% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 66 / 34%
+
+
+
+google
+visits/total 58%
+bouncerate 59%
+average session time 03:30.
+(direct)
+visits/total 22%
+bouncerate 38%
+average session time 06:11.
+yahoo
+visits/total 2%
+bouncerate 50%
+average session time 03:04.
+bugs.cwa.co.nz
+visits/total 2%
+bouncerate 34%
+average session time 12:31.
+google.co.nz
+visits/total 2%
+bouncerate 74%
+average session time 01:14.
+
+
+
+Content pageviews limit is 18
+
+/News-Events/News/Gaining-value-from-biosolids, pageviews: 20, average time: 19:28
+/Media/Images/Butterfly-Hero-Temp, pageviews: 20, average time: 06:39
+/News-Events/News/MMR-vaccine-controversy, pageviews: 44, average time: 06:22
+/Help/Finding-your-way-around, pageviews: 29, average time: 06:13
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 37, average time: 05:44
+/Contact-us/(survery)/yes, pageviews: 33, average time: 05:42
+/Contexts/Life-in-the-Sea/Looking-Closer/Sea-stars, pageviews: 19, average time: 04:53
+
+
+
+/, pageviews: 2360, average time: 01:41
+/Contexts, pageviews: 1024, average time: 00:34
+/Science-Stories, pageviews: 630, average time: 00:41
+/Contexts/Volcanoes, pageviews: 379, average time: 00:49
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010, pageviews: 359, average time: 00:53
+/Thinking-Tools, pageviews: 337, average time: 01:13
+/Science-Stories/Butterflies, pageviews: 319, average time: 01:20
+
+
+
+
+AUS Summary----------------------------------
+
+
+Average daily value is 74
+Average baseline daily value is 37
+Reporting daily visit values for graph:
+25
+57
+68
+93
+85
+50
+29
+39
+58
+91
+93
+96
+98
+64
+31
+49
+100
+111
+80
+96
+59
+44
+70
+94
+125
+84
+115
+66
+40
+68
+114
+
+
+
+Report visits is 2292
+Percentage change from last period is 152% (UP (Green))
+Baseline change is 97% (UP (Green))
+Previous visits is 909
+Baseline reporting-period-based average visits is 1165
+
+
+
+Report monthly average uniques is 2133
+Percentage change from last period is 166% (UP (Green))
+Baseline change from last period is 103% (UP (Green))
+Previous monthly average uniques is 803
+Baseline monthly average uniques is 1049
+
+
+
+Reporting period bounce-rate is 77%
+Previous period bounce-rate is 76%
+Baseline period bounce-rate is 75%
+Percentage change from last period is 2% (UP (Red))
+Percentage change against baseline is 3% (UP (Red))
+
+
+
+Reporting period ave time is 01:13
+Previous period ave time is 01:47
+Baseline period ave time is 01:20
+Percentage change from previous period is -31% (Down (Red))
+Percentage change from baseline period is -9% (Down (Red))
+
+
+
+Reporting period Pages/Visits is 1.79
+Previous period Pages/Visits is 1.81
+Baseline period Pages/Visits is 1.83
+Percentage change from previous period is -1% (Down (Red))
+Percentage change from baseline period is -2% (Down (Red))
+
+
+New/Returning visit percentages for reporting period was 91 / 9%
+
+
+
+google
+visits/total 79%
+bouncerate 78%
+average session time 01:12.
+(direct)
+visits/total 11%
+bouncerate 76%
+average session time 01:23.
+google.com.au
+visits/total 3%
+bouncerate 87%
+average session time 00:14.
+bing
+visits/total 1%
+bouncerate 59%
+average session time 01:30.
+edmodo.com
+visits/total 1%
+bouncerate 62%
+average session time 03:17.
+
+
+
+Content pageviews limit is 3
+
+/Contexts/Hidden-Taonga, pageviews: 56, average time: 23:31
+/Contexts/See-through-Body/Sci-Media/Video/So-how-does-MRI-work, pageviews: 17, average time: 16:20
+/Contexts/Sporting-Edge/Looking-closer/Energy-for-exercise, pageviews: 9, average time: 12:18
+/About-this-site/Glossary/organism, pageviews: 4, average time: 12:03
+/Contexts/Hidden-Taonga/Sci-Media/Video/Collecting-moths, pageviews: 6, average time: 12:01
+/Contexts/Hidden-Taonga/Teaching-and-Learning-Approaches/Constructing-food-webs, pageviews: 4, average time: 10:50
+/Contexts/Life-in-the-Sea/Looking-Closer/Cockles, pageviews: 10, average time: 10:10
+
+
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 177, average time: 04:32
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 169, average time: 02:21
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 116, average time: 01:30
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Adaptations-of-marine-organisms, pageviews: 109, average time: 03:33
+/Contexts/Icy-Ecosystems/Looking-closer/Why-is-Antarctica-so-cold, pageviews: 106, average time: 04:26
+/, pageviews: 70, average time: 01:15
+/Contexts/Hidden-Taonga, pageviews: 56, average time: 23:31
+
+
+
+
+US Summary----------------------------------
+
+
+Average daily value is 350
+Average baseline daily value is 269
+Reporting daily visit values for graph:
+239
+153
+355
+567
+550
+481
+61
+245
+155
+282
+565
+558
+542
+475
+242
+161
+307
+509
+504
+429
+520
+300
+177
+325
+482
+427
+455
+373
+182
+111
+127
+
+
+
+Report visits is 10859
+Percentage change from last period is 29% (UP (Green))
+Baseline change is 28% (UP (Green))
+Previous visits is 8446
+Baseline reporting-period-based average visits is 8462
+
+
+
+Report monthly average uniques is 10257
+Percentage change from last period is 31% (UP (Green))
+Baseline change from last period is 31% (UP (Green))
+Previous monthly average uniques is 7811
+Baseline monthly average uniques is 7855
+
+
+
+Reporting period bounce-rate is 78%
+Previous period bounce-rate is 80%
+Baseline period bounce-rate is 78%
+Percentage change from last period is -2% (DOWN (Green))
+Percentage change against baseline is -1% (DOWN (Green))
+
+
+
+Reporting period ave time is 01:14
+Previous period ave time is 01:02
+Baseline period ave time is 01:05
+Percentage change from previous period is 20% (UP (Green))
+Percentage change from baseline period is 14% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 1.70
+Previous period Pages/Visits is 1.58
+Baseline period Pages/Visits is 1.61
+Percentage change from previous period is 8% (UP (Green))
+Percentage change from baseline period is 6% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 91 / 9%
+
+
+
+google
+visits/total 77%
+bouncerate 81%
+average session time 01:01.
+(direct)
+visits/total 8%
+bouncerate 49%
+average session time 03:18.
+google.com
+visits/total 4%
+bouncerate 78%
+average session time 00:57.
+bing
+visits/total 2%
+bouncerate 74%
+average session time 01:39.
+yahoo
+visits/total 2%
+bouncerate 76%
+average session time 00:57.
+
+
+
+Content pageviews limit is 12
+
+/Contexts/Space-Revealed/Science-Ideas-and-Concepts/Distances-in-space, pageviews: 15, average time: 26:20
+/Media/Images/Nanoscience-images/Detergent-molecule-structure, pageviews: 26, average time: 09:42
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts/Water-and-ice, pageviews: 14, average time: 09:29
+/Contexts/Life-in-the-Sea/NZ-Research/Understanding-food-webs-in-Fiordland, pageviews: 22, average time: 09:00
+/Contexts/Future-Fuels/Teaching-and-Learning-Approaches/Making-a-solar-oven, pageviews: 25, average time: 08:53
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Earth-s-system, pageviews: 56, average time: 08:36
+/Contexts/Enviro-imprints/Sci-Media/Images/Temperature-inversion, pageviews: 13, average time: 08:16
+
+
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 1462, average time: 04:58
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 1021, average time: 01:51
+/, pageviews: 490, average time: 00:54
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 355, average time: 05:14
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 349, average time: 05:26
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Sea-star, pageviews: 317, average time: 05:11
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 252, average time: 01:28
+
+
+
+
+Everything else Summary----------------------------------
+
+
+Average daily value is 938
+Average baseline daily value is 681
+Reporting daily visit values for graph:
+560
+561
+984
+1260
+1258
+1038
+269
+541
+558
+925
+1281
+1294
+1364
+1156
+580
+545
+1029
+1274
+1234
+1200
+1229
+646
+568
+1053
+1265
+1143
+1320
+1013
+549
+539
+828
+
+
+
+Report visits is 29064
+Percentage change from last period is 51% (UP (Green))
+Baseline change is 35% (UP (Green))
+Previous visits is 19196
+Baseline reporting-period-based average visits is 21475
+
+
+
+Report monthly average uniques is 25562
+Percentage change from last period is 55% (UP (Green))
+Baseline change from last period is 36% (UP (Green))
+Previous monthly average uniques is 16466
+Baseline monthly average uniques is 18849
+
+
+
+Reporting period bounce-rate is 72%
+Previous period bounce-rate is 73%
+Baseline period bounce-rate is 73%
+Percentage change from last period is -2% (DOWN (Green))
+Percentage change against baseline is -1% (DOWN (Green))
+
+
+
+Reporting period ave time is 02:02
+Previous period ave time is 01:51
+Baseline period ave time is 01:41
+Percentage change from previous period is 10% (UP (Green))
+Percentage change from baseline period is 21% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 2.41
+Previous period Pages/Visits is 2.25
+Baseline period Pages/Visits is 2.15
+Percentage change from previous period is 7% (UP (Green))
+Percentage change from baseline period is 12% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 85 / 15%
+
+
+
+google
+visits/total 73%
+bouncerate 76%
+average session time 01:38.
+(direct)
+visits/total 12%
+bouncerate 54%
+average session time 03:55.
+google.com
+visits/total 2%
+bouncerate 78%
+average session time 00:57.
+yahoo
+visits/total 2%
+bouncerate 68%
+average session time 01:41.
+bing
+visits/total 1%
+bouncerate 69%
+average session time 01:54.
+
+
+
+Content pageviews limit is 41
+
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 673, average time: 15:27
+/Contexts/See-through-Body/Sci-Media/Video/What-makes-a-good-student, pageviews: 65, average time: 08:33
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts/Water-density, pageviews: 97, average time: 06:31
+/Contexts/See-through-Body/NZ-Research/X-ray-technology-for-the-future, pageviews: 148, average time: 06:30
+/Media/Images/Nanoscience-images/Detergent-molecule-structure, pageviews: 90, average time: 06:13
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Earth-s-system, pageviews: 67, average time: 06:04
+/News-Events/News/MMR-vaccine-controversy, pageviews: 77, average time: 05:51
+
+
+
+/, pageviews: 3200, average time: 01:31
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 2650, average time: 04:44
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 1983, average time: 02:17
+/Contexts, pageviews: 1355, average time: 00:35
+/Science-Stories, pageviews: 819, average time: 00:46
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 673, average time: 15:27
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 656, average time: 01:40
+
+
+
+
+New----------------------------------
+
+
+Average daily value is 801
+Average baseline daily value is 602
+Reporting daily visit values for graph:
+488
+487
+806
+1065
+1081
+878
+226
+491
+488
+789
+1060
+1089
+1148
+986
+523
+478
+881
+1135
+1083
+1023
+1008
+575
+500
+852
+1097
+1000
+1110
+848
+493
+460
+674
+
+
+
+Report visits is 24822
+Percentage change from last period is 51% (UP (Green))
+Baseline change is 31% (UP (Green))
+Previous visits is 16466
+Baseline reporting-period-based average visits is 18983
+
+
+
+Report monthly average uniques is 25562
+Percentage change from last period is 55% (UP (Green))
+Baseline change from last period is 36% (UP (Green))
+Previous monthly average uniques is 16466
+Baseline monthly average uniques is 18849
+
+
+
+Reporting period bounce-rate is 76%
+Previous period bounce-rate is 77%
+Baseline period bounce-rate is 76%
+Percentage change from last period is -1% (DOWN (Green))
+Percentage change against baseline is 0% (UP (Red))
+
+
+
+google
+visits/total 76%
+bouncerate 79%
+average session time 01:15.
+(direct)
+visits/total 9%
+bouncerate 58%
+average session time 02:59.
+google.com
+visits/total 2%
+bouncerate 78%
+average session time 00:51.
+yahoo
+visits/total 2%
+bouncerate 70%
+average session time 01:26.
+bing
+visits/total 2%
+bouncerate 73%
+average session time 01:27.
+
+
+
+Content pageviews limit is 29
+
+/Contexts/See-through-Body/Sci-Media/Video/What-makes-a-good-student, pageviews: 63, average time: 09:45
+/News-Events/News/MMR-vaccine-controversy, pageviews: 57, average time: 09:17
+/Contexts/Enviro-imprints/Science-Ideas-and-Concepts/Bioindicators, pageviews: 38, average time: 08:52
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 595, average time: 08:26
+/Contexts/See-through-Body/NZ-Research/X-ray-technology-for-the-future, pageviews: 129, average time: 06:45
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Earth-s-system, pageviews: 56, average time: 06:42
+/Contexts/Icy-Ecosystems/Science-Ideas-and-Concepts/Water-density, pageviews: 96, average time: 06:31
+
+
+
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 2250, average time: 04:48
+/, pageviews: 1696, average time: 01:35
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 1352, average time: 02:25
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 595, average time: 08:26
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-structure-muscle-under-the-microscope, pageviews: 588, average time: 01:38
+/Contexts, pageviews: 573, average time: 00:37
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 563, average time: 05:01
+
+
+
+1 page = 18888
+2 pages = 2226
+3 pages = 1486
+4 pages = 538
+>4 pages = 1684
+
+
+
+0-10 = 19043
+11-30 = 630
+31-60 = 885
+61-180 = 1612
+180+ = 2086
+
+
+
+
+New New Zealand----------------------------------
+
+
+Average daily value is 134
+Average baseline daily value is 81
+Reporting daily visit values for graph:
+62
+109
+181
+164
+157
+119
+31
+50
+92
+166
+147
+173
+228
+170
+72
+102
+180
+168
+167
+155
+139
+60
+78
+169
+182
+158
+192
+114
+77
+93
+213
+
+
+
+Report visits is 4168
+Percentage change from last period is 46% (UP (Green))
+Baseline change is 64% (UP (Green))
+Previous visits is 2859
+Baseline reporting-period-based average visits is 2549
+
+
+
+Report monthly average uniques is 4268
+Percentage change from last period is 49% (UP (Green))
+Baseline change from last period is 69% (UP (Green))
+Previous monthly average uniques is 2859
+Baseline monthly average uniques is 2526
+
+
+
+Reporting period bounce-rate is 60%
+Previous period bounce-rate is 63%
+Baseline period bounce-rate is 62%
+Percentage change from last period is -5% (DOWN (Green))
+Percentage change against baseline is -3% (DOWN (Green))
+
+
+
+google
+visits/total 65%
+bouncerate 66%
+average session time 02:11.
+(direct)
+visits/total 20%
+bouncerate 40%
+average session time 05:02.
+yahoo
+visits/total 3%
+bouncerate 55%
+average session time 02:34.
+google.co.nz
+visits/total 2%
+bouncerate 75%
+average session time 00:56.
+bing
+visits/total 2%
+bouncerate 59%
+average session time 02:39.
+
+
+
+Content pageviews limit is 8
+
+/News-Events/News/Gaining-value-from-biosolids, pageviews: 12, average time: 27:49
+/Contexts/You-Me-and-UV/Sci-Media/Video/Why-are-UV-levels-high-in-New-Zealand-summer, pageviews: 11, average time: 14:13
+/News-Events/News/MMR-vaccine-controversy, pageviews: 24, average time: 12:10
+/Contexts/Enviro-imprints/Sci-Media/Video/Christchurch-pollution-problem, pageviews: 13, average time: 08:44
+/Contexts/Icy-Ecosystems/Looking-closer/Why-is-Antarctica-so-cold, pageviews: 11, average time: 07:36
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Lake-Rotorua-water-quality, pageviews: 11, average time: 07:11
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Adaptations-of-marine-organisms, pageviews: 12, average time: 06:26
+
+
+
+/, pageviews: 1075, average time: 01:50
+/Contexts, pageviews: 348, average time: 00:31
+/Science-Stories, pageviews: 277, average time: 00:30
+/News-Events/News-Archive/Newsletter-Archive/New-Zealand-Science-Learning-Hub-Newsletter-Summer-2010, pageviews: 235, average time: 00:50
+/search, pageviews: 161, average time: 00:39
+/Thinking-Tools, pageviews: 143, average time: 00:14
+/Contexts/Volcanoes, pageviews: 131, average time: 00:54
+
+
+
+1 page = 2485
+2 pages = 432
+3 pages = 369
+4 pages = 149
+>4 pages = 733
+
+
+
+0-10 = 2523
+11-30 = 149
+31-60 = 224
+61-180 = 463
+180+ = 392
+
+
+
+
+Returning----------------------------------
+
+
+Average daily value is 137
+Average baseline daily value is 79
+Reporting daily visit values for graph:
+72
+74
+178
+195
+177
+160
+43
+50
+70
+136
+221
+205
+216
+170
+57
+67
+148
+139
+151
+177
+221
+71
+68
+201
+168
+143
+210
+165
+56
+79
+154
+
+
+
+Report visits is 4242
+Percentage change from last period is 55% (UP (Green))
+Baseline change is 70% (UP (Green))
+Previous visits is 2730
+Baseline reporting-period-based average visits is 2492
+
+
+
+Report monthly average uniques is 0
+Percentage change from last period is nan% (Down (Red))
+Baseline change from last period is nan% (Down (Red))
+Previous monthly average uniques is 0
+Baseline monthly average uniques is 0
+
+
+
+Reporting period bounce-rate is 50%
+Previous period bounce-rate is 52%
+Baseline period bounce-rate is 52%
+Percentage change from last period is -5% (DOWN (Green))
+Percentage change against baseline is -3% (DOWN (Green))
+
+
+
+google
+visits/total 52%
+bouncerate 55%
+average session time 05:03.
+(direct)
+visits/total 26%
+bouncerate 46%
+average session time 05:50.
+bugs.cwa.co.nz
+visits/total 3%
+bouncerate 35%
+average session time 12:23.
+Sciencelearn
+visits/total 1%
+bouncerate 16%
+average session time 15:12.
+ffjhs-trusd-ca.schoolloop.com
+visits/total 1%
+bouncerate 39%
+average session time 01:36.
+
+
+
+Content pageviews limit is 13
+
+/Contexts/H2O-On-the-Go/Science-Ideas-and-Concepts/Humans-and-the-water-cycle, pageviews: 78, average time: 42:56
+/Contexts/Space-Revealed/Sci-Media/Images/Lifecycle-of-the-Sun, pageviews: 15, average time: 15:21
+/Media/Images/Butterfly-Hero-Temp, pageviews: 20, average time: 06:39
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 84, average time: 06:23
+/Help/Finding-your-way-around, pageviews: 26, average time: 06:13
+/Contact-us/(survery)/yes, pageviews: 27, average time: 05:50
+/Contexts/See-through-Body/NZ-Research/X-ray-technology-for-the-future, pageviews: 19, average time: 05:43
+
+
+
+/, pageviews: 1504, average time: 01:27
+/Contexts, pageviews: 782, average time: 00:34
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 631, average time: 02:06
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 400, average time: 04:26
+/Science-Stories, pageviews: 392, average time: 00:47
+/Science-Stories/Butterflies, pageviews: 270, average time: 01:17
+/Contexts/Volcanoes, pageviews: 250, average time: 00:46
+
+
+
+1 page = 2116
+2 pages = 500
+3 pages = 262
+4 pages = 229
+>4 pages = 1135
+
+
+
+0-10 = 2237
+11-30 = 213
+31-60 = 200
+61-180 = 413
+180+ = 540
+
+
+
+
+Returning New Zealand----------------------------------
+
+
+Average daily value is 70
+Average baseline daily value is 41
+Reporting daily visit values for graph:
+28
+37
+119
+95
+90
+84
+20
+18
+27
+72
+75
+70
+153
+102
+20
+27
+94
+57
+69
+92
+73
+17
+46
+127
+90
+66
+135
+100
+20
+41
+109
+
+
+
+Report visits is 2173
+Percentage change from last period is 50% (UP (Green))
+Baseline change is 69% (UP (Green))
+Previous visits is 1452
+Baseline reporting-period-based average visits is 1282
+
+
+
+Report monthly average uniques is 0
+Percentage change from last period is nan% (Down (Red))
+Baseline change from last period is nan% (Down (Red))
+Previous monthly average uniques is 0
+Baseline monthly average uniques is 0
+
+
+
+Reporting period bounce-rate is 36%
+Previous period bounce-rate is 35%
+Baseline period bounce-rate is 35%
+Percentage change from last period is 1% (UP (Red))
+Percentage change against baseline is 1% (UP (Red))
+
+
+
+google
+visits/total 45%
+bouncerate 38%
+average session time 07:13.
+(direct)
+visits/total 28%
+bouncerate 35%
+average session time 07:47.
+bugs.cwa.co.nz
+visits/total 5%
+bouncerate 35%
+average session time 12:23.
+Sciencelearn
+visits/total 3%
+bouncerate 16%
+average session time 15:12.
+confer.co.nz
+visits/total 2%
+bouncerate 24%
+average session time 07:38.
+
+
+
+Content pageviews limit is 11
+
+/Contexts/Life-in-the-Sea/Science-Ideas-and-Concepts/Human-impacts-on-marine-environments, pageviews: 14, average time: 07:22
+/Media/Images/Butterfly-Hero-Temp, pageviews: 20, average time: 06:39
+/Help/Finding-your-way-around, pageviews: 26, average time: 06:13
+/Contact-us/(survery)/yes, pageviews: 27, average time: 05:50
+/Contexts/Hidden-Taonga/Sci-Media/Animations-and-Interactives/Tectonic-plates-animation, pageviews: 13, average time: 05:14
+/Contexts/You-Me-and-UV/Sci-Media/Video/Tertiary-treatment-of-effluent, pageviews: 26, average time: 04:54
+/Contexts/Sporting-Edge/Looking-closer/What-levers-does-your-body-use, pageviews: 56, average time: 04:51
+
+
+
+/, pageviews: 1285, average time: 01:33
+/Contexts, pageviews: 676, average time: 00:36
+/Science-Stories, pageviews: 353, average time: 00:49
+/Science-Stories/Butterflies, pageviews: 255, average time: 01:18
+/Contexts/Volcanoes, pageviews: 248, average time: 00:46
+/Thinking-Tools, pageviews: 194, average time: 01:58
+/News-Events, pageviews: 156, average time: 01:51
+
+
+
+1 page = 774
+2 pages = 244
+3 pages = 153
+4 pages = 136
+>4 pages = 866
+
+
+
+0-10 = 841
+11-30 = 145
+31-60 = 115
+61-180 = 245
+180+ = 261
+
+
+
+
+NewsLetter----------------------------------
+
+
+0
+0
+6
+5
+5
+3
+2
+0
+0
+4
+5
+6
+4
+5
+0
+0
+5
+1
+8
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Report visits is 61
+Percentage change from last period is 917% (UP (Green))
+Baseline change is 12100% (UP (Green))
+Previous visits is 6
+Baseline reporting-period-based average visits is 0
+
+
+
+Report monthly average uniques is 0
+Percentage change from last period is nan% (Down (Red))
+Baseline change from last period is nan% (Down (Red))
+Previous monthly average uniques is 0
+Baseline monthly average uniques is 0
+
+
+
+Reporting period bounce-rate is 16%
+Previous period bounce-rate is 50%
+Baseline period bounce-rate is 50%
+Percentage change from last period is -67% (DOWN (Green))
+Percentage change against baseline is -67% (DOWN (Green))
+
+
+
+Reporting period Pages/Visits is 11.00
+Previous period Pages/Visits is 4.83
+Baseline period Pages/Visits is 4.83
+Percentage change from previous period is 128% (UP (Green))
+Percentage change from baseline period is 128% (UP (Green))
+
+
+
+Reporting period ave time is 15:12
+Previous period ave time is 12:28
+Baseline period ave time is 12:28
+Percentage change from previous period is 22% (UP (Green))
+Percentage change from baseline period is 22% (UP (Green))
+
+
+
+
+Most Printed----------------------------------
+
+
+/Contexts/Earthquakes/Sci-Media/Images/Lead-Rubber-Bearing (1)
+/Contexts/Enviro-imprints/Sci-Media/Images/Temperature-inversion (1)
+/Contexts/H2O-On-the-Go/Sci-Media/Video/Earth-s-system (1)
+/Contexts/Hidden-Taonga/NZ-Research/Landcare-Research-s-insect-collection (1)
+/Contexts/Hidden-Taonga/NZ-Research/Vegetable-caterpillar (1)
+/Contexts/Hidden-Taonga/Sci-Media/Images/Vegetable-caterpillar-fungus-specimen (1)
+/Contexts/Life-in-the-Sea (1)
+/Contexts/See-through-Body/Sci-Media (1)
+/Contexts/Sporting-Edge/Sci-Media/Images/Relaxed-muscle (1)
+/Contexts/Sporting-Edge/Science-Ideas-and-Concepts/Muscle-contraction (1)
+1 page = 0
+2 pages = 3
+3 pages = 2
+4 pages = 2
+>4 pages = 7
+
+
+
+0-10 = 0
+11-30 = 0
+31-60 = 1
+61-180 = 5
+180+ = 8
+
+
+
+New Zealand/international percentages for reporting period were 57 / 43%
+New Zealand/international percentages for previous period were 9999999999 / -9999999899%
+New Zealand/international percentages for baseline period were 9999999999 / -9999999899%
+New Zealand visits against baseline changed -100% (DOWN (Grey))
+
+
+
+
+
+I took 977 seconds.

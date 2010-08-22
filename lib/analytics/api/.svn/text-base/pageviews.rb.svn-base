@@ -1,0 +1,94 @@
+class PageViews < Crunch
+  attr_reader :all_results
+  
+  def initialize
+    @start_date_reporting = $periods.start_date_reporting
+    @end_date_reporting = $periods.end_date_reporting
+    @start_date_previous = $periods.start_date_previous
+    @end_date_previous = $periods.end_date_previous
+    @start_date_baseline = $periods.start_date_baseline
+    @end_date_baseline = $periods.end_date_baseline
+    @reporting_number_of_months = $periods.reporting_number_of_months
+    @baseline_number_of_months = $periods.baseline_number_of_months
+    
+    @all_results = ["You need to run my methods :|"]
+    
+    @arbitrary = nil
+    @reporting = nil
+    @previous = nil
+    @baseline = nil
+    
+    @visit_totals = Visits.new
+    
+    @previous_change = nil
+    @baseline_change = nil
+  end
+  
+  def to_s
+    "#{@all_results}, #{@arbitrary}, #{@reporting}, #{@previous}, #{@baseline}, #{@previous_change}%, #{@baseline_change}%, arbitrary? = #{self.arbitrary?}"
+  end
+  
+  def three_with_changes_per_visit
+    self.reporting
+    self.previous
+    self.baseline
+    
+    per_visits_reporting = @reporting.to_f / @visit_totals.reporting.to_f
+    per_visits_previous = @previous.to_f / @visit_totals.previous.to_f
+    per_visits_baseline = @baseline.to_f / @visit_totals.baseline.to_f
+    
+    @previous_change = self.percentage_change(per_visits_previous, per_visits_reporting)
+    @baseline_change = self.percentage_change(per_visits_baseline, per_visits_reporting)
+    
+    @all_results = ["Reporting period Pages/Visits is #{self.short(per_visits_reporting, 2)}",
+                    "Previous period Pages/Visits is #{self.short(per_visits_previous, 2)}",
+                    "Baseline period Pages/Visits is #{self.short(per_visits_baseline, 2)}",
+                    "Percentage change from previous period is #{self.to_p(@previous_change)} (#{self.arrow(@previous_change)})",
+                    "Percentage change from baseline period is #{self.to_p(@baseline_change)} (#{self.arrow(@baseline_change)})"]
+  end
+  
+  def arbitrary(start_date, end_date)
+    #minor report, requires a start_date, end_date
+    report = Garb::Report.new($profile.garb,
+                              :start_date => start_date,
+                              :end_date => end_date)
+    report.metrics :pageviews
+          
+    report.results.each {|thing| @arbitrary = thing.pageviews}
+    @arbitrary.to_i
+  end
+  
+  def reporting
+    if @reporting.nil?
+      @reporting = self.arbitrary(@start_date_reporting, @end_date_reporting)
+    end
+    @reporting
+  end
+  
+  def previous
+    if @previous.nil?
+      @previous = self.arbitrary(@start_date_previous, @end_date_previous)
+    end
+    @previous    
+  end
+  
+  def baseline
+    if @baseline.nil?
+      @baseline = self.arbitrary(@start_date_baseline, @end_date_baseline)
+    end
+    @baseline    
+  end
+  
+  def up_is_nothing?
+    return false
+  end
+  
+  def up_is_good?
+    return true
+  end
+  
+  def arbitrary?
+    return true
+  end
+  
+end

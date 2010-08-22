@@ -1,0 +1,14 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/quick_test.rb")
+
+$display = Unix.new
+QuickTest.new(1)
+
+test = Prototype.new #run preset report
+
+test.collector << "I am a test - my numbers aren't useful\n"
+
+test.name = "Testing"
+puts test
+
+test.all

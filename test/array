@@ -1,0 +1,37 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+require "test/unit"
+
+class ArrayTest < Test::Unit::TestCase
+
+  def test_sum
+    test = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    assert_equal(10, test.sum, ["Summing error!"])
+    
+    type_test = [1, "1", 1.0, 1, "1", 1.0, 1, "1", 1.0, 1]
+    assert_equal(10, type_test.sum, ["Type error!"])
+  end
+  
+  def test_average
+    test = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    assert_equal(1, test.average, ["Averaging error!"])
+    test = [5, 10, 5, 10, 20]
+    assert_equal(10, test.average, ["Averaging error!"])
+    
+    type_test = [1, "1", 1.0, 1, "1", 1.0, 1, "1", 1.0, 1]
+    assert_equal(1, type_test.average, ["Type error!"])
+    type_test = [5, 10, "5", "10", 20.0]
+    assert_equal(10, type_test.average, ["Type error!"])
+  end
+
+  # def test_to_h
+  #   
+  #   array = ["a", "b", "c", "d"]
+  #   
+  #   hash = array.to_h
+  #   
+  #   puts hash
+  # end
+  
+
+end

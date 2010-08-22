@@ -1,0 +1,268 @@
+
+Report run 2010-08-17T16:15:12+12:00
+
+
+Profile: Sceincelearn
+
+Reporting period starts 2010-03-01
+
+Reporting period ends 2010-06-30
+
+Previous period starts 2009-10-28
+
+Previous period ends 2010-02-28
+
+Baseline period starts 2009-02-28
+
+Baseline period ends 2010-02-28
+
+
+
+
+NZ > 2 minutes Summary----------------------------------
+
+
+Average daily value is 47
+Average baseline daily value is 32
+Reporting daily visit values for graph:
+53
+54
+58
+62
+48
+19
+21
+58
+77
+62
+49
+50
+26
+30
+59
+67
+87
+18
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+31
+36
+16
+18
+55
+53
+43
+59
+53
+25
+30
+68
+92
+53
+68
+66
+20
+42
+85
+72
+65
+61
+52
+25
+33
+97
+82
+64
+55
+15
+22
+31
+83
+59
+62
+130
+96
+16
+34
+91
+62
+59
+65
+58
+22
+29
+103
+85
+57
+108
+71
+30
+33
+110
+87
+72
+66
+36
+7
+17
+38
+60
+74
+57
+48
+20
+41
+87
+79
+136
+99
+51
+22
+42
+111
+99
+65
+66
+43
+9
+33
+58
+57
+89
+
+
+
+Report visits is 5718
+Percentage change from last period is 75% (UP (Green))
+Baseline change is 48% (UP (Green))
+Previous visits is 3274
+Baseline reporting-period-based average visits is 3871
+
+
+
+Report monthly average uniques is 768
+Percentage change from last period is 98% (UP (Green))
+Baseline change from last period is 55% (UP (Green))
+Previous monthly average uniques is 388
+Baseline monthly average uniques is 495
+
+
+
+Reporting period bounce-rate is 0%
+Previous period bounce-rate is 0%
+Baseline period bounce-rate is 0%
+Percentage change from last period is nan% (DOWN (Green))
+Percentage change against baseline is nan% (DOWN (Green))
+
+
+
+Reporting period ave time is 14:46
+Previous period ave time is 15:44
+Baseline period ave time is 15:21
+Percentage change from previous period is -6% (Down (Red))
+Percentage change from baseline period is -4% (Down (Red))
+
+
+
+Reporting period Pages/Visits is 12.65
+Previous period Pages/Visits is 13.22
+Baseline period Pages/Visits is 12.36
+Percentage change from previous period is -4% (Down (Red))
+Percentage change from baseline period is 2% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 53 / 47%
+
+
+
+google
+visits/total 48%
+bouncerate 0%
+average session time 12:57.
+(direct)
+visits/total 29%
+bouncerate 0%
+average session time 15:34.
+bugs.cwa.co.nz
+visits/total 4%
+bouncerate 0%
+average session time 30:17.
+yahoo
+visits/total 2%
+bouncerate 0%
+average session time 15:42.
+tki.org.nz
+visits/total 2%
+bouncerate 0%
+average session time 16:45.
+
+
+
+Content pageviews limit is 40
+
+/, pageviews: 4625, average time: 01:53
+/Contexts, pageviews: 2299, average time: 00:39
+/Science-Stories, pageviews: 1267, average time: 00:47
+/search, pageviews: 736, average time: 00:47
+/Thinking-Tools, pageviews: 562, average time: 00:57
+/Contexts/Volcanoes, pageviews: 533, average time: 01:04
+/News-Events, pageviews: 497, average time: 01:11
+
+
+
+/Science-Stories/Resource-Management/Rabbit-control, pageviews: 102, average time: 07:49
+/Contexts/You-Me-and-UV/Looking-Closer/NZ-skin-cancer-statistics, pageviews: 123, average time: 06:30
+/Contexts/You-Me-and-UV/Science-Ideas-and-Concepts/Positive-and-negative-effects-of-UV, pageviews: 41, average time: 05:48
+/contexts/life_in_the_sea/sci_media/animations_and_interactives/marine_ecosystem, pageviews: 66, average time: 05:15
+/Contexts/See-through-Body/Sci-Media/Animations-and-Interactives/Label-the-heart, pageviews: 160, average time: 04:44
+/Contexts/Future-Fuels/Looking-closer/New-Zealand-s-biomass-resources, pageviews: 90, average time: 04:42
+/Contexts/Life-in-the-Sea/Sci-Media/Animations-and-Interactives/Sea-star, pageviews: 70, average time: 04:40
+
+
+
+Reporting hourly visit values for graph:
+29
+6
+6
+3
+4
+5
+23
+78
+254
+439
+395
+522
+488
+486
+600
+504
+455
+244
+201
+267
+271
+242
+128
+68
+
+
+I took 130 seconds.

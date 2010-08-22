@@ -1,0 +1,92 @@
+class CMIS < Report
+  
+  def initialize(name = "CMIS")
+    @name = name
+    @collector = Array.new
+    @now = DateTime.now
+    @filepath = "output/#{@name}-#{@now.strftime("%d%m%y")}.txt"
+    @text_file = File.new(@filepath, "w+")
+    @profile_name = nil
+  end
+  
+  def all
+    $display.tell_user("I tend to take a long time...")
+    
+    @collector << "My range is #{$periods.start_date_reporting}-#{$periods.end_date_reporting}"
+    @collector << "\n"
+    
+    self.report("14745867", "Ako Panuku")
+    self.report("12471470", "Education for Enterprise")
+    self.report("10684901", "English Community")
+    self.report("10684664", "Health and PE")
+    self.report("10684652", "Maori Education")
+    self.report("10684635", "Science Community")
+    self.report("11978273", "Software for learning")
+    self.report("7922426", "Asia knowledge")
+    self.report("9760563", "Digital Technology Guidelines")
+    self.report("10448201", "E-asttle")
+    self.report("9029662", "Education for suatinability")
+    self.report("14920696", "English Online")
+    self.report("14920893", "ESOL Online")
+    self.report("14962720", "He Kohinga Rauemi ā-Ipurangi")
+    self.report("10617005", "INSTEP")
+    self.report("9969846", "Language Immersion Opportunities")
+    self.report("8272347", "LEAP")
+    self.report("9371485", "Learning Languages")
+    self.report("9371510", "LEOTC")
+    self.report("14920959", "Literacy Online")
+    self.report("7901144", "Media Studies")
+    self.report("8272137", "Mission-on  / Health Lifestyles")
+    self.report("9226697", "New Zealand Curriculum")
+    self.report("9786892", "Professional learning")
+    self.report("10354806", "RTLB")
+    self.report("9760559", "Senior Secondary Guidelines")
+    self.report("9555576", "Sounds and Words")
+    self.report("9371496", "Success for boys")
+    self.report("16617864", "Te reo Māori")
+    self.report("16845949", "Educational Leaders")
+    self.report("22900702", "Home School Partnerships")
+    self.report("7992968", "Social Sciences Online (SSOL)")
+    self.report("19644726", "Key Competencies")
+    self.report("23522664", "Taihape Area School")
+    self.report("19752543", "Te Tere Auraki")
+    self.report("24329144", "ICT Helpdesk")    
+    self.report("23725351", "Putaiao")  
+    self.report("24247105", "eLearning as Inquiry")      
+    self.report("10470040", "Assessment")    
+    self.report("26200548", "Me te Pouako")  
+    self.report("24247423", "Learning languages curriculum guides")
+    self.report("24247516", "Learning Languages with ICTs")
+    self.report("9786892", "Professional learning")
+    self.report("25951702", "Digistore")
+    
+    self.to_screen
+    self.to_file
+    self.timer
+    self.path
+  end
+  
+  def profile(profile, profile_name)
+    @profile_name = profile_name
+    
+    $profile = Profile.new
+    $profile.garb = Garb::Profile.first(profile)
+    $profile.string = profile
+  end
+  
+  def report(profile, profile_name)
+    
+    self.profile(profile, profile_name)
+    
+    @collector << @profile_name
+    @collector << "\n"
+    
+    uniques = Uniques.new
+    @collector << "visitors / uniques"
+    @collector << uniques.reporting
+    
+    @collector << "\n"
+    
+  end
+  
+end

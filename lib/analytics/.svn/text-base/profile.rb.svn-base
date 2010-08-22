@@ -1,0 +1,16 @@
+class Profile
+  
+  attr_accessor :garb, :string
+  
+  def intialize(profile_entered = nil, profile_object = nil)
+    
+    @garb = profile_object
+    @string = profile_entered
+
+  end
+  
+  def to_s
+    "#{@string}"
+  end
+  
+end

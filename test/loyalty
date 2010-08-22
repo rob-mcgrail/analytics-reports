@@ -1,0 +1,72 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
+
+require "test/unit"
+
+class MockLoyalty < Loyalty
+  attr_writer :reporting, :previous, :baseline
+  
+  attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months, :visits_arbitrary, :count_arbitrary
+  
+end
+
+class Mock_dummy_Loyalty < Loyalty
+  attr_writer :reporting, :previous, :baseline
+  
+  attr_accessor :visits_arbitrary, :count_arbitrary
+  
+  attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months
+end
+
+class LoyaltyTest < Test::Unit::TestCase
+
+  def setup
+    $display = Unix.new
+    Biotech_session.new
+  end
+  
+  def test_arbitrary
+    test = MockLoyalty.new
+    
+    test.arbitrary(test.start_date_reporting, test.end_date_reporting)
+    
+    assert_kind_of(Array, test.visits_arbitrary, ["Returned type error"])
+    assert_kind_of(Array, test.count_arbitrary, ["Returned type error"])
+    assert_equal(259, test.visits_arbitrary.length, ["Array length error"])
+    assert_equal(259, test.count_arbitrary.length, ["Array length error"])
+
+  end
+
+  def test_sort
+    test = Mock_dummy_Loyalty.new
+
+    test.visits_arbitrary = [100,80,70,30,10,10,10,10,10,10]
+    test.count_arbitrary = [1,2,3,4,5,7,8,10,22,500]
+    
+    result = test.sort(test.visits_arbitrary, test.count_arbitrary)
+
+    assert_equal(5, result.length, "Array length error")
+    
+    assert_equal(100, result[0], "Result error")
+    assert_equal(80, result[1], "Result error")
+    assert_equal(70, result[2], "Result error")
+    assert_equal(30, result[3], "Result error")
+    assert_equal(60, result[4], "Result error")
+    
+    test2 = Mock_dummy_Loyalty.new
+    
+    test2.visits_arbitrary = [100,80,30,10,10,10,10,10,10,10]
+    test2.count_arbitrary = [1,2,4,5,7,8,10,22,500,501]
+    
+    result = test2.sort(test2.visits_arbitrary, test2.count_arbitrary)
+    
+    assert_equal(5, result.length, "Array length error")
+    
+    assert_equal(100, result[0], "Result error")
+    assert_equal(80, result[1], "Result error")
+    assert_equal(0, result[2], "Result error")
+    assert_equal(30, result[3], "Result error")
+    assert_equal(70, result[4], "Result error")
+  end
+
+end

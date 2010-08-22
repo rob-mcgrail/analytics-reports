@@ -1,0 +1,107 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
+
+require "test/unit"
+
+class MockUniques < Uniques
+  attr_writer :reporting, :previous, :baseline, :monthly_reporting, :monthly_previous, :monthly_baseline
+  
+  attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months, :temporary_results, :array_of_start_dates, :array_of_end_dates
+  
+  def arbitrary(start_date, end_date)
+    100
+  end
+end
+
+class UniquesTest < Test::Unit::TestCase
+  
+  def setup
+    $display = Unix.new
+    Biotech_session.new
+  end
+
+  def test_monthly_arbitrary
+    mock = MockUniques.new
+    ave = mock.monthly_arbitrary(mock.start_date_baseline, mock.end_date_baseline, mock.baseline_number_of_months)
+    
+    assert_equal( 100, ave, ["Average error"])
+    
+    assert_equal(6, mock.array_of_start_dates.length, ["Array length error"])
+    
+    mock.array_of_start_dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+        
+    assert_equal( Date.new(y=2009,m=12,d=8), mock.array_of_start_dates[0], ["Date error"])
+    assert_equal( Date.new(y=2009,m=11,d=8), mock.array_of_start_dates[1], ["Date error"])
+    assert_equal( Date.new(y=2009,m=10,d=8), mock.array_of_start_dates[2], ["Date error"])
+    assert_equal( Date.new(y=2009,m=9,d=8), mock.array_of_start_dates[3], ["Date error"])
+    assert_equal( Date.new(y=2009,m=8,d=8), mock.array_of_start_dates[4], ["Date error"])
+    assert_equal( Date.new(y=2009,m=7,d=8), mock.array_of_start_dates[5], ["Date error"])    
+    # test dates
+    
+    #test average
+    
+    assert_equal(6, mock.array_of_end_dates.length, ["Array length error"])
+    
+    mock.array_of_end_dates.each {|thing| assert_not_nil( thing, ["Date returned as nil error"])}
+    
+    assert_equal( Date.new(y=2010,m=1,d=8), mock.array_of_end_dates[0], ["Date error"])
+    assert_equal( Date.new(y=2009,m=12,d=8), mock.array_of_end_dates[1], ["Date error"])
+    assert_equal( Date.new(y=2009,m=11,d=8), mock.array_of_end_dates[2], ["Date error"])
+    assert_equal( Date.new(y=2009,m=10,d=8), mock.array_of_end_dates[3], ["Date error"])
+    assert_equal( Date.new(y=2009,m=9,d=8), mock.array_of_end_dates[4], ["Date error"])
+    assert_equal( Date.new(y=2009,m=8,d=8), mock.array_of_end_dates[5], ["Date error"])  
+  end
+  
+  def test_monthly_reporting
+    assert_equal(100, MockUniques.new.reporting, ["Results error"])
+    
+    mock_monthly = MockUniques.new
+    mock_monthly.monthly_reporting = 10
+    assert_equal(10, mock_monthly.monthly_reporting, ["Redundancy error"])
+  end
+  
+  def test_monthly_previous
+    assert_equal(100, MockUniques.new.reporting, ["Results error"])
+    
+    mock_monthly = MockUniques.new
+    mock_monthly.previous = 10
+    assert_equal(10, mock_monthly.previous, ["Redundancy error"])
+  end
+  
+  def test_monthly_baseline
+    assert_equal(100, MockUniques.new.reporting, ["Results error"])
+    
+    mock_monthly = MockUniques.new
+    mock_monthly.baseline = 10
+    assert_equal(10, mock_monthly.baseline, ["Redundancy error"])
+  end
+
+  def test_arbitrary
+    assert_equal(15763, Uniques.new.arbitrary(Date.new(y=2010,m=1,d=9), Date.new(y=2010,m=3,d=9)), ["Results error"])
+  end
+  
+  def test_reporting
+    assert_equal(15763, Uniques.new.reporting, ["Results error"])
+    
+    mock_uniques = MockUniques.new
+    mock_uniques.reporting = 10
+    assert_equal(10, mock_uniques.reporting, ["Redundancy error"])
+  end
+  
+  def test_previous
+    assert_equal(12862, Uniques.new.previous, ["Results error"])
+    
+    mock_uniques = MockUniques.new
+    mock_uniques.previous = 10
+    assert_equal(10, mock_uniques.previous, ["Redundancy error"])
+  end
+  
+  def test_baseline
+    assert_equal(36221, Uniques.new.baseline, ["Results error"])
+    
+    mock_uniques = MockUniques.new
+    mock_uniques.baseline = 10
+    assert_equal(10, mock_uniques.baseline, ["Redundancy error"])
+  end
+  
+end

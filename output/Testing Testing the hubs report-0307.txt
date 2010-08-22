@@ -1,0 +1,4730 @@
+
+Report run 2010-07-03T12:19:07+12:00
+
+
+Profile: Biotech
+
+Reporting period starts 2010-05-01
+
+Reporting period ends 2010-05-31
+
+Previous period starts 2010-04-01
+
+Previous period ends 2010-04-30
+
+Baseline period starts 2009-04-30
+
+Baseline period ends 2010-04-30
+
+
+
+Summary----------------------------------
+
+
+Average daily value is 335
+Average baseline daily value is 246
+Reporting daily visit values for graph:
+212
+210
+378
+400
+409
+369
+339
+184
+163
+430
+491
+468
+406
+407
+206
+236
+399
+392
+406
+411
+372
+167
+202
+418
+420
+411
+446
+366
+158
+190
+328
+
+
+
+Report visits is 10394
+Percentage change from last period is 11% (UP (Green))
+Baseline change is 34% (UP (Green))
+Previous visits is 9366
+Baseline reporting-period-based average visits is 7737
+
+
+
+Report monthly average uniques is 9012
+Percentage change from last period is 7% (UP (Green))
+Baseline change from last period is 33% (UP (Green))
+Previous monthly average uniques is 8436
+Baseline monthly average uniques is 6766
+
+
+
+Reporting period bounce-rate is 6%
+Previous period bounce-rate is 7%
+Baseline period bounce-rate is 32%
+Percentage change from last period is -14% (DOWN (Green))
+Percentage change against baseline is -82% (DOWN (Green))
+
+
+
+Reporting period ave time is 02:30
+Previous period ave time is 02:11
+Baseline period ave time is 02:11
+Percentage change from previous period is 14% (UP (Green))
+Percentage change from baseline period is 15% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 4.77
+Previous period Pages/Visits is 4.34
+Baseline period Pages/Visits is 3.79
+Percentage change from previous period is 10% (UP (Green))
+Percentage change from baseline period is 26% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 80 / 20%
+
+
+
+google
+visits/total 67%
+bouncerate 1%
+average session time 02:18.
+(direct)
+visits/total 13%
+bouncerate 6%
+average session time 03:17.
+yahoo
+visits/total 3%
+bouncerate 4%
+average session time 01:37.
+bing
+visits/total 2%
+bouncerate 6%
+average session time 02:08.
+google.com
+visits/total 2%
+bouncerate 76%
+average session time 00:38.
+Sciencelearn
+visits/total 2%
+bouncerate 0%
+average session time 03:09.
+aknormal.knowledge.net.nz
+visits/total 1%
+bouncerate 1%
+average session time 05:17.
+
+
+
+New Zealand
+visits/total 45%
+United States
+visits/total 19%
+United Kingdom
+visits/total 12%
+Australia
+visits/total 5%
+India
+visits/total 2%
+Canada
+visits/total 2%
+South Africa
+visits/total 1%
+Reporting hourly visit values for graph:
+321
+379
+344
+291
+294
+291
+321
+338
+454
+580
+591
+579
+537
+548
+603
+461
+467
+411
+407
+440
+498
+510
+405
+324
+
+NZ Summary----------------------------------
+
+
+Average daily value is 150
+Average baseline daily value is 81
+Reporting daily visit values for graph:
+75
+87
+175
+154
+170
+162
+121
+69
+63
+199
+238
+190
+192
+180
+87
+111
+208
+181
+185
+212
+189
+44
+98
+208
+192
+164
+213
+156
+46
+84
+195
+
+
+
+Report visits is 4648
+Percentage change from last period is 50% (UP (Green))
+Baseline change is 83% (UP (Green))
+Previous visits is 3097
+Baseline reporting-period-based average visits is 2535
+
+
+
+Report monthly average uniques is 3185
+Percentage change from last period is 39% (UP (Green))
+Baseline change from last period is 79% (UP (Green))
+Previous monthly average uniques is 2290
+Baseline monthly average uniques is 1780
+
+
+
+Reporting period bounce-rate is 2%
+Previous period bounce-rate is 2%
+Baseline period bounce-rate is 30%
+Percentage change from last period is 8% (UP (Red))
+Percentage change against baseline is -94% (DOWN (Green))
+
+
+
+Reporting period ave time is 03:33
+Previous period ave time is 03:26
+Baseline period ave time is 03:31
+Percentage change from previous period is 3% (UP (Green))
+Percentage change from baseline period is 1% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 6.25
+Previous period Pages/Visits is 6.14
+Baseline period Pages/Visits is 5.48
+Percentage change from previous period is 2% (UP (Green))
+Percentage change from baseline period is 14% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 67 / 33%
+
+
+
+google
+visits/total 64%
+bouncerate 1%
+average session time 03:14.
+(direct)
+visits/total 18%
+bouncerate 2%
+average session time 03:50.
+Sciencelearn
+visits/total 3%
+bouncerate 0%
+average session time 03:14.
+aknormal.knowledge.net.nz
+visits/total 3%
+bouncerate 1%
+average session time 05:17.
+yahoo
+visits/total 1%
+bouncerate 2%
+average session time 01:49.
+
+
+
+Content pageviews limit is 16
+
+/, pageviews: 2684, average time: 00:40
+/themes/biotech_therapies/xenotransplantation, pageviews: 721, average time: 00:11
+/themes/biotech_therapies/xenotransplantation/, pageviews: 685, average time: 04:08
+/content/advancedsearch/, pageviews: 565, average time: 00:38
+/focus_stories/biological_control_of_possums/, pageviews: 483, average time: 02:05
+/focus_stories/biological_control_of_possums, pageviews: 476, average time: 00:03
+/focus_stories/transgenic_cows, pageviews: 284, average time: 00:02
+
+
+
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 55, average time: 05:52
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 118, average time: 04:55
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053/, pageviews: 17, average time: 04:52
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 26, average time: 04:39
+/themes/future_farming/what_is_silage/, pageviews: 41, average time: 04:13
+/focus_stories/transgenic_cows/making_a_transgenic_animal/, pageviews: 64, average time: 04:12
+/themes/biotech_therapies/xenotransplantation/, pageviews: 685, average time: 04:08
+
+
+
+Reporting hourly visit values for graph:
+29
+19
+7
+7
+7
+5
+9
+55
+194
+370
+422
+397
+327
+344
+405
+273
+295
+249
+247
+256
+271
+237
+158
+65
+
+AUS Summary----------------------------------
+
+
+Average daily value is 18
+Average baseline daily value is 13
+Reporting daily visit values for graph:
+3
+13
+19
+21
+22
+23
+4
+6
+13
+28
+26
+26
+23
+18
+13
+11
+23
+29
+24
+26
+10
+11
+13
+27
+28
+28
+22
+16
+13
+18
+14
+
+
+
+Report visits is 571
+Percentage change from last period is 30% (UP (Green))
+Baseline change is 37% (UP (Green))
+Previous visits is 439
+Baseline reporting-period-based average visits is 417
+
+
+
+Report monthly average uniques is 505
+Percentage change from last period is 23% (UP (Green))
+Baseline change from last period is 37% (UP (Green))
+Previous monthly average uniques is 411
+Baseline monthly average uniques is 368
+
+
+
+Reporting period bounce-rate is 6%
+Previous period bounce-rate is 5%
+Baseline period bounce-rate is 40%
+Percentage change from last period is 12% (UP (Red))
+Percentage change against baseline is -86% (DOWN (Green))
+
+
+
+Reporting period ave time is 01:58
+Previous period ave time is 01:31
+Baseline period ave time is 01:28
+Percentage change from previous period is 29% (UP (Green))
+Percentage change from baseline period is 33% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 4.16
+Previous period Pages/Visits is 3.49
+Baseline period Pages/Visits is 2.78
+Percentage change from previous period is 19% (UP (Green))
+Percentage change from baseline period is 50% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 86 / 14%
+
+
+
+google
+visits/total 73%
+bouncerate 1%
+average session time 01:44.
+(direct)
+visits/total 10%
+bouncerate 0%
+average session time 03:44.
+google.com.au
+visits/total 6%
+bouncerate 62%
+average session time 01:33.
+bing
+visits/total 4%
+bouncerate 5%
+average session time 01:05.
+yahoo
+visits/total 2%
+bouncerate 9%
+average session time 03:17.
+
+
+
+Content pageviews limit is 2
+
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 72, average time: 05:14
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 72, average time: 00:07
+/themes/dna_lab/gel_electrophoresis/, pageviews: 47, average time: 04:07
+/themes/dna_lab/gel_electrophoresis, pageviews: 47, average time: 00:00
+/, pageviews: 34, average time: 00:22
+/focus_stories/honey_to_heal/experiment_the_viscosity_of_honey, pageviews: 27, average time: 00:01
+/focus_stories/honey_to_heal/experiment_the_viscosity_of_honey/, pageviews: 27, average time: 00:08
+
+
+
+/themes/bioethics/frameworks_for_ethical_analysis/, pageviews: 8, average time: 10:37
+/themes/biotech_therapies/xenotransplantation/, pageviews: 16, average time: 09:43
+/themes/cell_biology_and_genetics/the_ethics_of_zebrafish_in_research/, pageviews: 5, average time: 09:35
+/focus_stories/evolved_enzymes/factors_that_influence_evolution/, pageviews: 8, average time: 07:04
+/themes/biotech_therapies/stem_cells/, pageviews: 12, average time: 06:19
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/, pageviews: 17, average time: 06:04
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 72, average time: 05:14
+
+
+
+Reporting hourly visit values for graph:
+46
+28
+12
+4
+5
+3
+4
+1
+1
+6
+9
+20
+28
+36
+33
+43
+35
+40
+24
+43
+38
+33
+41
+38
+
+US Summary----------------------------------
+
+
+Average daily value is 63
+Average baseline daily value is 59
+Reporting daily visit values for graph:
+53
+42
+87
+101
+113
+80
+104
+39
+30
+69
+98
+89
+68
+96
+38
+32
+52
+73
+76
+56
+60
+38
+30
+67
+70
+53
+72
+62
+37
+32
+43
+
+
+
+Report visits is 1960
+Percentage change from last period is -25% (Down (Red))
+Baseline change is 6% (UP (Green))
+Previous visits is 2626
+Baseline reporting-period-based average visits is 1856
+
+
+
+Report monthly average uniques is 1832
+Percentage change from last period is -24% (Down (Red))
+Baseline change from last period is 5% (UP (Green))
+Previous monthly average uniques is 2406
+Baseline monthly average uniques is 1740
+
+
+
+Reporting period bounce-rate is 9%
+Previous period bounce-rate is 8%
+Baseline period bounce-rate is 30%
+Percentage change from last period is 14% (UP (Red))
+Percentage change against baseline is -69% (DOWN (Green))
+
+
+
+Reporting period ave time is 01:33
+Previous period ave time is 01:37
+Baseline period ave time is 01:29
+Percentage change from previous period is -4% (Down (Red))
+Percentage change from baseline period is 5% (UP (Green))
+
+
+
+Reporting period Pages/Visits is 3.57
+Previous period Pages/Visits is 3.62
+Baseline period Pages/Visits is 3.19
+Percentage change from previous period is -1% (Down (Red))
+Percentage change from baseline period is 12% (UP (Green))
+
+
+New/Returning visit percentages for reporting period was 89 / 11%
+
+
+
+google
+visits/total 63%
+bouncerate 1%
+average session time 01:35.
+google.com
+visits/total 8%
+bouncerate 78%
+average session time 00:35.
+(direct)
+visits/total 8%
+bouncerate 10%
+average session time 01:53.
+yahoo
+visits/total 7%
+bouncerate 1%
+average session time 01:44.
+bing
+visits/total 5%
+bouncerate 9%
+average session time 01:23.
+
+
+
+Content pageviews limit is 5
+
+/themes/biotech_therapies/stem_cells/, pageviews: 334, average time: 01:45
+/themes/biotech_therapies/stem_cells, pageviews: 332, average time: 00:01
+/themes/biotech_therapies/timeline_for_stem_cell_research, pageviews: 309, average time: 00:08
+/themes/biotech_therapies/timeline_for_stem_cell_research/, pageviews: 308, average time: 04:38
+/, pageviews: 188, average time: 00:36
+/themes/dna_lab/gel_electrophoresis, pageviews: 164, average time: 00:00
+/themes/dna_lab/gel_electrophoresis/, pageviews: 161, average time: 02:09
+
+
+
+/focus_stories/honey_to_heal/video_clips/what_is_alginate_v0317/, pageviews: 13, average time: 12:04
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 24, average time: 10:36
+/focus_stories/forensics/dna_profiling/, pageviews: 11, average time: 07:35
+/themes/dna_lab/dna_cloning/, pageviews: 17, average time: 06:01
+/themes/biotech_at_home/fish_into_face_cream_and_algae_into_paint_what_is_niwa_up_to/changing_fish_waste_into_cosmetics_v0092/, pageviews: 8, average time: 05:40
+/themes/dna_lab/pcr_polymerase_chain_reaction/, pageviews: 18, average time: 05:24
+/focus_stories/honey_to_heal/from_bees_to_bandages/, pageviews: 7, average time: 05:20
+
+
+
+Reporting hourly visit values for graph:
+49
+76
+112
+110
+118
+134
+140
+119
+127
+90
+95
+102
+133
+99
+108
+92
+80
+54
+36
+16
+15
+9
+10
+36
+
+New----------------------------------
+
+
+Report visits is 8274
+Percentage change from last period is 9% (UP (Green))
+Baseline change is 28% (UP (Green))
+Previous visits is 7573
+Baseline reporting-period-based average visits is 6455
+
+
+
+Reporting period bounce-rate is 7%
+Previous period bounce-rate is 8%
+Baseline period bounce-rate is 34%
+Percentage change from last period is -11% (DOWN (Green))
+Percentage change against baseline is -80% (DOWN (Green))
+
+
+
+/, pageviews: 1969, average time: 00:40
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 1143, average time: 00:05
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 1122, average time: 03:28
+/themes/biotech_therapies/xenotransplantation, pageviews: 566, average time: 00:14
+/themes/biotech_therapies/xenotransplantation/, pageviews: 532, average time: 04:47
+/content/advancedsearch/, pageviews: 432, average time: 00:41
+/themes/biotech_therapies/stem_cells, pageviews: 417, average time: 00:02
+
+
+
+1 page = 570
+2 pages = 5134
+3 pages = 66
+4 pages = 873
+>4 pages = 1631
+
+
+
+0-10 = 5516
+11-30 = 428
+31-60 = 344
+61-180 = 691
+180+ = 801
+
+
+
+
+New New Zealand----------------------------------
+
+
+Report visits is 3124
+Percentage change from last period is 47% (UP (Green))
+Baseline change is 75% (UP (Green))
+Previous visits is 2118
+Baseline reporting-period-based average visits is 1782
+
+
+
+Reporting period bounce-rate is 2%
+Previous period bounce-rate is 2%
+Baseline period bounce-rate is 34%
+Percentage change from last period is 0% (UP (Red))
+Percentage change against baseline is -94% (DOWN (Green))
+
+
+
+/, pageviews: 1487, average time: 00:44
+/themes/biotech_therapies/xenotransplantation, pageviews: 490, average time: 00:16
+/themes/biotech_therapies/xenotransplantation/, pageviews: 459, average time: 04:54
+/focus_stories/biological_control_of_possums/, pageviews: 368, average time: 02:13
+/focus_stories/biological_control_of_possums, pageviews: 360, average time: 00:03
+/content/advancedsearch/, pageviews: 294, average time: 00:40
+/index.php/focus_stories/honey_to_heal, pageviews: 181, average time: 00:03
+
+
+
+1 page = 68
+2 pages = 1750
+3 pages = 25
+4 pages = 366
+>4 pages = 915
+
+
+
+0-10 = 1770
+11-30 = 149
+31-60 = 156
+61-180 = 308
+180+ = 312
+
+
+
+
+Returning----------------------------------
+
+
+Report visits is 2120
+Percentage change from last period is 18% (UP (Green))
+Baseline change is 65% (UP (Green))
+Previous visits is 1793
+Baseline reporting-period-based average visits is 1282
+
+
+
+Reporting period bounce-rate is 1%
+Previous period bounce-rate is 2%
+Baseline period bounce-rate is 23%
+Percentage change from last period is -39% (DOWN (Green))
+Percentage change against baseline is -94% (DOWN (Green))
+
+
+
+/, pageviews: 1287, average time: 00:36
+/content/advancedsearch/, pageviews: 292, average time: 00:35
+/themes/biotech_therapies/xenotransplantation, pageviews: 245, average time: 00:01
+/themes/biotech_therapies/xenotransplantation/, pageviews: 239, average time: 02:26
+/focus_stories/transgenic_cows, pageviews: 153, average time: 00:01
+/focus_stories/transgenic_cows/, pageviews: 152, average time: 01:45
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 152, average time: 00:01
+
+
+
+1 page = 31
+2 pages = 1183
+3 pages = 13
+4 pages = 244
+>4 pages = 649
+
+
+
+0-10 = 1229
+11-30 = 122
+31-60 = 87
+61-180 = 125
+180+ = 139
+
+
+
+
+Returning New Zealand----------------------------------
+
+
+Report visits is 1524
+Percentage change from last period is 56% (UP (Green))
+Baseline change is 102% (UP (Green))
+Previous visits is 979
+Baseline reporting-period-based average visits is 753
+
+
+
+Reporting period bounce-rate is 1%
+Previous period bounce-rate is 1%
+Baseline period bounce-rate is 22%
+Percentage change from last period is 71% (UP (Red))
+Percentage change against baseline is -95% (DOWN (Green))
+
+
+
+/, pageviews: 1197, average time: 00:35
+/content/advancedsearch/, pageviews: 271, average time: 00:37
+/themes/biotech_therapies/xenotransplantation, pageviews: 231, average time: 00:01
+/themes/biotech_therapies/xenotransplantation/, pageviews: 226, average time: 02:30
+/focus_stories/transgenic_cows, pageviews: 128, average time: 00:01
+/focus_stories/transgenic_cows/, pageviews: 127, average time: 01:46
+/focus_stories/biological_control_of_possums, pageviews: 116, average time: 00:01
+
+
+
+1 page = 16
+2 pages = 838
+3 pages = 9
+4 pages = 156
+>4 pages = 505
+
+
+
+0-10 = 866
+11-30 = 75
+31-60 = 57
+61-180 = 77
+180+ = 93
+
+
+
+
+NewsLetter----------------------------------
+
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+16
+68
+26
+15
+3
+0
+1
+2
+7
+5
+2
+4
+0
+1
+1
+5
+1
+0
+0
+0
+1
+2
+Report visits is 160
+Percentage change from last period is inf% (UP (Green))
+Baseline change is inf% (UP (Green))
+Previous visits is 0
+Baseline reporting-period-based average visits is 0
+
+
+
+Report monthly average uniques is 94
+Percentage change from last period is inf% (UP (Green))
+Baseline change from last period is inf% (UP (Green))
+Previous monthly average uniques is 0
+Baseline monthly average uniques is 0
+
+
+
+Reporting period bounce-rate is 0%
+Previous period bounce-rate is 9999999999%
+Baseline period bounce-rate is 9999999999%
+Percentage change from last period is -100% (DOWN (Green))
+Percentage change against baseline is -100% (DOWN (Green))
+
+
+
+Reporting period Pages/Visits is 8.11
+Previous period Pages/Visits is nan
+Baseline period Pages/Visits is nan
+Percentage change from previous period is nan% (Down (Red))
+Percentage change from baseline period is nan% (Down (Red))
+
+
+
+Reporting period ave time is 03:09
+Previous period ave time is 00:00
+Baseline period ave time is 00:00
+Percentage change from previous period is nan% (Down (Red))
+Percentage change from baseline period is nan% (Down (Red))
+
+
+
+
+Most Printed----------------------------------
+
+
+/Biotech/PrintLink (1)
+/about_biotech (1)
+/focus_stories/biological_control_of_possums/delivering_biocontrol_agents_to_possums (1)
+/focus_stories/biological_control_of_possums/possum_vaccines_and_reproductive_proteins (1)
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility (1)
+/focus_stories/biological_control_of_possums/video_clips/biocontrol_and_the_importance_of_species_specificity_v0057/(size)/small (1)
+/focus_stories/biological_control_of_possums/video_clips/biocontrol_and_vectors_what_is_a_vector_v0044 (1)
+/focus_stories/biological_control_of_possums/video_clips/genetically_modifying_worms_to_affect_possum_fertility_v0061 (1)
+/focus_stories/biological_control_of_possums/video_clips/parastrongyloides_trichosuri_a_possum_parasite_v0060 (1)
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053 (1)
+1 page = 0
+2 pages = 0
+3 pages = 1
+4 pages = 0
+>4 pages = 6
+
+
+
+0-10 = 1
+11-30 = 0
+31-60 = 0
+61-180 = 1
+180+ = 5
+
+
+
+New Zealand/international percentages for reporting period were 86 / 14%
+New Zealand/international percentages for previous period were 9999999999 / -9999999899%
+New Zealand/international percentages for baseline period were 9999999999 / -9999999899%
+New Zealand visits against baseline changed -100% (DOWN (Grey))
+
+
+
+/focus_stories
+
+Reporting
+
+14572
+Previous
+
+12069
+Change
+
+
+20.7390836026183
+
+
+
+Content pageviews limit is 10
+
+By Time for /focus_stories
+
+/focus_stories/nutrigenomics/microarrays_dna_chips/, pageviews: 19, average time: 05:09
+/focus_stories/honey_to_heal/video_clips/what_is_alginate_v0317/, pageviews: 25, average time: 05:03
+/focus_stories/mining_milk/what_to_do_with_whey_waste/, pageviews: 12, average time: 04:40
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053/, pageviews: 18, average time: 04:30
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/, pageviews: 24, average time: 03:58
+
+
+
+By Views for /focus_stories
+
+/focus_stories/biological_control_of_possums/, pageviews: 507, average time: 02:04
+/focus_stories/biological_control_of_possums, pageviews: 498, average time: 00:03
+/focus_stories/transgenic_cows, pageviews: 359, average time: 00:02
+/focus_stories/transgenic_cows/, pageviews: 352, average time: 02:01
+/focus_stories, pageviews: 283, average time: 00:00
+
+
+
+Navigation for /focus_stories
+
+
+Previous pages for /focus_stories
+
+/ (44)
+(entrance) (18)
+/about_biotech/ (15)
+/focus_stories/transgenic_cows/ (14)
+/content/advancedsearch/ (9)
+/focus_stories/ (8)
+/focus_stories/forensics/ (6)
+
+Next pages for /focus_stories
+
+/focus_stories/ (273)
+/focus_stories (2)
+/focus_stories/transgenic_cows (2)
+/about_biotech/biotech_in_schools (1)
+/focus_stories/(offset)/9/(year)//(month)//(day)//(namefilter) (1)
+/themes (1)
+/themes/bioethics/images/whale_on_the_docks (1)
+
+
+
+/focus_stories/biological_control_of_possums
+
+Reporting
+
+2996
+Previous
+
+3045
+Change
+
+
+-1.60919540229885
+
+
+
+Content pageviews limit is 14
+
+By Time for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053/, pageviews: 18, average time: 04:30
+/focus_stories/biological_control_of_possums/delivering_biocontrol_agents_to_possums/, pageviews: 77, average time: 03:36
+/focus_stories/biological_control_of_possums/possum_vaccines_and_reproductive_proteins/, pageviews: 43, average time: 03:32
+/focus_stories/biological_control_of_possums/biological_control_of_possums_useful_links/, pageviews: 108, average time: 03:28
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/, pageviews: 158, average time: 02:53
+
+
+
+By Views for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/, pageviews: 507, average time: 02:04
+/focus_stories/biological_control_of_possums, pageviews: 498, average time: 00:03
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/, pageviews: 158, average time: 02:53
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility, pageviews: 158, average time: 00:00
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility, pageviews: 137, average time: 00:02
+
+
+
+Navigation for /focus_stories/biological_control_of_possums
+
+
+Previous pages for /focus_stories/biological_control_of_possums
+
+(entrance) (247)
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility/ (38)
+/focus_stories/biological_control_of_possums/ (37)
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/ (35)
+/ (19)
+/focus_stories/biological_control_of_possums/terms_and_definitions_possum_biocontrol/ (19)
+/focus_stories/biological_control_of_possums/delivering_biocontrol_agents_to_possums/ (14)
+
+Next pages for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/ (484)
+/focus_stories/biological_control_of_possums (3)
+/ (1)
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility (1)
+/focus_stories/transgenic_cows (1)
+/index.php/biotechlearn/focus_stories/biological_control_of_possums/possum_fertility_control (1)
+
+
+
+/focus_stories/evolved_enzymes
+
+Reporting
+
+555
+Previous
+
+622
+Change
+
+
+-10.7717041800643
+
+
+
+Content pageviews limit is 6
+
+By Time for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/video_clips/all_about_enzymes_v0364/, pageviews: 8, average time: 03:00
+/focus_stories/evolved_enzymes/factors_that_influence_evolution/, pageviews: 67, average time: 02:45
+/focus_stories/evolved_enzymes/video_clips/causes_of_genetic_variation_v0357/, pageviews: 48, average time: 02:30
+/focus_stories/evolved_enzymes/, pageviews: 35, average time: 01:18
+/focus_stories/evolved_enzymes/directed_evolution_makes_useful_enzymes/, pageviews: 14, average time: 00:59
+
+
+
+By Views for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/factors_that_influence_evolution, pageviews: 69, average time: 00:01
+/focus_stories/evolved_enzymes/factors_that_influence_evolution/, pageviews: 67, average time: 02:45
+/focus_stories/evolved_enzymes/video_clips/causes_of_genetic_variation_v0357, pageviews: 50, average time: 00:05
+/focus_stories/evolved_enzymes/video_clips/causes_of_genetic_variation_v0357/, pageviews: 48, average time: 02:30
+/focus_stories/evolved_enzymes/, pageviews: 35, average time: 01:18
+
+
+
+Navigation for /focus_stories/evolved_enzymes
+
+
+Previous pages for /focus_stories/evolved_enzymes
+
+(entrance) (8)
+/ (8)
+/focus_stories/ (7)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (3)
+/about_this_site/glossary/prodrug/ (1)
+/about_this_site/glossary/selective_breeding/ (1)
+/focus_stories/evolved_enzymes/ (1)
+
+Next pages for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/ (35)
+
+
+
+/focus_stories/fish_oil_in_functional_food
+
+Reporting
+
+369
+Previous
+
+554
+Change
+
+
+-33.3935018050542
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food/images/fish_scales, pageviews: 30, average time: 01:37
+/focus_stories/fish_oil_in_functional_food/, pageviews: 40, average time: 01:31
+/focus_stories/fish_oil_in_functional_food/developing_microencapsulation_technology/, pageviews: 16, average time: 01:16
+/focus_stories/fish_oil_in_functional_food/video_clips/microencapsulation_technology_meets_market_opportunity_v0383/, pageviews: 5, average time: 01:07
+/focus_stories/fish_oil_in_functional_food/microencapsulating_fish_oil/, pageviews: 9, average time: 01:01
+
+
+
+By Views for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food, pageviews: 41, average time: 00:01
+/focus_stories/fish_oil_in_functional_food/, pageviews: 40, average time: 01:31
+/focus_stories/fish_oil_in_functional_food/images/fish_scales, pageviews: 30, average time: 01:37
+/focus_stories/fish_oil_in_functional_food/images/inuit_fishing, pageviews: 20, average time: 00:16
+/focus_stories/fish_oil_in_functional_food/developing_microencapsulation_technology/, pageviews: 16, average time: 01:16
+
+
+
+Navigation for /focus_stories/fish_oil_in_functional_food
+
+
+Previous pages for /focus_stories/fish_oil_in_functional_food
+
+(entrance) (18)
+/focus_stories/ (7)
+/ (6)
+/focus_stories/fish_oil_in_functional_food/ (2)
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food/ (2)
+/about_biotech/organisations/riddet_institute/ (1)
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food (1)
+
+Next pages for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food/ (36)
+/content/advancedsearch?SearchText=modelling+and+prototyping&SubTreeArray[]=2&x=13&y=12 (1)
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food/ (1)
+/focus_stories/fish_oil_in_functional_food/developing_microencapsulation_technology (1)
+
+
+
+/focus_stories/forensics
+
+Reporting
+
+762
+Previous
+
+596
+Change
+
+
+27.8523489932886
+
+
+
+Content pageviews limit is 16
+
+By Time for /focus_stories/forensics
+
+/focus_stories/forensics/dna_profiling/, pageviews: 254, average time: 03:38
+/focus_stories/forensics/new_zealand_s_dna_databank/, pageviews: 27, average time: 01:57
+/focus_stories/forensics/, pageviews: 59, average time: 00:48
+/focus_stories/forensics/dna_profiling, pageviews: 257, average time: 00:02
+/focus_stories/forensics, pageviews: 60, average time: 00:01
+
+
+
+By Views for /focus_stories/forensics
+
+/focus_stories/forensics/dna_profiling, pageviews: 257, average time: 00:02
+/focus_stories/forensics/dna_profiling/, pageviews: 254, average time: 03:38
+/focus_stories/forensics, pageviews: 60, average time: 00:01
+/focus_stories/forensics/, pageviews: 59, average time: 00:48
+/focus_stories/forensics/new_zealand_s_dna_databank/, pageviews: 27, average time: 01:57
+
+
+
+Navigation for /focus_stories/forensics
+
+
+Previous pages for /focus_stories/forensics
+
+/focus_stories/ (13)
+(entrance) (10)
+/ (8)
+/focus_stories/forensics/dna_profiling/ (6)
+/themes/crime_scene_biotech/ (5)
+/about_this_site/glossary/dna_profile/ (4)
+/focus_stories/forensics/ (3)
+
+Next pages for /focus_stories/forensics
+
+/focus_stories/forensics/ (55)
+/ (1)
+/focus_stories/forensics/dna_profiling (1)
+/focus_stories/forensics/wrapper (1)
+
+
+
+/focus_stories/future_foods
+
+Reporting
+
+1071
+Previous
+
+831
+Change
+
+
+28.8808664259928
+
+
+
+Content pageviews limit is 7
+
+By Time for /focus_stories/future_foods
+
+/focus_stories/future_foods/video_clips/measuring_blood_glucose_v0286/, pageviews: 9, average time: 04:59
+/focus_stories/future_foods/food_for_energy, pageviews: 9, average time: 03:10
+/focus_stories/future_foods/chewing_for_energy/, pageviews: 11, average time: 03:08
+/focus_stories/future_foods/video_clips/starch_in_3d_v0294/, pageviews: 12, average time: 01:52
+/focus_stories/future_foods/student_activity_sorting_food_into_groups/, pageviews: 46, average time: 01:52
+
+
+
+By Views for /focus_stories/future_foods
+
+/focus_stories/future_foods/designing_a_model_of_the_human_digestive_system, pageviews: 145, average time: 00:03
+/focus_stories/future_foods/designing_a_model_of_the_human_digestive_system/, pageviews: 143, average time: 01:00
+/focus_stories/future_foods/, pageviews: 70, average time: 01:16
+/focus_stories/future_foods, pageviews: 64, average time: 00:00
+/focus_stories/future_foods/student_activity_sorting_food_into_groups, pageviews: 47, average time: 00:00
+
+
+
+Navigation for /focus_stories/future_foods
+
+
+Previous pages for /focus_stories/future_foods
+
+(entrance) (18)
+/ (10)
+/focus_stories/ (6)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (5)
+/focus_stories/future_foods/ (3)
+/focus_stories/future_foods/guiding_food_choices/ (3)
+/focus_stories/future_foods/making_new_foods/ (2)
+
+Next pages for /focus_stories/future_foods
+
+/focus_stories/future_foods/ (63)
+/focus_stories/future_foods/wrapper (1)
+
+
+
+/focus_stories/honey_to_heal
+
+Reporting
+
+2470
+Previous
+
+1706
+Change
+
+
+44.7831184056272
+
+
+
+Content pageviews limit is 8
+
+By Time for /focus_stories/honey_to_heal
+
+/index.php/focus_stories/honey_to_heal/honey_to_heal_useful_links/, pageviews: 9, average time: 05:19
+/focus_stories/honey_to_heal/video_clips/what_is_alginate_v0317/, pageviews: 25, average time: 05:03
+/focus_stories/honey_to_heal/experiment_antibacterial_effects_of_honey/, pageviews: 59, average time: 03:54
+/focus_stories/honey_to_heal/experiment_making_honey_crystals/, pageviews: 31, average time: 02:58
+/focus_stories/honey_to_heal/video_clips/biotechnology_improving_health_v0338/, pageviews: 9, average time: 02:36
+
+
+
+By Views for /focus_stories/honey_to_heal
+
+/index.php/focus_stories/honey_to_heal, pageviews: 216, average time: 00:03
+/index.php/focus_stories/honey_to_heal/, pageviews: 215, average time: 01:57
+/focus_stories/honey_to_heal/experiment_the_viscosity_of_honey, pageviews: 188, average time: 00:01
+/focus_stories/honey_to_heal/experiment_the_viscosity_of_honey/, pageviews: 185, average time: 01:52
+/focus_stories/honey_to_heal/how_honey_heals_wounds, pageviews: 102, average time: 00:03
+
+
+
+Navigation for /focus_stories/honey_to_heal
+
+
+Previous pages for /focus_stories/honey_to_heal
+
+(entrance) (27)
+/focus_stories/ (16)
+/ (10)
+/focus_stories/honey_to_heal/ (7)
+/focus_stories/honey_to_heal/how_honey_heals_wounds/ (3)
+/about_biotech/organisations/honey_research_unit/ (2)
+/about_this_site/glossary/bacteria/ (2)
+
+Next pages for /focus_stories/honey_to_heal
+
+/focus_stories/honey_to_heal/ (88)
+/focus_stories/honey_to_heal/images/beekeeper (2)
+/content/advancedsearch?SearchText=antibacterial+effects+of+honey&SubTreeArray[]=1743 (1)
+/focus_stories (1)
+/focus_stories/forensics (1)
+/focus_stories/honey_to_heal/honeybees_and_manuka_trees (1)
+/focus_stories/honey_to_heal/how_honey_heals_wounds (1)
+
+
+
+/focus_stories/mining_milk
+
+Reporting
+
+369
+Previous
+
+497
+Change
+
+
+-25.7545271629779
+
+
+
+Content pageviews limit is 9
+
+By Time for /focus_stories/mining_milk
+
+/focus_stories/mining_milk/what_to_do_with_whey_waste/, pageviews: 12, average time: 04:40
+/focus_stories/mining_milk/, pageviews: 23, average time: 02:36
+/focus_stories/mining_milk/hydrolysis_of_protein/, pageviews: 104, average time: 01:57
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk/, pageviews: 20, average time: 00:24
+/focus_stories/mining_milk/hydrolysis_of_protein, pageviews: 103, average time: 00:03
+
+
+
+By Views for /focus_stories/mining_milk
+
+/focus_stories/mining_milk/hydrolysis_of_protein/, pageviews: 104, average time: 01:57
+/focus_stories/mining_milk/hydrolysis_of_protein, pageviews: 103, average time: 00:03
+/focus_stories/mining_milk, pageviews: 24, average time: 00:02
+/focus_stories/mining_milk/, pageviews: 23, average time: 02:36
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk/, pageviews: 20, average time: 00:24
+
+
+
+Navigation for /focus_stories/mining_milk
+
+
+Previous pages for /focus_stories/mining_milk
+
+/ (8)
+/focus_stories/ (3)
+(entrance) (2)
+/focus_stories/mining_milk/images/bubbly_milk/ (2)
+/focus_stories/mining_milk/did_you_know/ (1)
+/focus_stories/mining_milk/images/tatua_dairy_cooperative/ (1)
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk/ (1)
+
+Next pages for /focus_stories/mining_milk
+
+/focus_stories/mining_milk/ (23)
+/focus_stories (1)
+
+
+
+/focus_stories/nutrigenomics
+
+Reporting
+
+577
+Previous
+
+552
+Change
+
+
+4.52898550724638
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics/nutrigenomics2/, pageviews: 6, average time: 07:44
+/focus_stories/nutrigenomics/microarrays_dna_chips/, pageviews: 19, average time: 05:09
+/focus_stories/nutrigenomics/, pageviews: 53, average time: 03:05
+/focus_stories/nutrigenomics/gel_electrophoresis_can_be_used_to_find_genes_associated_with_a_disease/, pageviews: 29, average time: 01:44
+/focus_stories/nutrigenomics/nutrigenomics/what_is_the_goal_of_nutrigenomics_v0163/, pageviews: 6, average time: 01:34
+
+
+
+By Views for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics, pageviews: 55, average time: 00:00
+/focus_stories/nutrigenomics/, pageviews: 53, average time: 03:05
+/focus_stories/nutrigenomics/separating_out_foods_into_component_molecules, pageviews: 35, average time: 00:01
+/focus_stories/nutrigenomics/separating_out_foods_into_component_molecules/, pageviews: 34, average time: 00:57
+/focus_stories/nutrigenomics/gel_electrophoresis_can_be_used_to_find_genes_associated_with_a_disease, pageviews: 31, average time: 00:00
+
+
+
+Navigation for /focus_stories/nutrigenomics
+
+
+Previous pages for /focus_stories/nutrigenomics
+
+(entrance) (19)
+/focus_stories/ (12)
+/ (8)
+/focus_stories/nutrigenomics (2)
+/focus_stories/nutrigenomics/ (2)
+/about_this_site/glossary/ulcerative_colitis/ (1)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (1)
+
+Next pages for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics/ (50)
+/focus_stories/nutrigenomics (2)
+/focus_stories/nutrigenomics/images/microarray_results (1)
+/focus_stories/nutrigenomics/images/microarray_results/ (1)
+/focus_stories/nutrigenomics/wrapper (1)
+
+
+
+/focus_stories/potato_plates
+
+Reporting
+
+378
+Previous
+
+380
+Change
+
+
+-0.526315789473684
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/potato_plates
+
+/focus_stories/potato_plates/environmental_benefits_of_potato_plates/, pageviews: 7, average time: 04:08
+/focus_stories/potato_plates/, pageviews: 92, average time: 02:58
+/focus_stories/potato_plates/making_potato_plates/, pageviews: 5, average time: 02:11
+/focus_stories/potato_plates/images/potatoes, pageviews: 5, average time: 00:43
+/focus_stories/potato_plates/potato_plate_manufacturing_process/, pageviews: 17, average time: 00:32
+
+
+
+By Views for /focus_stories/potato_plates
+
+/focus_stories/potato_plates, pageviews: 94, average time: 00:14
+/focus_stories/potato_plates/, pageviews: 92, average time: 02:58
+/focus_stories/potato_plates/potato_plate_manufacturing_process/, pageviews: 17, average time: 00:32
+/focus_stories/potato_plates/potato_plate_manufacturing_process, pageviews: 17, average time: 00:01
+/focus_stories/potato_plates/developing_potato_plates, pageviews: 9, average time: 00:02
+
+
+
+Navigation for /focus_stories/potato_plates
+
+
+Previous pages for /focus_stories/potato_plates
+
+(entrance) (47)
+/ (11)
+/focus_stories/ (9)
+/focus_stories/potato_plates/ (6)
+/content/advancedsearch/ (2)
+/focus_stories/potato_plates (2)
+/focus_stories/potato_plates/video_clips/why_import_potato_starch_v0369/ (2)
+
+Next pages for /focus_stories/potato_plates
+
+/focus_stories/potato_plates/ (89)
+/focus_stories/potato_plates (2)
+/focus_stories/potato_plates/images/honeycomb_structure_of_potato_plates (1)
+
+
+
+/focus_stories/robotic_milking
+
+Reporting
+
+1023
+Previous
+
+1028
+Change
+
+
+-0.486381322957198
+
+
+
+Content pageviews limit is 5
+
+By Time for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking/to_moove_or_not_to_moove/, pageviews: 8, average time: 06:15
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/, pageviews: 24, average time: 03:58
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 37, average time: 02:57
+/focus_stories/robotic_milking/video_clips/automatic_milking_systems_and_controlling_cow_movement_v0130/, pageviews: 13, average time: 02:56
+/focus_stories/robotic_milking/robotic_milking_useful_links/, pageviews: 49, average time: 02:41
+
+
+
+By Views for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking, pageviews: 146, average time: 00:01
+/focus_stories/robotic_milking/, pageviews: 144, average time: 01:48
+/focus_stories/robotic_milking/robotic_milking_useful_links, pageviews: 50, average time: 00:04
+/focus_stories/robotic_milking/robotic_milking_useful_links/, pageviews: 49, average time: 02:41
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 37, average time: 02:57
+
+
+
+Navigation for /focus_stories/robotic_milking
+
+
+Previous pages for /focus_stories/robotic_milking
+
+(entrance) (88)
+/focus_stories/robotic_milking/ (13)
+/focus_stories/robotic_milking/video_clips/automatic_milking_systems_and_controlling_cow_movement_v0130/ (6)
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/ (6)
+/ (3)
+/focus_stories/robotic_milking/images/cow_eating_in_robotic_milking_stall/ (3)
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/ (3)
+
+Next pages for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking/ (138)
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132 (1)
+/focus_stories/robotic_milking/video_clips/what_is_the_greenfield_project_v0125 (1)
+
+
+
+/focus_stories/taewa_maori_potatoes
+
+Reporting
+
+400
+Previous
+
+458
+Change
+
+
+-12.6637554585153
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development/, pageviews: 10, average time: 01:21
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa/, pageviews: 17, average time: 00:58
+/focus_stories/taewa_maori_potatoes/, pageviews: 58, average time: 00:47
+/focus_stories/taewa_maori_potatoes/making_taewa_snacks/, pageviews: 7, average time: 00:43
+/focus_stories/taewa_maori_potatoes/student_activity_what_s_on_a_label/, pageviews: 8, average time: 00:31
+
+
+
+By Views for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes, pageviews: 59, average time: 00:14
+/focus_stories/taewa_maori_potatoes/, pageviews: 58, average time: 00:47
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa/, pageviews: 17, average time: 00:58
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa, pageviews: 17, average time: 00:00
+/focus_stories/taewa_maori_potatoes/taewa_maori_potatoes_useful_links/, pageviews: 17, average time: 00:10
+
+
+
+Navigation for /focus_stories/taewa_maori_potatoes
+
+
+Previous pages for /focus_stories/taewa_maori_potatoes
+
+(entrance) (29)
+/focus_stories/ (10)
+/ (5)
+/focus_stories/taewa_maori_potatoes/ (5)
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development/ (2)
+/focus_stories/taewa_maori_potatoes/the_cultural_value_of_taewa_maori_potatoes/ (2)
+/about_biotech/ (1)
+
+Next pages for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes/ (53)
+/ (1)
+/focus_stories/taewa_maori_potatoes/developing_novel_foods_from_taewa (1)
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development (1)
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa (1)
+/focus_stories/taewa_maori_potatoes/video_clips/identifying_opportunities_for_taewa (1)
+/focus_stories/taewa_maori_potatoes/wrapper (1)
+
+
+
+/focus_stories/transgenic_cows
+
+Reporting
+
+2763
+Previous
+
+1236
+Change
+
+
+123.543689320388
+
+
+
+Content pageviews limit is 19
+
+By Time for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows/making_a_transgenic_animal/, pageviews: 89, average time: 03:47
+/focus_stories/transgenic_cows/video_clips/uses_of_transgenic_cows/, pageviews: 30, average time: 03:15
+/focus_stories/transgenic_cows/future_uses_of_transgenic_cows/, pageviews: 100, average time: 02:56
+/focus_stories/transgenic_cows/video_clips/advantages_of_making_proteins_in_transgenic_cows/, pageviews: 20, average time: 02:50
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk/, pageviews: 167, average time: 02:41
+
+
+
+By Views for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows, pageviews: 359, average time: 00:02
+/focus_stories/transgenic_cows/, pageviews: 352, average time: 02:01
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows, pageviews: 187, average time: 00:07
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/, pageviews: 184, average time: 02:22
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk, pageviews: 168, average time: 00:06
+
+
+
+Navigation for /focus_stories/transgenic_cows
+
+
+Previous pages for /focus_stories/transgenic_cows
+
+(entrance) (89)
+/ (50)
+/focus_stories/ (28)
+/focus_stories/transgenic_cows/ (25)
+/news_and_events/site_newsletter/newsletter_may_2010/ (25)
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk/ (24)
+/focus_stories/transgenic_cows/video_clips/uses_of_transgenic_cows/ (14)
+
+Next pages for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows/ (341)
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows (3)
+/focus_stories/transgenic_cows/regulating_transgenic_cow_research (2)
+/focus_stories/transgenic_cows/video_clips/uses_of_transgenic_cows (2)
+/about_this_site/glossary (1)
+/focus_stories/biological_control_of_possums/ (1)
+/focus_stories/transgenic_cows (1)
+
+
+
+/focus_stories/wool_innovations
+
+Reporting
+
+38
+Previous
+
+38
+Change
+
+
+0.0
+
+
+
+Content pageviews limit is 2
+
+By Time for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/video_clips/how_solospun_works/, pageviews: 3, average time: 13:04
+/focus_stories/wool_innovations/, pageviews: 10, average time: 00:31
+/focus_stories/wool_innovations/video_clips/, pageviews: 3, average time: 00:05
+/focus_stories/wool_innovations/video_clips/how_solospun_works, pageviews: 3, average time: 00:03
+/focus_stories/wool_innovations, pageviews: 10, average time: 00:00
+
+
+
+By Views for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/, pageviews: 10, average time: 00:31
+/focus_stories/wool_innovations, pageviews: 10, average time: 00:00
+/focus_stories/wool_innovations/video_clips/, pageviews: 3, average time: 00:05
+/focus_stories/wool_innovations/video_clips/how_solospun_works, pageviews: 3, average time: 00:03
+/focus_stories/wool_innovations/video_clips, pageviews: 3, average time: 00:00
+
+
+
+Navigation for /focus_stories/wool_innovations
+
+
+Previous pages for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/ (4)
+/focus_stories/ (2)
+(entrance) (1)
+/ (1)
+/focus_stories/transgenic_cows/ (1)
+/focus_stories/wool_innovations/video_clips/(offset)/9/(year)/(month)//(day)//(namefilter)// (1)
+
+Next pages for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/ (10)
+
+
+
+/themes
+
+Reporting
+
+19415
+Previous
+
+16838
+Change
+
+
+15.3046680128281
+
+
+
+Content pageviews limit is 14
+
+By Time for /themes
+
+/themes/new_zealand_views_on_biotech/video_clips/what_does_biotechnology_have_to_offer_v0124/, pageviews: 17, average time: 11:03
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 83, average time: 04:58
+/themes/what_is_biotechnology/ancient_biotechnology/, pageviews: 24, average time: 04:41
+/themes/dna_lab/sequencing_revealing_the_dna_code/, pageviews: 17, average time: 04:22
+/themes/future_farming/what_is_silage/, pageviews: 106, average time: 04:18
+
+
+
+By Views for /themes
+
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 1295, average time: 00:05
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 1273, average time: 03:39
+/themes/biotech_therapies/xenotransplantation, pageviews: 811, average time: 00:10
+/themes/biotech_therapies/xenotransplantation/, pageviews: 771, average time: 04:03
+/themes/biotech_therapies/stem_cells, pageviews: 529, average time: 00:02
+
+
+
+Navigation for /themes
+
+
+Previous pages for /themes
+
+/ (23)
+/focus_stories/ (22)
+/about_biotech/ (10)
+(entrance) (9)
+/themes/biotech_therapies/ (9)
+/content/advancedsearch/ (8)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (7)
+
+Next pages for /themes
+
+/themes/ (269)
+/focus_stories (2)
+/themes/(offset)/9/(year)//(month)//(day)//(namefilter) (2)
+/content/advancedsearch?SearchText=stem+cell&SubTreeArray[]=2 (1)
+/my_biotech (1)
+/themes/biotech_therapies/stem_cell_therapy_a_bird_brain_idea (1)
+/themes/biotech_therapies/timeline_for_stem_cell_research (1)
+
+
+
+/themes/barcoding_life
+
+Reporting
+
+319
+Previous
+
+251
+Change
+
+
+27.0916334661355
+
+
+
+Content pageviews limit is 4
+
+By Time for /themes/barcoding_life
+
+/themes/barcoding_life/barcoding_sharks/, pageviews: 6, average time: 08:40
+/themes/barcoding_life/the_ideal_barcoding_gene/, pageviews: 55, average time: 02:08
+/themes/barcoding_life/images/diagram_of_a_mitochondrion/, pageviews: 11, average time: 01:49
+/themes/barcoding_life/images/diagram_of_a_mitochondrion, pageviews: 16, average time: 01:21
+/themes/barcoding_life/more_about_mitochondria/, pageviews: 18, average time: 01:13
+
+
+
+By Views for /themes/barcoding_life
+
+/themes/barcoding_life/the_ideal_barcoding_gene/, pageviews: 55, average time: 02:08
+/themes/barcoding_life/the_ideal_barcoding_gene, pageviews: 55, average time: 00:01
+/themes/barcoding_life, pageviews: 21, average time: 00:02
+/themes/barcoding_life/, pageviews: 21, average time: 00:42
+/themes/barcoding_life/more_about_mitochondria/, pageviews: 18, average time: 01:13
+
+
+
+Navigation for /themes/barcoding_life
+
+
+Previous pages for /themes/barcoding_life
+
+/themes/ (6)
+/ (4)
+(entrance) (3)
+/about_this_site/glossary/dna_sequencing/ (1)
+/about_this_site/glossary/eukaryote/ (1)
+/content/advancedsearch/ (1)
+/index.php/themes/ (1)
+
+Next pages for /themes/barcoding_life
+
+/themes/barcoding_life/ (20)
+/themes (1)
+
+
+
+/themes/biocontrol
+
+Reporting
+
+125
+Previous
+
+153
+Change
+
+
+-18.3006535947712
+
+
+
+Content pageviews limit is 2
+
+By Time for /themes/biocontrol
+
+/themes/biocontrol/, pageviews: 23, average time: 00:46
+/themes/biocontrol/amazing_ryegrass/, pageviews: 7, average time: 00:21
+/themes/biocontrol/irish_wasp_to_the_rescue/, pageviews: 3, average time: 00:17
+/themes/biocontrol/images/clover_root_weevil_and_a_parasitoid_wasp, pageviews: 6, average time: 00:17
+/themes/biocontrol/amazing_ryegrass, pageviews: 7, average time: 00:00
+
+
+
+By Views for /themes/biocontrol
+
+/themes/biocontrol, pageviews: 24, average time: 00:00
+/themes/biocontrol/, pageviews: 23, average time: 00:46
+/themes/biocontrol/amazing_ryegrass, pageviews: 7, average time: 00:00
+/themes/biocontrol/amazing_ryegrass/, pageviews: 7, average time: 00:21
+/themes/biocontrol/images/clover_root_weevil_and_a_parasitoid_wasp/, pageviews: 6, average time: 00:00
+
+
+
+Navigation for /themes/biocontrol
+
+
+Previous pages for /themes/biocontrol
+
+/ (7)
+(entrance) (6)
+/focus_stories/biological_control_of_possums/ (3)
+/themes/ (2)
+/themes/biocontrol/ (2)
+/about_biotech/ (1)
+/focus_stories/ (1)
+
+Next pages for /themes/biocontrol
+
+/themes/biocontrol/ (21)
+
+
+
+/themes/bioethics
+
+Reporting
+
+1583
+Previous
+
+1045
+Change
+
+
+51.4832535885167
+
+
+
+Content pageviews limit is 12
+
+By Time for /themes/bioethics
+
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 151, average time: 03:56
+/themes/bioethics/video_clips/the_ethics_of_whaling_v0160/, pageviews: 30, average time: 03:53
+/themes/bioethics/ethics_of_whaling/, pageviews: 86, average time: 02:25
+/themes/bioethics/ethics_of_xenotransplantation/, pageviews: 202, average time: 02:03
+/themes/bioethics/frameworks_for_ethical_analysis/, pageviews: 106, average time: 01:29
+
+
+
+By Views for /themes/bioethics
+
+/themes/bioethics/ethics_of_xenotransplantation, pageviews: 208, average time: 00:01
+/themes/bioethics/ethics_of_xenotransplantation/, pageviews: 202, average time: 02:03
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 151, average time: 03:56
+/themes/bioethics/ethics_of_organ_donation, pageviews: 151, average time: 00:12
+/themes/bioethics/frameworks_for_ethical_analysis, pageviews: 107, average time: 00:00
+
+
+
+Navigation for /themes/bioethics
+
+
+Previous pages for /themes/bioethics
+
+(entrance) (21)
+/ (9)
+/about_this_site/glossary/xenotransplantation/ (6)
+/about_this_site/glossary/stem_cell/ (4)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (4)
+/themes/ (3)
+/about_this_site/glossary/genetic_modification/ (2)
+
+Next pages for /themes/bioethics
+
+/themes/bioethics/ (62)
+/content/advancedsearch (1)
+
+
+
+/themes/biotech_and_taonga
+
+Reporting
+
+304
+Previous
+
+193
+Change
+
+
+57.5129533678756
+
+
+
+Content pageviews limit is 5
+
+By Time for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/types_of_harakeke_or_flax_v0144/, pageviews: 21, average time: 01:19
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/, pageviews: 36, average time: 00:55
+/themes/biotech_and_taonga/, pageviews: 21, average time: 00:37
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/the_history_of_maori_and_harakeke_v0146/, pageviews: 21, average time: 00:26
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/harakeke_gel_v0151/, pageviews: 8, average time: 00:15
+
+
+
+By Views for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/, pageviews: 36, average time: 00:55
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research, pageviews: 36, average time: 00:00
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/the_history_of_maori_and_harakeke_v0146, pageviews: 22, average time: 00:06
+/themes/biotech_and_taonga/, pageviews: 21, average time: 00:37
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/types_of_harakeke_or_flax_v0144/, pageviews: 21, average time: 01:19
+
+
+
+Navigation for /themes/biotech_and_taonga
+
+
+Previous pages for /themes/biotech_and_taonga
+
+/ (5)
+/themes/ (5)
+(entrance) (1)
+/about_biotech/biotech_in_schools/video_conferences/the_harakeke_project_at_industrial_research/ (1)
+/about_biotech/organisations/industrial_research_ltd/ (1)
+/about_biotech/sectors/general_biotech/ (1)
+/about_this_site/glossary/rongoa/ (1)
+
+Next pages for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/ (21)
+
+
+
+/themes/biotech_at_home
+
+Reporting
+
+3520
+Previous
+
+2865
+Change
+
+
+22.8621291448517
+
+
+
+Content pageviews limit is 23
+
+By Time for /themes/biotech_at_home
+
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 1273, average time: 03:39
+/themes/biotech_at_home/student_worksheets_fermented_drinks/, pageviews: 25, average time: 01:48
+/themes/biotech_at_home/karen_farley_s_cosmetics/, pageviews: 154, average time: 01:03
+/themes/biotech_at_home/, pageviews: 45, average time: 00:43
+/themes/biotech_at_home/the_chemistry_of_croissants/, pageviews: 24, average time: 00:39
+
+
+
+By Views for /themes/biotech_at_home
+
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 1295, average time: 00:05
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 1273, average time: 03:39
+/themes/biotech_at_home/karen_farley_s_cosmetics/, pageviews: 154, average time: 01:03
+/themes/biotech_at_home/karen_farley_s_cosmetics, pageviews: 153, average time: 00:00
+/themes/biotech_at_home, pageviews: 45, average time: 00:01
+
+
+
+Navigation for /themes/biotech_at_home
+
+
+Previous pages for /themes/biotech_at_home
+
+(entrance) (17)
+/themes/ (7)
+/ (4)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (3)
+/themes/biotech_at_home/making_fermented_drinks2/ (3)
+/themes/biotech_at_home/fish_into_face_cream_and_algae_into_paint_what_is_niwa_up_to/ (2)
+/themes/biotech_at_home/karen_farley_s_cosmetics/ (2)
+
+Next pages for /themes/biotech_at_home
+
+/themes/biotech_at_home/ (44)
+
+
+
+/themes/biotech_product_development
+
+Reporting
+
+378
+Previous
+
+383
+Change
+
+
+-1.30548302872063
+
+
+
+Content pageviews limit is 5
+
+By Time for /themes/biotech_product_development
+
+/themes/biotech_product_development/product_development/modelling_and_testing/, pageviews: 8, average time: 01:36
+/themes/biotech_product_development/, pageviews: 80, average time: 01:23
+/themes/biotech_product_development/images/biotech_product_development/, pageviews: 10, average time: 00:46
+/themes/biotech_product_development/product_development/, pageviews: 41, average time: 00:26
+/themes/biotech_product_development, pageviews: 79, average time: 00:01
+
+
+
+By Views for /themes/biotech_product_development
+
+/themes/biotech_product_development/, pageviews: 80, average time: 01:23
+/themes/biotech_product_development, pageviews: 79, average time: 00:01
+/themes/biotech_product_development/product_development, pageviews: 41, average time: 00:00
+/themes/biotech_product_development/product_development/, pageviews: 41, average time: 00:26
+/themes/biotech_product_development/images/biotech_product_development/, pageviews: 10, average time: 00:46
+
+
+
+Navigation for /themes/biotech_product_development
+
+
+Previous pages for /themes/biotech_product_development
+
+(entrance) (37)
+/themes/ (10)
+/themes/biotech_product_development/product_development/ (9)
+/themes/biotech_product_development/ (8)
+/ (7)
+/themes/(year)/(month)//(day)//(namefilter)// (3)
+/themes/biotech_product_development/images/biotech_product_development/ (3)
+
+Next pages for /themes/biotech_product_development
+
+/themes/biotech_product_development/ (77)
+/themes/biotech_product_development/product_development (1)
+
+
+
+/themes/biotech_therapies
+
+Reporting
+
+5220
+Previous
+
+4910
+Change
+
+
+6.31364562118126
+
+
+
+Content pageviews limit is 34
+
+By Time for /themes/biotech_therapies
+
+/themes/biotech_therapies/timeline_for_stem_cell_research/, pageviews: 486, average time: 04:07
+/themes/biotech_therapies/xenotransplantation/, pageviews: 771, average time: 04:03
+/themes/biotech_therapies/timeline_for_bone_marrow_transplants/, pageviews: 51, average time: 02:46
+/themes/biotech_therapies/stem_cell_therapy_a_bird_brain_idea/, pageviews: 50, average time: 02:08
+/themes/biotech_therapies/embryonic_stem_cells_and_alzheimer_s_disease/, pageviews: 70, average time: 02:04
+
+
+
+By Views for /themes/biotech_therapies
+
+/themes/biotech_therapies/xenotransplantation, pageviews: 811, average time: 00:10
+/themes/biotech_therapies/xenotransplantation/, pageviews: 771, average time: 04:03
+/themes/biotech_therapies/stem_cells, pageviews: 529, average time: 00:02
+/themes/biotech_therapies/stem_cells/, pageviews: 526, average time: 01:54
+/themes/biotech_therapies/timeline_for_stem_cell_research, pageviews: 499, average time: 00:08
+
+
+
+Navigation for /themes/biotech_therapies
+
+
+Previous pages for /themes/biotech_therapies
+
+/themes/ (15)
+(entrance) (8)
+/ (8)
+/themes/biotech_therapies/stem_cells/ (5)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (4)
+/themes/biotech_therapies/ (4)
+/content/advancedsearch/ (3)
+
+Next pages for /themes/biotech_therapies
+
+/themes/biotech_therapies/ (58)
+/ (1)
+/themes/biotech_therapies (1)
+
+
+
+/themes/cell_biology_and_genetics
+
+Reporting
+
+791
+Previous
+
+774
+Change
+
+
+2.19638242894057
+
+
+
+Content pageviews limit is 4
+
+By Time for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/making_proteins_by_genetic_engineering/, pageviews: 68, average time: 03:25
+/themes/cell_biology_and_genetics/video_clips/the_zebrafish_lifecycle_v0241/, pageviews: 24, average time: 02:55
+/themes/cell_biology_and_genetics/the_ethics_of_zebrafish_in_research/, pageviews: 20, average time: 02:30
+/themes/cell_biology_and_genetics/video_clips/why_do_you_resemble_your_parents_v0203/, pageviews: 14, average time: 01:56
+/index.php/themes/cell_biology_and_genetics/, pageviews: 6, average time: 01:32
+
+
+
+By Views for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/making_proteins_by_genetic_engineering, pageviews: 70, average time: 00:02
+/themes/cell_biology_and_genetics/making_proteins_by_genetic_engineering/, pageviews: 68, average time: 03:25
+/themes/cell_biology_and_genetics/, pageviews: 58, average time: 00:43
+/themes/cell_biology_and_genetics, pageviews: 58, average time: 00:00
+/themes/cell_biology_and_genetics/zebrafish_make_a_difference, pageviews: 31, average time: 00:01
+
+
+
+Navigation for /themes/cell_biology_and_genetics
+
+
+Previous pages for /themes/cell_biology_and_genetics
+
+(entrance) (14)
+/themes/ (13)
+/ (7)
+/content/advancedsearch/ (5)
+/about_this_site/glossary/genetic_engineering/ (2)
+/themes/(year)/(month)//(day)//(namefilter)// (2)
+/themes/cell_biology_and_genetics/ (2)
+
+Next pages for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/ (58)
+
+
+
+/themes/crime_scene_biotech
+
+Reporting
+
+393
+Previous
+
+225
+Change
+
+
+74.6666666666667
+
+
+
+Content pageviews limit is 10
+
+By Time for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 83, average time: 04:58
+/themes/crime_scene_biotech/, pageviews: 82, average time: 01:17
+/themes/crime_scene_biotech, pageviews: 87, average time: 00:20
+/themes/crime_scene_biotech/dna_profiling, pageviews: 85, average time: 00:01
+
+
+
+By Views for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech, pageviews: 87, average time: 00:20
+/themes/crime_scene_biotech/dna_profiling, pageviews: 85, average time: 00:01
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 83, average time: 04:58
+/themes/crime_scene_biotech/, pageviews: 82, average time: 01:17
+
+
+
+Navigation for /themes/crime_scene_biotech
+
+
+Previous pages for /themes/crime_scene_biotech
+
+(entrance) (38)
+/ (13)
+/themes/crime_scene_biotech/ (7)
+/focus_stories/forensics/ (4)
+/themes/ (3)
+/themes/crime_scene_biotech (3)
+/content/advancedsearch/ (2)
+
+Next pages for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech/ (80)
+/themes/crime_scene_biotech (3)
+
+
+
+/themes/dna_lab
+
+Reporting
+
+3168
+Previous
+
+3124
+Change
+
+
+1.40845070422535
+
+
+
+Content pageviews limit is 12
+
+By Time for /themes/dna_lab
+
+/themes/dna_lab/sequencing_revealing_the_dna_code/, pageviews: 17, average time: 04:22
+/themes/dna_lab/dna_lab_useful_links/, pageviews: 54, average time: 03:42
+/themes/dna_lab/pcr_polymerase_chain_reaction/, pageviews: 71, average time: 03:08
+/themes/dna_lab/images/bacterial_transformation/, pageviews: 20, average time: 02:56
+/themes/dna_lab/gel_electrophoresis/, pageviews: 329, average time: 02:50
+
+
+
+By Views for /themes/dna_lab
+
+/themes/dna_lab/gel_electrophoresis, pageviews: 332, average time: 00:01
+/themes/dna_lab/gel_electrophoresis/, pageviews: 329, average time: 02:50
+/themes/dna_lab/video_clips/gel_electrophoresis_visualising_and_interpreting_the_results_v0085, pageviews: 138, average time: 00:05
+/themes/dna_lab/video_clips/gel_electrophoresis_visualising_and_interpreting_the_results_v0085/, pageviews: 136, average time: 02:21
+/themes/dna_lab/restriction_enzymes, pageviews: 118, average time: 00:04
+
+
+
+Navigation for /themes/dna_lab
+
+
+Previous pages for /themes/dna_lab
+
+/themes/ (19)
+/ (9)
+/themes/(year)/(month)//(day)//(namefilter)// (3)
+(entrance) (2)
+/themes/dna_lab/dna_extraction/ (2)
+/themes/dna_lab/images/test_tubes/ (2)
+/themes/dna_lab/polymerase_chain_reaction_pcr/ (2)
+
+Next pages for /themes/dna_lab
+
+/themes/dna_lab/ (52)
+/themes (1)
+
+
+
+/themes/food_intolerance_and_allergies
+
+Reporting
+
+437
+Previous
+
+500
+Change
+
+
+-12.6
+
+
+
+Content pageviews limit is 9
+
+By Time for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies/a_genetic_test_for_lactose_intolerance/, pageviews: 59, average time: 02:27
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance/, pageviews: 35, average time: 02:25
+/themes/food_intolerance_and_allergies/images/results_of_a_lactose_intolerance_genetic_test/, pageviews: 10, average time: 01:40
+/themes/food_intolerance_and_allergies/, pageviews: 53, average time: 00:46
+/themes/food_intolerance_and_allergies/images/lactose_free_milk/, pageviews: 13, average time: 00:09
+
+
+
+By Views for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies/a_genetic_test_for_lactose_intolerance, pageviews: 60, average time: 00:00
+/themes/food_intolerance_and_allergies/a_genetic_test_for_lactose_intolerance/, pageviews: 59, average time: 02:27
+/themes/food_intolerance_and_allergies, pageviews: 54, average time: 00:00
+/themes/food_intolerance_and_allergies/, pageviews: 53, average time: 00:46
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance/, pageviews: 35, average time: 02:25
+
+
+
+Navigation for /themes/food_intolerance_and_allergies
+
+
+Previous pages for /themes/food_intolerance_and_allergies
+
+(entrance) (23)
+/themes/ (13)
+/about_this_site/glossary/immune_system/ (3)
+/about_this_site/glossary/lactose/ (3)
+/about_this_site/glossary/yeast/ (2)
+/themes/food_intolerance_and_allergies/images/results_of_a_lactose_intolerance_genetic_test/ (2)
+/ (1)
+
+Next pages for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies/ (53)
+
+
+
+/themes/future_farming
+
+Reporting
+
+514
+Previous
+
+508
+Change
+
+
+1.18110236220472
+
+
+
+Content pageviews limit is 6
+
+By Time for /themes/future_farming
+
+/themes/future_farming/what_is_silage/, pageviews: 106, average time: 04:18
+/themes/future_farming/making_your_own_silage/, pageviews: 32, average time: 02:42
+/themes/future_farming/genes_involved_in_footrot_patterns_of_inheritance/, pageviews: 7, average time: 02:26
+/themes/future_farming/mating_mussels/mussel_breeding_at_cawthron_v0268/, pageviews: 8, average time: 01:09
+/themes/future_farming/, pageviews: 22, average time: 01:04
+
+
+
+By Views for /themes/future_farming
+
+/themes/future_farming/what_is_silage/, pageviews: 106, average time: 04:18
+/themes/future_farming/what_is_silage, pageviews: 106, average time: 00:19
+/themes/future_farming/making_your_own_silage, pageviews: 32, average time: 00:04
+/themes/future_farming/making_your_own_silage/, pageviews: 32, average time: 02:42
+/themes/future_farming, pageviews: 22, average time: 00:00
+
+
+
+Navigation for /themes/future_farming
+
+
+Previous pages for /themes/future_farming
+
+/themes/ (10)
+(entrance) (6)
+/ (2)
+/focus_stories/robotic_milking/ (1)
+/themes/biocontrol/did_you_know/ (1)
+/themes/future_farming/ (1)
+/themes/future_farming/what_is_silage/ (1)
+
+Next pages for /themes/future_farming
+
+/themes/future_farming/ (22)
+
+
+
+/themes/marvellous_milk
+
+Reporting
+
+591
+Previous
+
+589
+Change
+
+
+0.33955857385399
+
+
+
+Content pageviews limit is 8
+
+By Time for /themes/marvellous_milk
+
+/themes/marvellous_milk/hyper_immune_milk_what_s_the_story/, pageviews: 24, average time: 03:36
+/themes/marvellous_milk/hyper_immune_milk/, pageviews: 17, average time: 03:31
+/themes/marvellous_milk/testing_for_the_casein_gene/, pageviews: 29, average time: 02:02
+/themes/marvellous_milk/ion_exchange_chromatography/, pageviews: 56, average time: 01:45
+/themes/marvellous_milk/a1_or_a2/, pageviews: 29, average time: 01:08
+
+
+
+By Views for /themes/marvellous_milk
+
+/themes/marvellous_milk/ion_exchange_chromatography, pageviews: 57, average time: 00:31
+/themes/marvellous_milk/ion_exchange_chromatography/, pageviews: 56, average time: 01:45
+/themes/marvellous_milk/, pageviews: 45, average time: 00:52
+/themes/marvellous_milk, pageviews: 45, average time: 00:00
+/themes/marvellous_milk/a1_or_a2, pageviews: 33, average time: 00:15
+
+
+
+Navigation for /themes/marvellous_milk
+
+
+Previous pages for /themes/marvellous_milk
+
+(entrance) (10)
+/themes/ (10)
+/content/advancedsearch/ (3)
+/focus_stories/transgenic_cows/ (3)
+/themes/marvellous_milk/extracting_milk_proteins/ (3)
+/themes/marvellous_milk/images/marvellous_milk/ (3)
+/ (2)
+
+Next pages for /themes/marvellous_milk
+
+/themes/marvellous_milk/ (45)
+
+
+
+/themes/new_zealand_views_on_biotech
+
+Reporting
+
+651
+Previous
+
+420
+Change
+
+
+55.0
+
+
+
+Content pageviews limit is 6
+
+By Time for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/video_clips/what_does_biotechnology_have_to_offer_v0124/, pageviews: 17, average time: 11:03
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/embryonic_stem_cells_and_alzheimer_s_disease/, pageviews: 11, average time: 03:17
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/public_acceptance_of_bioremediation_to_address_new_zealand_s_ddt_problem/, pageviews: 19, average time: 02:51
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers/, pageviews: 97, average time: 02:48
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops/, pageviews: 56, average time: 02:12
+
+
+
+By Views for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers, pageviews: 98, average time: 00:03
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers/, pageviews: 97, average time: 02:48
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops/, pageviews: 56, average time: 02:12
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops, pageviews: 56, average time: 00:02
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/public_acceptance_of_bioremediation_to_address_new_zealand_s_ddt_problem, pageviews: 19, average time: 00:02
+
+
+
+Navigation for /themes/new_zealand_views_on_biotech
+
+
+Previous pages for /themes/new_zealand_views_on_biotech
+
+/ (5)
+/themes/ (3)
+(entrance) (2)
+/themes/what_is_biotechnology/ (2)
+/about_this_site/glossary/genetically_modified/ (1)
+/themes/new_zealand_views_on_biotech/biotech_in_new_zealand/ (1)
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers (1)
+
+Next pages for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/ (15)
+
+
+
+/themes/what_is_biotechnology
+
+Reporting
+
+499
+Previous
+
+360
+Change
+
+
+38.6111111111111
+
+
+
+Content pageviews limit is 12
+
+By Time for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology/ancient_biotechnology/, pageviews: 24, average time: 04:41
+/themes/what_is_biotechnology/impacts_of_biotechnology_on_society/, pageviews: 33, average time: 02:52
+/themes/what_is_biotechnology/student_activity_exploring_the_impacts_of_biotechnology_on_society/, pageviews: 15, average time: 01:36
+/themes/what_is_biotechnology/modern_biotechnology/, pageviews: 49, average time: 01:25
+/themes/what_is_biotechnology/, pageviews: 72, average time: 01:15
+
+
+
+By Views for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology, pageviews: 73, average time: 00:02
+/themes/what_is_biotechnology/, pageviews: 72, average time: 01:15
+/themes/what_is_biotechnology/modern_biotechnology, pageviews: 50, average time: 00:00
+/themes/what_is_biotechnology/modern_biotechnology/, pageviews: 49, average time: 01:25
+/themes/what_is_biotechnology/impacts_of_biotechnology_on_society, pageviews: 33, average time: 00:01
+
+
+
+Navigation for /themes/what_is_biotechnology
+
+
+Previous pages for /themes/what_is_biotechnology
+
+(entrance) (19)
+/themes/ (17)
+/ (11)
+/themes/what_is_biotechnology/definitions_of_biotechnology/ (4)
+/news_and_events/events/genetics_and_biotechnology_teacher_workshop/ (3)
+/themes/(year)/(month)//(day)//(namefilter)// (3)
+/themes/what_is_biotechnology/ (3)
+
+Next pages for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology/ (70)
+/themes/what_is_biotechnology/modern_biotechnology (1)
+/user/register (1)
+
+
+
+/news_and_events
+
+Reporting
+
+2066
+Previous
+
+1364
+Change
+
+
+51.466275659824
+
+
+
+Content pageviews limit is 4
+
+By Time for /news_and_events
+
+/news_and_events/news_archive/plant_research_aims_to_reduce_methane_emissions/, pageviews: 14, average time: 05:37
+/news_and_events/events/genetics_and_biotechnology_teacher_workshop/, pageviews: 12, average time: 04:20
+/news_and_events/news_archive/2007_archive/pig_cell_trial_set_to_start/, pageviews: 26, average time: 03:43
+/news_and_events/news_archive/uv_effect_on_grapes/, pageviews: 15, average time: 03:02
+/news_and_events/news_archive/approval_welcomed_by_nz_cancer_vaccine_scientists/, pageviews: 10, average time: 02:37
+
+
+
+By Views for /news_and_events
+
+/news_and_events/site_newsletter/newsletter_may_2010/, pageviews: 221, average time: 01:09
+/news_and_events/site_newsletter/newsletter_may_2010, pageviews: 221, average time: 00:04
+/news_and_events/, pageviews: 105, average time: 01:18
+/news_and_events, pageviews: 102, average time: 00:16
+/news_and_events/news_archive/2005_archive/rotten_corn_could_be_gourmet_delight/, pageviews: 34, average time: 00:29
+
+
+
+Navigation for /news_and_events
+
+
+Previous pages for /news_and_events
+
+/ (18)
+(entrance) (6)
+/themes/ (6)
+/content/advancedsearch/ (4)
+/focus_stories/ (4)
+/news_and_events/ (4)
+/news_and_events/site_newsletter/newsletter_may_2010/ (4)
+
+Next pages for /news_and_events
+
+/news_and_events/ (99)
+/ (1)
+/news_and_events (1)
+/themes/biotech_therapies/stem_cells (1)
+
+
+
+/thinking_tools
+
+Reporting
+
+1638
+Previous
+
+827
+Change
+
+
+98.0652962515115
+
+
+
+Content pageviews limit is 6
+
+By Time for /thinking_tools
+
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/admin/students/list, pageviews: 16, average time: 13:47
+/thinking_tools/ethics_thinking_tool/teaching_ethics, pageviews: 12, average time: 03:06
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/login, pageviews: 122, average time: 02:12
+/thinking_tools/futures_thinking_tool/futures_thinking_tool/, pageviews: 54, average time: 01:47
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/register, pageviews: 21, average time: 00:52
+
+
+
+By Views for /thinking_tools
+
+/thinking_tools, pageviews: 148, average time: 00:01
+/thinking_tools/, pageviews: 147, average time: 00:24
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/login, pageviews: 122, average time: 02:12
+/thinking_tools/futures_thinking_tool/futures_thinking_tool/login, pageviews: 114, average time: 00:26
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool, pageviews: 85, average time: 00:01
+
+
+
+Navigation for /thinking_tools
+
+
+Previous pages for /thinking_tools
+
+/ (18)
+(entrance) (16)
+/my_biotech/ (10)
+/thinking_tools/futures_thinking_tool (9)
+/thinking_tools/ethics_thinking_tool (6)
+/news_and_events/site_newsletter/newsletter_may_2010/ (5)
+/thinking_tools/ (4)
+
+Next pages for /thinking_tools
+
+/thinking_tools/ (144)
+/thinking_tools/ethics_thinking_tool (2)
+/news_and_events (1)
+
+
+
+/my_biotech
+
+Reporting
+
+232
+Previous
+
+253
+Change
+
+
+-8.300395256917
+
+
+
+Content pageviews limit is 17
+
+By Time for /my_biotech
+
+/my_biotech/my_biotech_help/, pageviews: 25, average time: 01:39
+/my_biotech/, pageviews: 79, average time: 00:53
+/my_biotech/my_biotech_help, pageviews: 26, average time: 00:35
+/my_biotech, pageviews: 80, average time: 00:00
+
+
+
+By Views for /my_biotech
+
+/my_biotech, pageviews: 80, average time: 00:00
+/my_biotech/, pageviews: 79, average time: 00:53
+/my_biotech/my_biotech_help, pageviews: 26, average time: 00:35
+/my_biotech/my_biotech_help/, pageviews: 25, average time: 01:39
+
+
+
+Navigation for /my_biotech
+
+
+Previous pages for /my_biotech
+
+/ (13)
+/my_biotech/ (4)
+/notification/settings/ (4)
+/about_biotech/people_and_careers/ (2)
+/about_this_site/ (2)
+/content/advancedsearch/ (2)
+/my_biotech/my_biotech_help/ (2)
+
+Next pages for /my_biotech
+
+/my_biotech/ (77)
+/about_biotech (1)
+/my_biotech (1)
+/thinking_tools (1)
+
+
+
+New Zealand Only Content Summaries
+/focus_stories
+
+Reporting
+
+9325
+Previous
+
+6418
+Change
+
+
+45.2944842630103
+
+
+
+Content pageviews limit is 7
+
+By Time for /focus_stories
+
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/, pageviews: 9, average time: 07:51
+/index.php/focus_stories/honey_to_heal/honey_to_heal_useful_links/, pageviews: 9, average time: 05:19
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053/, pageviews: 17, average time: 04:52
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 26, average time: 04:39
+/focus_stories/transgenic_cows/making_a_transgenic_animal/, pageviews: 64, average time: 04:12
+
+
+
+By Views for /focus_stories
+
+/focus_stories/biological_control_of_possums/, pageviews: 483, average time: 02:05
+/focus_stories/biological_control_of_possums, pageviews: 476, average time: 00:03
+/focus_stories/transgenic_cows, pageviews: 284, average time: 00:02
+/focus_stories/transgenic_cows/, pageviews: 278, average time: 01:59
+/focus_stories, pageviews: 225, average time: 00:00
+
+
+
+Navigation for /focus_stories
+
+
+Previous pages for /focus_stories
+
+/ (39)
+(entrance) (17)
+/focus_stories/transgenic_cows/ (13)
+/about_biotech/ (11)
+/content/advancedsearch/ (7)
+/focus_stories/ (7)
+/news_and_events/ (5)
+
+Next pages for /focus_stories
+
+/focus_stories/ (217)
+/focus_stories (2)
+/focus_stories/transgenic_cows (2)
+/focus_stories/(offset)/9/(year)//(month)//(day)//(namefilter) (1)
+/themes (1)
+
+
+
+/focus_stories/biological_control_of_possums
+
+Reporting
+
+2695
+Previous
+
+2828
+Change
+
+
+-4.7029702970297
+
+
+
+Content pageviews limit is 14
+
+By Time for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/video_clips/using_a_hormone_toxin_to_control_possum_numbers_v0053/, pageviews: 17, average time: 04:52
+/focus_stories/biological_control_of_possums/possum_vaccines_and_reproductive_proteins/, pageviews: 38, average time: 03:41
+/focus_stories/biological_control_of_possums/delivering_biocontrol_agents_to_possums/, pageviews: 74, average time: 03:39
+/focus_stories/biological_control_of_possums/biological_control_of_possums_useful_links/, pageviews: 102, average time: 03:34
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/, pageviews: 154, average time: 02:55
+
+
+
+By Views for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/, pageviews: 483, average time: 02:05
+/focus_stories/biological_control_of_possums, pageviews: 476, average time: 00:03
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/, pageviews: 154, average time: 02:55
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility, pageviews: 154, average time: 00:00
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility, pageviews: 131, average time: 00:02
+
+
+
+Navigation for /focus_stories/biological_control_of_possums
+
+
+Previous pages for /focus_stories/biological_control_of_possums
+
+(entrance) (234)
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility/ (37)
+/focus_stories/biological_control_of_possums/ (36)
+/focus_stories/biological_control_of_possums/hormone_toxins_to_reduce_possum_fertility/ (34)
+/focus_stories/biological_control_of_possums/terms_and_definitions_possum_biocontrol/ (19)
+/ (16)
+/focus_stories/biological_control_of_possums/delivering_biocontrol_agents_to_possums/ (14)
+
+Next pages for /focus_stories/biological_control_of_possums
+
+/focus_stories/biological_control_of_possums/ (462)
+/focus_stories/biological_control_of_possums (3)
+/ (1)
+/focus_stories/biological_control_of_possums/vaccines_to_reduce_possum_fertility (1)
+/focus_stories/transgenic_cows (1)
+/index.php/biotechlearn/focus_stories/biological_control_of_possums/possum_fertility_control (1)
+
+
+
+/focus_stories/evolved_enzymes
+
+Reporting
+
+129
+Previous
+
+50
+Change
+
+
+158.0
+
+
+
+Content pageviews limit is 2
+
+By Time for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/video_clips/causes_of_genetic_variation_v0357/, pageviews: 3, average time: 10:39
+/focus_stories/evolved_enzymes/, pageviews: 23, average time: 01:05
+/index.php/focus_stories/evolved_enzymes/how_to_direct_evolution/, pageviews: 3, average time: 00:59
+/focus_stories/evolved_enzymes/prodrug_therapy/, pageviews: 4, average time: 00:52
+/index.php/focus_stories/evolved_enzymes/, pageviews: 3, average time: 00:50
+
+
+
+By Views for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/, pageviews: 23, average time: 01:05
+/focus_stories/evolved_enzymes, pageviews: 23, average time: 00:00
+/focus_stories/evolved_enzymes/prodrug_therapy/, pageviews: 4, average time: 00:52
+/focus_stories/evolved_enzymes/prodrug_therapy, pageviews: 4, average time: 00:07
+/focus_stories/evolved_enzymes/images/commercial_washing_machine, pageviews: 4, average time: 00:00
+
+
+
+Navigation for /focus_stories/evolved_enzymes
+
+
+Previous pages for /focus_stories/evolved_enzymes
+
+/ (6)
+(entrance) (5)
+/focus_stories/ (4)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (2)
+/focus_stories/evolved_enzymes/ (1)
+/focus_stories/evolved_enzymes/images/dna/ (1)
+/focus_stories/evolved_enzymes/prodrug_therapy/ (1)
+
+Next pages for /focus_stories/evolved_enzymes
+
+/focus_stories/evolved_enzymes/ (23)
+
+
+
+/focus_stories/fish_oil_in_functional_food
+
+Reporting
+
+125
+Previous
+
+264
+Change
+
+
+-52.6515151515151
+
+
+
+Content pageviews limit is 2
+
+By Time for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food/developing_microencapsulation_technology/, pageviews: 5, average time: 01:03
+/focus_stories/fish_oil_in_functional_food/microencapsulating_fish_oil/, pageviews: 3, average time: 01:02
+/focus_stories/fish_oil_in_functional_food/video_clips/microencapsulation_technology_meets_market_opportunity_v0383/, pageviews: 4, average time: 01:02
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food/, pageviews: 6, average time: 00:37
+/focus_stories/fish_oil_in_functional_food/, pageviews: 25, average time: 00:18
+
+
+
+By Views for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food/, pageviews: 25, average time: 00:18
+/focus_stories/fish_oil_in_functional_food, pageviews: 25, average time: 00:01
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food, pageviews: 6, average time: 00:01
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food/, pageviews: 6, average time: 00:37
+/focus_stories/fish_oil_in_functional_food/developing_microencapsulation_technology, pageviews: 5, average time: 00:01
+
+
+
+Navigation for /focus_stories/fish_oil_in_functional_food
+
+
+Previous pages for /focus_stories/fish_oil_in_functional_food
+
+(entrance) (6)
+/ (6)
+/focus_stories/ (6)
+/about_biotech/organisations/riddet_institute/ (1)
+/focus_stories/fish_oil_in_functional_food/ (1)
+/focus_stories/fish_oil_in_functional_food/adding_fish_oil_to_food/ (1)
+/focus_stories/fish_oil_in_functional_food/images/fish_oil_capsules/ (1)
+
+Next pages for /focus_stories/fish_oil_in_functional_food
+
+/focus_stories/fish_oil_in_functional_food/ (24)
+/content/advancedsearch?SearchText=modelling+and+prototyping&SubTreeArray[]=2&x=13&y=12 (1)
+
+
+
+/focus_stories/forensics
+
+Reporting
+
+617
+Previous
+
+450
+Change
+
+
+37.1111111111111
+
+
+
+Content pageviews limit is 15
+
+By Time for /focus_stories/forensics
+
+/focus_stories/forensics/dna_profiling/, pageviews: 219, average time: 03:36
+/focus_stories/forensics/new_zealand_s_dna_databank/, pageviews: 20, average time: 02:02
+/focus_stories/forensics/, pageviews: 42, average time: 00:46
+/focus_stories/forensics/dna_profiling, pageviews: 221, average time: 00:02
+/focus_stories/forensics, pageviews: 42, average time: 00:01
+
+
+
+By Views for /focus_stories/forensics
+
+/focus_stories/forensics/dna_profiling, pageviews: 221, average time: 00:02
+/focus_stories/forensics/dna_profiling/, pageviews: 219, average time: 03:36
+/focus_stories/forensics, pageviews: 42, average time: 00:01
+/focus_stories/forensics/, pageviews: 42, average time: 00:46
+/focus_stories/forensics/new_zealand_s_dna_databank/, pageviews: 20, average time: 02:02
+
+
+
+Navigation for /focus_stories/forensics
+
+
+Previous pages for /focus_stories/forensics
+
+/focus_stories/ (11)
+/ (7)
+/focus_stories/forensics/dna_profiling/ (6)
+/about_this_site/glossary/dna_profile/ (3)
+/focus_stories/forensics/ (3)
+(entrance) (2)
+/themes/crime_scene_biotech/ (2)
+
+Next pages for /focus_stories/forensics
+
+/focus_stories/forensics/ (39)
+/ (1)
+/focus_stories/forensics/dna_profiling (1)
+
+
+
+/focus_stories/future_foods
+
+Reporting
+
+448
+Previous
+
+253
+Change
+
+
+77.0750988142292
+
+
+
+Content pageviews limit is 3
+
+By Time for /focus_stories/future_foods
+
+/focus_stories/future_foods/food_for_energy, pageviews: 9, average time: 03:10
+/focus_stories/future_foods/lifestyle_foods/, pageviews: 9, average time: 02:00
+/focus_stories/future_foods/video_clips/using_the_e_mark_v0282/, pageviews: 5, average time: 01:55
+/focus_stories/future_foods/student_activity_make_a_muesli_bar/, pageviews: 19, average time: 01:51
+/focus_stories/future_foods/lifestyle_foods, pageviews: 9, average time: 01:23
+
+
+
+By Views for /focus_stories/future_foods
+
+/focus_stories/future_foods/, pageviews: 56, average time: 01:18
+/focus_stories/future_foods, pageviews: 56, average time: 00:01
+/focus_stories/future_foods/student_activity_make_a_muesli_bar, pageviews: 19, average time: 00:00
+/focus_stories/future_foods/student_activity_make_a_muesli_bar/, pageviews: 19, average time: 01:51
+/focus_stories/future_foods/guiding_food_choices/, pageviews: 14, average time: 00:31
+
+
+
+Navigation for /focus_stories/future_foods
+
+
+Previous pages for /focus_stories/future_foods
+
+(entrance) (14)
+/ (9)
+/focus_stories/ (6)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (5)
+/focus_stories/future_foods/ (3)
+/focus_stories/future_foods/guiding_food_choices/ (3)
+/focus_stories/future_foods/making_new_foods/ (2)
+
+Next pages for /focus_stories/future_foods
+
+/focus_stories/future_foods/ (55)
+/focus_stories/future_foods/wrapper (1)
+
+
+
+/focus_stories/honey_to_heal
+
+Reporting
+
+1339
+Previous
+
+400
+Change
+
+
+234.75
+
+
+
+Content pageviews limit is 5
+
+By Time for /focus_stories/honey_to_heal
+
+/index.php/focus_stories/honey_to_heal/honey_to_heal_useful_links/, pageviews: 9, average time: 05:19
+/focus_stories/honey_to_heal/experiment_making_honey_crystals/, pageviews: 16, average time: 03:40
+/focus_stories/honey_to_heal/experiment_antibacterial_effects_of_honey/, pageviews: 31, average time: 03:18
+/focus_stories/honey_to_heal/how_honey_heals_wounds/, pageviews: 21, average time: 03:16
+/focus_stories/honey_to_heal/honeybees_and_manuka_trees/, pageviews: 9, average time: 02:18
+
+
+
+By Views for /focus_stories/honey_to_heal
+
+/index.php/focus_stories/honey_to_heal, pageviews: 216, average time: 00:03
+/index.php/focus_stories/honey_to_heal/, pageviews: 215, average time: 01:57
+/focus_stories/honey_to_heal, pageviews: 55, average time: 00:01
+/focus_stories/honey_to_heal/, pageviews: 52, average time: 01:23
+/index.php/focus_stories/honey_to_heal/how_honey_heals_wounds/, pageviews: 40, average time: 02:12
+
+
+
+Navigation for /focus_stories/honey_to_heal
+
+
+Previous pages for /focus_stories/honey_to_heal
+
+/focus_stories/ (11)
+/ (9)
+(entrance) (5)
+/focus_stories/honey_to_heal/ (5)
+/about_this_site/glossary/bacteria/ (2)
+/focus_stories/honey_to_heal/experiment_antibacterial_effects_of_honey/ (2)
+/focus_stories/honey_to_heal/images/beekeeper (2)
+
+Next pages for /focus_stories/honey_to_heal
+
+/focus_stories/honey_to_heal/ (49)
+/focus_stories/honey_to_heal/images/beekeeper (2)
+/content/advancedsearch?SearchText=antibacterial+effects+of+honey&SubTreeArray[]=1743 (1)
+/focus_stories/forensics (1)
+
+
+
+/focus_stories/mining_milk
+
+Reporting
+
+71
+Previous
+
+68
+Change
+
+
+4.41176470588235
+
+
+
+Content pageviews limit is 3
+
+By Time for /focus_stories/mining_milk
+
+/focus_stories/mining_milk/, pageviews: 14, average time: 01:48
+/focus_stories/mining_milk/images/bubbly_milk/, pageviews: 4, average time: 00:09
+/focus_stories/mining_milk, pageviews: 15, average time: 00:04
+/focus_stories/mining_milk/images/bubbly_milk, pageviews: 4, average time: 00:00
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk, pageviews: 5, average time: 00:00
+
+
+
+By Views for /focus_stories/mining_milk
+
+/focus_stories/mining_milk, pageviews: 15, average time: 00:04
+/focus_stories/mining_milk/, pageviews: 14, average time: 01:48
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk/, pageviews: 5, average time: 00:00
+/focus_stories/mining_milk/lactic_acid_fermentation_to_separate_the_casein_in_milk, pageviews: 5, average time: 00:00
+/focus_stories/mining_milk/images/bubbly_milk/, pageviews: 4, average time: 00:09
+
+
+
+Navigation for /focus_stories/mining_milk
+
+
+Previous pages for /focus_stories/mining_milk
+
+/ (5)
+/focus_stories/ (2)
+/focus_stories/mining_milk/images/bubbly_milk/ (2)
+/focus_stories/mining_milk/did_you_know/ (1)
+/focus_stories/mining_milk/images/tatua_dairy_cooperative/ (1)
+/focus_stories/mining_milk/what_to_do_with_whey_waste/ (1)
+/focus_stories/transgenic_cows/ (1)
+
+Next pages for /focus_stories/mining_milk
+
+/focus_stories/mining_milk/ (14)
+/focus_stories (1)
+
+
+
+/focus_stories/nutrigenomics
+
+Reporting
+
+200
+Previous
+
+129
+Change
+
+
+55.0387596899225
+
+
+
+Content pageviews limit is 2
+
+By Time for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics/, pageviews: 37, average time: 03:49
+/focus_stories/nutrigenomics/gel_electrophoresis_can_be_used_to_find_genes_associated_with_a_disease/, pageviews: 12, average time: 01:42
+/focus_stories/nutrigenomics/dna_sequencing_can_be_used_to_find_genes_associated_with_a_disease/, pageviews: 3, average time: 01:41
+/focus_stories/nutrigenomics/food_forensics/, pageviews: 3, average time: 00:29
+/focus_stories/nutrigenomics/nutrigenomics/, pageviews: 9, average time: 00:28
+
+
+
+By Views for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics, pageviews: 39, average time: 00:00
+/focus_stories/nutrigenomics/, pageviews: 37, average time: 03:49
+/focus_stories/nutrigenomics/gel_electrophoresis_can_be_used_to_find_genes_associated_with_a_disease, pageviews: 12, average time: 00:00
+/focus_stories/nutrigenomics/gel_electrophoresis_can_be_used_to_find_genes_associated_with_a_disease/, pageviews: 12, average time: 01:42
+/focus_stories/nutrigenomics/nutrigenomics/, pageviews: 9, average time: 00:28
+
+
+
+Navigation for /focus_stories/nutrigenomics
+
+
+Previous pages for /focus_stories/nutrigenomics
+
+/focus_stories/ (10)
+(entrance) (8)
+/ (7)
+/focus_stories/nutrigenomics (2)
+/focus_stories/nutrigenomics/ (2)
+/about_this_site/glossary/ulcerative_colitis/ (1)
+/focus_stories/(offset)/9/(year)/(month)//(day)//(namefilter)// (1)
+
+Next pages for /focus_stories/nutrigenomics
+
+/focus_stories/nutrigenomics/ (35)
+/focus_stories/nutrigenomics (2)
+/focus_stories/nutrigenomics/images/microarray_results (1)
+/focus_stories/nutrigenomics/images/microarray_results/ (1)
+
+
+
+/focus_stories/potato_plates
+
+Reporting
+
+261
+Previous
+
+114
+Change
+
+
+128.947368421053
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/potato_plates
+
+/focus_stories/potato_plates/environmental_benefits_of_potato_plates/, pageviews: 6, average time: 03:33
+/focus_stories/potato_plates/, pageviews: 76, average time: 03:12
+/focus_stories/potato_plates/potato_plate_manufacturing_process/, pageviews: 7, average time: 00:51
+/focus_stories/potato_plates/the_biodegradable_possum_bait_station/, pageviews: 7, average time: 00:14
+/focus_stories/potato_plates, pageviews: 76, average time: 00:09
+
+
+
+By Views for /focus_stories/potato_plates
+
+/focus_stories/potato_plates/, pageviews: 76, average time: 03:12
+/focus_stories/potato_plates, pageviews: 76, average time: 00:09
+/focus_stories/potato_plates/the_biodegradable_possum_bait_station/, pageviews: 7, average time: 00:14
+/focus_stories/potato_plates/potato_plate_manufacturing_process, pageviews: 7, average time: 00:02
+/focus_stories/potato_plates/potato_plate_manufacturing_process/, pageviews: 7, average time: 00:51
+
+
+
+Navigation for /focus_stories/potato_plates
+
+
+Previous pages for /focus_stories/potato_plates
+
+(entrance) (37)
+/ (9)
+/focus_stories/ (6)
+/focus_stories/potato_plates/ (5)
+/content/advancedsearch/ (2)
+/focus_stories/potato_plates (2)
+/about_biotech/organisations/potatopak_nz_limited/ (1)
+
+Next pages for /focus_stories/potato_plates
+
+/focus_stories/potato_plates/ (73)
+/focus_stories/potato_plates (2)
+
+
+
+/focus_stories/robotic_milking
+
+Reporting
+
+368
+Previous
+
+389
+Change
+
+
+-5.39845758354756
+
+
+
+Content pageviews limit is 4
+
+By Time for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/, pageviews: 9, average time: 07:51
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 26, average time: 04:39
+/focus_stories/robotic_milking/robotic_milking_useful_links/, pageviews: 15, average time: 03:57
+/focus_stories/robotic_milking/images/a_herringbone_milking_shed/, pageviews: 21, average time: 03:02
+/focus_stories/robotic_milking/, pageviews: 45, average time: 01:50
+
+
+
+By Views for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking, pageviews: 45, average time: 00:00
+/focus_stories/robotic_milking/, pageviews: 45, average time: 01:50
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand, pageviews: 27, average time: 00:00
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/, pageviews: 26, average time: 04:39
+/focus_stories/robotic_milking/images/a_herringbone_milking_shed/, pageviews: 21, average time: 03:02
+
+
+
+Navigation for /focus_stories/robotic_milking
+
+
+Previous pages for /focus_stories/robotic_milking
+
+(entrance) (22)
+/focus_stories/robotic_milking/ (7)
+/ (2)
+/focus/robotic_miliking/ (2)
+/focus_stories/robotic_milking/images/cow_eating_in_robotic_milking_stall/ (2)
+/focus_stories/robotic_milking/the_changing_face_of_dairy_farming_in_new_zealand/ (2)
+/focus_stories/robotic_milking/video_clips/how_do_robots_milk_cows_v0132/ (2)
+
+Next pages for /focus_stories/robotic_milking
+
+/focus_stories/robotic_milking/ (43)
+/focus_stories/robotic_milking/video_clips/what_is_the_greenfield_project_v0125 (1)
+
+
+
+/focus_stories/taewa_maori_potatoes
+
+Reporting
+
+346
+Previous
+
+414
+Change
+
+
+-16.4251207729469
+
+
+
+Content pageviews limit is 3
+
+By Time for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development/, pageviews: 10, average time: 01:21
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa/, pageviews: 12, average time: 01:04
+/focus_stories/taewa_maori_potatoes/, pageviews: 52, average time: 00:46
+/focus_stories/taewa_maori_potatoes/making_taewa_snacks/, pageviews: 5, average time: 00:43
+/focus_stories/taewa_maori_potatoes/develop_a_novel_taewa_product/, pageviews: 4, average time: 00:35
+
+
+
+By Views for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes, pageviews: 53, average time: 00:16
+/focus_stories/taewa_maori_potatoes/, pageviews: 52, average time: 00:46
+/focus_stories/taewa_maori_potatoes/taewa_maori_potatoes_useful_links/, pageviews: 13, average time: 00:10
+/focus_stories/taewa_maori_potatoes/taewa_maori_potatoes_useful_links, pageviews: 13, average time: 00:00
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa/, pageviews: 12, average time: 01:04
+
+
+
+Navigation for /focus_stories/taewa_maori_potatoes
+
+
+Previous pages for /focus_stories/taewa_maori_potatoes
+
+(entrance) (24)
+/focus_stories/ (10)
+/ (5)
+/focus_stories/taewa_maori_potatoes/ (4)
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development/ (2)
+/focus_stories/taewa_maori_potatoes/the_cultural_value_of_taewa_maori_potatoes/ (2)
+/about_biotech/ (1)
+
+Next pages for /focus_stories/taewa_maori_potatoes
+
+/focus_stories/taewa_maori_potatoes/ (47)
+/ (1)
+/focus_stories/taewa_maori_potatoes/developing_novel_foods_from_taewa (1)
+/focus_stories/taewa_maori_potatoes/growing_taewa_research_and_development (1)
+/focus_stories/taewa_maori_potatoes/the_benefits_of_taewa (1)
+/focus_stories/taewa_maori_potatoes/video_clips/identifying_opportunities_for_taewa (1)
+/focus_stories/taewa_maori_potatoes/wrapper (1)
+
+
+
+/focus_stories/transgenic_cows
+
+Reporting
+
+2033
+Previous
+
+615
+Change
+
+
+230.569105691057
+
+
+
+Content pageviews limit is 15
+
+By Time for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows/making_a_transgenic_animal/, pageviews: 64, average time: 04:12
+/focus_stories/transgenic_cows/video_clips/uses_of_transgenic_cows/, pageviews: 25, average time: 03:24
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk/, pageviews: 122, average time: 03:04
+/focus_stories/transgenic_cows/future_uses_of_transgenic_cows/, pageviews: 44, average time: 02:42
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/, pageviews: 147, average time: 02:03
+
+
+
+By Views for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows, pageviews: 284, average time: 00:02
+/focus_stories/transgenic_cows/, pageviews: 278, average time: 01:59
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows, pageviews: 149, average time: 00:09
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/, pageviews: 147, average time: 02:03
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk, pageviews: 123, average time: 00:08
+
+
+
+Navigation for /focus_stories/transgenic_cows
+
+
+Previous pages for /focus_stories/transgenic_cows
+
+(entrance) (59)
+/ (46)
+/focus_stories/ (26)
+/news_and_events/site_newsletter/newsletter_may_2010/ (22)
+/focus_stories/transgenic_cows/transgenic_cows_making_modified_milk/ (19)
+/focus_stories/transgenic_cows/ (17)
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/ (12)
+
+Next pages for /focus_stories/transgenic_cows
+
+/focus_stories/transgenic_cows/ (270)
+/focus_stories/transgenic_cows/regulating_transgenic_cow_research (2)
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows (2)
+/focus_stories/transgenic_cows/video_clips/uses_of_transgenic_cows (2)
+/about_this_site/glossary (1)
+/focus_stories/biological_control_of_possums/ (1)
+/focus_stories/transgenic_cows/techniques_used_to_make_transgenic_cows/ (1)
+
+
+
+/focus_stories/wool_innovations
+
+Reporting
+
+38
+Previous
+
+0
+Change
+
+
+Infinity
+
+
+
+Content pageviews limit is 2
+
+By Time for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/video_clips/how_solospun_works/, pageviews: 3, average time: 13:04
+/focus_stories/wool_innovations/, pageviews: 10, average time: 00:31
+/focus_stories/wool_innovations/video_clips/, pageviews: 3, average time: 00:05
+/focus_stories/wool_innovations/video_clips/how_solospun_works, pageviews: 3, average time: 00:03
+/focus_stories/wool_innovations, pageviews: 10, average time: 00:00
+
+
+
+By Views for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/, pageviews: 10, average time: 00:31
+/focus_stories/wool_innovations, pageviews: 10, average time: 00:00
+/focus_stories/wool_innovations/video_clips/, pageviews: 3, average time: 00:05
+/focus_stories/wool_innovations/video_clips/how_solospun_works, pageviews: 3, average time: 00:03
+/focus_stories/wool_innovations/video_clips, pageviews: 3, average time: 00:00
+
+
+
+Navigation for /focus_stories/wool_innovations
+
+
+Previous pages for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/ (4)
+/focus_stories/ (2)
+(entrance) (1)
+/ (1)
+/focus_stories/transgenic_cows/ (1)
+/focus_stories/wool_innovations/video_clips/(offset)/9/(year)/(month)//(day)//(namefilter)// (1)
+
+Next pages for /focus_stories/wool_innovations
+
+/focus_stories/wool_innovations/ (10)
+
+
+
+/themes
+
+Reporting
+
+8468
+Previous
+
+5115
+Change
+
+
+65.5522971652004
+
+
+
+Content pageviews limit is 7
+
+By Time for /themes
+
+/themes/new_zealand_views_on_biotech/video_clips/what_does_biotechnology_have_to_offer_v0124/, pageviews: 11, average time: 11:03
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 55, average time: 05:52
+/themes/marvellous_milk/hyper_immune_milk/, pageviews: 9, average time: 04:59
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 118, average time: 04:55
+/themes/biotech_therapies/biotech_therapies_useful_links/, pageviews: 10, average time: 04:16
+
+
+
+By Views for /themes
+
+/themes/biotech_therapies/xenotransplantation, pageviews: 721, average time: 00:11
+/themes/biotech_therapies/xenotransplantation/, pageviews: 685, average time: 04:08
+/themes, pageviews: 192, average time: 00:01
+/themes/, pageviews: 191, average time: 00:35
+/themes/biotech_therapies/stem_cells, pageviews: 159, average time: 00:06
+
+
+
+Navigation for /themes
+
+
+Previous pages for /themes
+
+/ (20)
+/focus_stories/ (16)
+(entrance) (8)
+/about_biotech/ (8)
+/themes/biotech_therapies/ (8)
+/content/advancedsearch/ (6)
+/themes/biotech_product_development/ (6)
+
+Next pages for /themes
+
+/themes/ (185)
+/themes/(offset)/9/(year)//(month)//(day)//(namefilter) (2)
+/content/advancedsearch?SearchText=stem+cell&SubTreeArray[]=2 (1)
+/focus_stories (1)
+/themes/biotech_therapies/stem_cell_therapy_a_bird_brain_idea (1)
+/themes/biotech_therapies/timeline_for_stem_cell_research (1)
+
+
+
+/themes/barcoding_life
+
+Reporting
+
+130
+Previous
+
+48
+Change
+
+
+170.833333333333
+
+
+
+Content pageviews limit is 2
+
+By Time for /themes/barcoding_life
+
+/themes/barcoding_life/barcoding_sharks/, pageviews: 3, average time: 08:05
+/themes/barcoding_life/images/diagram_of_a_mitochondrion/, pageviews: 4, average time: 03:48
+/themes/barcoding_life/the_ideal_barcoding_gene/, pageviews: 14, average time: 02:21
+/themes/barcoding_life/more_about_mitochondria/, pageviews: 4, average time: 01:07
+/themes/barcoding_life/, pageviews: 19, average time: 00:37
+
+
+
+By Views for /themes/barcoding_life
+
+/themes/barcoding_life, pageviews: 19, average time: 00:02
+/themes/barcoding_life/, pageviews: 19, average time: 00:37
+/themes/barcoding_life/the_ideal_barcoding_gene/, pageviews: 14, average time: 02:21
+/themes/barcoding_life/the_ideal_barcoding_gene, pageviews: 14, average time: 00:03
+/themes/barcoding_life/more_about_mitochondria, pageviews: 4, average time: 00:00
+
+
+
+Navigation for /themes/barcoding_life
+
+
+Previous pages for /themes/barcoding_life
+
+/themes/ (6)
+/ (4)
+(entrance) (1)
+/about_this_site/glossary/dna_sequencing/ (1)
+/about_this_site/glossary/eukaryote/ (1)
+/content/advancedsearch/ (1)
+/index.php/themes/ (1)
+
+Next pages for /themes/barcoding_life
+
+/themes/barcoding_life/ (18)
+/themes (1)
+
+
+
+/themes/biocontrol
+
+Reporting
+
+110
+Previous
+
+125
+Change
+
+
+-12.0
+
+
+
+Content pageviews limit is 2
+
+By Time for /themes/biocontrol
+
+/themes/biocontrol/, pageviews: 19, average time: 00:38
+/themes/biocontrol/images/clover_root_weevil_and_a_parasitoid_wasp, pageviews: 4, average time: 00:23
+/themes/biocontrol/amazing_ryegrass/, pageviews: 7, average time: 00:21
+/themes/biocontrol/irish_wasp_to_the_rescue/, pageviews: 3, average time: 00:17
+/themes/biocontrol, pageviews: 19, average time: 00:01
+
+
+
+By Views for /themes/biocontrol
+
+/themes/biocontrol/, pageviews: 19, average time: 00:38
+/themes/biocontrol, pageviews: 19, average time: 00:01
+/themes/biocontrol/amazing_ryegrass, pageviews: 7, average time: 00:00
+/themes/biocontrol/amazing_ryegrass/, pageviews: 7, average time: 00:21
+/themes/biocontrol/images/clover_root_weevil_and_a_parasitoid_wasp/, pageviews: 4, average time: 00:01
+
+
+
+Navigation for /themes/biocontrol
+
+
+Previous pages for /themes/biocontrol
+
+/ (6)
+(entrance) (5)
+/focus_stories/biological_control_of_possums/ (3)
+/themes/ (2)
+/focus_stories/ (1)
+/themes/biocontrol/ (1)
+/themes/biocontrol/images/clover_root_weevil_and_a_parasitoid_wasp (1)
+
+Next pages for /themes/biocontrol
+
+/themes/biocontrol/ (18)
+
+
+
+/themes/bioethics
+
+Reporting
+
+1005
+Previous
+
+433
+Change
+
+
+132.101616628176
+
+
+
+Content pageviews limit is 8
+
+By Time for /themes/bioethics
+
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 118, average time: 04:55
+/themes/bioethics/ethics_of_whaling/, pageviews: 19, average time: 02:38
+/themes/bioethics/ethics_of_xenotransplantation/, pageviews: 129, average time: 02:31
+/themes/bioethics/video_clips/the_ethics_of_whaling_v0160/, pageviews: 10, average time: 01:28
+/themes/bioethics/video_clips/the_ethics_of_medicine_and_food_biotechnology_v0162/, pageviews: 9, average time: 01:13
+
+
+
+By Views for /themes/bioethics
+
+/themes/bioethics/ethics_of_xenotransplantation, pageviews: 135, average time: 00:01
+/themes/bioethics/ethics_of_xenotransplantation/, pageviews: 129, average time: 02:31
+/themes/bioethics/ethics_of_organ_donation/, pageviews: 118, average time: 04:55
+/themes/bioethics/ethics_of_organ_donation, pageviews: 118, average time: 00:15
+/themes/bioethics/frameworks_for_ethical_analysis, pageviews: 80, average time: 00:00
+
+
+
+Navigation for /themes/bioethics
+
+
+Previous pages for /themes/bioethics
+
+(entrance) (18)
+/ (6)
+/about_this_site/glossary/xenotransplantation/ (4)
+/about_this_site/glossary/stem_cell/ (3)
+/themes/ (3)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (3)
+/themes/bioethics/ethics_of_xenotransplantation/ (2)
+
+Next pages for /themes/bioethics
+
+/themes/bioethics/ (49)
+/content/advancedsearch (1)
+
+
+
+/themes/biotech_and_taonga
+
+Reporting
+
+298
+Previous
+
+175
+Change
+
+
+70.2857142857143
+
+
+
+Content pageviews limit is 5
+
+By Time for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/types_of_harakeke_or_flax_v0144/, pageviews: 21, average time: 01:19
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/, pageviews: 36, average time: 00:55
+/themes/biotech_and_taonga/, pageviews: 20, average time: 00:39
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/the_history_of_maori_and_harakeke_v0146/, pageviews: 20, average time: 00:26
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/harakeke_gel_v0151/, pageviews: 8, average time: 00:15
+
+
+
+By Views for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/, pageviews: 36, average time: 00:55
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research, pageviews: 36, average time: 00:00
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/the_history_of_maori_and_harakeke_v0146, pageviews: 21, average time: 00:06
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/types_of_harakeke_or_flax_v0144/, pageviews: 21, average time: 01:19
+/themes/biotech_and_taonga/the_harakeke_project_at_industrial_research/types_of_harakeke_or_flax_v0144, pageviews: 21, average time: 00:09
+
+
+
+Navigation for /themes/biotech_and_taonga
+
+
+Previous pages for /themes/biotech_and_taonga
+
+/ (5)
+/themes/ (4)
+(entrance) (1)
+/about_biotech/biotech_in_schools/video_conferences/the_harakeke_project_at_industrial_research/ (1)
+/about_biotech/organisations/industrial_research_ltd/ (1)
+/about_biotech/sectors/general_biotech/ (1)
+/about_this_site/glossary/rongoa/ (1)
+
+Next pages for /themes/biotech_and_taonga
+
+/themes/biotech_and_taonga/ (20)
+
+
+
+/themes/biotech_at_home
+
+Reporting
+
+744
+Previous
+
+582
+Change
+
+
+27.8350515463918
+
+
+
+Content pageviews limit is 6
+
+By Time for /themes/biotech_at_home
+
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 83, average time: 02:26
+/themes/biotech_at_home/making_fermented_drinks2/, pageviews: 8, average time: 01:59
+/themes/biotech_at_home/karen_farley_s_cosmetics/getting_into_natural_skincare_v0296/, pageviews: 21, average time: 01:23
+/themes/biotech_at_home/karen_farley_s_cosmetics/, pageviews: 150, average time: 01:03
+/themes/biotech_at_home/the_chemistry_of_croissants/, pageviews: 9, average time: 00:47
+
+
+
+By Views for /themes/biotech_at_home
+
+/themes/biotech_at_home/karen_farley_s_cosmetics/, pageviews: 150, average time: 01:03
+/themes/biotech_at_home/karen_farley_s_cosmetics, pageviews: 149, average time: 00:00
+/themes/biotech_at_home/enzymes_in_washing_powders/, pageviews: 83, average time: 02:26
+/themes/biotech_at_home/enzymes_in_washing_powders, pageviews: 83, average time: 00:00
+/themes/biotech_at_home, pageviews: 27, average time: 00:01
+
+
+
+Navigation for /themes/biotech_at_home
+
+
+Previous pages for /themes/biotech_at_home
+
+/themes/ (7)
+(entrance) (5)
+/ (3)
+/themes/biotech_at_home/making_fermented_drinks2/ (3)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (2)
+/themes/biotech_at_home/karen_farley_s_cosmetics/ (2)
+/themes/biotech_at_home/the_chemistry_of_croissants/ (2)
+
+Next pages for /themes/biotech_at_home
+
+/themes/biotech_at_home/ (27)
+
+
+
+/themes/biotech_product_development
+
+Reporting
+
+170
+Previous
+
+32
+Change
+
+
+431.25
+
+
+
+Content pageviews limit is 2
+
+By Time for /themes/biotech_product_development
+
+/themes/biotech_product_development/product_development/modelling_and_testing/, pageviews: 7, average time: 01:36
+/themes/biotech_product_development/product_development/legal_issues/, pageviews: 4, average time: 01:35
+/themes/biotech_product_development/, pageviews: 23, average time: 00:45
+/themes/biotech_product_development/video_clips/biotechnology_and_the_new_zealand_public_v0180/, pageviews: 3, average time: 00:43
+/themes/biotech_product_development/product_development/feasibility/, pageviews: 3, average time: 00:41
+
+
+
+By Views for /themes/biotech_product_development
+
+/themes/biotech_product_development/, pageviews: 23, average time: 00:45
+/themes/biotech_product_development, pageviews: 23, average time: 00:00
+/themes/biotech_product_development/product_development, pageviews: 18, average time: 00:00
+/themes/biotech_product_development/product_development/, pageviews: 18, average time: 00:11
+/themes/biotech_product_development/product_development/modelling_and_testing/, pageviews: 7, average time: 01:36
+
+
+
+Navigation for /themes/biotech_product_development
+
+
+Previous pages for /themes/biotech_product_development
+
+/themes/ (9)
+/ (7)
+/themes/(year)/(month)//(day)//(namefilter)// (3)
+(entrance) (1)
+/content/advancedsearch/ (1)
+/themes/biotech_product_development/images/biotech_product_development/ (1)
+/themes/biotech_product_development/product_development/ (1)
+
+Next pages for /themes/biotech_product_development
+
+/themes/biotech_product_development/ (23)
+
+
+
+/themes/biotech_therapies
+
+Reporting
+
+2788
+Previous
+
+1697
+Change
+
+
+64.2899233942251
+
+
+
+Content pageviews limit is 24
+
+By Time for /themes/biotech_therapies
+
+/themes/biotech_therapies/xenotransplantation/, pageviews: 685, average time: 04:08
+/themes/biotech_therapies/bone_marrow_transplantation/, pageviews: 26, average time: 03:41
+/themes/biotech_therapies/timeline_for_stem_cell_research/, pageviews: 94, average time: 02:34
+/themes/biotech_therapies/stem_cell_therapy_a_bird_brain_idea/, pageviews: 35, average time: 02:29
+/themes/biotech_therapies/stem_cells/, pageviews: 154, average time: 01:53
+
+
+
+By Views for /themes/biotech_therapies
+
+/themes/biotech_therapies/xenotransplantation, pageviews: 721, average time: 00:11
+/themes/biotech_therapies/xenotransplantation/, pageviews: 685, average time: 04:08
+/themes/biotech_therapies/stem_cells, pageviews: 159, average time: 00:06
+/themes/biotech_therapies/stem_cells/, pageviews: 154, average time: 01:53
+/themes/biotech_therapies/timeline_for_stem_cell_research, pageviews: 103, average time: 00:16
+
+
+
+Navigation for /themes/biotech_therapies
+
+
+Previous pages for /themes/biotech_therapies
+
+/themes/ (13)
+/ (7)
+/themes/biotech_therapies/stem_cells/ (5)
+/content/advancedsearch/ (3)
+/themes/biotech_therapies/xenotransplantation/ (3)
+(entrance) (2)
+/themes/(offset)/9/(year)/(month)//(day)//(namefilter)// (2)
+
+Next pages for /themes/biotech_therapies
+
+/themes/biotech_therapies/ (40)
+/themes/biotech_therapies (1)
+
+
+
+/themes/cell_biology_and_genetics
+
+Reporting
+
+248
+Previous
+
+98
+Change
+
+
+153.061224489796
+
+
+
+Content pageviews limit is 2
+
+By Time for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/making_proteins_by_genetic_engineering/, pageviews: 8, average time: 03:28
+/index.php/themes/cell_biology_and_genetics/, pageviews: 6, average time: 01:32
+/themes/cell_biology_and_genetics/zebrafish_make_a_difference/, pageviews: 5, average time: 00:54
+/themes/cell_biology_and_genetics/, pageviews: 44, average time: 00:49
+/themes/cell_biology_and_genetics/the_ethics_of_zebrafish_in_research/, pageviews: 4, average time: 00:33
+
+
+
+By Views for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/, pageviews: 44, average time: 00:49
+/themes/cell_biology_and_genetics, pageviews: 44, average time: 00:00
+/themes/cell_biology_and_genetics/dr_love_s_zebrafish, pageviews: 11, average time: 00:00
+/themes/cell_biology_and_genetics/dr_love_s_zebrafish/, pageviews: 11, average time: 00:19
+/themes/cell_biology_and_genetics/making_proteins_by_genetic_engineering/, pageviews: 8, average time: 03:28
+
+
+
+Navigation for /themes/cell_biology_and_genetics
+
+
+Previous pages for /themes/cell_biology_and_genetics
+
+(entrance) (11)
+/themes/ (10)
+/ (6)
+/content/advancedsearch/ (3)
+/about_this_site/glossary/genetic_engineering/ (2)
+/themes/cell_biology_and_genetics/ (2)
+/about_this_site/glossary/gene/ (1)
+
+Next pages for /themes/cell_biology_and_genetics
+
+/themes/cell_biology_and_genetics/ (44)
+
+
+
+/themes/crime_scene_biotech
+
+Reporting
+
+178
+Previous
+
+100
+Change
+
+
+78.0
+
+
+
+Content pageviews limit is 7
+
+By Time for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 55, average time: 05:52
+/themes/crime_scene_biotech/, pageviews: 23, average time: 00:31
+/themes/crime_scene_biotech/dna_profiling, pageviews: 57, average time: 00:01
+/themes/crime_scene_biotech, pageviews: 23, average time: 00:00
+
+
+
+By Views for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech/dna_profiling, pageviews: 57, average time: 00:01
+/themes/crime_scene_biotech/dna_profiling/, pageviews: 55, average time: 05:52
+/themes/crime_scene_biotech/, pageviews: 23, average time: 00:31
+/themes/crime_scene_biotech, pageviews: 23, average time: 00:00
+
+
+
+Navigation for /themes/crime_scene_biotech
+
+
+Previous pages for /themes/crime_scene_biotech
+
+/ (9)
+/focus_stories/forensics/ (3)
+/themes/ (3)
+(entrance) (2)
+/about_this_site/glossary/dna/ (1)
+/content/advancedsearch/ (1)
+/news_and_events/radio_new_zealand_audio/aging_bodily_fluid_stains/ (1)
+
+Next pages for /themes/crime_scene_biotech
+
+/themes/crime_scene_biotech/ (23)
+
+
+
+/themes/dna_lab
+
+Reporting
+
+680
+Previous
+
+336
+Change
+
+
+102.380952380952
+
+
+
+Content pageviews limit is 5
+
+By Time for /themes/dna_lab
+
+/themes/dna_lab/dna_lab_useful_links/, pageviews: 12, average time: 03:49
+/themes/dna_lab/pcr_polymerase_chain_reaction/, pageviews: 15, average time: 03:39
+/index.php/themes/dna_lab/polymerase_chain_reaction_pcr/, pageviews: 8, average time: 03:17
+/themes/dna_lab/bacterial_transformation/, pageviews: 8, average time: 03:13
+/themes/dna_lab/sequencing_revealing_the_dna_code/, pageviews: 6, average time: 02:15
+
+
+
+By Views for /themes/dna_lab
+
+/themes/dna_lab/, pageviews: 34, average time: 00:58
+/themes/dna_lab, pageviews: 34, average time: 00:00
+/themes/dna_lab/restriction_enzymes, pageviews: 27, average time: 00:06
+/themes/dna_lab/gel_electrophoresis, pageviews: 27, average time: 00:06
+/themes/dna_lab/restriction_enzymes/, pageviews: 27, average time: 00:49
+
+
+
+Navigation for /themes/dna_lab
+
+
+Previous pages for /themes/dna_lab
+
+/themes/ (12)
+/ (6)
+(entrance) (2)
+/themes/dna_lab/images/test_tubes/ (2)
+/about_this_site/glossary/dna_sequencing/ (1)
+/about_this_site/glossary/gel_electrophoresis/ (1)
+/about_this_site/glossary/restriction_enzyme/ (1)
+
+Next pages for /themes/dna_lab
+
+/themes/dna_lab/ (34)
+
+
+
+/themes/food_intolerance_and_allergies
+
+Reporting
+
+207
+Previous
+
+306
+Change
+
+
+-32.3529411764706
+
+
+
+Content pageviews limit is 5
+
+By Time for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies/a_genetic_test_for_lactose_intolerance/, pageviews: 16, average time: 02:26
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance/, pageviews: 18, average time: 01:05
+/themes/food_intolerance_and_allergies/, pageviews: 39, average time: 00:40
+/themes/food_intolerance_and_allergies/images/lactose_free_milk/, pageviews: 10, average time: 00:09
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance, pageviews: 18, average time: 00:03
+
+
+
+By Views for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies, pageviews: 40, average time: 00:00
+/themes/food_intolerance_and_allergies/, pageviews: 39, average time: 00:40
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance/, pageviews: 18, average time: 01:05
+/themes/food_intolerance_and_allergies/treating_lactose_intolerance, pageviews: 18, average time: 00:03
+/themes/food_intolerance_and_allergies/a_genetic_test_for_lactose_intolerance/, pageviews: 16, average time: 02:26
+
+
+
+Navigation for /themes/food_intolerance_and_allergies
+
+
+Previous pages for /themes/food_intolerance_and_allergies
+
+(entrance) (19)
+/themes/ (7)
+/about_this_site/glossary/immune_system/ (3)
+/about_this_site/glossary/lactose/ (2)
+/about_this_site/glossary/yeast/ (2)
+/ (1)
+/about_this_site/glossary/yeast (1)
+
+Next pages for /themes/food_intolerance_and_allergies
+
+/themes/food_intolerance_and_allergies/ (39)
+
+
+
+/themes/future_farming
+
+Reporting
+
+258
+Previous
+
+215
+Change
+
+
+20.0
+
+
+
+Content pageviews limit is 4
+
+By Time for /themes/future_farming
+
+/themes/future_farming/what_is_silage/, pageviews: 41, average time: 04:13
+/themes/future_farming/making_your_own_silage/, pageviews: 16, average time: 01:51
+/themes/future_farming/, pageviews: 16, average time: 01:17
+/themes/future_farming/what_is_silage, pageviews: 41, average time: 00:47
+/themes/future_farming/impacts_of_the_footrot_gene_marker_test_on_new_zealand_sheep_farming/, pageviews: 8, average time: 00:37
+
+
+
+By Views for /themes/future_farming
+
+/themes/future_farming/what_is_silage/, pageviews: 41, average time: 04:13
+/themes/future_farming/what_is_silage, pageviews: 41, average time: 00:47
+/themes/future_farming, pageviews: 16, average time: 00:00
+/themes/future_farming/making_your_own_silage, pageviews: 16, average time: 00:09
+/themes/future_farming/, pageviews: 16, average time: 01:17
+
+
+
+Navigation for /themes/future_farming
+
+
+Previous pages for /themes/future_farming
+
+/themes/ (8)
+(entrance) (4)
+/ (2)
+/themes/biocontrol/did_you_know/ (1)
+/themes/future_farming/what_is_silage/ (1)
+
+Next pages for /themes/future_farming
+
+/themes/future_farming/ (16)
+
+
+
+/themes/marvellous_milk
+
+Reporting
+
+208
+Previous
+
+116
+Change
+
+
+79.3103448275862
+
+
+
+Content pageviews limit is 4
+
+By Time for /themes/marvellous_milk
+
+/themes/marvellous_milk/hyper_immune_milk/, pageviews: 9, average time: 04:59
+/themes/marvellous_milk/hyper_immune_milk_what_s_the_story/, pageviews: 5, average time: 01:32
+/themes/marvellous_milk/a1_or_a2/, pageviews: 15, average time: 01:20
+/themes/marvellous_milk/, pageviews: 27, average time: 01:08
+/themes/marvellous_milk/q_a_getting_the_most_out_of_milk/, pageviews: 6, average time: 00:39
+
+
+
+By Views for /themes/marvellous_milk
+
+/themes/marvellous_milk, pageviews: 27, average time: 00:00
+/themes/marvellous_milk/, pageviews: 27, average time: 01:08
+/themes/marvellous_milk/a1_or_a2/, pageviews: 15, average time: 01:20
+/themes/marvellous_milk/a1_or_a2, pageviews: 15, average time: 00:00
+/themes/marvellous_milk/testing_for_the_casein_gene, pageviews: 11, average time: 00:00
+
+
+
+Navigation for /themes/marvellous_milk
+
+
+Previous pages for /themes/marvellous_milk
+
+/themes/ (5)
+(entrance) (4)
+/themes/marvellous_milk/images/marvellous_milk/ (3)
+/content/advancedsearch/ (2)
+/focus_stories/transgenic_cows/ (2)
+/themes/marvellous_milk/extracting_milk_proteins/ (2)
+/ (1)
+
+Next pages for /themes/marvellous_milk
+
+/themes/marvellous_milk/ (27)
+
+
+
+/themes/new_zealand_views_on_biotech
+
+Reporting
+
+565
+Previous
+
+303
+Change
+
+
+86.4686468646865
+
+
+
+Content pageviews limit is 6
+
+By Time for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/video_clips/what_does_biotechnology_have_to_offer_v0124/, pageviews: 11, average time: 11:03
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/embryonic_stem_cells_and_alzheimer_s_disease/, pageviews: 10, average time: 03:36
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/public_acceptance_of_bioremediation_to_address_new_zealand_s_ddt_problem/, pageviews: 17, average time: 03:25
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers/, pageviews: 89, average time: 03:02
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops/, pageviews: 48, average time: 02:13
+
+
+
+By Views for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers, pageviews: 90, average time: 00:04
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers/, pageviews: 89, average time: 03:02
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops, pageviews: 48, average time: 00:02
+/themes/new_zealand_views_on_biotech/economic_impacts_of_gm_crops/, pageviews: 48, average time: 02:13
+/themes/new_zealand_views_on_biotech/new_zealand_views_on_biotech/public_acceptance_of_bioremediation_to_address_new_zealand_s_ddt_problem/, pageviews: 17, average time: 03:25
+
+
+
+Navigation for /themes/new_zealand_views_on_biotech
+
+
+Previous pages for /themes/new_zealand_views_on_biotech
+
+/ (4)
+/themes/ (3)
+(entrance) (2)
+/about_this_site/glossary/genetically_modified/ (1)
+/themes/new_zealand_views_on_biotech/biotech_in_new_zealand/ (1)
+/themes/new_zealand_views_on_biotech/gm_food_and_new_zealand_consumers (1)
+/themes/what_is_biotechnology/ (1)
+
+Next pages for /themes/new_zealand_views_on_biotech
+
+/themes/new_zealand_views_on_biotech/ (13)
+
+
+
+/themes/what_is_biotechnology
+
+Reporting
+
+252
+Previous
+
+174
+Change
+
+
+44.8275862068966
+
+
+
+Content pageviews limit is 8
+
+By Time for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology/ancient_biotechnology/, pageviews: 9, average time: 03:29
+/themes/what_is_biotechnology/impacts_of_biotechnology_on_society/, pageviews: 16, average time: 03:06
+/themes/what_is_biotechnology/modern_biotechnology/, pageviews: 35, average time: 01:40
+/themes/what_is_biotechnology/, pageviews: 38, average time: 00:58
+/themes/what_is_biotechnology/definitions_of_biotechnology/, pageviews: 12, average time: 00:25
+
+
+
+By Views for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology, pageviews: 38, average time: 00:01
+/themes/what_is_biotechnology/, pageviews: 38, average time: 00:58
+/themes/what_is_biotechnology/modern_biotechnology, pageviews: 36, average time: 00:00
+/themes/what_is_biotechnology/modern_biotechnology/, pageviews: 35, average time: 01:40
+/themes/what_is_biotechnology/impacts_of_biotechnology_on_society, pageviews: 16, average time: 00:00
+
+
+
+Navigation for /themes/what_is_biotechnology
+
+
+Previous pages for /themes/what_is_biotechnology
+
+/themes/ (12)
+/ (8)
+(entrance) (7)
+/themes/(year)/(month)//(day)//(namefilter)// (2)
+/themes/what_is_biotechnology/student_activity_exploring_the_impacts_of_biotechnology_on_society/ (2)
+/themes/biotech_therapies/ (1)
+/themes/new_zealand_views_on_biotech/ (1)
+
+Next pages for /themes/what_is_biotechnology
+
+/themes/what_is_biotechnology/ (37)
+/themes/what_is_biotechnology/modern_biotechnology (1)
+
+
+
+/news_and_events
+
+Reporting
+
+1634
+Previous
+
+909
+Change
+
+
+79.7579757975798
+
+
+
+Content pageviews limit is 4
+
+By Time for /news_and_events
+
+/news_and_events/news_archive/plant_research_aims_to_reduce_methane_emissions/, pageviews: 13, average time: 05:37
+/news_and_events/news_archive/2007_archive/pig_cell_trial_set_to_start/, pageviews: 25, average time: 03:54
+/news_and_events/news_archive/uv_effect_on_grapes/, pageviews: 12, average time: 03:02
+/news_and_events/news_archive/approval_welcomed_by_nz_cancer_vaccine_scientists/, pageviews: 9, average time: 02:32
+/news_and_events/news_archive/stem_cell_therapy_for_arthritic_dogs/, pageviews: 7, average time: 02:31
+
+
+
+By Views for /news_and_events
+
+/news_and_events/site_newsletter/newsletter_may_2010/, pageviews: 199, average time: 01:02
+/news_and_events/site_newsletter/newsletter_may_2010, pageviews: 199, average time: 00:03
+/news_and_events/, pageviews: 79, average time: 00:50
+/news_and_events, pageviews: 75, average time: 00:22
+/news_and_events/news_archive/2007_archive/pig_cell_trial_set_to_start, pageviews: 26, average time: 00:01
+
+
+
+Navigation for /news_and_events
+
+
+Previous pages for /news_and_events
+
+/ (17)
+(entrance) (4)
+/content/advancedsearch/ (4)
+/news_and_events/site_newsletter/newsletter_may_2010/ (4)
+/themes/ (4)
+/focus_stories/ (2)
+/news_and_events/events/ (2)
+
+Next pages for /news_and_events
+
+/news_and_events/ (73)
+/ (1)
+/news_and_events (1)
+
+
+
+/thinking_tools
+
+Reporting
+
+1339
+Previous
+
+511
+Change
+
+
+162.035225048924
+
+
+
+Content pageviews limit is 5
+
+By Time for /thinking_tools
+
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/admin/students/list, pageviews: 16, average time: 13:47
+/thinking_tools/ethics_thinking_tool/teaching_ethics, pageviews: 9, average time: 04:31
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/login, pageviews: 99, average time: 02:40
+/thinking_tools/futures_thinking_tool/futures_thinking_tool/, pageviews: 48, average time: 01:54
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/register, pageviews: 18, average time: 00:50
+
+
+
+By Views for /thinking_tools
+
+/thinking_tools, pageviews: 115, average time: 00:01
+/thinking_tools/, pageviews: 115, average time: 00:19
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/login, pageviews: 99, average time: 02:40
+/thinking_tools/futures_thinking_tool/futures_thinking_tool/login, pageviews: 80, average time: 00:34
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool, pageviews: 76, average time: 00:01
+
+
+
+Navigation for /thinking_tools
+
+
+Previous pages for /thinking_tools
+
+/ (16)
+(entrance) (13)
+/my_biotech/ (8)
+/thinking_tools/futures_thinking_tool (7)
+/news_and_events/site_newsletter/newsletter_may_2010/ (4)
+/thinking_tools/ethics_thinking_tool (4)
+/about_biotech/ (3)
+
+Next pages for /thinking_tools
+
+/thinking_tools/ (113)
+/thinking_tools/ethics_thinking_tool (2)
+
+
+
+/my_biotech
+
+Reporting
+
+122
+Previous
+
+92
+Change
+
+
+32.6086956521739
+
+
+
+Content pageviews limit is 9
+
+By Time for /my_biotech
+
+/my_biotech/, pageviews: 54, average time: 01:01
+/my_biotech, pageviews: 54, average time: 00:00
+
+
+
+By Views for /my_biotech
+
+/my_biotech, pageviews: 54, average time: 00:00
+/my_biotech/, pageviews: 54, average time: 01:01
+
+
+
+Navigation for /my_biotech
+
+
+Previous pages for /my_biotech
+
+/ (8)
+/about_this_site/ (2)
+/content/advancedsearch/ (2)
+/my_biotech/ (2)
+/themes/biotech_at_home/karen_farley_s_cosmetics/ (2)
+/themes/biotech_therapies/xenotransplantation/ (2)
+/thinking_tools/ethics_thinking_tool/ethics_thinking_tool/login (2)
+
+Next pages for /my_biotech
+
+/my_biotech/ (53)
+/my_biotech (1)
+
+
+
+
+
+I took 1459 seconds.

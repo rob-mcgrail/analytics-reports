@@ -1,0 +1,34 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+$display = Unix.new
+$periods = Periods.new
+
+interface = Startup.new
+
+interface.authenticate_session
+interface.arbitrary_periods
+
+report = Sciencelearn.new
+report.name = "Sciencelearn"
+
+$display.tell_user("\nRunning the hubs reports\n")
+puts report
+puts "\n\n"
+
+report.session_startup
+report.header
+report.main
+report.end_game
+
+report = Biotech.new
+report.name = "Biotech"
+
+puts report
+puts "\n\n"
+
+report.session_startup
+report.header
+report.main
+report.end_game
+
+$display.tell_user("\nBoth reports are finished\n")

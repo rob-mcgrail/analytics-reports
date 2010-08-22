@@ -1,0 +1,13 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+$display = Unix.new
+$periods = Periods.new
+
+Startup.new.start_single_profile_session
+
+report = Prototype.new
+
+report.name = "Main"
+puts report
+
+report.all

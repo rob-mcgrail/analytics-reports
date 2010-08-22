@@ -1,0 +1,26 @@
+
+Report run 2010-06-09T19:48:54+12:00
+
+
+Profile: Sceincelearn hubs
+
+Reporting period starts 2010-05-01
+
+Reporting period ends 2010-05-31
+
+Previous period starts 2010-04-01
+
+Previous period ends 2010-04-30
+
+Baseline period starts 2009-04-30
+
+Baseline period ends 2010-04-30
+
+
+
+Summary----------------------------------
+
+
+
+
+I took 4 seconds.

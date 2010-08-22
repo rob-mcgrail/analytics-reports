@@ -1,0 +1,35 @@
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+$display = Unix.new
+
+Garb::Session.login('google@cwa.co.nz', 'nskBNipzpkPl')
+
+# @hubs_report = Sciencelearn.new("Testing Testing the hubs report")
+@hubs_report = Biotech.new("Testing Testing the hubs report")
+
+#setup dates
+
+$periods = Periods.new
+
+$periods.start_date_reporting = Date.new(y=2010,m=5,d=1)
+$periods.end_date_reporting = Date.new(y=2010,m=5,d=31)
+$periods.start_date_previous = Date.new(y=2010,m=4,d=1)
+$periods.end_date_previous = Date.new(y=2010,m=4,d=30)
+$periods.start_date_baseline = Date.new(y=2009,m=4,d=30)
+$periods.end_date_baseline = Date.new(y=2010,m=4,d=30)
+$periods.reporting_number_of_months = 1
+$periods.baseline_number_of_months = 12
+
+
+$periods.inspect #prints it out
+
+
+#testing the report
+$display.tell_user("\nTesting the report begins here")
+
+@hubs_report.session_startup
+
+@hubs_report.header
+@hubs_report.main
+@hubs_report.end_game
+
