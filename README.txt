@@ -1,4 +1,3 @@
 This is the dev version. It is going to implement the ruport for automatic PDF generation.
 
-#Testing git repo
-
+#Testing git repo!
