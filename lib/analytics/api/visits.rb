@@ -80,7 +80,6 @@ class Visits < Crunch
     
     x = @reporting_list.length #get length of the graph
     
-    line1_array = Array.new
     line2_array = Array.new
     line3_array = Array.new
     
@@ -93,11 +92,9 @@ class Visits < Crunch
     end
     
     keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
-
-    @reporting_list.each {|thing| @all_results << thing}
     
     hash = { "title" => "Visits", "keys" => keys_array,
-             "line1" => line1_array, "line2" => line2_array, "line3" => line3_array}
+             "line1" => @reporting_list, "line2" => line2_array, "line3" => line3_array}
     
     @all_results = OpenStruct.new(hash)
     @all_results
