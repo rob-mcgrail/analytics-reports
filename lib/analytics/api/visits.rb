@@ -86,9 +86,10 @@ class Visits < Crunch
     
     @reporting_list.each {|thing| line1_array << thing}
     
-    x.each do
+    while x > 0
       line2_array << @reporting_list.average        #stuff the two average lines with their value (they're straight lines...)
       line3_array << @baseline_list.average
+      x-=1
     end
     
     keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
