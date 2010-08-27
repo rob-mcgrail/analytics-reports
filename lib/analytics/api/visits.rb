@@ -82,9 +82,7 @@ class Visits < Crunch
     
     line2_array = Array.new
     line3_array = Array.new
-    
-    @reporting_list.each {|thing| line1_array << thing}
-    
+        
     while x > 0
       line2_array << @reporting_list.average        #stuff the two average lines with their value (they're straight lines...)
       line3_array << @baseline_list.average
