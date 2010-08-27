@@ -63,9 +63,9 @@ class Visits < Crunch
     @all_results
   end
   
-  def by_hour_graph
-    
-  end
+  # def by_hour_graph
+  #   
+  # end
   
   
   def main_graph
@@ -78,20 +78,29 @@ class Visits < Crunch
     @reporting_daily_average = @reporting_list.average
     @baseline_daily_average = @baseline_list.average
     
+    x = @reporting_list.length #get length of the graph
     
-    @all_results = Array.new
-    @all_results << "Average daily value is #{self.short(@reporting_daily_average)}"
-    @all_results << "Average baseline daily value is #{self.short(@baseline_daily_average)}"
-    @all_results << "Reporting daily visit values for graph:"
+    line1_array = Array.new
+    line2_array = Array.new
+    line3_array = Array.new
+    
+    @reporting_list.each {|thing| line1_array << thing}
+    
+    x.each do
+      line2_array << @reporting_list.average        #stuff the two average lines with their value (they're straight lines...)
+      line3_array << @baseline_list.average
+    end
+    
+    keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
 
     @reporting_list.each {|thing| @all_results << thing}
     
-    # @all_results << "Dates:"   #not sure if these are needed...
-    # 
-    # @reporting_dates.each {|thing| @all_results << thing}
+    hash = { "title" => "Visits", "keys" => keys_array,
+             "line1" => line1_array, "line2" => line2_array, "line3" => line3_array}
     
+    @all_results = OpenStruct.new(hash)
     @all_results
-  end
+    end
   
   def hours_graph
     #main report - gives out the numbers needed for a by-hour graph
