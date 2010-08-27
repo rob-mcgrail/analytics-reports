@@ -46,12 +46,12 @@ class Uniques < Crunch
     
     @previous_percentage_change = percentage_change(@monthly_previous, @monthly_reporting)
     @baseline_percentage_change = percentage_change(@monthly_baseline, @monthly_reporting)
-    
-    @all_results = ["Report monthly average uniques is #{self.short(@monthly_reporting)}",
-                    "Percentage change from last period is #{self.to_p(@previous_percentage_change)} (#{self.arrow(@previous_percentage_change)})", 
-                    "Baseline change from last period is #{self.to_p(@baseline_percentage_change)} (#{self.arrow(@baseline_percentage_change)})",
-                    "Previous monthly average uniques is #{self.short(@monthly_previous)}", 
-                    "Baseline monthly average uniques is #{self.short(@monthly_baseline)}"]
+
+    hash = { "title" => "Monthly Uniques", "r" =>"#{self.short(@monthly_reporting)}", 
+             "p_change" => self.to_p(@previous_percentage_change), "p_value" =>  "#{self.short(@monthly_previous)}", "p_arrow" => self.arrow(@previous_percentage_change),
+             "b_change" => self.to_p(@baseline_percentage_change), "b_value" => "#{self.short(@monthly_baseline)}", "b_arrow" => self.arrow(@baseline_percentage_change)}
+
+    @all_results = OpenStruct.new(hash)
 
     @all_results
   end
