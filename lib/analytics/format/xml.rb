@@ -81,17 +81,84 @@ class XML < Format
   end
     
 
-#line_graph
-
-#series
-
-  # def block_wrapper(array) #can something like this work?
-  #   
-  #   @x.data_block {
-  #     array.each {|thing| thing}
-  #   }
-  #   
-  # end
+  def main_graph(struct)
+    
+    #makes the big three line graph
+    
+    #intended to make a lingraph with to flat averages
+    #but could make a genuine three line graph if passed right
+    
+    #recieves ostruct containing .title (string)
+    #                            .key (array of strings)
+    #                            .line1 (array of values)
+    #                            .line2 (array of values)
+    #                            .line3 (array of values)
+    
+    #would be coold to make this able to accept any ammount of lines (perhaps by x = struct.key.length)
+    
+    @x.linegraph{
+      @x.title(struct.title)
+      @x.key{
+        @x.linename(struct.keys[0])
+        @x.linename(struct.keys[1])
+        @x.linename(struct.keys[2])
+      }
+      @x.data{
+        @x.line(  "id"=>"one"  ){       #real graph
+          struct.line1.each do |thing|
+            @x.value(thing)
+          end
+        }
+        @x.line(  "id"=>"two"  ){       #average for previous
+          struct.line2.each do |thing|
+            @x.value(thing)
+          end
+        }
+        @x.line(  "id"=>"three"  ){     #average for baseline
+          struct.line3.each do |thing|
+            @x.value(thing)
+          end
+        }
+      }
+    }
+    
+    # <linegraph>
+    #   <title>Visits</title>
+    #   <key>
+    #     <linename>Visits</linename>
+    #     <linename>Average</linename>
+    #     <linename>Baseline</linename>
+    #   </key>
+    #   <data>
+    #     <line id="one">
+    #       <value>404</value>
+    #       <value>175</value>
+    #       <value>259</value>
+    #       <value>399</value>
+    #       <value>437</value>
+    #     </line>
+    #     <line id="two">
+    #       <value>307.6</value>
+    #       <value>307.6</value>
+    #       <value>307.6</value>
+    #       <value>307.6</value>
+    #       <value>307.6</value>
+    #     </line>
+    #     <line id="three">
+    #       <value>228.983783783784</value>
+    #       <value>228.983783783784</value>
+    #       <value>228.983783783784</value>
+    #       <value>228.983783783784</value>
+    #       <value>228.983783783784</value>
+    #     </line>
+    #   </data>
+    # </linegraph>
+  end
+  
+  
+  
+  
+  #series
 
   def block_full(struct)  #you need to apply me to every class!!!
     
@@ -146,7 +213,7 @@ class XML < Format
   def relative(array)
     
     #prints a bar divided between two proportions
-    #expects an array with 2, and only 2, values
+    #expects an array with 3, and only 3, values
     
     if array.length != 3
       raise "Passed the XML.relative method an array that is the wrong length. It should be three."
