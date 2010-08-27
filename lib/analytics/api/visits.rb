@@ -106,7 +106,7 @@ class Visits < Crunch
     self.reporting_by_hour
         
     @all_results = Array.new
-    @all_results << "Reporting hourly visit values for graph:"
+    @all_results << "Traffic by hour"
 
     @reporting_hours.each {|thing| @all_results << thing}
     
