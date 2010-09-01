@@ -1,9 +1,14 @@
+require File.expand_path(File.dirname(__FILE__) + "/TESTINFO.rb")
+
+#see rob for account details to make these tests work.
+#otherwise you need to organise your own, and rewrite the test values
+
 class Biotech_segment
 
   def initialize(print = nil)
     #preset credentials and dates for testing
   
-    Garb::Session.login('google@cwa.co.nz', 'nskBNipzpkPl')
+    Garb::Session.login($TEST_ACCOUNT, $TEST_PASSWORD)
     
     $profile = Profile.new
     $profile.garb = Garb::Profile.first('6076893')
