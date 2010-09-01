@@ -26,7 +26,6 @@ class XML < Format
 
 #details (a comment about the report)
 
-#page   ----> maybe not...
 
   def header(page_title = "Enter a title!", page_category = "Enter a category!") #pass you title and category in at this point...
 
@@ -56,7 +55,6 @@ class XML < Format
   end
 
 
-#footer
 
   def title(page_title = "Enter a title!", page_category = "Enter a category")
     
@@ -74,8 +72,8 @@ class XML < Format
     
     @x.date_block {
       @x.date_range("Reporting period #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}")
-      @x.date_range("Reporting period #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
-      @x.date_range("Reporting period #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
+      @x.date_range("Previous period #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
+      @x.date_range("Baseline period #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
     }
     
   end
