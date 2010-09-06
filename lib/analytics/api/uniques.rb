@@ -47,9 +47,9 @@ class Uniques < Crunch
     @previous_percentage_change = percentage_change(@monthly_previous, @monthly_reporting)
     @baseline_percentage_change = percentage_change(@monthly_baseline, @monthly_reporting)
 
-    hash = { "title" => "Monthly Uniques", "r" =>"#{self.short(@monthly_reporting)}", 
-             "p_change" => self.to_p(@previous_percentage_change), "p_value" =>  "#{self.short(@monthly_previous)}", "p_arrow" => self.arrow(@previous_percentage_change),
-             "b_change" => self.to_p(@baseline_percentage_change), "b_value" => "#{self.short(@monthly_baseline)}", "b_arrow" => self.arrow(@baseline_percentage_change)}
+    hash = { :title => "Monthly Uniques", :r =>"#{self.short(@monthly_reporting)}", 
+             :p_change => self.to_p(@previous_percentage_change), :p_value =>  "#{self.short(@monthly_previous)}", :p_arrow => self.arrow(@previous_percentage_change),
+             :b_change => self.to_p(@baseline_percentage_change), :b_value => "#{self.short(@monthly_baseline)}", :b_arrow => self.arrow(@baseline_percentage_change)}
 
     @all_results = OpenStruct.new(hash)
 
