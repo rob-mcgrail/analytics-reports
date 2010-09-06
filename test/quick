@@ -30,7 +30,7 @@ $format.x.body {
                             }
                       
                                       
-                            $format.block_full(visits.three_with_changes)   #blocks
+                            $format.block_full(visits.three_with_changes)       #blocks
                             $format.block_full(bounces.three_with_changes)
                             $format.block_full(countryvisits.three_with_changes)
                             $format.block_full(new_returning.three_with_changes)
@@ -38,12 +38,12 @@ $format.x.body {
                             $format.block_full(times.three_with_changes_as_averages)
                             $format.block_full(uniques.three_monthly_averages)
                             
-
-                            $format.relative(new_returning.reporting_only)    #bar
                             
-                            $format.main_graph(visits.main_graph)             #main graph      
+                            $format.relative(new_returning.reporting_only)      #bar
                             
-                            $format.series_graph(visits.hours_graph)          #hours graph                
+                            $format.main_graph(visits.main_graph)               #main graph      
+                            
+                            $format.bar_series(visits.hours_graph)              #hours graph                
                           }
                  }       
 
