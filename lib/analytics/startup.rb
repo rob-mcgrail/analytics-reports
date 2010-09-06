@@ -40,7 +40,12 @@ class Startup
   
   def select_reporting_period
     $display.ask_user('Enter the end date (inclusive) for the reporting period (dd/mm/yyyy)')
-    $periods.end_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
+    begin
+      $periods.end_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
+    rescue ArgumentError
+      $display.alert_user "Bad date! Try again\n\n"
+      self.select_reporting_period
+    end
     
     $display.ask_user('How many months long is the reporting period?')
     $periods.reporting_number_of_months = gets.chomp.to_i
@@ -52,8 +57,13 @@ class Startup
   
   def select_reporting_period_arbitrary
     $display.ask_user('Enter the start date (inclusive) for the reporting period (dd/mm/yyyy)')
-    $periods.start_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
-    
+    begin
+      $periods.end_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
+    rescue ArgumentError
+      $display.alert_user "Bad date! Try again\n\n"
+      self.select_reporting_period_arbitrary
+    end
+          
     $display.ask_user('Enter the end date (inclusive) for the reporting period (dd/mm/yyyy)')
     $periods.end_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
     
@@ -95,7 +105,12 @@ class Startup
     if reply =~ /x|X/ 
       $periods.end_date_baseline = $periods.start_date_reporting-(1) #automatically makes $periods.end_date automatically based on reporting dates
     else
-      $periods.end_date_baseline = Date.strptime(reply, "%d/%m/%Y") #or takes user entered date
+      begin
+        $periods.end_date_baseline = Date.strptime(reply, "%d/%m/%Y") #or takes user entered date
+      rescue ArgumentError
+        $display.alert_user "Bad date! Try again\n\n"
+        self.select_baseline_period
+      end
     end
     $display.ask_user('How many months?')
     $periods.baseline_number_of_months = gets.chomp.to_i
