@@ -48,9 +48,9 @@ class BounceRate < Crunch
       path = "homepage"
     end
     
-    hash = { "title" => "Bounce rate", "r" => self.to_p(@reporting_filtered), 
-             "p_change" => self.to_p(@previous_change), "p_value" => self.to_p(@previous_filtered), "p_arrow" => self.arrow(@previous_change),
-             "b_change" => self.to_p(@baseline_change), "b_value" => self.to_p(@baseline_filtered), "b_arrow" => self.arrow(@baseline_change)}
+    hash = {:title => "Bounce rate", :r => self.to_p(@reporting_filtered), 
+            :p_change => self.to_p(@previous_change), :p_value => self.to_p(@previous_filtered), :p_arrow => self.arrow(@previous_change),
+            :b_change => self.to_p(@baseline_change), :b_value => self.to_p(@baseline_filtered), :b_arrow => self.arrow(@baseline_change)}
     
     @all_results = OpenStruct.new(hash)
     
@@ -68,9 +68,9 @@ class BounceRate < Crunch
     @previous_change = percentage_change(@previous, @reporting)
     @baseline_change = percentage_change(@baseline, @reporting)
     
-    hash = { "title" => "Bounce rate", "r" => self.to_p(@reporting), 
-             "p_change" => self.to_p(@previous_change), "p_value" => self.to_p(@previous), "p_arrow" => self.arrow(@previous_change),
-             "b_change" => self.to_p(@baseline_change), "b_value" => self.to_p(@baseline), "b_arrow" => self.arrow(@baseline_change)}
+    hash = {:title => "Bounce rate", :r => self.to_p(@reporting), 
+            :p_change => self.to_p(@previous_change), :p_value => self.to_p(@previous), :p_arrow => self.arrow(@previous_change),
+            :b_change => self.to_p(@baseline_change), :b_value => self.to_p(@baseline), :b_arrow => self.arrow(@baseline_change)}
              
     @all_results = OpenStruct.new(hash)
     
