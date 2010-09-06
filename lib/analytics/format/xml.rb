@@ -171,6 +171,17 @@ class XML < Format
       }
     }
     
+    # <series_graph>
+    #   <title>Traffic by hour</title>
+    #   <data>
+    #     <series>
+    #       <value>585</value>
+    #       <value>606</value>
+    #       <value>674</value>
+    #       <value>647</value>
+    #     </series>
+    #   </data>
+    # </series_graph>
     
   end
   
