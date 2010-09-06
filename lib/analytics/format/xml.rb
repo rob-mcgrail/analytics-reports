@@ -153,12 +153,31 @@ class XML < Format
     # </linegraph>
   end
   
-  
+  def bar_series(struct)
+    
+    #prints a bargraph for a single series
+    #expects an ostruct containing:
+    
+    # title, series (an array of values)
+    
+    @x.series_graph{
+      @x.title(struct.title)
+      @x.data{
+        @x.series{
+          struct.series.each do |thing|
+            @x.value(thing)
+          end
+        }
+      }
+    }
+    
+    
+  end
   
   
   #series
 
-  def block_full(struct)  #you need to apply me to every class!!!
+  def block_full(struct)
     
     #prints a value with previous and baseline changes
     #expects an ostruct containing:
