@@ -41,7 +41,9 @@ $format.x.body {
 
                             $format.relative(new_returning.reporting_only)    #bar
                             
-                            $format.main_graph(visits.main_graph)             #main graph                      
+                            $format.main_graph(visits.main_graph)             #main graph      
+                            
+                            $format.series_graph(visits.hours_graph)          #hours graph                
                           }
                  }       
 
