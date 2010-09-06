@@ -102,12 +102,14 @@ class Visits < Crunch
     #main report - gives out the numbers needed for a by-hour graph
     
     self.reporting_by_hour
-        
-    @all_results = Array.new
-    @all_results << "Traffic by hour"
-
-    @reporting_hours.each {|thing| @all_results << thing}
     
+    series_array = Array.new
+    
+    @reporting_hours.each {|thing| series_array << thing}
+    
+    hash = { :title => "Traffic by hour", :series => series_array }
+    
+    @all_results = OpenStruct.new(hash)
     @all_results
   end
     
