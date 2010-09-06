@@ -48,9 +48,9 @@ class Times < Crunch
     @previous_average = self.make_seconds(@previous_average)
     @baseline_average = self.make_seconds(@baseline_average)
     
-    hash = { "title" => "Average times", "r" =>"#{@reporting_average.strftime("%M:%S")}", 
-             "p_change" => self.to_p(@previous_change), "p_value" => "#{@previous_average.strftime("%M:%S")}", "p_arrow" => self.arrow(@previous_change),
-             "b_change" => self.to_p(@baseline_change), "b_value" => "#{@baseline_average.strftime("%M:%S")}", "b_arrow" => self.arrow(@baseline_change)}
+    hash = { :title => "Average times", :r =>"#{@reporting_average.strftime("%M:%S")}", 
+             :p_change => self.to_p(@previous_change), :p_value => "#{@previous_average.strftime("%M:%S")}", :p_arrow => self.arrow(@previous_change),
+             :b_change => self.to_p(@baseline_change), :b_value => "#{@baseline_average.strftime("%M:%S")}", :b_arrow => self.arrow(@baseline_change)}
 
     @all_results = OpenStruct.new(hash)
 
