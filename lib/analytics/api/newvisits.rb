@@ -50,9 +50,9 @@ class NewVisits < Crunch
     self.baseline_percentage_change
     self.previous_percentage_change
 
-    hash = { "title" => "New/Returning", "r" =>"#{self.short(reporting_percentage)} / #{self.short(100 -  reporting_percentage)}%", 
-             "p_change" => self.to_p(@previous_percentage_change), "p_value" => "#{self.short(previous_percentage)} / #{self.short(100 -  previous_percentage)}%", "p_arrow" => self.arrow(@previous_percentage_change),
-             "b_change" => self.to_p(@baseline_percentage_change), "b_value" => "#{self.short(baseline_percentage)} / #{self.short(100 -  baseline_percentage)}%", "b_arrow" => self.arrow(@baseline_percentage_change)}
+    hash = {:title => "New/Returning", :r =>"#{self.short(reporting_percentage)} / #{self.short(100 -  reporting_percentage)}%", 
+            :p_change => self.to_p(@previous_percentage_change), :p_value => "#{self.short(previous_percentage)} / #{self.short(100 -  previous_percentage)}%", :p_arrow => self.arrow(@previous_percentage_change),
+            :b_change => self.to_p(@baseline_percentage_change), :b_value => "#{self.short(baseline_percentage)} / #{self.short(100 -  baseline_percentage)}%", :b_arrow => self.arrow(@baseline_percentage_change)}
 
     @all_results = OpenStruct.new(hash)
     
