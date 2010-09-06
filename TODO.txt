@@ -1,3 +1,7 @@
-Create Generate classes??
+Create Generate classes
 
-You'll pass in arrays to these? scope??
+Make Crunch in to a module
+
+Create a modules section
+
+Make startup in to a module
