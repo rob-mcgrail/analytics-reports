@@ -55,9 +55,9 @@ class Visits < Crunch
     self.baseline_change
     self.previous_change
     
-    hash = { "title" => "Visits", "r" => @reporting.to_s, 
-             "p_change" => self.to_p(@previous_change), "p_value" => @previous, "p_arrow" => self.arrow(@previous_change),
-             "b_change" => self.to_p(@baseline_change), "b_value" => @baseline_average, "b_arrow" => self.arrow(@baseline_change)}
+    hash = { :title => "Visits", :r => @reporting.to_s, 
+             :p_change => self.to_p(@previous_change), :p_value => @previous, :p_arrow => self.arrow(@previous_change),
+             :b_change => self.to_p(@baseline_change), :b_value => @baseline_average, :b_arrow => self.arrow(@baseline_change)}
     
     @all_results = OpenStruct.new(hash)
     @all_results
@@ -91,8 +91,8 @@ class Visits < Crunch
     
     keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
     
-    hash = { "title" => "Visits", "keys" => keys_array,
-             "line1" => @reporting_list, "line2" => line2_array, "line3" => line3_array}
+    hash = { :title => "Visits", :keys => keys_array,
+             :line1 => @reporting_list, :line2 => line2_array, :line3 => line3_array }
     
     @all_results = OpenStruct.new(hash)
     @all_results
