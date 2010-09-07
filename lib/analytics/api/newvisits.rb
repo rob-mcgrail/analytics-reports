@@ -108,7 +108,7 @@ class NewVisits
       self.reporting
     end
     
-    @previous_change = percentage_change(@previous, @reporting)
+    @previous_change = Num.percentage_change(@previous, @reporting)
   end
   
   def previous_percentage
@@ -127,7 +127,7 @@ class NewVisits
       @reporting_percentage = percentage(self.reporting, @visit_totals.reporting)
     end
     
-    @previous_percentage_change = percentage_change(@previous_percentage, @reporting_percentage)
+    @previous_percentage_change = Num.percentage_change(@previous_percentage, @reporting_percentage)
   end
   
   def baseline_change
@@ -139,7 +139,7 @@ class NewVisits
       self.reporting
     end
     
-    @baseline_change = percentage_change(@baseline_average, @reporting)
+    @baseline_change = Num.percentage_change(@baseline_average, @reporting)
   end
   
   def baseline_percentage
@@ -158,7 +158,7 @@ class NewVisits
       @reporting_percentage = percentage(self.reporting, @visit_totals.reporting)
     end
     
-    @baseline_percentage_change = percentage_change(@baseline_percentage, @reporting_percentage)
+    @baseline_percentage_change = Num.percentage_change(@baseline_percentage, @reporting_percentage)
   end
   
   def reporting
