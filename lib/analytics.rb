@@ -29,5 +29,6 @@ require File.expand_path(File.dirname(__FILE__) + "/analytics/reports.rb")
 
 require File.expand_path(File.dirname(__FILE__) + "/analytics/format.rb")
 
+require File.expand_path(File.dirname(__FILE__) + "/analytics/helpers.rb")
 
 
