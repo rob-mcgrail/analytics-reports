@@ -1,6 +1,7 @@
-class CountryVisits < Crunch
-  attr_reader :all_results
+class CountryVisits 
+  include Arrows
   
+  attr_reader :all_results
   attr_writer :country
   
   def initialize(country)
@@ -45,20 +46,20 @@ class CountryVisits < Crunch
     #main method percentages, percentage change by baseline, for a country
         
     self.reporting_specific 
-    @reporting_percentage = self.percentage(@reporting_specific, @visit_totals.reporting)
+    @reporting_percentage = Num.percentage(@reporting_specific, @visit_totals.reporting)
     
     self.previous_specific
-    @previous_percentage = self.percentage(@previous_specific, @visit_totals.previous)
+    @previous_percentage = Num.percentage(@previous_specific, @visit_totals.previous)
     
     self.baseline_specific  
-    @baseline_percentage = self.percentage(@baseline_specific, @visit_totals.baseline)
+    @baseline_percentage = Num.percentage(@baseline_specific, @visit_totals.baseline)
     
     self.previous_percentage_change
     self.baseline_percentage_change
     
-    hash = { "title" => "#{@country} / International", "r" => "#{self.short(@reporting_percentage)} / #{self.short(100 - @reporting_percentage)}%", 
-             "p_change" => self.to_p(@previous_percentage_change), "p_value" => "#{self.short(@previous_percentage)} / #{self.short(100 - @previous_percentage)}%", "p_arrow" => self.arrow(@previous_percentage_change),
-             "b_change" => self.to_p(@baseline_percentage_change), "b_value" => "#{self.short(@baseline_percentage)} / #{self.short(100 - @baseline_percentage)}%", "b_arrow" => self.arrow(@baseline_percentage_change)}
+    hash = { "title" => "#{@country} / International", "r" => "#{Num.short(@reporting_percentage)} / #{Num.short(100 - @reporting_percentage)}%", 
+             "p_change" => Num.to_p(@previous_percentage_change), "p_value" => "#{Num.short(@previous_percentage)} / #{Num.short(100 - @previous_percentage)}%", "p_arrow" => self.arrow(@previous_percentage_change),
+             "b_change" => Num.to_p(@baseline_percentage_change), "b_value" => "#{Num.short(@baseline_percentage)} / #{Num.short(100 - @baseline_percentage)}%", "b_arrow" => self.arrow(@baseline_percentage_change)}
     
     @all_results = OpenStruct.new(hash)
                             
