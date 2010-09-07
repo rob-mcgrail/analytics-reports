@@ -1,4 +1,4 @@
-class Loyalty < Crunch
+class Loyalty 
   attr_reader :all_results
   
   def initialize
