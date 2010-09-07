@@ -15,6 +15,7 @@ new_returning = NewVisits.new
 pages_visits = PageViews.new
 times = Times.new
 uniques = Uniques.new
+countries = CountrySource.new
 
 $format.header
 
@@ -43,7 +44,9 @@ $format.x.body {
                             
                             $format.main_graph(visits.main_graph)               #main graph      
                             
-                            $format.bar_series(visits.hours_graph)              #hours graph                
+                            $format.bar_series(visits.hours_graph)              #hours graph   
+                            
+                            $format.table(countries.processed_reporting)        #countries table  
                           }
                  }       
 
