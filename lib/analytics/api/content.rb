@@ -1,4 +1,4 @@
-class Content < Crunch
+class Content 
   attr_reader :all_results, :results_arbitrary, :by_time, :by_views
   attr_accessor :limit
   
@@ -59,7 +59,7 @@ class Content < Crunch
     @by_time = Array.new
     
     @results_arbitrary.each do |thing|
-      thing.time = self.make_seconds(thing.time)
+      thing.time = Num.make_seconds(thing.time)
       @by_time << "#{thing.page_path}, pageviews: #{thing.pageviews}, average time: #{thing.time.strftime("%M:%S")}"
     end
     
@@ -76,7 +76,7 @@ class Content < Crunch
     @by_pageviews = Array.new
     
     @results_arbitrary.each do |thing|
-      thing.time = self.make_seconds(thing.time)
+      thing.time = Num.make_seconds(thing.time)
       @by_pageviews << "#{thing.page_path}, pageviews: #{thing.pageviews}, average time: #{thing.time.strftime("%M:%S")}"
     end
     
