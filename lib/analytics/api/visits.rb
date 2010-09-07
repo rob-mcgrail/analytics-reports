@@ -1,4 +1,5 @@
-class Visits < Crunch
+class Visits 
+  include DateHelper, Arrows
   attr_reader :all_results
   
   def initialize
@@ -56,8 +57,8 @@ class Visits < Crunch
     self.previous_change
     
     hash = { :title => "Visits", :r => @reporting.to_s, 
-             :p_change => self.to_p(@previous_change), :p_value => @previous, :p_arrow => self.arrow(@previous_change),
-             :b_change => self.to_p(@baseline_change), :b_value => @baseline_average, :b_arrow => self.arrow(@baseline_change)}
+             :p_change => Num.to_p(@previous_change), :p_value => @previous, :p_arrow => self.arrow(@previous_change),
+             :b_change => Num.to_p(@baseline_change), :b_value => @baseline_average, :b_arrow => self.arrow(@baseline_change)}
     
     @all_results = OpenStruct.new(hash)
     @all_results
