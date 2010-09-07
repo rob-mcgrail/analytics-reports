@@ -1,4 +1,4 @@
-class Length < Crunch
+class Length 
   attr_reader :all_results
   attr_accessor :big_site
   
