@@ -1,4 +1,5 @@
-class WebSources < Crunch
+class WebSources 
+  include StatGetters
   
   attr_reader :all_results, :reporting_list, :previous_list, :baseline_list
   
@@ -51,12 +52,12 @@ class WebSources < Crunch
     i = @list_sources.length
     x = 0
     
-    @average_sessions = self.make_seconds(@average_sessions)
+    @average_sessions = Num.make_seconds(@average_sessions)
     
     while i > 0
       @all_results << "#{@list_sources[x]}" 
-      @all_results << "visits/total #{self.to_p(@visits_as_percent[x])}" 
-      @all_results << "bouncerate #{self.to_p(@rates[x])}" 
+      @all_results << "visits/total #{Num.to_p(@visits_as_percent[x])}" 
+      @all_results << "bouncerate #{Num.to_p(@rates[x])}" 
       @all_results << "average session time #{@average_sessions[x].strftime("%M:%S")}."
       i = i - 1
       x = x + 1
