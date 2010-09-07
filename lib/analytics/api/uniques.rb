@@ -45,8 +45,8 @@ class Uniques
     self.monthly_previous
     self.monthly_baseline
     
-    @previous_percentage_change = percentage_change(@monthly_previous, @monthly_reporting)
-    @baseline_percentage_change = percentage_change(@monthly_baseline, @monthly_reporting)
+    @previous_percentage_change = Num.percentage_change(@monthly_previous, @monthly_reporting)
+    @baseline_percentage_change = Num.percentage_change(@monthly_baseline, @monthly_reporting)
 
     hash = { :title => "Monthly Uniques", :r =>"#{Num.short(@monthly_reporting)}", 
              :p_change => Num.to_p(@previous_percentage_change), :p_value =>  "#{Num.short(@monthly_previous)}", :p_arrow => self.arrow(@previous_percentage_change),
@@ -141,7 +141,7 @@ class Uniques
       self.reporting
     end
     
-    @previous_change = percentage_change(@previous, @reporting)
+    @previous_change = Num.percentage_change(@previous, @reporting)
   end
   
   def baseline_change
@@ -153,7 +153,7 @@ class Uniques
       self.reporting
     end
     
-    @baseline_change = percentage_change(@baseline_average, @reporting)
+    @baseline_change = Num.percentage_change(@baseline_average, @reporting)
   end
   
   def reporting
