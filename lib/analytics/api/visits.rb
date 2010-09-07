@@ -130,7 +130,7 @@ class Visits
       self.reporting
     end
     
-    @previous_change = percentage_change(@previous, @reporting)
+    @previous_change = Num.percentage_change(@previous, @reporting)
   end
   
   def baseline_change
@@ -142,7 +142,7 @@ class Visits
       self.reporting
     end
     
-    @baseline_change = percentage_change(@baseline_average, @reporting)
+    @baseline_change = Num.percentage_change(@baseline_average, @reporting)
   end
   
   def arbitrary(start_date, end_date)
