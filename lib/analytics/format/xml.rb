@@ -185,8 +185,51 @@ class XML < Format
     
   end
   
-  
-  #series
+  def table(struct)
+    
+    #prints a table with title and headings
+    #expects a ostruct with :title, :header (an array of heading titles)
+    #and :rows, an array of arrays of data.
+    
+    @x.table( "id" => struct.table_id ){
+      @x.tr{
+        struct.header.each do |thing|
+          @x.th(thing)
+        end
+      }
+      struct.rows.each do |thing|
+        puts "woah"
+        @x.tr{
+          thing.each do |data|
+            puts data
+            @x.td(data)
+          end
+        }
+      end
+    }
+    
+    # <table id="country_sources">
+    #       <tr>
+    #         <th>Country</th>
+    #         <th>Visits/total</th>
+    #         <th>Bounce rate</th>
+    #         <th>Avg session</th>
+    #       </tr>
+    #       <tr>
+    #         <td>United States</td>
+    #         <td>27%</td>
+    #         <td>0%</td>
+    #         <td>00:00</td>
+    #       </tr>
+    #       <tr>
+    #         <td>New Zealand</td>
+    #         <td>26%</td>
+    #         <td>0%</td>
+    #         <td>00:00</td>
+    #       </tr>
+    #     </table>
+    
+  end
 
   def block_full(struct)
     
