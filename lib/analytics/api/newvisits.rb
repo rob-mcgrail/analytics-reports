@@ -1,4 +1,5 @@
-class NewVisits < Crunch
+class NewVisits 
+  include DateHelper, Arrows
   attr_reader :all_results
   
   def initialize
@@ -50,9 +51,9 @@ class NewVisits < Crunch
     self.baseline_percentage_change
     self.previous_percentage_change
 
-    hash = {:title => "New/Returning", :r =>"#{self.short(reporting_percentage)} / #{self.short(100 -  reporting_percentage)}%", 
-            :p_change => self.to_p(@previous_percentage_change), :p_value => "#{self.short(previous_percentage)} / #{self.short(100 -  previous_percentage)}%", :p_arrow => self.arrow(@previous_percentage_change),
-            :b_change => self.to_p(@baseline_percentage_change), :b_value => "#{self.short(baseline_percentage)} / #{self.short(100 -  baseline_percentage)}%", :b_arrow => self.arrow(@baseline_percentage_change)}
+    hash = {:title => "New/Returning", :r =>"#{Num.short(reporting_percentage)} / #{Num.short(100 -  reporting_percentage)}%", 
+            :p_change => Num.to_p(@previous_percentage_change), :p_value => "#{Num.short(previous_percentage)} / #{Num.short(100 -  previous_percentage)}%", :p_arrow => self.arrow(@previous_percentage_change),
+            :b_change => Num.to_p(@baseline_percentage_change), :b_value => "#{Num.short(baseline_percentage)} / #{Num.short(100 -  baseline_percentage)}%", :b_arrow => self.arrow(@baseline_percentage_change)}
 
     @all_results = OpenStruct.new(hash)
     
@@ -62,7 +63,7 @@ class NewVisits < Crunch
   def reporting_only #made for the hubs report
     self.reporting_percentage
     
-    @all_results = ["New / Returning", "#{self.short(reporting_percentage)}", "#{self.short(100 - reporting_percentage)}"]
+    @all_results = ["New / Returning", "#{Num.short(reporting_percentage)}", "#{Num.short(100 - reporting_percentage)}"]
     
     @all_results
   end
