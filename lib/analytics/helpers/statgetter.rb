@@ -8,7 +8,7 @@ module StatGetters
     @visits_as_percent = Array.new
     
     @list_visits.each do |thing|
-      @visits_as_percent << percentage(thing, total)
+      @visits_as_percent << Num.percentage(thing, total)
     end
     
     @visits_as_percent
@@ -27,7 +27,7 @@ module StatGetters
       i = @list_visits.length
       x = 0
       while i > 0
-        @rates << percentage(@list_bounces[x], @list_visits[x])
+        @rates << Num.percentage(@list_bounces[x], @list_visits[x])
         i = i - 1
         x = x + 1
       end
