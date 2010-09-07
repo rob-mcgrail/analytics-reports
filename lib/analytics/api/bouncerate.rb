@@ -42,8 +42,8 @@ class BounceRate
     self.previous_by_path(path)
     self.baseline_by_path(path)
     
-    @previous_change = percentage_change(@previous_filtered, @reporting_filtered)
-    @baseline_change = percentage_change(@baseline_filtered, @reporting_filtered)
+    @previous_change = Num.percentage_change(@previous_filtered, @reporting_filtered)
+    @baseline_change = Num.percentage_change(@baseline_filtered, @reporting_filtered)
     
     if path == "/" #make homepage path obvious
       path = "homepage"
@@ -66,8 +66,8 @@ class BounceRate
     self.previous
     self.baseline
     
-    @previous_change = percentage_change(@previous, @reporting)
-    @baseline_change = percentage_change(@baseline, @reporting)
+    @previous_change = Num.percentage_change(@previous, @reporting)
+    @baseline_change = Num.percentage_change(@baseline, @reporting)
     
     hash = {:title => "Bounce rate", :r => Num.to_p(@reporting), 
             :p_change => Num.to_p(@previous_change), :p_value => Num.to_p(@previous), :p_arrow => self.arrow(@previous_change),
