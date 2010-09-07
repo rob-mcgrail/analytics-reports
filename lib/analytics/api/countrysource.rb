@@ -1,4 +1,5 @@
-class CountrySource < Crunch
+class CountrySource 
+  include StatGetters
   #
   #This is a complete clone of the websources class, but with the 
   #bounce rates and average times taken out of the report,
@@ -56,12 +57,12 @@ class CountrySource < Crunch
     i = @list_countries.length
     x = 0
     
-    # @average_sessions = self.make_seconds(@average_sessions)
+    # @average_sessions = Num.make_seconds(@average_sessions)
     
     while i > 0
       @all_results << "#{@list_countries[x]}" 
-      @all_results << "visits/total #{self.to_p(@visits_as_percent[x])}" 
-      # @all_results << "bouncerate #{self.to_p(@rates[x])}" 
+      @all_results << "visits/total #{Num.to_p(@visits_as_percent[x])}" 
+      # @all_results << "bouncerate #{Num.to_p(@rates[x])}" 
       # @all_results << "average session time #{@average_sessions[x].strftime("%M:%S")}."
       i = i - 1
       x = x + 1
