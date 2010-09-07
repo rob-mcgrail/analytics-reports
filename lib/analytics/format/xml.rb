@@ -198,10 +198,8 @@ class XML < Format
         end
       }
       struct.rows.each do |thing|
-        puts "woah"
         @x.tr{
           thing.each do |data|
-            puts data
             @x.td(data)
           end
         }
