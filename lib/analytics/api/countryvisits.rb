@@ -171,7 +171,7 @@ class CountryVisits
       @reporting_percentage = percentage(self.baseline, @visit_totals.reporting)
     end
     
-    @previous_percentage_change = percentage_change(@previous_percentage, @reporting_percentage)
+    @previous_percentage_change = Num.percentage_change(@previous_percentage, @reporting_percentage)
   end
   
   def baseline_percentage_change
@@ -183,7 +183,7 @@ class CountryVisits
       @reporting_percentage = percentage(self.baseline, @visit_totals.reporting)
     end
     
-    @baseline_percentage_change = percentage_change(@baseline_percentage, @reporting_percentage)
+    @baseline_percentage_change = Num.percentage_change(@baseline_percentage, @reporting_percentage)
   end
   
   def up_is_nothing?
