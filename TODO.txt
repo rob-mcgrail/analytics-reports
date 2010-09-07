@@ -1,7 +1,2 @@
-Create Generate classes
-
-Make Crunch in to a module
-
-Create a modules section
 
 Make startup in to a module
