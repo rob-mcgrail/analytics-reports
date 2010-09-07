@@ -164,11 +164,11 @@ class CountryVisits
   
   def previous_percentage_change
     if @previous_percentage.nil?
-      @previous_percentage = percentage(self.previous, @visit_totals.previous)
+      @previous_percentage = Num.percentage(self.previous, @visit_totals.previous)
     end
     
     if @reporting_percentage.nil?
-      @reporting_percentage = percentage(self.baseline, @visit_totals.reporting)
+      @reporting_percentage = Num.percentage(self.baseline, @visit_totals.reporting)
     end
     
     @previous_percentage_change = Num.percentage_change(@previous_percentage, @reporting_percentage)
@@ -176,11 +176,11 @@ class CountryVisits
   
   def baseline_percentage_change
     if @baseline_percentage.nil?
-      @baseline_percentage = percentage(self.baseline, @visit_totals.baseline)
+      @baseline_percentage = Num.percentage(self.baseline, @visit_totals.baseline)
     end
     
     if @reporting_percentage.nil?
-      @reporting_percentage = percentage(self.baseline, @visit_totals.reporting)
+      @reporting_percentage = Num.percentage(self.baseline, @visit_totals.reporting)
     end
     
     @baseline_percentage_change = Num.percentage_change(@baseline_percentage, @reporting_percentage)
