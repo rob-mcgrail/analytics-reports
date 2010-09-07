@@ -40,34 +40,47 @@ class CountrySource
     "#{@all_results}, #{@arbitrary}, #{@reporting}, #{@previous}, #{@baseline}, #{@list_countries}, #{@list_visits}, #{@list_bounces}, #{@list_times}, #{@reporting_list}, #{@previous_list}, #{@baseline_list}, arbitrary? = #{self.arbitrary?}"    
   end
 
+  def processed_reporting(limit = 10)
+    processed_arbitrary($periods.start_date_reporting, $periods.end_date_reporting, limit)
+  end
   
   def processed_arbitrary(start_date, end_date, limit = 10)
     #takes start_time end_time and an int for results limit
-    #returns array of sources with percentage of total visits, bouncerate,
-    #and average session times 
-     
-    @all_results = Array.new 
-        
+    #returns sources with percentage of total visits, bouncerate,
+    #and average session times
+             
     self.arbitrary(start_date, end_date, limit) #get numbers
     
     self.make_visits_percentages_of_total(start_date, end_date) #make numbers useful
-    # self.make_bounces_rates
-    # self.make_times_average_sessions
+    self.make_bounces_rates
+    self.make_times_average_sessions
     
     i = @list_countries.length
     x = 0
     
-    # @average_sessions = Num.make_seconds(@average_sessions)
+    @average_sessions = Num.make_seconds(@average_sessions)
+    
+    rows = Array.new
     
     while i > 0
-      @all_results << "#{@list_countries[x]}" 
-      @all_results << "visits/total #{Num.to_p(@visits_as_percent[x])}" 
-      # @all_results << "bouncerate #{Num.to_p(@rates[x])}" 
-      # @all_results << "average session time #{@average_sessions[x].strftime("%M:%S")}."
+      a = Array.new
+      a << "#{@list_countries[x]}"                           #countries
+      a << "#{Num.to_p(@visits_as_percent[x])}"              #visits/total
+      a << "#{Num.to_p(@rates[x])}"                          #bounce-rates
+      a << "#{@average_sessions[x].strftime("%M:%S")}"       #average-sessions
+      
+      rows << a
+      
       i = i - 1
       x = x + 1
     end
-  @all_results
+    
+    header = ["Country", "Visits/total", "Bounce rate", "Avg session"]
+    
+    hash = { :title => "Geographic sources", :table_id => "country_sources", :header => header, :rows => rows}
+    
+    @all_results = OpenStruct.new(hash)
+    @all_results 
   end
   
   def processed_reporting(limit = 10)
@@ -110,13 +123,13 @@ class CountrySource
     
     @list_countries = Array.new #re initialized in case they were called previously...
     @list_visits = Array.new  #as this is structured in a way where that isn't unlikely...
-    # @list_bounces = Array.new #ie for three period reports....
-    # @list_times = Array.new
+    @list_bounces = Array.new #ie for three period reports....
+    @list_times = Array.new
             
     report.results.each {|thing| @list_countries << thing.country}
     report.results.each {|thing| @list_visits << thing.visits}
-    # report.results.each {|thing| @list_bounces << thing.bounces}
-    # report.results.each {|thing| @list_times << thing.time_on_site}
+    report.results.each {|thing| @list_bounces << thing.bounces}
+    report.results.each {|thing| @list_times << thing.time_on_site}
     
   end
   
