@@ -1,4 +1,5 @@
-class Times < Crunch
+class Times 
+  include Arrows, StatGetters
   attr_reader :all_results
   
   def initialize
@@ -41,16 +42,16 @@ class Times < Crunch
     self.previous_average
     self.baseline_average
     
-    @previous_change = self.percentage_change(@previous_average, @reporting_average)
-    @baseline_change = self.percentage_change(@baseline_average, @reporting_average)
+    @previous_change = Num.percentage_change(@previous_average, @reporting_average)
+    @baseline_change = Num.percentage_change(@baseline_average, @reporting_average)
     
-    @reporting_average = self.make_seconds(@reporting_average) #rewrite as ".make_seconds!"
-    @previous_average = self.make_seconds(@previous_average)
-    @baseline_average = self.make_seconds(@baseline_average)
+    @reporting_average = Num.make_seconds(@reporting_average) #rewrite as ".make_seconds!"
+    @previous_average = Num.make_seconds(@previous_average)
+    @baseline_average = Num.make_seconds(@baseline_average)
     
     hash = { :title => "Average times", :r =>"#{@reporting_average.strftime("%M:%S")}", 
-             :p_change => self.to_p(@previous_change), :p_value => "#{@previous_average.strftime("%M:%S")}", :p_arrow => self.arrow(@previous_change),
-             :b_change => self.to_p(@baseline_change), :b_value => "#{@baseline_average.strftime("%M:%S")}", :b_arrow => self.arrow(@baseline_change)}
+             :p_change => Num.to_p(@previous_change), :p_value => "#{@previous_average.strftime("%M:%S")}", :p_arrow => self.arrow(@previous_change),
+             :b_change => Num.to_p(@baseline_change), :b_value => "#{@baseline_average.strftime("%M:%S")}", :b_arrow => self.arrow(@baseline_change)}
 
     @all_results = OpenStruct.new(hash)
 
