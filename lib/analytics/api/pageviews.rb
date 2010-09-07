@@ -38,12 +38,12 @@ class PageViews
     per_visits_previous = @previous.to_f / @visit_totals.previous.to_f
     per_visits_baseline = @baseline.to_f / @visit_totals.baseline.to_f
     
-    @previous_change = self.percentage_change(per_visits_previous, per_visits_reporting)
-    @baseline_change = self.percentage_change(per_visits_baseline, per_visits_reporting)
+    @previous_change = Num.percentage_change(per_visits_previous, per_visits_reporting)
+    @baseline_change = Num.percentage_change(per_visits_baseline, per_visits_reporting)
                     
-    hash = { :title => "Pages / Visit", :r => self.short(per_visits_reporting, 2), 
-             :p_change => self.to_p(@previous_change), :p_value => self.short(per_visits_previous, 2), :p_arrow => self.arrow(@previous_change),
-             :b_change => self.to_p(@baseline_change), :b_value => self.short(per_visits_baseline, 2), :b_arrow => self.arrow(@baseline_change)}
+    hash = { :title => "Pages / Visit", :r => Num.short(per_visits_reporting, 2), 
+             :p_change => Num.to_p(@previous_change), :p_value => Num.short(per_visits_previous, 2), :p_arrow => self.arrow(@previous_change),
+             :b_change => Num.to_p(@baseline_change), :b_value => Num.short(per_visits_baseline, 2), :b_arrow => self.arrow(@baseline_change)}
 
     @all_results = OpenStruct.new(hash)
     
