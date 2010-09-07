@@ -1,4 +1,3 @@
-require File.expand_path(File.dirname(__FILE__) + "/api/crunch.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/uniques.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/visits.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/newvisits.rb")
