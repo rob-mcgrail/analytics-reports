@@ -1,4 +1,4 @@
-class Depth < Crunch
+class Depth 
   attr_reader :all_results
   
   def initialize
