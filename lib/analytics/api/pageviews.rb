@@ -1,4 +1,5 @@
-class PageViews < Crunch
+class PageViews 
+  include Arrows
   attr_reader :all_results
   
   def initialize
