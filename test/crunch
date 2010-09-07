@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
 
 require "test/unit"
 
-class MockData < Crunch
+class MockData 
   attr_writer :nothing, :good, :is_arbitrary, :list_visits, :list_bounces, :list_times
   
   attr_reader :start_date_reporting, :end_date_reporting, :start_date_previous, :end_date_previous, :start_date_baseline, :end_date_baseline, :reporting_number_of_months, :baseline_number_of_months, :temporary_results, :array_of_start_dates, :array_of_end_dates, :visits_as_percent, :rates, :average_sessions, :list_visits, :list_bounces, :list_times
@@ -56,27 +56,27 @@ class CrunchTest < Test::Unit::TestCase
   end
   
   def test_percentage
-    assert_equal( 50, Crunch.new.percentage(10, 20), ["Math failure"])
-    assert_equal( 200, Crunch.new.percentage(10, 5), ["Math failure"])
-    assert_equal( 200, Crunch.new.percentage(0.2, 0.1), ["Math failure"])
-    assert_equal( 100, Crunch.new.percentage(10, 10), ["Math failure"])
+    assert_equal( 50, Num.percentage(10, 20), ["Math failure"])
+    assert_equal( 200, Num.percentage(10, 5), ["Math failure"])
+    assert_equal( 200, Num.percentage(0.2, 0.1), ["Math failure"])
+    assert_equal( 100, Num.percentage(10, 10), ["Math failure"])
     
-    # assert_raise(RuntimeError, ["Warning failure"]) {Crunch.new.percentage(20, 0)} #replace this test with one for the 99999 value...
+    # assert_raise(RuntimeError, ["Warning failure"]) {Num.percentage(20, 0)} #replace this test with one for the 99999 value...
     #probably rerally dumb.
     
-    assert_equal( 100, Crunch.new.percentage(0.001, 0.001), ["Type failure - float"])
-    assert_equal( 100, Crunch.new.percentage("10", "10"), ["Type failure - string"])
+    assert_equal( 100, Num.percentage(0.001, 0.001), ["Type failure - float"])
+    assert_equal( 100, Num.percentage("10", "10"), ["Type failure - string"])
   end 
    
   def test_percentage_change
-    assert_equal( 50, Crunch.new.percentage_change(10, 15), ["Math failure"])
-    assert_equal( 100, Crunch.new.percentage_change(10, 20), ["Math failure"])
-    assert_equal( -50, Crunch.new.percentage_change(10, 5), ["Math failure"])
-    assert_equal( -100, Crunch.new.percentage_change(20, 0), ["Math failure"])
-    assert_equal( 0, Crunch.new.percentage_change(10, 10), ["Math failure"])
+    assert_equal( 50, Num.percentage_change(10, 15), ["Math failure"])
+    assert_equal( 100, Num.percentage_change(10, 20), ["Math failure"])
+    assert_equal( -50, Num.percentage_change(10, 5), ["Math failure"])
+    assert_equal( -100, Num.percentage_change(20, 0), ["Math failure"])
+    assert_equal( 0, Num.percentage_change(10, 10), ["Math failure"])
     
-    assert_equal( 0, Crunch.new.percentage_change(0.001, 0.001), ["Type failure - float"])
-    assert_equal( 0, Crunch.new.percentage_change("10", "10"), ["Type failure - string"])
+    assert_equal( 0, Num.percentage_change(0.001, 0.001), ["Type failure - float"])
+    assert_equal( 0, Num.percentage_change("10", "10"), ["Type failure - string"])
   end
   
   def test_to_p
