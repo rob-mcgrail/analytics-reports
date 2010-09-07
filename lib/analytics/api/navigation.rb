@@ -1,4 +1,4 @@
-class Navigation < Crunch
+class Navigation 
   attr_reader :all_results, :results_arbitrary, :in_results, :out_results
   
   def initialize
