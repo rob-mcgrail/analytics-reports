@@ -32,16 +32,6 @@ class Navigation
      
      self.arbitrary_in(filter, limit, @start_date_reporting, @end_date_reporting)
      self.arbitrary_out(filter, limit, @start_date_reporting, @end_date_reporting)
-          
-     @all_results << "\nPrevious pages for #{filter}\n"
-     
-     @in_results.each {|thing| @all_results << thing}
-     
-     @all_results << "\nNext pages for #{filter}\n"
-     
-     @out_results.each {|thing| @all_results << thing}
-     
-     @all_results
      
      if @in_results.rows.length != @out_results.rows.length
        raise "Error creating output for Navigation.all_reporting. @in_results and @out_results have different length arrays."
@@ -54,12 +44,12 @@ class Navigation
      rows = Array.new
      
      i = 0
-     for @in_results.rows.length
+     while i < limit
        a = Array.new
-       a << @in_results.rows[i][0]
-       a << @in_results.rows[i][1]
-       a << @out_results.rows[i][0]
-       a << @out_results.rows[i][1]
+       a << @in_results.rows[i.fetch(0)]
+       a << @in_results.rows[i.fetch(1)]
+       a << @out_results.rows[i.fetch(0)]
+       a << @out_results.rows[i.fetch(1)]
        
        rows << a
        i = i + 1
@@ -126,9 +116,9 @@ class Navigation
   end
 
   
-  def arbitrary_out(filter = @filter, 
+  def arbitrary_out(filter = @filter,
                     limit = @limit,
-                    start_date = @start_date_reporting, 
+                    start_date = @start_date_reporting,
                     end_date = @end_date_reporting)
     
     report = Garb::Report.new($profile.garb,
