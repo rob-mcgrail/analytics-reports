@@ -207,26 +207,40 @@ class XML < Format
       end
     }
     
-    # <table id="country_sources">
-    #       <tr>
-    #         <th>Country</th>
-    #         <th>Visits/total</th>
-    #         <th>Bounce rate</th>
-    #         <th>Avg session</th>
-    #       </tr>
-    #       <tr>
-    #         <td>United States</td>
-    #         <td>27%</td>
-    #         <td>0%</td>
-    #         <td>00:00</td>
-    #       </tr>
-    #       <tr>
-    #         <td>New Zealand</td>
-    #         <td>26%</td>
-    #         <td>0%</td>
-    #         <td>00:00</td>
-    #       </tr>
-    #     </table>
+    # <title>Most popular content</title>
+    # <table id="popular">
+    #   <tr>
+    #     <th>Page</th>
+    #     <th>Pageviews</th>
+    #     <th>Avg session</th>
+    #   </tr>
+    #   <tr>
+    #     <td>/</td>
+    #     <td>4393</td>
+    #     <td>00:24</td>
+    #   </tr>
+    #   <tr>
+    #     <td>/themes/biotech_at_home/enzymes_in_washing_powders</td>
+    #     <td>3067</td>
+    #     <td>00:04</td>
+    #   </tr>
+    #   <tr>
+    #     <td>/themes/biotech_at_home/enzymes_in_washing_powders/</td>
+    #     <td>3030</td>
+    #     <td>04:11</td>
+    #   </tr>
+    #   <tr>
+    #     <td>/content/advancedsearch/</td>
+    #     <td>1494</td>
+    #     <td>00:34</td>
+    #   </tr>
+    #   <tr>
+    #     <td>/themes/biotech_therapies/stem_cells</td>
+    #     <td>797</td>
+    #     <td>00:04</td>
+    #   </tr>
+    # </table>
+
     
   end
 
