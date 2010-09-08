@@ -33,6 +33,9 @@ class Navigation
      self.arbitrary_in(filter, limit, @start_date_reporting, @end_date_reporting)
      self.arbitrary_out(filter, limit, @start_date_reporting, @end_date_reporting)
      
+     puts @in_results
+     puts @out_results
+     
      if @in_results.rows.length != @out_results.rows.length
        raise "Error creating output for Navigation.all_reporting. @in_results and @out_results have different length arrays."
      end
@@ -111,8 +114,8 @@ class Navigation
 
     hash = { :title => nil, :table_id => "previous_pages", :header => header, :rows => rows}
     
-    @out_results = OpenStruct.new
-    @out_results
+    @in_results = OpenStruct.new(hash)
+    @in_results
   end
 
   
@@ -159,6 +162,7 @@ class Navigation
       rows << a
     end
     
+    header = Array.new
     header = ["Next pages for #{filter}", "Pageviews"]
 
     hash = { :title => nil, :table_id => "next_pages", :header => header, :rows => rows}
