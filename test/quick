@@ -16,6 +16,7 @@ times = Times.new
 uniques = Uniques.new
 countries = CountrySource.new
 content = Content.new
+nav = Navigation.new
 
 $format.header
 
@@ -49,6 +50,10 @@ $format.x.body {
                             $format.table(countries.processed_reporting)        #countries table  
                             $format.table(content.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 5))        #engagement table
                             $format.table(content.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 5))   #popularity table
+                            
+                            $format.table(nav.arbitrary_in)                     #popularity table
+                            $format.table(nav.arbitrary_out)                    #popularity table
+                            $format.table(nav.all_reporting)                    #main navigation table with default arguments
                             
                           }
                  }       
