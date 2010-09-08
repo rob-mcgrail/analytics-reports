@@ -1,6 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
-require File.expand_path(File.dirname(__FILE__) + "/session/biotech.rb")
-require File.expand_path(File.dirname(__FILE__) + "/session/biotech_segment.rb")
+require File.expand_path(File.dirname(__FILE__) + "/session/btech.rb")
 
 $display = Unix.new
 Biotech_session.new
@@ -16,6 +15,7 @@ pages_visits = PageViews.new
 times = Times.new
 uniques = Uniques.new
 countries = CountrySource.new
+content = Content.new
 
 $format.header
 
@@ -47,11 +47,11 @@ $format.x.body {
                             $format.bar_series(visits.hours_graph)              #hours graph   
                             
                             $format.table(countries.processed_reporting)        #countries table  
+                            $format.table(content.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 5))        #engagement table
+                            $format.table(content.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 5))   #popularity table
+                            
                           }
                  }       
-
-
-
 
 puts $collector
 
