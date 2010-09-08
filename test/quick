@@ -30,7 +30,7 @@ $format.x.body {
                               $format.x.key_string("Baseline")
                               
                             }
-                      
+                                                  
                                       
                             $format.block_full(visits.three_with_changes)       #blocks
                             $format.block_full(bounces.three_with_changes)
@@ -51,8 +51,8 @@ $format.x.body {
                             $format.table(content.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 5))        #engagement table
                             $format.table(content.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 5))   #popularity table
                             
-                            $format.table(nav.arbitrary_in)                     #popularity table
-                            $format.table(nav.arbitrary_out)                    #popularity table
+                            $format.table(nav.arbitrary_in)                     #nav table
+                            $format.table(nav.arbitrary_out)                    #nav table
                             $format.table(nav.all_reporting)                    #main navigation table with default arguments
                             
                           }
