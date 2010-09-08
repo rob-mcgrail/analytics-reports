@@ -38,9 +38,39 @@ class Navigation
      @in_results.each {|thing| @all_results << thing}
      
      @all_results << "\nNext pages for #{filter}\n"
+     
      @out_results.each {|thing| @all_results << thing}
      
      @all_results
+     
+     if @in_results.rows.length != @out_results.rows.length
+       raise "Error creating output for Navigation.all_reporting. @in_results and @out_results have different length arrays."
+     end
+     
+     if @in_results.rows.length != limit
+       raise "Error creating output for Navigation.all_reporting. @in_results is not the length of the specified return limit."
+     end
+     
+     rows = Array.new
+     
+     i = 0
+     for @in_results.rows.length
+       a = Array.new
+       a << @in_results.rows[i][0]
+       a << @in_results.rows[i][1]
+       a << @out_results.rows[i][0]
+       a << @out_results.rows[i][1]
+       
+       rows << a
+       i = i + 1
+    end
+     
+    header = ["#{@in_results.header[0]}", "#{@in_results.header[1]}", "#{@out_results.header[0]}", "#{@out_results.header[1]}"]
+     
+    hash = { :title => "Navigation for #{filter}", :table_id => "navigation", :header => header, :rows => rows}
+     
+    @all_results = OpenStruct.new(hash)
+    @all_results
   end
   
   def arbitrary_in(filter = @filter, 
