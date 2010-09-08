@@ -191,6 +191,7 @@ class XML < Format
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
     
+    @x.title(struct.title)
     @x.table( "id" => struct.table_id ){
       @x.tr{
         struct.header.each do |thing|
