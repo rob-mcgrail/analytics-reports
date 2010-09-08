@@ -47,22 +47,32 @@ class Content
     
     temp = Array.new
     
-    @results_arbitrary.each do |thing|
+    @results_arbitrary.each do |thing|                      #filter by limit
       if thing.pageviews > @limit
         temp << thing
       end
     end
-    
     @results_arbitrary = temp
-    @results_arbitrary = @results_arbitrary.first(ammount)
-    
-    @by_time = Array.new
+
+    @results_arbitrary = @results_arbitrary.first(ammount)  #peel off the top 10 or so
+        
+    rows = Array.new
     
     @results_arbitrary.each do |thing|
-      thing.time = Num.make_seconds(thing.time)
-      @by_time << "#{thing.page_path}, pageviews: #{thing.pageviews}, average time: #{thing.time.strftime("%M:%S")}"
+      a = Array.new
+      thing.time = Num.make_seconds(thing.time) #make in to seconds
+      a << "#{thing.page_path}"                 #add in page path
+      a << "#{thing.pageviews}"                 #add in pageviews
+      a << "#{thing.time.strftime("%M:%S")}"    #add in time
+      
+      rows << a
     end
     
+    header = ["Page", "Pageviews", "Avg session"]
+    
+    hash = { :title => "Most engaging content", :table_id => "engagement", :header => header, :rows => rows }
+    
+    @by_time = OpenStruct.new(hash)
     @by_time
   end
   
@@ -70,16 +80,26 @@ class Content
     
     self.arbitrary(start_date, end_date)
     
-    @results_arbitrary = self.order_by_pageviews(@results_arbitrary)
-    @results_arbitrary = @results_arbitrary.first(ammount)
+    @results_arbitrary = self.order_by_pageviews(@results_arbitrary)  #order by pageviews
+    @results_arbitrary = @results_arbitrary.first(ammount)            #peel off top 10 or so
     
-    @by_pageviews = Array.new
+    rows = Array.new
     
     @results_arbitrary.each do |thing|
-      thing.time = Num.make_seconds(thing.time)
-      @by_pageviews << "#{thing.page_path}, pageviews: #{thing.pageviews}, average time: #{thing.time.strftime("%M:%S")}"
+      a = Array.new
+      thing.time = Num.make_seconds(thing.time) #make in to seconds
+      a << "#{thing.page_path}"                 #pagepath
+      a << "#{thing.pageviews}"                 #pageviews
+      a << "#{thing.time.strftime("%M:%S")}"    #add in time
+      
+      rows << a
     end
     
+    header = ["Page", "Pageviews", "Avg session"]
+    
+    hash = { :title => "Most popular content", :table_id => "popular", :header => header, :rows => rows }
+    
+    @by_pageviews = OpenStruct.new(hash)
     @by_pageviews
   end
   
