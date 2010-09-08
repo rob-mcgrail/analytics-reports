@@ -33,9 +33,6 @@ class Navigation
      self.arbitrary_in(filter, limit, @start_date_reporting, @end_date_reporting)
      self.arbitrary_out(filter, limit, @start_date_reporting, @end_date_reporting)
      
-     puts @in_results
-     puts @out_results
-     
      if @in_results.rows.length != @out_results.rows.length
        raise "Error creating output for Navigation.all_reporting. @in_results and @out_results have different length arrays."
      end
@@ -49,10 +46,10 @@ class Navigation
      i = 0
      while i < limit
        a = Array.new
-       a << @in_results.rows[i.fetch(0)]
-       a << @in_results.rows[i.fetch(1)]
-       a << @out_results.rows[i.fetch(0)]
-       a << @out_results.rows[i.fetch(1)]
+       a << @in_results.rows[i].fetch(0)
+       a << @in_results.rows[i].fetch(1)
+       a << @out_results.rows[i].fetch(0)
+       a << @out_results.rows[i].fetch(1)
        
        rows << a
        i = i + 1
@@ -151,23 +148,20 @@ class Navigation
     end
 
     report.sort :pageviews.desc
-    
     rows = Array.new
     
     report.results.each do |thing|
       a = Array.new
       a << "#{thing.next_page_path}"
       a << "#{thing.pageviews}"
-      
       rows << a
     end
     
-    header = Array.new
     header = ["Next pages for #{filter}", "Pageviews"]
 
     hash = { :title => nil, :table_id => "next_pages", :header => header, :rows => rows}
     
-    @out_results = OpenStruct.new
+    @out_results = OpenStruct.new(hash)
     @out_results
   end
   
