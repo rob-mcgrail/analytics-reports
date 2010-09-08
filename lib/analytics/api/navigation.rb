@@ -32,10 +32,9 @@ class Navigation
      
      self.arbitrary_in(filter, limit, @start_date_reporting, @end_date_reporting)
      self.arbitrary_out(filter, limit, @start_date_reporting, @end_date_reporting)
-     
-     @all_results = Array.new
-     
+          
      @all_results << "\nPrevious pages for #{filter}\n"
+     
      @in_results.each {|thing| @all_results << thing}
      
      @all_results << "\nNext pages for #{filter}\n"
@@ -77,15 +76,25 @@ class Navigation
     
     report.sort :pageviews.desc
     
-
-    @in_results = Array.new
+    
+    rows = Array.new
     
     report.results.each do |thing|
-      @in_results << "#{thing.previous_page_path} (#{thing.pageviews})"
+      a = Array.new
+      a << "#{thing.previous_page_path}"
+      a << "#{thing.pageviews}"
+      
+      rows << a
     end
     
-    @in_results
+    header = ["Previous pages for #{filter}", "Pageviews"]
+
+    hash = { :title => nil, :table_id => "previous_pages", :header => header, :rows => rows}
+    
+    @out_results = OpenStruct.new
+    @out_results
   end
+
   
   def arbitrary_out(filter = @filter, 
                     limit = @limit,
@@ -120,13 +129,21 @@ class Navigation
 
     report.sort :pageviews.desc
     
-
-    @out_results = Array.new
+    rows = Array.new
     
     report.results.each do |thing|
-      @out_results << "#{thing.next_page_path} (#{thing.pageviews})"
+      a = Array.new
+      a << "#{thing.next_page_path}"
+      a << "#{thing.pageviews}"
+      
+      rows << a
     end
     
+    header = ["Next pages for #{filter}", "Pageviews"]
+
+    hash = { :title => nil, :table_id => "next_pages", :header => header, :rows => rows}
+    
+    @out_results = OpenStruct.new
     @out_results
   end
   
