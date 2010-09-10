@@ -6,15 +6,18 @@ module GoogleChart
 # A module for getting google chart api data data
 #
 
-  def GoogleChart.bar_series(title, data, color = "BBCCED", size = "700x85") #data is an array
+  def GoogleChart.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil) #data is an array
 
-    max = data[data.index(data.max)] #get the highest value to set the graph vertical range
+    if max.nil? #checks if it was passed in
+                                        # get the highest value to set the graph vertical range
+      max = Num.round_up(data.max.to_i) # and round it up
+    end
 
     data = self.to_param(data)
     title = self.to_param(title)
 
     src = ["http://chart.apis.google.com/chart",
-          "?chxr=0,0,#{data[max]}",
+          "?chxr=0,0,#{max}",
           "&chxs=0,676767,8.5,0,l,676767",
           "&chxt=y",
           "&chbh=a,5",
@@ -27,8 +30,8 @@ module GoogleChart
           "&chts=676767,10.5"
           ]
 
-    src = self.to_url(src)
-
+    src = self.to_request(src)
+    puts src
     src
   end
 
@@ -49,7 +52,7 @@ module GoogleChart
     string
   end
 
-  def self.to_url(array) #takes the array of parameters and adds together in to a string
+  def self.to_request(array) #takes the array of parameters and adds together in to a string
                     #there's probably an array method already that does this'
     s = String.new
     array.each {|thing| s << thing}
