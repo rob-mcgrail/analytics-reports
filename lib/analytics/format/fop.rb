@@ -1,4 +1,4 @@
-class fop < XML
+class Fop < XML
 
   def bar_series(struct)
         #gets a url for a bargraph from the google charts api
