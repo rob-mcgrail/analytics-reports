@@ -1,10 +1,11 @@
 class XML < Format
   attr_accessor :x
 
+
   def initialize
     if !defined? $collector
       $display.tell_user("The collector is not defined. I am instantiating it now...")
-      $collector = String.new #this will be initialized by whichever object gets there first
+      $collector = OpenStruct.new #this will be initialized by whichever object gets there first
     end
 
     #set values for arrows
@@ -17,7 +18,10 @@ class XML < Format
     @grey_down = "grey_down"
     @equals = "equals"
 
-    @x = Builder::XmlMarkup.new(:target => $collector, :indent => 2)
+    @collector = String.new #this is the local collector
+                            #to 'go global', run self.endme
+
+    @x = Builder::XmlMarkup.new(:target => @collector, :indent => 2)
 
     @x.instruct!
 
@@ -265,12 +269,12 @@ class XML < Format
     #  </main>
     #  <previous>
     #   <change>28%</change>
-    #   <arrow>green_up.png</arrow>
+    #   <arrow>green_up</arrow>
     #   <value>14422</value>
     #  </previous>
     #  <baseline>
     #   <change>31%</change>
-    #   <arrow>green_up.png</arrow>
+    #   <arrow>green_up</arrow>
     #   <value>14072.0</value>
     #  </baseline>
     # </block_full>
@@ -308,7 +312,10 @@ class XML < Format
 
 #bar
 
-
+  def endme
+    $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
+    $collector.xml = @collector
+  end
 
 
 
