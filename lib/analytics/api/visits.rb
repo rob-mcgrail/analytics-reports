@@ -110,7 +110,9 @@ class Visits
 
     @reporting_hours.each {|thing| series_array << thing}
 
-    hash = { :title => "Traffic by hour", :series => series_array }
+    data = [series_array]
+
+    hash = { :title => "Traffic by hour", :data => data }
 
     @all_results = OpenStruct.new(hash)
     @all_results
