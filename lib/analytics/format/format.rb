@@ -2,16 +2,19 @@ class Format
   attr_reader :green_up, :green_down, :red_up, :red_down, :grey_up, :grey_down, :equals
 
   def initialize
-    
+
     #make sure there is a collector object, if not, make one
 
     if !defined? $collector
       $display.tell_user("The collector is not defined. I am instantiating it now...")
-      $collector = Array.new
+      $collector = OpenStruct.new
     end
-    
+
+    @collector = String.new #this is the local collector
+                            #to 'go global', run self.endme
+
     #set values for arrows
-    
+
     @green_up = "green_up"
     @green_down = "green_down"
     @red_up = "red_up"
@@ -20,5 +23,11 @@ class Format
     @grey_down = "grey_down"
     @equals = "equals"
   end
-  
+
+  def endme
+    $display.tell_user "Putting output in to $collector. Access with $collector.output"
+    $collector.output = @collector
+  end
+
 end
+
