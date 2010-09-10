@@ -1,10 +1,10 @@
-module Graph
+module GoogleChart
 
 require 'gchart'
 
 
 #
-# A module for getting gchart data, via
+# A module for getting google chart api data data
 #
 
 
