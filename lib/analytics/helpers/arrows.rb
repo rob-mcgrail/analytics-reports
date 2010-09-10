@@ -1,4 +1,6 @@
 module Arrows
+ # a mixin for adding arrow functions to classes
+
   def arrow(change)
     # sets orientation and color of arrows for results
     # each data class method is expected to have bool values for
@@ -11,7 +13,7 @@ module Arrows
       @arrow = $format.equals
       return @arrow
     end
-    
+
     if change > 0
       if self.up_is_nothing?
         @arrow = $format.grey_up
@@ -22,7 +24,7 @@ module Arrows
       else
         @arrow = $format.red_up
       end
-    
+
     else
       if self.up_is_nothing?
         @arrow = $format.grey_down
@@ -35,5 +37,6 @@ module Arrows
       end
     end
   end
-  
+
 end
+
