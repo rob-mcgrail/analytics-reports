@@ -101,7 +101,7 @@ class XML < Format
         i = 0
         struct.data.each do |data|
 
-          @x.line(  "id"=>"#{struct.keys[i]}"  ){       #real graph
+          @x.line(  "id"=>"#{struct.keys[i]}"  ){
            data.each do |x|
               @x.value(x)
           end
