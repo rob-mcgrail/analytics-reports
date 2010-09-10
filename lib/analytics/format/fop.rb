@@ -10,14 +10,13 @@ class Fop < XML
     src = GoogleChart.bar_series(struct.title, struct.data[0])
 
     @x.series_graph{
-      @x.external_graphic(:src=> "#{src}")
+      @x.external_graphic(:src => src )
     }
-
   end
 
   def finish
     $display.tell_user "Putting fop-ready xml output in to $collector. Access with $collector.fop"
-    $collector.fop = @collector
+    $collector.fop = @collector.gsub('&amp;', '&') #washing out the escape sequences...
   end
 
 end
