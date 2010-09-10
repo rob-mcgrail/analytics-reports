@@ -1,14 +1,14 @@
 class XML < Format
   attr_accessor :x
-  
+
   def initialize
     if !defined? $collector
       $display.tell_user("The collector is not defined. I am instantiating it now...")
-      $collector = String.new
+      $collector = String.new #this will be initialized by whichever object gets there first
     end
-    
+
     #set values for arrows
-    
+
     @green_up = "green_up.png"
     @green_down = "green_down.png"
     @red_up = "red_up.png"
@@ -16,11 +16,11 @@ class XML < Format
     @grey_up = "grey_up.png"
     @grey_down = "grey_down.png"
     @equals = "equals.png"
-    
+
     @x = Builder::XmlMarkup.new(:target => $collector, :indent => 2)
-    
+
     @x.instruct!
-    
+
   end
 
 
@@ -35,31 +35,29 @@ class XML < Format
 
     @x.header {
       self.title(page_title, page_category)
-      @x.logo("cwa_logo.png")
       self.date_section
     }
-    
+
     # <!-- header! -->
     # <header>
     #   <title_section>
     #     <category>Enter a category!</category>
     #     <title>Enter a title!</title>
     #   </title_section>
-    #   <logo>cwa_logo.png</logo>
-    #   <date_block>
+    #   <dates>
     #     <date_range>Reporting period 09/01/10 - 09/03/10</date_range>
     #     <date_range>Reporting period 08/11/09 - 08/01/10</date_range>
     #     <date_range>Reporting period 08/07/09 - 08/01/10</date_range>
-    #   </date_block>
+    #   </dates>
     # </header>
   end
 
 
 
   def title(page_title = "Enter a title!", page_category = "Enter a category")
-    
+
     #prints title and category
-    
+
     @x.title_section {
       @x.category("#{page_category}")
       @x.title("#{page_title}")
@@ -67,59 +65,52 @@ class XML < Format
   end
 
   def date_section
-    
+
     #prints the dates
-    
-    @x.date_block {
+
+    @x.dates {
       @x.date_range("Reporting period #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}")
       @x.date_range("Previous period #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
       @x.date_range("Baseline period #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
     }
-    
+
   end
-    
+
 
   def main_graph(struct)
-    
+
     #makes the big three line graph
-    
+
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
-    
+
     #recieves ostruct containing .title (string)
     #                            .key (array of strings)
-    #                            .line1 (array of values)
-    #                            .line2 (array of values)
-    #                            .line3 (array of values)
-    
-    #would be coold to make this able to accept any ammount of lines (perhaps by x = struct.key.length)
-    
+    #                            .data (an array of arrays - each array contains the data values)
+
     @x.linegraph{
       @x.title(struct.title)
-      @x.key{
-        @x.linename(struct.keys[0])
-        @x.linename(struct.keys[1])
-        @x.linename(struct.keys[2])
-      }
+
+#      @x.keys{
+#        struct.keys.each do |thing|
+#          @x.linename("#{thing}")
+#        end
+#      }
+
       @x.data{
-        @x.line(  "id"=>"one"  ){       #real graph
-          struct.line1.each do |thing|
-            @x.value(thing)
+        i = 0
+        struct.data.each do |data|
+
+          @x.line(  "id"=>"#{struct.keys[i]}"  ){       #real graph
+           data.each do |x|
+              @x.value(x)
           end
-        }
-        @x.line(  "id"=>"two"  ){       #average for previous
-          struct.line2.each do |thing|
-            @x.value(thing)
-          end
-        }
-        @x.line(  "id"=>"three"  ){     #average for baseline
-          struct.line3.each do |thing|
-            @x.value(thing)
-          end
-        }
+          }
+          i+=1
+        end
       }
     }
-    
+
     # <linegraph>
     #   <title>Visits</title>
     #   <key>
@@ -152,14 +143,14 @@ class XML < Format
     #   </data>
     # </linegraph>
   end
-  
+
   def bar_series(struct)
-    
+
     #prints a bargraph for a single series
     #expects an ostruct containing:
-    
+
     # title, series (an array of values)
-    
+
     @x.series_graph{
       @x.title(struct.title)
       @x.data{
@@ -170,7 +161,7 @@ class XML < Format
         }
       }
     }
-    
+
     # <series_graph>
     #   <title>Traffic by hour</title>
     #   <data>
@@ -182,15 +173,15 @@ class XML < Format
     #     </series>
     #   </data>
     # </series_graph>
-    
+
   end
-  
+
   def table(struct)
-    
+
     #prints a table with title and headings
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
-    
+
     if struct.title != nil
       @x.title(struct.title)
     end
@@ -210,7 +201,7 @@ class XML < Format
         }
       end
     }
-    
+
     # <title>Most popular content</title>
     # <table id="popular">
     #   <tr>
@@ -245,16 +236,16 @@ class XML < Format
     #   </tr>
     # </table>
 
-    
+
   end
 
   def block_full(struct)
-    
+
     #prints a value with previous and baseline changes
     #expects an ostruct containing:
-    
+
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
-   
+
     @x.block_item {
       @x.main {
         @x.value_title(struct.title)
@@ -268,10 +259,10 @@ class XML < Format
       @x.baseline {
         @x.change(struct.b_change)
         @x.arrow(struct.b_arrow)
-        @x.value(struct.b_value)      
+        @x.value(struct.b_value)
       }
     }
-    
+
     # <block_full>
     #  <main>
     #   <value_title>Visits</value_title>
@@ -295,14 +286,14 @@ class XML < Format
 
 
   def relative(array)
-    
+
     #prints a bar divided between two proportions
     #expects an array with 3, and only 3, values
-    
+
     if array.length != 3
       raise "Passed the XML.relative method an array that is the wrong length. It should be three."
     end
-    
+
     @x.comparison_bar_graph {
       @x.title("#{array[0]}")
       @x.bar {
@@ -310,7 +301,7 @@ class XML < Format
         @x.value("#{array[2]}")
       }
     }
-    
+
     # <comparison_bar_graph>
     #   <title>New / Returning</title>
     #   <bar>
@@ -326,5 +317,6 @@ class XML < Format
 
 
 
-  
+
 end
+
