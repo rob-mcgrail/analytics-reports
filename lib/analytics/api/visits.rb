@@ -95,7 +95,7 @@ class Visits
     keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
 
     hash = { :title => "Visits", :keys => keys_array,
-             :data => @reporting_list }
+             :data => data }
 
     @all_results = OpenStruct.new(hash)
     @all_results
