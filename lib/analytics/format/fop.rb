@@ -1,4 +1,5 @@
 class Fop < XML
+  include GoogleChart
 
   def bar_series(struct)
         #gets a url for a bargraph from the google charts api
@@ -6,7 +7,7 @@ class Fop < XML
 
         # title, series (an array of values)
 
-    src = GoogleChart.bar_series(struct)
+    src = GoogleChart.bar_series(struct.title, struct.data[0])
 
     @x.series_graph{
       @x.external_graphic(:src=> "#{src}")
