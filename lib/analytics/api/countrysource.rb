@@ -85,22 +85,22 @@ class CountrySource
   
   def processed_reporting(limit = 10)
     @reporting_list = self.processed_arbitrary(@start_date_reporting, 
-                                                               @end_date_reporting, 
-                                                               limit)
+                                               @end_date_reporting, 
+                                               limit)
     @reporting_list
   end
   
   def processed_previous(limit = 10)
     @previous_list = self.processed_arbitrary(@start_date_previous, 
-                                                              @end_date_previous, 
-                                                              limit)
+                                              @end_date_previous, 
+                                              limit)
     @previous_list
   end
   
   def processed_baseline(limit = 10)
     @baseline_list = self.processed_arbitrary(@start_date_baseline, 
-                                                              @end_date_baseline, 
-                                                              limit)
+                                              @end_date_baseline, 
+                                              limit)
     @baseline_list
   end
   

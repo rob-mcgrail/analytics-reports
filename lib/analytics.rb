@@ -9,8 +9,6 @@ require 'action_view'
 require 'ostruct'
 require 'builder'
 
-# require 'ruport'
-# require 'ruport/util'
 
 #external
 require File.expand_path(File.dirname(__FILE__) + "/analytics/array.rb")

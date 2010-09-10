@@ -1,7 +1,6 @@
 class Array
   
   def average
-   
     @total = 0
         
     self.each do |thing|

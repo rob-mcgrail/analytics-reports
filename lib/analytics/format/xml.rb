@@ -191,13 +191,17 @@ class XML < Format
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
     
-    @x.title(struct.title)
+    if struct.title != nil
+      @x.title(struct.title)
+    end
     @x.table( "id" => struct.table_id ){
-      @x.tr{
-        struct.header.each do |thing|
-          @x.th(thing)
-        end
-      }
+      if struct.header != nil
+        @x.tr{
+          struct.header.each do |thing|
+            @x.th(thing)
+          end
+        }
+      end
       struct.rows.each do |thing|
         @x.tr{
           thing.each do |data|
@@ -288,11 +292,7 @@ class XML < Format
 
 
 
-#block_single
 
-#block_comparison
-
-#table
 
   def relative(array)
     
