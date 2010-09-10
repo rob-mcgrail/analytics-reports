@@ -3,21 +3,33 @@ module Num
   def Num.percentage(given, total)
     given = given.to_f
     total = total.to_f
-  
+
     if total == 0
       puts "Error - you're using Crunch.percentage to create a percentage of 0!\nI will return 9999999999.\n"
       return 9999999999
     end
-  
+
     (given/total)*100
   end
 
   def Num.percentage_change(a, b)
     a = a.to_f
     b = b.to_f
-  
+
     ((b-a)*100) / a
   end
+
+  def Num.round_up(number)
+    divisor = 10**Math.log10(number).floor
+    i = number / divisor
+    remainder = number % divisor
+    if remainder == 0
+      i * divisor
+    else
+      (i + 1) * divisor
+    end
+  end
+
 
   def Num.to_p (num, precision=0)
     	"%.#{precision}f" % num + "%"
@@ -34,16 +46,16 @@ module Num
     #try and do this last... because other methods expect numbers, not
     #times (ie percentage change, average, etc...)
     #check the test/crunch script for more
-  
+
     @time_holder = Array.new
-  
+
     if times.is_a?(Array)
-    
+
       times.each do |thing|
         thing = Time.at(thing)
         @time_holder << thing
       end
-    
+
       times = Array.new
       @time_holder.each {|thing| times << thing}
       times
@@ -58,3 +70,4 @@ module Num
     times
   end
 end
+
