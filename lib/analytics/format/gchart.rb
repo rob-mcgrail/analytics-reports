@@ -31,8 +31,8 @@ module GoogleChart
           ]
 
     src = self.to_request(src)
-    puts src
     src
+
   end
 
   def self.to_param(thing) #can take a string (title, adds +) or array (adds together with commas)
@@ -53,7 +53,7 @@ module GoogleChart
   end
 
   def self.to_request(array) #takes the array of parameters and adds together in to a string
-                    #there's probably an array method already that does this'
+                              #there's probably an array method already that does this'
     s = String.new
     array.each {|thing| s << thing}
     s
