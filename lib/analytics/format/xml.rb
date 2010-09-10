@@ -154,8 +154,10 @@ class XML < Format
       @x.title(struct.title)
       @x.data{
         @x.series{
-          struct.series.each do |thing|
-            @x.value(thing)
+          struct.data.each do |data|
+            data.each do |x|
+              @x.value(x)
+            end
           end
         }
       }
