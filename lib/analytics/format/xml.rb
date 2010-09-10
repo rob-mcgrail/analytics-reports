@@ -9,13 +9,13 @@ class XML < Format
 
     #set values for arrows
 
-    @green_up = "green_up.png"
-    @green_down = "green_down.png"
-    @red_up = "red_up.png"
-    @red_down = "red_down.png"
-    @grey_up = "grey_up.png"
-    @grey_down = "grey_down.png"
-    @equals = "equals.png"
+    @green_up = "green_up"
+    @green_down = "green_down"
+    @red_up = "red_up"
+    @red_down = "red_down"
+    @grey_up = "grey_up"
+    @grey_down = "grey_down"
+    @equals = "equals"
 
     @x = Builder::XmlMarkup.new(:target => $collector, :indent => 2)
 
@@ -111,37 +111,32 @@ class XML < Format
       }
     }
 
-    # <linegraph>
-    #   <title>Visits</title>
-    #   <key>
-    #     <linename>Visits</linename>
-    #     <linename>Average</linename>
-    #     <linename>Baseline</linename>
-    #   </key>
-    #   <data>
-    #     <line id="one">
-    #       <value>404</value>
-    #       <value>175</value>
-    #       <value>259</value>
-    #       <value>399</value>
-    #       <value>437</value>
-    #     </line>
-    #     <line id="two">
-    #       <value>307.6</value>
-    #       <value>307.6</value>
-    #       <value>307.6</value>
-    #       <value>307.6</value>
-    #       <value>307.6</value>
-    #     </line>
-    #     <line id="three">
-    #       <value>228.983783783784</value>
-    #       <value>228.983783783784</value>
-    #       <value>228.983783783784</value>
-    #       <value>228.983783783784</value>
-    #       <value>228.983783783784</value>
-    #     </line>
-    #   </data>
-    # </linegraph>
+#    <linegraph>
+#      <title>Visits</title>
+#      <data>
+#          <value>404</value>
+#          <value>175</value>
+#          <value>259</value>
+#          <value>399</value>
+#          <value>437</value>
+#        </line>
+#        <line id="Average">
+#          <value>307.6</value>
+#          <value>307.6</value>
+#          <value>307.6</value>
+#          <value>307.6</value>
+#          <value>307.6</value>
+#        </line>
+#        <line id="Baseline">
+#          <value>228.983783783784</value>
+#          <value>228.983783783784</value>
+#          <value>228.983783783784</value>
+#          <value>228.983783783784</value>
+#          <value>228.983783783784</value>
+#        </line>
+#      </data>
+#    </linegraph>
+
   end
 
   def bar_series(struct)
