@@ -1,6 +1,6 @@
 module GoogleChart
 #  require 'gchart'
-#it hasn't worked for some of these, so I made them manually...'
+# => it hasn't worked for some of these, so I made them manually...
 
 #
 # A module for getting google chart api data data
@@ -8,11 +8,13 @@ module GoogleChart
 
   def GoogleChart.bar_series(title, data, color = "BBCCED", size = "700x85") #data is an array
 
+    max = data[data.index(data.max)] #get the highest value to set the graph vertical range
+
     data = self.to_param(data)
     title = self.to_param(title)
 
     src = ["http://chart.apis.google.com/chart",
-          "?chxr=0,0,900",
+          "?chxr=0,0,#{data[max]}",
           "&chxs=0,676767,8.5,0,l,676767",
           "&chxt=y",
           "&chbh=a,5",
