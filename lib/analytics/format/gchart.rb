@@ -2,9 +2,9 @@ module GoogleChart
 
 require 'gchart'
 
-  def bar_series(struct)
-    a = struct.data[0]
-    src = Gchart.bar(:title => struct.title, :data => a)
+  def GoogleChart.bar_series(title, data) #data is an array
+
+    src = Gchart.bar(:title => title, :data => data)
     src
   end
 
