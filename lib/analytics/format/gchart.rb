@@ -18,7 +18,7 @@ module GoogleChart
 
     src = ["http://chart.apis.google.com/chart",
           "?chxr=0,0,#{max}",
-          "&chxs=0,676767,8.5,0,l,676767",
+          "&chxs=0,676767,8.5,0,l,676767", #font size for x
           "&chxt=y",
           "&chbh=a,5",
           "&chs=#{size}",
@@ -27,7 +27,7 @@ module GoogleChart
           "&chds=0,1037",
           "&chd=t:#{data}",
           "&chtt=#{title}",
-          "&chts=676767,10.5"
+          "&chts=676767,9" #font size for title
           ]
 
     src = self.to_request(src)
