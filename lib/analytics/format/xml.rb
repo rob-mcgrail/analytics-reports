@@ -19,7 +19,7 @@ class XML < Format
     @equals = "equals"
 
     @collector = String.new #this is the local collector
-                            #to 'go global', run self.endme
+                            #to 'go global', run self.finish
 
     @x = Builder::XmlMarkup.new(:target => @collector, :indent => 2)
 
@@ -312,7 +312,7 @@ class XML < Format
 
 #bar
 
-  def endme
+  def finish
     $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
     $collector.xml = @collector
   end

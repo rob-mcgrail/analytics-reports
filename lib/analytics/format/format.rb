@@ -11,7 +11,7 @@ class Format
     end
 
     @collector = String.new #this is the local collector
-                            #to 'go global', run self.endme
+                            #to 'go global', run self.finish
 
     #set values for arrows
 
@@ -24,7 +24,7 @@ class Format
     @equals = "equals"
   end
 
-  def endme
+  def finish
     $display.tell_user "Putting output in to $collector. Access with $collector.output"
     $collector.output = @collector
   end
