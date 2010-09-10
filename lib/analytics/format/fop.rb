@@ -5,7 +5,12 @@ class Fop < XML
         #expects an ostruct containing:
 
         # title, series (an array of values)
-    puts "this is the bar series method from fop"
+
+    src = GoogleChart.bar_series(struct)
+
+    @x.series_graph{
+      @x.external_graphic(:src=> "#{src}")
+    }
 
   end
 
