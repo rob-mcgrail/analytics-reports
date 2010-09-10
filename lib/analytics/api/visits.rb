@@ -112,7 +112,7 @@ class Visits
 
     data = [series_array]
 
-    hash = { :title => "Traffic by hour", :data => data }
+    hash = { :title => "Average visits by hour", :data => data }
 
     @all_results = OpenStruct.new(hash)
     @all_results
