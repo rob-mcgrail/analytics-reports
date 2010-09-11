@@ -6,6 +6,11 @@ module GoogleChart
 # A module for getting google chart api data data
 #
 
+
+#
+# Note to self, the gem probably works fine, just had builder escaping issues
+#
+
   def GoogleChart.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil) #data is an array
 
     if max.nil? #checks if it was passed in
