@@ -24,15 +24,5 @@ class ArrayTest < Test::Unit::TestCase
     assert_equal(10, type_test.average, ["Type error!"])
   end
 
-  # def test_to_h
-  #
-  #   array = ["a", "b", "c", "d"]
-  #
-  #   hash = array.to_h
-  #
-  #   puts hash
-  # end
-
-
 end
 

@@ -19,7 +19,6 @@ class ContentTest < Test::Unit::TestCase
 
   def test_arbitrary
     test = MockContent.new
-
     test.arbitrary(test.start_date_reporting, test.end_date_reporting)
 
 
