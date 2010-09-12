@@ -2,15 +2,30 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 require File.expand_path(File.dirname(__FILE__) + "/session/btech.rb")
 
 $display = Unix.new
+Biotech_session.new
+$format = Fop.new
 
-@interface = Startup.new
-@interface.start_single_profile_session
+$format.x.comment!("Header!")
+$format.title("Sciencelearn.org.nz", "Traffic summary")
+$format.date_section
+$format.x.comment!("Main body!")
 
-test = Prototype.new #run preset report
+visits = Visits.new
+uniques = Uniques.new
+bounces = BounceRate.new
+times = Times.new
+pages_visits = PageViews.new
 
-test.collector << "I am a test - my numbers aren't useful\n"
+$format.block_full(visits.three_with_changes) #blocks
+$format.block_full(uniques.three_monthly_averages)
+$format.block_full(bounces.three_with_changes)
+$format.block_full(times.three_with_changes_as_averages)
+$format.block_full(pages_visits.three_with_changes_per_visit)
 
-test.name = "Testing"
-puts test
+$format.comparison(new_returning.reporting_only)      #bar
 
-test.all
+
+
+$format.finish #currently washes out the xml escapes...
+
+puts $collector.fop
