@@ -40,30 +40,40 @@ class WebSources
     #takes start_time end_time and an int for results limit
     #returns array of sources with percentage of total visits, bouncerate,
     #and average session times 
-     
-    @all_results = Array.new 
-        
+            
     self.arbitrary_bounce_and_time(start_date, end_date, limit) #get numbers
     
     self.make_visits_percentages_of_total(start_date, end_date) #make numbers useful
     self.make_bounces_rates
     self.make_times_average_sessions
-    
-    i = @list_sources.length
-    x = 0
-    
+        
     @average_sessions = Num.make_seconds(@average_sessions)
     
-    while i > 0
-      @all_results << "#{@list_sources[x]}" 
-      @all_results << "visits/total #{Num.to_p(@visits_as_percent[x])}" 
-      @all_results << "bouncerate #{Num.to_p(@rates[x])}" 
-      @all_results << "average session time #{@average_sessions[x].strftime("%M:%S")}."
-      i = i - 1
-      x = x + 1
+    rows = Array.new
+    x = @list_sources.length
+    i = 0
+    
+    while x > 0
+      a = Array.new
+      a << "#{@list_sources[i]}"
+      a << "#{Num.to_p(@visits_as_percent[i])}"
+      a << "#{Num.to_p(@rates[i])}"
+      a << "#{@average_sessions[i].strftime("%M:%S")}"
+      
+      i+=1
+      x-=1
+      
+      rows << a
     end
-  @all_results
+    
+    header = ["Source", "Visits", "Bouncerate", "Avg session"]
+
+    hash = { :title => "Traffic sources", :table_id => "traffic_sources", :header => header, :rows => rows}
+    
+    @all_results = OpenStruct.new(hash)
+    @all_results
   end
+  
   
   def processed_reporting_bounce_and_time(limit = 10)
     @reporting_list = self.processed_arbitrary_bounce_and_time(@start_date_reporting, 
