@@ -42,6 +42,7 @@ class XML < Format
       self.date_section
     }
 
+
     # <!-- header! -->
     # <header>
     #   <title_section>
