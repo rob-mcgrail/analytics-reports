@@ -55,7 +55,7 @@ class CountrySource
     self.make_bounces_rates
     self.make_times_average_sessions
     
-    i = @list_countries.length
+    i = limit
     x = 0
     
     @average_sessions = Num.make_seconds(@average_sessions)

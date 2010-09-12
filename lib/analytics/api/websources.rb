@@ -50,7 +50,7 @@ class WebSources
     @average_sessions = Num.make_seconds(@average_sessions)
     
     rows = Array.new
-    x = @list_sources.length
+    x = limit
     i = 0
     
     while x > 0
