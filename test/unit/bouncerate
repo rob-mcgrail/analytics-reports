@@ -29,6 +29,7 @@ class BounceRateTest < Test::Unit::TestCase
 
   def setup
     $display = Unix.new
+    $format = Format.new
     Biotech_session.new
     @test = MockBounceRate.new
   end
@@ -82,11 +83,13 @@ class BounceRateTest < Test::Unit::TestCase
     assert_kind_of(String, @test.all_results.title, "Type error")
     assert_kind_of(String, @test.all_results.r, "Type error")
     assert_kind_of(String, @test.all_results.p_change, "Type error")
-    assert_equal("-86%", @test.all_results.b_change, "Wrong string")
+    assert_equal("-50%", @test.all_results.p_change, "Wrong string")
     assert_kind_of(String, @test.all_results.p_value, "Type error")
+    assert_equal("12%", @test.all_results.p_value, "Wrong string")
     assert_kind_of(String, @test.all_results.b_change, "Type error")
-    assert_equal("-50%", @test.all_results.b_change, "Wrong string")
+    assert_equal("-86%", @test.all_results.b_change, "Wrong string")
     assert_kind_of(String, @test.all_results.b_value, "Type error")
+    assert_equal("44%", @test.all_results.b_value, "Wrong string")
     assert_kind_of(String, @test.all_results.p_arrow, "Type error")
     assert_equal($format.green_down, @test.all_results.p_arrow, "Wrong arrow")
     assert_kind_of(String, @test.all_results.b_arrow, "Type error")
