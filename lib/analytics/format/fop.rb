@@ -19,7 +19,7 @@ class Fop < XML
     #prints a bar divided between two proportions
     #expects an array with 3, and only 3, values
 
-    if array.length != 4
+    if array.length != 3
       raise "Passed the Fop.relative method an array that is the wrong length. It should be three."
     end
 

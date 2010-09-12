@@ -286,7 +286,7 @@ class XML < Format
     #prints a bar divided between two proportions
     #expects an array with 4, and only 4, values
 
-    if array.length != 4
+    if array.length != 3
       raise "Passed the XML.relative method an array that is the wrong length. It should be three."
     end
 
