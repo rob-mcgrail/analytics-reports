@@ -63,7 +63,7 @@ class NewVisits
   def reporting_only #made for the hubs report
     self.reporting_percentage
     
-    @all_results = ["New / Returning", "#{Num.short(reporting_percentage)}", "#{Num.short(100 - reporting_percentage)}"]
+    @all_results = ["New", "Returning", "#{Num.short(reporting_percentage)}"]
     
     @all_results
   end

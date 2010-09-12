@@ -39,6 +39,29 @@ module GoogleChart
     src
 
   end
+  
+  def GoogleChart.comparison(title, value1, value_title1, value_title2)
+
+    title = self.to_param(title)
+    value_title1 = self.to_param(value_title1)
+    value_title2 = self.to_param(value_title2)
+    
+    src = ["http://chart.apis.google.com/chart",
+          "?chbh=a,2,3",
+           "&chs=321x60",
+           "&cht=bhs",
+           "&chco=5A9D5A,224499",
+           "&chd=t:#{value1}|100",        
+           "&chdl=#{value_title1}|#{value_title2}",
+           "&chp=0.017",
+           "&chg=-1,43,0,0",
+           "&chtt=#{title}",
+           "&chts=676767,10.833"
+          ]
+    
+    src = self.to_request(src)
+    src
+  end
 
   def self.to_param(thing) #can take a string (title, adds +) or array (adds together with commas)
 
@@ -53,6 +76,7 @@ module GoogleChart
 
     if thing.is_a? String #format titles for parameter
       string = thing.gsub(" ", "+")
+      string = thing.gsub("/", "%2F")
     end
     string
   end

@@ -95,13 +95,6 @@ class XML < Format
 
     @x.linegraph{
       @x.title(struct.title)
-
-#      @x.keys{
-#        struct.keys.each do |thing|
-#          @x.linename("#{thing}")
-#        end
-#      }
-
       @x.data{
         i = 0
         struct.data.each do |data|
@@ -203,6 +196,7 @@ class XML < Format
         }
       end
     }
+    
 
     # <title>Most popular content</title>
     # <table id="popular">
@@ -287,20 +281,20 @@ class XML < Format
 
 
 
-  def relative(array)
+  def comparison(array)
 
     #prints a bar divided between two proportions
-    #expects an array with 3, and only 3, values
+    #expects an array with 4, and only 4, values
 
-    if array.length != 3
+    if array.length != 4
       raise "Passed the XML.relative method an array that is the wrong length. It should be three."
     end
 
     @x.comparison_bar_graph {
-      @x.title("#{array[0]}")
+      @x.title("#{array[0]}" + "/" + "#{array[1]}")
       @x.bar {
-        @x.value("#{array[1]}")
         @x.value("#{array[2]}")
+        @x.value("#{array[3]}")
       }
     }
 
