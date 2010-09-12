@@ -33,11 +33,45 @@ class Fop < XML
   end
   
   
+  def bar_series(struct)
+
+    #prints a bargraph for a single series
+    #expects an ostruct containing:
+
+    # title, series (an array of values)
+
+    @x.series_graph{
+      @x.title(struct.title)
+      @x.data{
+        @x.series{
+          struct.data.each do |data|
+            data.each do |x|
+              @x.value(x)
+            end
+          end
+        }
+      }
+    }
+
+    # <series_graph>
+    #   <title>Traffic by hour</title>
+    #   <data>
+    #     <series>
+    #       <value>585</value>
+    #       <value>606</value>
+    #       <value>674</value>
+    #       <value>647</value>
+    #     </series>
+    #   </data>
+    # </series_graph>
+
+  end
+  
   
 
   def finish
     $display.tell_user "Putting fop-ready xml output in to $collector. Access with $collector.fop"
-    # $collector.fop = @collector.gsub('&amp;', '&') #washing out the escape sequences...
+    $collector.fop = @collector.gsub('&amp;', '&') #washing out the escape sequences...
   end
   
   

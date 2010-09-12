@@ -41,7 +41,7 @@ $format.x.body {
                             $format.block_full(uniques.three_monthly_averages)
                             
                             
-                            $format.relative(new_returning.reporting_only)      #bar
+                            $format.comparison(new_returning.reporting_only)      #bar
                             
                             $format.main_graph(visits.main_graph)               #main graph
                             
