@@ -1,2 +1,7 @@
 
 Make startup in to a module
+
+Make unit tests for everything
+
+Make a helper for globals?
+
