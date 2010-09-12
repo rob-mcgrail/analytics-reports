@@ -1,0 +1,97 @@
+require File.expand_path(File.dirname(__FILE__) + "/../../lib/analytics.rb")
+require File.expand_path(File.dirname(__FILE__) + "/../session/btech.rb")
+
+require "test/unit"
+
+    #adding readers for instance variable testing
+    class MockBounceRate < BounceRate
+      attr_reader :visits, :bounces, :previous_change, :baseline_change
+
+      #custom getters as instance variable names already taken by methods
+      def get_reporting
+        @reporting
+      end
+
+      def get_arbitrary
+        @arbitrary
+      end
+
+      def get_baseline
+        @baseline
+      end
+
+      def get_previous
+        @previous
+      end
+    end
+
+class BounceRateTest < Test::Unit::TestCase
+
+  def setup
+    $display = Unix.new
+    Biotech_session.new
+    @test = MockBounceRate.new
+  end
+
+  def test_arbitrary
+    @test.arbitrary($periods.start_date_reporting, $periods.end_date_reporting)
+
+    assert_equal("18456", @test.visits, ["Results error"])
+    assert_equal("1136", @test.bounces, ["Results error"])
+    assert_kind_of(Float, @test.get_arbitrary, "Type error")
+    assert_equal(6, @test.get_arbitrary.to_i, ["Results error"])
+  end
+
+  def test_reporting
+    ret = @test.reporting
+
+    assert_kind_of(Integer, ret, "Returned type error")
+    assert_equal(6, ret, ["Returned error"])
+    assert_equal("18456", @test.visits, ["Results error"])
+    assert_equal("1136", @test.bounces, ["Results error"])
+    assert_kind_of(Float, @test.get_reporting, "Type error")
+    assert_equal(6, @test.get_reporting.to_i, ["Results error"])
+  end
+
+  def test_previous
+    ret = @test.previous
+
+    assert_kind_of(Integer, ret, "Returned type error")
+    assert_equal(12, ret, ["Returned error"])
+    assert_equal("14422", @test.visits, ["Results error"])
+    assert_equal("1782", @test.bounces, ["Results error"])
+    assert_kind_of(Float, @test.get_previous, "Type error")
+    assert_equal(12, @test.get_previous.to_i, ["Results error"])
+  end
+
+  def test_baseline
+    ret = @test.baseline
+
+    assert_kind_of(Integer, ret, "Returned type error")
+    assert_equal(43, ret, ["Returned error"])
+    assert_equal("42362", @test.visits, ["Results error"])
+    assert_equal("18490", @test.bounces, ["Results error"])
+    assert_kind_of(Float, @test.get_baseline, "Type error")
+    assert_equal(43, @test.get_baseline.to_i, ["Results error"])
+  end
+
+  def test_three_with_changes
+    @test.three_with_changes
+
+    assert_instance_of(OpenStruct, @test.all_results, "Type error")
+    assert_kind_of(String, @test.all_results.title, "Type error")
+    assert_kind_of(String, @test.all_results.r, "Type error")
+    assert_kind_of(String, @test.all_results.p_change, "Type error")
+    assert_equal("-86%", @test.all_results.b_change, "Wrong string")
+    assert_kind_of(String, @test.all_results.p_value, "Type error")
+    assert_kind_of(String, @test.all_results.b_change, "Type error")
+    assert_equal("-50%", @test.all_results.b_change, "Wrong string")
+    assert_kind_of(String, @test.all_results.b_value, "Type error")
+    assert_kind_of(String, @test.all_results.p_arrow, "Type error")
+    assert_equal($format.green_down, @test.all_results.p_arrow, "Wrong arrow")
+    assert_kind_of(String, @test.all_results.b_arrow, "Type error")
+    assert_equal($format.green_down, @test.all_results.b_arrow, "Wrong arrow")
+  end
+
+end
+
