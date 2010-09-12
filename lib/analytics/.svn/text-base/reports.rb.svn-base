@@ -1,8 +1,0 @@
-#parent
-require File.expand_path(File.dirname(__FILE__) + "/reports/report.rb")
-
-#children
-require File.expand_path(File.dirname(__FILE__) + "/reports/prototype.rb")
-require File.expand_path(File.dirname(__FILE__) + "/reports/community_usage.rb")
-require File.expand_path(File.dirname(__FILE__) + "/reports/cmis.rb")
-
