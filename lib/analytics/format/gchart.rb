@@ -6,7 +6,7 @@ module Charts
   #  It will be modified so that it can work for link and file output. Possibly just run both in tandem.
   #
   
-  def Charts.bar_series(title, data,  color = "BBCCED", size = "700x85")
+  def Charts.bar_series(title, data,  color = "BBCCED", size = "710x85")
     
     if data[0].is_a? String
       a = Array.new
@@ -21,7 +21,7 @@ module Charts
               :bar_colors => color,
               :size => size,
               :axis_with_labels => 'x',
-              :axis_labels => ['00:00 NZT','23:00 NZT'],
+              :axis_labels => ['00:00 NZT', '12:00 NZT', '23:00 NZT'],
               :format => 'file',
               :filename => "#{$path}" + "/" + filename)
               
@@ -51,7 +51,7 @@ module Charts
       filename
   end
   
-  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200")
+  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "710x200")
     
     filename = "large_linegraph" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
 
