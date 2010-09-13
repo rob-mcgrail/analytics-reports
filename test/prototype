@@ -16,6 +16,8 @@ bounces = BounceRate.new
 times = Times.new
 pages_visits = PageViews.new
 
+  $format.main_graph(visits.main_graph) 
+
   $format.block_full(visits.three_with_changes) #blocks
   $format.block_full(uniques.three_monthly_averages)
   $format.block_full(bounces.three_with_changes)
@@ -31,7 +33,9 @@ pages_visits = PageViews.new
 
   countries = CountrySource.new
   $format.table(countries.processed_reporting(7))
-
+  
+  $format.bar_series(visits.hours_graph)
+  
 $format.finish #currently washes out the xml escapes...
 
 puts $collector.fop
