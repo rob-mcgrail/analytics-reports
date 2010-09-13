@@ -1,46 +1,54 @@
-module GoogleChart
-#  require 'gchart'
-# => it hasn't worked for some of these, so I made them manually...
+module Charts
 
-#
-# A module for getting google chart api data data
-#
-
-
-#
-# Note to self, the gem probably works fine, just had builder escaping issues
-#
-
-  def GoogleChart.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil) #data is an array
-
-    if max.nil? #checks if it was passed in
+  def Charts.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil)
+    
+    if max.nil?                         #checks if it was passed in
                                         # get the highest value to set the graph vertical range
       max = Num.round_up(data.max.to_i) # and round it up
     end
-
-    data = self.to_param(data)
-    title = self.to_param(title)
-
-    src = ["http://chart.apis.google.com/chart",
-          "?chxr=0,0,#{max}",
-          "&chxs=0,676767,8.5,0,l,676767", #font size for x
-          "&chxt=y",
-          "&chbh=a,5",
-          "&chs=#{size}",
-          "&cht=bvg",
-          "&chco=#{color}",
-          "&chds=0,1037",
-          "&chd=t:#{data}",
-          "&chtt=#{title}",
-          "&chts=676767,9" #font size for title
-          ]
-
-    src = self.to_request(src)
-    src
-
+    
+    Gchart.bar(:date => data, 
+               :title => title, 
+               :bar_colors => color,
+               :size => size,
+               :format => 'file',
+               :filename => "#{$path}/zzzz.png",
+               :max_value => max
+               )
   end
+
+
+  # def Charts.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil) #data is an array
+  # 
+  #   if max.nil?                         #checks if it was passed in
+  #                                       # get the highest value to set the graph vertical range
+  #     max = Num.round_up(data.max.to_i) # and round it up
+  #   end
+  # 
+  #   data = self.to_param(data)
+  #   title = self.to_param(title)
+  # 
+  #   src = ["http://chart.apis.google.com/chart",
+  #         "?chxr=0,0,#{max}",
+  #         "&chxs=0,#{max},0,#{max},0,#{max}", #font size for x
+  #         "&chxt=y",
+  #         "&chbh=a,5",
+  #         "&chs=#{size}",
+  #         "&cht=bvg",
+  #         "&chco=#{color}",
+  #         "&chds=0,1037",
+  #         "&chd=t:#{data}",
+  #         "&chtt=#{title}",
+  #         "&chts=676767,9" #font size for title
+  #         ]
+  # 
+  #   src = self.to_request(src)
+  #       
+  #   src
+  # 
+  # end
   
-  def GoogleChart.comparison(title, value1, value_title1, value_title2)
+  def Charts.comparison(title, value1, value_title1, value_title2)
 
     title = self.to_param(title)
     value_title1 = self.to_param(value_title1)
@@ -63,9 +71,10 @@ module GoogleChart
     src
   end
   
-  def GoogleChart.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200", max = nil)
+  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200", max = nil)
     
-    if max.nil? #checks if it was passed in
+    if max.nil?                     #checks if it was passed in
+      
       z = [data1.max.to_i, data2.max.to_i, data3.max.to_i]
       
       max = Num.round_up(z.max.to_i) # and round it up

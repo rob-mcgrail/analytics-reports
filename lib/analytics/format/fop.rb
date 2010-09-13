@@ -1,5 +1,5 @@
 class Fop < XML
-  include GoogleChart
+  include Charts
 
   def bar_series(struct)
         #gets a url for a bargraph from the google charts api
@@ -7,7 +7,7 @@ class Fop < XML
 
         # title, series (an array of values)
 
-    src = GoogleChart.bar_series(struct.title, struct.data[0])
+    src = Charts.bar_series(struct.title, struct.data[0])
 
     @x.series_graph{
       @x.external_graphic(:src => src )
@@ -25,7 +25,7 @@ class Fop < XML
 
       #make changes to the values so one is 100, one is itself
 
-    src = GoogleChart.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
+    src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
     @x.comparison_bar{
       @x.external_graphic(:src => src)
@@ -40,7 +40,7 @@ class Fop < XML
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
     
-    src = GoogleChart.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[1], struct.keys[2], struct.keys[3])
+    src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[1], struct.keys[2], struct.keys[3])
     
     @x.main_graph{
       @x.external_graphic(:src => src)
