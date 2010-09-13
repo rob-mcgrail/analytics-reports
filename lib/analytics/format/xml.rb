@@ -4,7 +4,7 @@ class XML < Format
 
   def initialize
     if !defined? $collector
-      $display.tell_user("The collector is not defined. I am instantiating it now...")
+      $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new #this will be initialized by whichever object gets there first
     end
 
@@ -196,7 +196,7 @@ class XML < Format
         }
       end
     }
-    
+
 
     # <title>Most popular content</title>
     # <table id="popular">
