@@ -39,28 +39,8 @@ class Fop < XML
 
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
-
-    #recieves ostruct containing .title (string)
-    #                            .key (array of strings)
-    #                            .data (an array of arrays - each array contains the data values)
-
-    @x.linegraph{
-      @x.title(struct.title)
-      @x.data{
-        i = 0
-        struct.data.each do |data|
-
-          @x.line(  "id"=>"#{struct.keys[i]}"  ){
-           data.each do |x|
-              @x.value(x)
-          end
-          }
-          i+=1
-        end
-      }
-    }
     
-    src = GoogleChart.large_linegraph(struct.title, struct.data[0], struct.data[0], struct.data[1], struct.keys[2], struct.keys[1], struct.keys[2])
+    src = GoogleChart.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[1], struct.keys[2], struct.keys[3])
     
     @x.main_graph{
       @x.external_graphic(:src => src)
