@@ -13,7 +13,6 @@ $path = File.expand_path(File.dirname(__FILE__) + "/../output/#{dir}")
 #this will normally be in report initialize
 
 @name = "Biotech-report"
-@collector = Array.new
 @now = DateTime.now
 @file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.xml",  "w+")
 
@@ -32,18 +31,18 @@ $format.x.report{
     $format.x.comment!("Main body!")
 
 
-    $format.main_graph(visits.main_graph) 
-    
+    $format.main_graph(visits.main_graph)
+
     traffic_sources = WebSources.new
     $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
 
     countries = CountrySource.new
     $format.table(countries.processed_reporting(7))
-    
+
     $format.bar_series(visits.hours_graph)
-    
+
     $format.x.comment!("Right hand section!")
-    
+
     $format.block_full(visits.three_with_changes) #blocks
     $format.block_full(uniques.three_monthly_averages)
     $format.block_full(bounces.three_with_changes)
@@ -65,3 +64,4 @@ time_elapsed = "\n\nI took #{((DateTime.now - @now) * 24 * 60 * 60).to_i} second
 $display.tell_user(time_elapsed)
 
 $collector.fop.each {|line| @file << line}
+
