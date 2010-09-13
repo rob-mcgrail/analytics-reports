@@ -8,6 +8,8 @@ class Format
     if !defined? $collector
       $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new
+      $collector.output = String.new #this is so there is always an easy compatible print method in report classes
+                                    # you dump output in here always, in your finish method
     end
 
     @collector = String.new #this is the local collector

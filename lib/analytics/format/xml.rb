@@ -311,6 +311,7 @@ class XML < Format
 
   def finish
     $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
+    $collector.output << @collector #for compatibility with other classes use of $collector
     $collector.xml = @collector
   end
 
