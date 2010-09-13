@@ -4,6 +4,13 @@ class Startup
 # to add - please select your desired report items
 # todo - make this not unix terminal dependent... by passing view stuff off to Display maybe
 
+  def initialized
+    if !defined? $collector
+      $periods = Periods.new  #ecapsulates dates
+      $display << "Startup is reating $periods object."
+  end
+
+
   def start_single_profile_session
     #main basic startup routine - gets credentials and dates, starts session
 
