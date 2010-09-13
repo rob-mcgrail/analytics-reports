@@ -117,7 +117,7 @@ class CountrySource
       report.set_segment_id($profile.segment)
     end
                               
-    report.metrics :visits# , :bounces, :timeOnSite
+    report.metrics :visits, :bounces, :timeOnSite
     report.dimensions :country
     report.sort :visits.desc
     
