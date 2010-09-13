@@ -5,6 +5,15 @@ $display = Unix.new
 Biotech_session.new
 $format = Fop.new
 
+#this will normally be in report initialize
+
+@name = "Biotech-report"
+@collector = Array.new
+@now = DateTime.now
+@filepath = File.expand_path(File.dirname(__FILE__) + "/../output/#{@name}-#{@now.strftime("%d%m")}.xml")
+@file = File.new(@filepath,  "w+")
+
+#report page 1
 $format.x.comment!("Header!")
 $format.title("Sciencelearn.org.nz", "Traffic summary")
 $format.date_section
@@ -36,6 +45,14 @@ pages_visits = PageViews.new
   
   $format.bar_series(visits.hours_graph)
   
+
+#endgame
+
 $format.finish #currently washes out the xml escapes...
 
 puts $collector.fop
+
+time_elapsed = "\n\nI took #{((DateTime.now - @now) * 24 * 60 * 60).to_i} seconds.\n"
+$display.tell_user(time_elapsed)
+
+$collector.fop.each {|line| @file << line}
