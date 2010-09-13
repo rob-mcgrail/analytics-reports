@@ -92,7 +92,7 @@ class Visits
 
     data = [@reporting_list, line2_array, line3_array]
 
-    keys_array = ["Visits", "Average", "Baseline"]  #add in the keys
+    keys_array = ["Visits", "Average for previous", "Average for baseline"]  #add in the keys
 
     hash = { :title => "Visits", :keys => keys_array,
              :data => data }
