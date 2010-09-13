@@ -40,7 +40,7 @@ class Fop < XML
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
     
-    src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[1], struct.keys[2], struct.keys[3])
+    src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
     
     @x.main_graph{
       @x.external_graphic(src)

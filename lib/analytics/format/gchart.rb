@@ -61,14 +61,18 @@ module Charts
   
   def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200")
     
-    # if max.nil?                     #checks if it was passed in
-    #   
-    #   z = [data1.max.to_i, data2.max.to_i, data3.max.to_i]
-    #   
-    #   max = Num.round_up(z.max.to_i) # and round it up
-    # end
+    filename = "large_linegraph" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
-    Gchart.bar(:data => [data1, data2, data3],
+    puts data1
+    puts data2
+    puts data3
+    
+    data1.each {|x| puts x.class}
+    data2.each {|x| puts x.class}
+    data3.each {|x| puts x.class}
+
+    
+    Gchart.line(:data => [data1, data2, data3],
                :title => title,
                :size => size,
                :legend => [data_title1, data_title2, data_title3],
@@ -77,8 +81,6 @@ module Charts
                :format => 'file',
                :filename => "#{$path}" + "/" + filename
                )
-
-  
   
     # src =["http://chart.apis.google.com/chart",
     #       "?chxr=0,0,#{max}",
