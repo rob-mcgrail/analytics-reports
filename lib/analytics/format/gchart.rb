@@ -1,7 +1,7 @@
 module Charts
   require 'gchart'
   
-  def Charts.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil)
+  def Charts.bar_series(title, data,  color = "BBCCED", size = "700x85")
     
     if data[0].is_a? String
       a = Array.new
@@ -15,6 +15,8 @@ module Charts
               :title => title, 
               :bar_colors => color,
               :size => size,
+              :axis_with_labels => 'x',
+              :axis_labels => ['00:00 NZT','23:00 NZT'],
               :format => 'file',
               :filename => "#{$path}" + "/" + filename)
               
@@ -44,53 +46,57 @@ module Charts
     #        "&chts=676767,10.833"
     #       ]
     
-      Gchart.bar(:data => [[value1.to_i], 100],
+      Gchart.bar(:data => [[value1.to_i], [100]],
                  :title => title, 
                  :bar_colors => ['5A9D5A','224499'],
                  :size => size,
                  :orientation => 'horizontal',
+                 :legend => [value_title1, value_title2],
                  :format => 'file',
-                 :filename => "#{$path}" + "/" + filename)
+                 :filename => "#{$path}" + "/" + filename
+                 )
 
       filename
   end
   
-  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200", max = nil)
+  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200")
     
-    if max.nil?                     #checks if it was passed in
-      
-      z = [data1.max.to_i, data2.max.to_i, data3.max.to_i]
-      
-      max = Num.round_up(z.max.to_i) # and round it up
-    end
+    # if max.nil?                     #checks if it was passed in
+    #   
+    #   z = [data1.max.to_i, data2.max.to_i, data3.max.to_i]
+    #   
+    #   max = Num.round_up(z.max.to_i) # and round it up
+    # end
     
-    title = self.to_param(title)
-    data1 = self.to_param(data1)
-    data2 = self.to_param(data2)
-    data3 = self.to_param(data3)
-    data_title1 = self.to_param(data_title1)
-    data_title2 = self.to_param(data_title2)
-    data_title3 = self.to_param(data_title3)
+    Gchart.bar(:data => [data1, data2, data3],
+               :title => title,
+               :size => size,
+               :legend => [data_title1, data_title2, data_title3],
+               :bar_colors => ['5A9D5A','224499', 'FF9900'],
+               :axis_with_labels => ['y'],
+               :format => 'file',
+               :filename => "#{$path}" + "/" + filename
+               )
+
   
   
-    src =["http://chart.apis.google.com/chart",
-          "?chxr=0,0,#{max}",
-          "&chxt=y",
-          "&chs=#{size}",
-          "&cht=lc",
-          "&chco=5A9D5A,224499,FF9900",
-          "&chds=3.333,567856,-13.333,115,0,122.321",
-          "&chd=t:#{data1}|#{data2}|#{data3}",            #make this flexible
-          "&chdl=#{data_title1}|#{data_title2}|#{data_title3}",
-          "&chg=-1,46,0,0",
-          "&chls=1|1|1",
-          "&chma=0,3|8",
-          "&chtt=#{title}",
-          "&chts=676767,11.833"
-        ]
+    # src =["http://chart.apis.google.com/chart",
+    #       "?chxr=0,0,#{max}",
+    #       "&chxt=y",
+    #       "&chs=#{size}",
+    #       "&cht=lc",
+    #       "&chco=5A9D5A,224499,FF9900",
+    #       "&chds=3.333,567856,-13.333,115,0,122.321",
+    #       "&chd=t:#{data1}|#{data2}|#{data3}",            #make this flexible
+    #       "&chdl=#{data_title1}|#{data_title2}|#{data_title3}",
+    #       "&chg=-1,46,0,0",
+    #       "&chls=1|1|1",
+    #       "&chma=0,3|8",
+    #       "&chtt=#{title}",
+    #       "&chts=676767,11.833"
+    #     ]
         
-    src = self.to_request(src)
-    src
+        filename
   end
 
   def self.to_param(thing) #can take a string (title, adds +) or array (adds together with commas)
