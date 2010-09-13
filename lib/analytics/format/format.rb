@@ -1,5 +1,6 @@
 class Format
   attr_reader :green_up, :green_down, :red_up, :red_down, :grey_up, :grey_down, :equals
+  attr_accessor :collector
 
   def initialize
 
