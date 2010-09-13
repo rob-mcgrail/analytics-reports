@@ -1,32 +1,42 @@
 require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 
-$display = Unix.new     #for printing to the screen
-$format = Fop.new       #for outputing report data
-$periods = Periods.new  #ecapsulates dates
+  $display = Unix.new     #for printing to the screen
+  $format = Fop.new       #for outputing report data
+  $periods = Periods.new  #ecapsulates dates
 
 #
 # set up done
 #
 
-interface = Startup.new   #includes methods for starting up - getting dates etc
+  interface = Startup.new   #includes methods for starting up - getting dates etc
 
-interface.authenticate_session
-interface.arbitrary_periods
+  interface.authenticate_session
+  interface.arbitrary_periods
 
 #
 # basic session info captured
 #
 
-report = Biotech.new
-report.name = "Biotech"
+
+  dir = "#{DateTime.now.strftime("%d%m%M%S")}"
+  FileUtils.mkdir_p "output/#{dir}"
+  $path = File.expand_path(File.dirname(__FILE__) + "/../output/#{dir}")
+
+#
+# created a global path, made a directory etc for report output to go
+#
+# this is usually in the /output/ folder, but change here to suit
+#
+
+  report = Biotech.new
+  report.name = "Biotech"
 
 
-$display.tell_user("\nRunning the biotech hub report\n")
+    $display.tell_user("\nRunning the biotech hub report\n")
 
-$display << report
+    $display << report
 
-report.session_startup
-report.header
-report.main
-report.end_game
+    report.session_startup
+    report.main
+    report.end_game
 
