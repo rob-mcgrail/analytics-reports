@@ -8,6 +8,7 @@ require 'action_pack'
 require 'action_view'
 require 'ostruct'
 require 'builder'
+require 'net/http'
 
 
 #external
