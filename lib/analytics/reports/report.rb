@@ -3,10 +3,19 @@ class Report
   
   def initialize(name = "Prototype")
     @name = name
-    @collector = Array.new
     @now = DateTime.now
-    @filepath = "output/#{@name}-#{@now.strftime("%d%m%y")}.txt"
-    @text_file = File.new(@filepath,  "w+") 
+    
+    @dir = "output/#{DateTime.now.strftime("%d%m%M%S")}"
+    @text_file = File.new(@filepath,  "w+")     
+    @file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
+    
+    $path = File.expand_path(File.dirname(__FILE__) + "/../../../#{dir}")
+    
+    $format = Format.new
+  end
+  
+  def mkdir
+    FileUtils.mkdir_p "#{@dir}"
   end
   
   def inspect
@@ -32,16 +41,12 @@ class Report
              "Baseline period ends #{$periods.baseline_end}\n"]
   end
   
-  def to_screen
-    @collector.each {|thing| $display.print(thing)}
+  def to_file
+    $collector.output.each {|line| @file << line}
   end
   
-  def to_file(n = nil)
-    if n.nil?
-      @collector.each {|thing| @text_file << thing.to_s}
-    else
-      @collector.each {|thing| @text_file << thing.to_s+"\n"}
-    end
+  def to_screen
+    $collector.output.each {|line| $display << line}
   end
   
   def timer
@@ -51,7 +56,14 @@ class Report
   end
   
   def path
-    $display.tell_user("The things I did are in: #{@filepath}")
+    $display.tell_user("The things I did are in: #{$path}")
+  end
+  
+  def endgame
+    self.to_file
+    self.to_screen
+    self.timer
+    self.tell_user
   end
   
 end
