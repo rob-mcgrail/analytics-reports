@@ -2,7 +2,6 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 
   $display = Unix.new     #for printing to the screen
   $format = Fop.new       #for outputing report data
-  $periods = Periods.new  #ecapsulates dates
 
 #
 # set up done
