@@ -1,58 +1,36 @@
 module Charts
-
+  require 'gchart'
+  
   def Charts.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil)
     
-    if max.nil?                         #checks if it was passed in
-                                        # get the highest value to set the graph vertical range
-      max = Num.round_up(data.max.to_i) # and round it up
+    if data[0].is_a? String
+      a = Array.new
+      data.each {|thing| a << thing.to_i}
+      data = a
     end
     
-    Gchart.bar(:date => data, 
-               :title => title, 
-               :bar_colors => color,
-               :size => size,
-               :format => 'file',
-               :filename => "#{$path}/zzzz.png",
-               :max_value => max
-               )
+    filename = "bar_series" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
+    
+    Gchart.bar(:data => data, 
+              :title => title, 
+              :bar_colors => color,
+              :size => size,
+              :format => 'file',
+              :filename => "#{$path}" + "/" + filename)
+              
+    filename
   end
 
-
-  # def Charts.bar_series(title, data, color = "BBCCED", size = "700x85", max = nil) #data is an array
-  # 
-  #   if max.nil?                         #checks if it was passed in
-  #                                       # get the highest value to set the graph vertical range
-  #     max = Num.round_up(data.max.to_i) # and round it up
-  #   end
-  # 
-  #   data = self.to_param(data)
-  #   title = self.to_param(title)
-  # 
-  #   src = ["http://chart.apis.google.com/chart",
-  #         "?chxr=0,0,#{max}",
-  #         "&chxs=0,#{max},0,#{max},0,#{max}", #font size for x
-  #         "&chxt=y",
-  #         "&chbh=a,5",
-  #         "&chs=#{size}",
-  #         "&cht=bvg",
-  #         "&chco=#{color}",
-  #         "&chds=0,1037",
-  #         "&chd=t:#{data}",
-  #         "&chtt=#{title}",
-  #         "&chts=676767,9" #font size for title
-  #         ]
-  # 
-  #   src = self.to_request(src)
-  #       
-  #   src
-  # 
-  # end
   
-  def Charts.comparison(title, value1, value_title1, value_title2)
+  def Charts.comparison(title, value1, value_title1, value_title2, size = "320x60")
 
-    title = self.to_param(title)
-    value_title1 = self.to_param(value_title1)
-    value_title2 = self.to_param(value_title2)
+    if data[0].is_a? String
+      a = Array.new
+      data.each {|thing| a << thing.to_i}
+      data = a
+    end
+    
+    filename = "comparison" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
     src = ["http://chart.apis.google.com/chart",
           "?chbh=a,2,3",
@@ -67,8 +45,15 @@ module Charts
            "&chts=676767,10.833"
           ]
     
-    src = self.to_request(src)
-    src
+      Gchart.bar(:data => [[value1.to_i], 100],
+                 :title => title, 
+                 :bar_colors => ['5A9D5A','224499'],
+                 :size => size,
+                 :orientation => 'horizontal',
+                 :format => 'file',
+                 :filename => "#{$path}" + "/" + filename)
+
+      filename
   end
   
   def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200", max = nil)

@@ -10,7 +10,7 @@ class Fop < XML
     src = Charts.bar_series(struct.title, struct.data[0])
 
     @x.series_graph{
-      @x.external_graphic(:src => src )
+      @x.external_graphic(src)
     }
   end
   
@@ -28,7 +28,7 @@ class Fop < XML
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
     @x.comparison_bar{
-      @x.external_graphic(:src => src)
+      @x.external_graphic(src)
     }
   end
   
@@ -43,7 +43,7 @@ class Fop < XML
     src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[1], struct.keys[2], struct.keys[3])
     
     @x.main_graph{
-      @x.external_graphic(:src => src)
+      @x.external_graphic(src)
     }
   end
   
