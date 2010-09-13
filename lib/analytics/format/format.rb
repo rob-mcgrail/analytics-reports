@@ -6,7 +6,7 @@ class Format
     #make sure there is a collector object, if not, make one
 
     if !defined? $collector
-      $display.tell_user("The collector is not defined. I am instantiating it now...")
+      $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new
     end
 
