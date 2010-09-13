@@ -1,6 +1,11 @@
 module Charts
   require 'gchart'
   
+  #
+  #  This module shuffles away the gchart calls away from a report, to keep the report code clean
+  #  It will be modified so that it can work for link and file output. Possibly just run both in tandem.
+  #
+  
   def Charts.bar_series(title, data,  color = "BBCCED", size = "700x85")
     
     if data[0].is_a? String
@@ -33,28 +38,15 @@ module Charts
     
     filename = "comparison" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
-    # src = ["http://chart.apis.google.com/chart",
-    #       "?chbh=a,2,3",
-    #        "&chs=321x60",
-    #        "&cht=bhs",
-    #        "&chco=5A9D5A,224499",
-    #        "&chd=t:#{value1}|100",        
-    #        "&chdl=#{value_title1}|#{value_title2}",
-    #        "&chp=0.017",
-    #        "&chg=-1,43,0,0",
-    #        "&chtt=#{title}",
-    #        "&chts=676767,10.833"
-    #       ]
-    
-      Gchart.bar(:data => [[value1.to_i], [100]],
-                 :title => title, 
-                 :bar_colors => ['5A9D5A','224499'],
-                 :size => size,
-                 :orientation => 'horizontal',
-                 :legend => [value_title1, value_title2],
-                 :format => 'file',
-                 :filename => "#{$path}" + "/" + filename
-                 )
+    Gchart.bar(:data => [[value1.to_i], [100]],
+               :title => title, 
+               :bar_colors => ['5A9D5A','224499'],
+               :size => size,
+               :orientation => 'horizontal',
+               :legend => [value_title1, value_title2],
+               :format => 'file',
+               :filename => "#{$path}" + "/" + filename
+               )
 
       filename
   end
@@ -81,49 +73,8 @@ module Charts
                :format => 'file',
                :filename => "#{$path}" + "/" + filename
                )
-  
-    # src =["http://chart.apis.google.com/chart",
-    #       "?chxr=0,0,#{max}",
-    #       "&chxt=y",
-    #       "&chs=#{size}",
-    #       "&cht=lc",
-    #       "&chco=5A9D5A,224499,FF9900",
-    #       "&chds=3.333,567856,-13.333,115,0,122.321",
-    #       "&chd=t:#{data1}|#{data2}|#{data3}",            #make this flexible
-    #       "&chdl=#{data_title1}|#{data_title2}|#{data_title3}",
-    #       "&chg=-1,46,0,0",
-    #       "&chls=1|1|1",
-    #       "&chma=0,3|8",
-    #       "&chtt=#{title}",
-    #       "&chts=676767,11.833"
-    #     ]
         
-        filename
-  end
-
-  def self.to_param(thing) #can take a string (title, adds +) or array (adds together with commas)
-
-    string = String.new
-
-    if thing.is_a? Array  #format array of values for parameter
-      thing.each do |x|
-        string << "#{x},"
-      end
-      string.chop!
-    end
-
-    if thing.is_a? String #format titles for parameter
-      string = thing.gsub(" ", "+")
-      string = thing.gsub("/", "%2F")
-    end
-    string
-  end
-
-  def self.to_request(array) #takes the array of parameters and adds together in to a string
-                              #there's probably an array method already that does this'
-    s = String.new
-    array.each {|thing| s << thing}
-    s
+    filename
   end
 
 
