@@ -24,26 +24,25 @@ module Charts
   
   def Charts.comparison(title, value1, value_title1, value_title2, size = "320x60")
 
-    if data[0].is_a? String
-      a = Array.new
-      data.each {|thing| a << thing.to_i}
-      data = a
+    if value1.is_a? String
+      s = value1.to_i
+      value1 = s
     end
     
     filename = "comparison" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
-    src = ["http://chart.apis.google.com/chart",
-          "?chbh=a,2,3",
-           "&chs=321x60",
-           "&cht=bhs",
-           "&chco=5A9D5A,224499",
-           "&chd=t:#{value1}|100",        
-           "&chdl=#{value_title1}|#{value_title2}",
-           "&chp=0.017",
-           "&chg=-1,43,0,0",
-           "&chtt=#{title}",
-           "&chts=676767,10.833"
-          ]
+    # src = ["http://chart.apis.google.com/chart",
+    #       "?chbh=a,2,3",
+    #        "&chs=321x60",
+    #        "&cht=bhs",
+    #        "&chco=5A9D5A,224499",
+    #        "&chd=t:#{value1}|100",        
+    #        "&chdl=#{value_title1}|#{value_title2}",
+    #        "&chp=0.017",
+    #        "&chg=-1,43,0,0",
+    #        "&chtt=#{title}",
+    #        "&chts=676767,10.833"
+    #       ]
     
       Gchart.bar(:data => [[value1.to_i], 100],
                  :title => title, 
