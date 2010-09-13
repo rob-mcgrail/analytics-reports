@@ -54,14 +54,6 @@ module Charts
   def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200")
     
     filename = "large_linegraph" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
-    
-    puts data1
-    puts data2
-    puts data3
-    
-    data1.each {|x| puts x.class}
-    data2.each {|x| puts x.class}
-    data3.each {|x| puts x.class}
 
     
     Gchart.line(:data => [data1, data2, data3],
