@@ -6,12 +6,7 @@ class Report
     @now = DateTime.now
     
     @dir = "output/#{DateTime.now.strftime("%d%m%M%S")}"
-    @text_file = File.new(@filepath,  "w+")     
     @file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
-    
-    $path = File.expand_path(File.dirname(__FILE__) + "/../../../#{dir}")
-    
-    $format = Format.new
   end
   
   def start
