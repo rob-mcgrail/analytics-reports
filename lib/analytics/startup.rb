@@ -8,6 +8,7 @@ class Startup
     if !defined? $collector
       $periods = Periods.new  #ecapsulates dates
       $display << "Startup is reating $periods object."
+    end
   end
 
 
