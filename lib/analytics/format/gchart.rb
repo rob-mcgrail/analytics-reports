@@ -63,7 +63,13 @@ module GoogleChart
     src
   end
   
-  def GoogleChart.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3)
+  def GoogleChart.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "700x200", max = nil)
+    
+    if max.nil? #checks if it was passed in
+      z = [data1.max.to_i, data2.max.to_i, data3.max.to_i]
+      
+      max = Num.round_up(z.max.to_i) # and round it up
+    end
     
     title = self.to_param(title)
     data1 = self.to_param(data1)
@@ -75,9 +81,9 @@ module GoogleChart
   
   
     src =["http://chart.apis.google.com/chart",
-          "?chxr=0,0,115",
+          "?chxr=0,0,#{max}",
           "&chxt=y",
-          "&chs=701x200",
+          "&chs=#{size}",
           "&cht=lc",
           "&chco=5A9D5A,224499,FF9900",
           "&chds=3.333,567856,-13.333,115,0,122.321",
