@@ -9,6 +9,9 @@ require 'action_view'
 require 'ostruct'
 require 'builder'
 require 'net/http'
+require 'gchart'
+require 'fileutils'
+
 
 
 #external
