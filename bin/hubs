@@ -23,8 +23,7 @@ report.name = "Biotech"
 
 $display.tell_user("\nRunning the biotech hub report\n")
 
-puts report
-puts "\n\n"
+$display << report
 
 report.session_startup
 report.header
