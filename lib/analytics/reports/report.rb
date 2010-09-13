@@ -1,5 +1,5 @@
 class Report
-  attr_accessor :name, :collector
+  attr_accessor :name
   
   def initialize(name = "Prototype")
     @name = name
@@ -12,6 +12,12 @@ class Report
     $path = File.expand_path(File.dirname(__FILE__) + "/../../../#{dir}")
     
     $format = Format.new
+  end
+  
+  def start
+    self.mkdir
+    self.dates
+    self.to_s
   end
   
   def mkdir
@@ -42,11 +48,11 @@ class Report
   end
   
   def to_file
-    $collector.output.each {|line| @file << line}
+    $format.collector.each {|line| @file << line}
   end
   
   def to_screen
-    $collector.output.each {|line| $display << line}
+    $format.collector.each {|line| $display << line}
   end
   
   def timer
