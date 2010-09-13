@@ -85,8 +85,8 @@ class Visits
     line3_array = Array.new
 
     while x > 0
-      line2_array << @reporting_list.average        #stuff the two average lines with their value (they're straight lines...)
-      line3_array << @baseline_list.average
+      line2_array << @reporting_list.average.to_i        #stuff the two average lines with their value (they're straight lines...)
+      line3_array << @baseline_list.average.to_i
       x-=1
     end
 
