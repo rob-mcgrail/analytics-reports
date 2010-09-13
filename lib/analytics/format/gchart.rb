@@ -62,6 +62,37 @@ module GoogleChart
     src = self.to_request(src)
     src
   end
+  
+  def GoogleChart.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3)
+    
+    title = self.to_param(title)
+    data1 = self.to_param(data1)
+    data2 = self.to_param(data2)
+    data3 = self.to_param(data3)
+    data_title1 = self.to_param(data_title1)
+    data_title2 = self.to_param(data_title2)
+    data_title3 = self.to_param(data_title3)
+  
+  
+    src =["http://chart.apis.google.com/chart",
+          "?chxr=0,0,115",
+          "&chxt=y",
+          "&chs=701x200",
+          "&cht=lc",
+          "&chco=5A9D5A,224499,FF9900",
+          "&chds=3.333,567856,-13.333,115,0,122.321",
+          "&chd=t:#{data1}|#{data2}|#{data3}",            #make this flexible
+          "&chdl=#{data_title1}|#{data_title2}|#{data_title3}",
+          "&chg=-1,46,0,0",
+          "&chls=1|1|1",
+          "&chma=0,3|8",
+          "&chtt=#{title}",
+          "&chts=676767,11.833"
+        ]
+        
+    src = self.to_request(src)
+    src
+  end
 
   def self.to_param(thing) #can take a string (title, adds +) or array (adds together with commas)
 

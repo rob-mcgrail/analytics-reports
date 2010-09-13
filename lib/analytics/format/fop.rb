@@ -32,39 +32,39 @@ class Fop < XML
     }
   end
   
-  
-  def bar_series(struct)
 
-    #prints a bargraph for a single series
-    #expects an ostruct containing:
+  def main_graph(struct)
 
-    # title, series (an array of values)
+    #makes the big three line graph
 
-    @x.series_graph{
+    #intended to make a lingraph with to flat averages
+    #but could make a genuine three line graph if passed right
+
+    #recieves ostruct containing .title (string)
+    #                            .key (array of strings)
+    #                            .data (an array of arrays - each array contains the data values)
+
+    @x.linegraph{
       @x.title(struct.title)
       @x.data{
-        @x.series{
-          struct.data.each do |data|
-            data.each do |x|
+        i = 0
+        struct.data.each do |data|
+
+          @x.line(  "id"=>"#{struct.keys[i]}"  ){
+           data.each do |x|
               @x.value(x)
-            end
           end
-        }
+          }
+          i+=1
+        end
       }
     }
-
-    # <series_graph>
-    #   <title>Traffic by hour</title>
-    #   <data>
-    #     <series>
-    #       <value>585</value>
-    #       <value>606</value>
-    #       <value>674</value>
-    #       <value>647</value>
-    #     </series>
-    #   </data>
-    # </series_graph>
-
+    
+    src = GoogleChart.large_linegraph(struct.title, struct.data[0], struct.data[0], struct.data[1], struct.keys[2], struct.keys[1], struct.keys[2])
+    
+    @x.main_graph{
+      @x.external_graphic(:src => src)
+    }
   end
   
   
