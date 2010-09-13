@@ -161,7 +161,7 @@ class Visits
 
     report.metrics :visits
 
-    report.results.each {|thing| @arbitrary = thing.visits}
+    report.results.each {|thing| @arbitrary = thing.visits.to_i}
     @arbitrary.to_i
   end
 
@@ -201,7 +201,7 @@ class Visits
 
     @arbitrary_hours = Array.new
 
-    report.results.each {|thing| @arbitrary_hours << thing.visits}
+    report.results.each {|thing| @arbitrary_hours << thing.visits.to_i}
 
     @arbitrary_hours
   end
@@ -229,7 +229,7 @@ class Visits
     @arbitrary_list = Array.new
     @arbitrary_dates = Array.new
 
-    report.results.each {|thing| @arbitrary_list << thing.visits}
+    report.results.each {|thing| @arbitrary_list << thing.visits.to_i}
     report.results.each {|thing| @arbitrary_dates << thing.date}
 
     @arbitrary_list
