@@ -5,49 +5,53 @@ $display = Unix.new
 Biotech_session.new
 $format = Fop.new
 
+dir = "#{DateTime.now.strftime("%d%m%M%S")}"
+FileUtils.mkdir_p "output/#{dir}"
+
+$path = File.expand_path(File.dirname(__FILE__) + "/../output/#{dir}")
+
 #this will normally be in report initialize
 
 @name = "Biotech-report"
 @collector = Array.new
 @now = DateTime.now
-@filepath = File.expand_path(File.dirname(__FILE__) + "/../output/#{@name}-#{@now.strftime("%d%m")}.xml")
-@file = File.new(@filepath,  "w+")
+@file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.xml",  "w+")
 
 #report page 1
-$format.x.comment!("Header!")
-$format.title("Sciencelearn.org.nz", "Traffic summary")
-$format.date_section
-$format.x.comment!("Main body!")
+$format.x.report{
+  $format.x.comment!("Header!")
+  $format.title("Sciencelearn.org.nz", "Traffic summary")
+  $format.date_section
+  $format.x.comment!("Main body!")
 
-visits = Visits.new
-uniques = Uniques.new
-bounces = BounceRate.new
-times = Times.new
-pages_visits = PageViews.new
+  visits = Visits.new
+  uniques = Uniques.new
+  bounces = BounceRate.new
+  times = Times.new
+  pages_visits = PageViews.new
 
-  $format.main_graph(visits.main_graph) 
+    $format.main_graph(visits.main_graph) 
 
-  $format.block_full(visits.three_with_changes) #blocks
-  $format.block_full(uniques.three_monthly_averages)
-  $format.block_full(bounces.three_with_changes)
-  $format.block_full(times.three_with_changes_as_averages)
-  $format.block_full(pages_visits.three_with_changes_per_visit)
+    $format.block_full(visits.three_with_changes) #blocks
+    $format.block_full(uniques.three_monthly_averages)
+    $format.block_full(bounces.three_with_changes)
+    $format.block_full(times.three_with_changes_as_averages)
+    $format.block_full(pages_visits.three_with_changes_per_visit)
 
-  new_returning = NewVisits.new
+    new_returning = NewVisits.new
 
-  $format.comparison(new_returning.reporting_only)      #bar
+    $format.comparison(new_returning.reporting_only)      #bar
 
-  traffic_sources = WebSources.new
-  $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
+    traffic_sources = WebSources.new
+    $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
 
-  countries = CountrySource.new
-  $format.table(countries.processed_reporting(7))
+    countries = CountrySource.new
+    $format.table(countries.processed_reporting(7))
   
-  $format.bar_series(visits.hours_graph)
-  
+    $format.bar_series(visits.hours_graph)
+  }
 
 #endgame
-
 $format.finish #currently washes out the xml escapes...
 
 puts $collector.fop
