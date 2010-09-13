@@ -6,7 +6,6 @@ Biotech_session.new
 $format = Fop.new
 
 
-
 visits = Visits.new
 bounces = BounceRate.new
 countryvisits = CountryVisits.new("New Zealand")
@@ -30,8 +29,8 @@ $format.x.body {
                               $format.x.key_string("Baseline")
 
                             }
-                            
-                            
+
+
                             $format.block_full(visits.three_with_changes)       #blocks
                             $format.block_full(bounces.three_with_changes)
                             $format.block_full(countryvisits.three_with_changes)
@@ -39,12 +38,12 @@ $format.x.body {
                             $format.block_full(pages_visits.three_with_changes_per_visit)
                             $format.block_full(times.three_with_changes_as_averages)
                             $format.block_full(uniques.three_monthly_averages)
-                            
-                            
+
+
                             $format.comparison(new_returning.reporting_only)      #bar
-                            
+
                             $format.main_graph(visits.main_graph)               #main graph
-                            
+
                             $format.bar_series(visits.hours_graph)              #hours graph
 
                             $format.table(countries.processed_reporting)        #countries table
