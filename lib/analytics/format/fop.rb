@@ -23,7 +23,7 @@ class Fop < XML
       raise "Passed the Fop.relative method an array that is the wrong length. It should be three."
     end
 
-      #make changes to the values so one is 100, one is itself
+    #make changes to the values so one is 100, one is itself
 
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
@@ -51,7 +51,7 @@ class Fop < XML
 
   def finish
     $display.tell_user "Putting fop-ready xml output in to $collector. Access with $collector.fop"
-    $collector.fop = @collector.gsub('&amp;', '&') #washing out the escape sequences...
+    $collector.fop = @collector       # .gsub('&amp;', '&') #washing out the escape sequences...
   end
   
   

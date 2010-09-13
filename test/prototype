@@ -56,7 +56,7 @@ $format.x.report{
   }
 
 #endgame
-$format.finish #currently washes out the xml escapes...
+$format.finish 
 
 puts $collector.fop
 
