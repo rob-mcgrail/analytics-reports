@@ -22,7 +22,6 @@ $format.x.report{
   $format.x.comment!("Header!")
   $format.title("Sciencelearn.org.nz", "Traffic summary")
   $format.date_section
-  $format.x.comment!("Main body!")
 
   visits = Visits.new
   uniques = Uniques.new
@@ -30,8 +29,21 @@ $format.x.report{
   times = Times.new
   pages_visits = PageViews.new
 
-    $format.main_graph(visits.main_graph) 
+    $format.x.comment!("Main body!")
 
+
+    $format.main_graph(visits.main_graph) 
+    
+    traffic_sources = WebSources.new
+    $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
+
+    countries = CountrySource.new
+    $format.table(countries.processed_reporting(7))
+    
+    $format.bar_series(visits.hours_graph)
+    
+    $format.x.comment!("Right hand section!")
+    
     $format.block_full(visits.three_with_changes) #blocks
     $format.block_full(uniques.three_monthly_averages)
     $format.block_full(bounces.three_with_changes)
@@ -42,13 +54,6 @@ $format.x.report{
 
     $format.comparison(new_returning.reporting_only)      #bar
 
-    traffic_sources = WebSources.new
-    $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
-
-    countries = CountrySource.new
-    $format.table(countries.processed_reporting(7))
-  
-    $format.bar_series(visits.hours_graph)
   }
 
 #endgame
