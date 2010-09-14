@@ -109,7 +109,7 @@ class Navigation
     
     header = ["Previous pages for #{filter}", "Pageviews"]
 
-    hash = { :title => nil, :table_id => "previous_pages", :header => header, :rows => rows}
+    hash = { :title => "Previous pages", :table_id => "previous_pages", :header => header, :rows => rows}
     
     @in_results = OpenStruct.new(hash)
     @in_results
@@ -159,7 +159,7 @@ class Navigation
     
     header = ["Next pages for #{filter}", "Pageviews"]
 
-    hash = { :title => nil, :table_id => "next_pages", :header => header, :rows => rows}
+    hash = { :title => "Next pages", :table_id => "next_pages", :header => header, :rows => rows}
     
     @out_results = OpenStruct.new(hash)
     @out_results
