@@ -34,7 +34,7 @@ class XML < Format
 
 
   def header(page_title = "Enter a title!", page_category = "Enter a category!") #pass you title and category in at this point...
-
+    
     #puts together the whole header sections
 
     @x.comment!("header!")
@@ -44,19 +44,6 @@ class XML < Format
       self.date_section
     }
 
-
-    # <!-- header! -->
-    # <header>
-    #   <title_section>
-    #     <category>Enter a category!</category>
-    #     <title>Enter a title!</title>
-    #   </title_section>
-    #   <dates>
-    #     <date_range>Reporting period 09/01/10 - 09/03/10</date_range>
-    #     <date_range>Reporting period 08/11/09 - 08/01/10</date_range>
-    #     <date_range>Reporting period 08/07/09 - 08/01/10</date_range>
-    #   </dates>
-    # </header>
   end
 
 
@@ -101,7 +88,7 @@ class XML < Format
         i = 0
         struct.data.each do |data|
 
-          @x.line(  "id"=>"#{struct.keys[i]}"  ){
+          @x.line("id"=>"#{struct.keys[i].gsub(" ", "_").downcase}" ){
            data.each do |x|
               @x.value(x)
           end
@@ -111,31 +98,7 @@ class XML < Format
       }
     }
 
-#    <linegraph>
-#      <title>Visits</title>
-#      <data>
-#          <value>404</value>
-#          <value>175</value>
-#          <value>259</value>
-#          <value>399</value>
-#          <value>437</value>
-#        </line>
-#        <line id="Average">
-#          <value>307.6</value>
-#          <value>307.6</value>
-#          <value>307.6</value>
-#          <value>307.6</value>
-#          <value>307.6</value>
-#        </line>
-#        <line id="Baseline">
-#          <value>228.983783783784</value>
-#          <value>228.983783783784</value>
-#          <value>228.983783783784</value>
-#          <value>228.983783783784</value>
-#          <value>228.983783783784</value>
-#        </line>
-#      </data>
-#    </linegraph>
+
 
   end
 
@@ -178,29 +141,16 @@ class XML < Format
     #prints a table with title and headings
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
+
     
-    
-    # @x.tag!(struct.title){
-    #   struct.rows.each do |row|
-    #     i = 0
-    #     row.each do |x|
-    #       @x.tag!(struct.header[0]){
-    #         @x.tag!(struct.header[i], x)
-    #         i = i + 1
-    #       }
-    # 
-    #     end
-    #   end
-    # }
-    
-    @x.tag!(struct.title){
+    @x.tag!(struct.title.gsub(" ", "_").downcase){
       struct.rows.each do |row|
         i = 1
         n = row.length
-        @x.tag!(struct.header[0]){
-          @x.tag!("struct.header[0]" + "_name")
-          while n > 0
-            @x.tag!(struct.header[i], row[i])
+        @x.tag!(struct.header[0].gsub(" ", "_").downcase){
+          @x.tag!("#{struct.header[0].gsub(" ", "_").downcase}_name", row[0])
+          while n > 1
+            @x.tag!(struct.header[i].gsub(" ", "_").downcase, row[i])
             i+=1
             n-=1
           end
@@ -216,19 +166,19 @@ class XML < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @x.tag!(struct.title + "_section") {
+    @x.tag!(struct.title.gsub(" ", "_").downcase + "_section") {
       @x.reporting {
-        @x.tag!(struct.title, struct.r)
+        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.r)
       }
       @x.previous {
-        @x.tag!(struct.title, struct.p_value)
-        @x.tag!("#{struct.title}" + "_change", struct.p_change)
-        @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
+        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.p_value)
+        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_change", struct.p_change)
+        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_arrow", struct.p_arrow)
       }
       @x.baseline {
-        @x.tag!(struct.title, struct.b_value)
-        @x.tag!("#{struct.title}" + "_change", struct.b_change)
-        @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
+        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.b_value)
+        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_change", struct.b_change)
+        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_arrow", struct.b_arrow)
       }
     }
 
@@ -292,4 +242,3 @@ class XML < Format
 
 
 end
-
