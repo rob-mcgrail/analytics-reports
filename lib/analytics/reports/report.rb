@@ -1,11 +1,12 @@
 class Report
   attr_accessor :name
+  attr_reader :dir
   
   def initialize(name = "Prototype")
     @name = name
     @now = DateTime.now
     
-    @dir = "output/#{DateTime.now.strftime("%d%m%M%S")}"
+    @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
     @file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
   end
   
