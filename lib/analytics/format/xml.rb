@@ -205,26 +205,17 @@ class XML < Format
       }
     }
 
-    # <comparison_bar_graph>
-    #   <title>New / Returning</title>
-    #   <bar>
-    #     <value>83</value>
-    #     <value>17</value>
-    #   </bar>
-    # </comparison_bar_graph>
   end
 
   def wash(xml)
     xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
 
-
     # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
     # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
-
 
     xml.gsub!(/<\/?[^>]*>/) do |match|
       match.downcase!
-      match.sub!(" ", "_")
+      match.gsub!(" ", "_")
     end
         
    xml
