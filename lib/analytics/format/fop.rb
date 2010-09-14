@@ -1,5 +1,34 @@
 class Fop < XML
   include Charts
+  
+  def initialize
+    if !defined? $collector
+      $display << "The collector is not defined. I am instantiating it now..."
+      $collector = OpenStruct.new #this will be initialized by whichever object gets there first
+      $collector.output = String.new #this is so there is always an easy compatible print method in report classes
+      
+    end
+    
+    @collector = String.new #this is the local collector
+                            #to 'go global', run self.finish
+
+    @x = Builder::XmlMarkup.new(:target => @collector, :indent => 2)
+
+    @x.instruct!
+    
+    
+
+    #set values for arrows
+
+    @green_up = "<external_graphic>up_green.png</external_graphic>"
+    @green_down = "<external_graphic>down_green.png</external_graphic>"
+    @red_up = "<external_graphic>up_red.png</external_graphic>"
+    @red_down = "<external_graphic>down_red.png</external_graphic>"
+    @grey_up = "<external_graphic>up_grey.png</external_graphic>"
+    @grey_down = "<external_graphic>down_grey.png</external_graphic>"
+    @equals = "<external_graphic>equals.png</external_graphic>"
+    
+  end
 
   def bar_series(struct)
         #gets a url for a bargraph from the google charts api
@@ -48,9 +77,14 @@ class Fop < XML
   end
   
   def finish
+    self.copy_assets
     $display.tell_user "Putting xml output in to $collector. Access with $collector.fop"
     $collector.fop = self.wash(@collector)            # wash out caps, spaces and slashes from tags
     $collector.output << $collector.fop               # for compatibility with other classes use of $collector
+  end
+  
+  def copy_assets
+    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/up_green.png"), $path + "/")
   end
   
 end
