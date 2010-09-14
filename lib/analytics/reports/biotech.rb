@@ -8,7 +8,7 @@ class Biotech < Report
     @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
     @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
     FileUtils.mkdir_p @path
-    @file = File.new(@path + "/#{@name.gsub(" ", "-")}-#{@now.strftime("%d%m")}.xml",  "w+")
+    @file = File.new(@path + "/#{@name.gsub(" ", "-").downcase}-#{@now.strftime("%d%m")}.xml",  "w+")
     $path = @path #export path variable for formatting classes that need it
   end
 
