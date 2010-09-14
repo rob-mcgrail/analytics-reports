@@ -1,3 +1,4 @@
+Change final method for xml etc to strip out spaces and caps all in one go
 
 Make startup in to a module
 
