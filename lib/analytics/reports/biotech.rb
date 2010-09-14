@@ -8,7 +8,7 @@ class Biotech < Report
     @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
     @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
     FileUtils.mkdir_p @path
-    @file = File.new(@path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
+    @file = File.new(@path + "/#{@name}-#{@now.strftime("%d%m")}.xml",  "w+")
     $path = @path #export path variable for formatting classes that need it
   end
 
@@ -19,11 +19,24 @@ class Biotech < Report
   end
   
   def main
-    $format.x.report{self.page_1}
+    $format.x.report{self.front_page
+                     self.country("New Zealand", "1223813495")
+                     self.country("Australia", "930734061")
+                     self.country("United States", "759299489")
+      
+      
+      
+      
+      
+      }
+    
+    
+    
+    
     $format.finish
   end
   
-  def page_1
+  def front_page
     
     visits = Visits.new
     uniques = Uniques.new
@@ -35,7 +48,7 @@ class Biotech < Report
     new_returning = NewVisits.new
     
     
-    $format.x.page( "id" => "1"){
+    $format.x.page( "id" => "main" ){
       $format.x.comment!("Header!")
       $format.title("Sciencelearn.org.nz", "Traffic summary")
       $format.date_section
@@ -66,4 +79,76 @@ class Biotech < Report
     }
   end
   
+  def country(page = "-", segment = nil, segment_string = nil)
+    
+    $profile.segment = segment
+    $profile.segment_string = segment_string
+    
+    visits = Visits.new
+    uniques = Uniques.new
+    bounces = BounceRate.new
+    times = Times.new
+    new_returning = NewVisits.new
+    traffic_sources = WebSources.new
+    engagement_pages = Content.new
+    
+    $format.x.page( "id" => page ){
+      $format.x.comment!("Header!")
+      $format.title( page, "By Country")
+      $format.date_section
+      
+        $format.x.comment!("Main body!")
+
+
+        $format.main_graph(visits.main_graph)
+        $format.bar_series(visits.hours_graph)
+        
+        $format.table(traffic_sources.processed_reporting_bounce_and_time(5))
+        $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 8))
+        $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 8))
+        
+        $format.x.comment!("Right hand section!")
+
+        $format.block_full(visits.three_with_changes) #blocks
+        $format.block_full(uniques.three_monthly_averages)
+        $format.block_full(bounces.three_with_changes)
+        $format.block_full(times.three_with_changes_as_averages)
+        $format.block_full(pages_visits.three_with_changes_per_visit)
+
+
+        $format.comparison(new_returning.reporting_only)      #bar
+         
+    }
+    
+    $profile.segment = nil #reset
+    $profile.segment_string = nil #reset
+    
+  end
+  
+  
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
