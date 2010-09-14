@@ -182,22 +182,6 @@ class XML < Format
       }
     }
 
-    # <block_full>
-    #  <main>
-    #   <value_title>Visits</value_title>
-    #   <value>18456</value>
-    #  </main>
-    #  <previous>
-    #   <change>28%</change>
-    #   <arrow>green_up</arrow>
-    #   <value>14422</value>
-    #  </previous>
-    #  <baseline>
-    #   <change>31%</change>
-    #   <arrow>green_up</arrow>
-    #   <value>14072.0</value>
-    #  </baseline>
-    # </block_full>
   end
 
 
@@ -234,8 +218,8 @@ class XML < Format
 
   def finish
     $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
-    $collector.output << @collector                                            #for compatibility with other classes use of $collector
-    $collector.xml = @collector.gsub(/((\<|\<\/)([a-z|\w])+)\//, "\\1-")       # washing forward slashes from tags
+    $collector.xml = @collector.gsub(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
+    $collector.output << $collector.xml                                        # for compatibility with other classes use of $collector
   end
 
 
