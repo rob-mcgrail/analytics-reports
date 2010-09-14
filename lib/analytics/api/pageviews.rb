@@ -41,7 +41,7 @@ class PageViews
     @previous_change = Num.percentage_change(per_visits_previous, per_visits_reporting)
     @baseline_change = Num.percentage_change(per_visits_baseline, per_visits_reporting)
                     
-    hash = { :title => "Pages / Visit", :r => Num.short(per_visits_reporting, 2), 
+    hash = { :title => "Pages/Visit", :r => Num.short(per_visits_reporting, 2), 
              :p_change => Num.to_p(@previous_change), :p_value => Num.short(per_visits_previous, 2), :p_arrow => self.arrow(@previous_change),
              :b_change => Num.to_p(@baseline_change), :b_value => Num.short(per_visits_baseline, 2), :b_arrow => self.arrow(@baseline_change)}
 
