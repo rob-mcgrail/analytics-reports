@@ -122,7 +122,7 @@ class Visits
     if @baseline_average.nil?
       @baseline_average = self.average_by_period
     end
-    @baseline_average
+    @baseline_average.to_i
   end
 
   def previous_change
@@ -162,28 +162,28 @@ class Visits
     report.metrics :visits
 
     report.results.each {|thing| @arbitrary = thing.visits.to_i}
-    @arbitrary.to_i
+    @arbitrary
   end
 
   def reporting
     if @reporting.nil?
       @reporting = self.arbitrary(@start_date_reporting, @end_date_reporting)
     end
-    @reporting.to_i
+    @reporting
   end
 
   def previous
     if @previous.nil?
       @previous = self.arbitrary(@start_date_previous, @end_date_previous)
     end
-    @previous.to_i
+    @previous
   end
 
   def baseline
     if @baseline.nil?
       @baseline = self.arbitrary(@start_date_baseline, @end_date_baseline)
     end
-    @baseline.to_i
+    @baseline
   end
 
   def arbitrary_by_hour(start_date, end_date)
