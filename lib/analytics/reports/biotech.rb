@@ -20,9 +20,9 @@ class Biotech < Report
   
   def main
     $format.x.tag!(@name.gsub(" ", "_").downcase){self.front_page
-                     self.country("New Zealand", "1223813495")
-                     self.country("Australia", "930734061")
-                     self.country("United States", "759299489")
+                     # self.country("New Zealand", "1223813495")
+                     # self.country("Australia", "930734061")
+                     # self.country("United States", "759299489")
       
       }
     

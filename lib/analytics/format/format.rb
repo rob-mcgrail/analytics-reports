@@ -1,6 +1,10 @@
 class Format
   attr_reader :green_up, :green_down, :red_up, :red_down, :grey_up, :grey_down, :equals
-  attr_accessor :collector
+  attr_accessor :collector    #
+                              # Don't access the report data from this getter, it is only there
+                              # for slipping in literal report content in extreme cases
+                              # Use $collector.output of $collector.your_formatting_child_class instead
+                              #
 
   def initialize
 
