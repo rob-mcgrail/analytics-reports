@@ -8,18 +8,13 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 #
 
   interface = Startup.new   #includes methods for starting up - getting dates etc
-
+  
   interface.authenticate_session
   interface.arbitrary_periods
 
 #
 # basic session info captured
 #
-
-
-  dir = "#{DateTime.now.strftime("%d%m%M%S")}"
-  FileUtils.mkdir_p "output/#{dir}"
-  $path = File.expand_path(File.dirname(__FILE__) + "/../output/#{dir}")
 
 #
 # created a global path, made a directory etc for report output to go
@@ -28,14 +23,14 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 #
 
   report = Biotech.new
-  report.name = "Biotech"
+  report.name = "Biotech detailed report - testing"
+  
 
+    report.start                #print details, make directory
 
-    $display.tell_user("\nRunning the biotech hub report\n")
-
-    $display << report
-
-    report.session_startup
-    report.main
-    report.end_game
+    report.session_startup      #saves entering account details (you still authenticate with interface object above)
+    
+    report.main                 #the report
+    
+    report.end_game             #print to file, print to screen, print time and path etc
 
