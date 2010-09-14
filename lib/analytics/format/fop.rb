@@ -14,11 +14,17 @@ class Fop < XML
 
     @x = Builder::XmlMarkup.new(:target => @collector, :indent => 2)
 
-    @x.instruct!
+    # @x.instruct! #apparently this is invalid...
     
     
 
     #set values for arrows
+    
+    #
+    # for the fop formatted report, these are copied from /assets/arrows to the /output/x folder
+    #
+    # the method that does this self.copy_assets
+    #
 
     @green_up = 'up_green.png'
     @green_down = 'down_green.png'
