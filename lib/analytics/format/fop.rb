@@ -20,13 +20,13 @@ class Fop < XML
 
     #set values for arrows
 
-    @green_up = "<external_graphic>up_green.png</external_graphic>"
-    @green_down = "<external_graphic>down_green.png</external_graphic>"
-    @red_up = "<external_graphic>up_red.png</external_graphic>"
-    @red_down = "<external_graphic>down_red.png</external_graphic>"
-    @grey_up = "<external_graphic>up_grey.png</external_graphic>"
-    @grey_down = "<external_graphic>down_grey.png</external_graphic>"
-    @equals = "<external_graphic>equals.png</external_graphic>"
+    @green_up = 'up_green.png'
+    @green_down = 'down_green.png'
+    @red_up = 'up_red.png'
+    @red_down = 'down_red.png'
+    @grey_up = 'up_grey.png'
+    @grey_down = 'down_grey.png'
+    @equals = 'equals.png'
     
   end
 
@@ -79,12 +79,12 @@ class Fop < XML
   def finish
     self.copy_assets
     $display.tell_user "Putting xml output in to $collector. Access with $collector.fop"
-    $collector.fop = self.wash(@collector)            # wash out caps, spaces and slashes from tags
+    $collector.fop = @collector            # wash out caps, spaces and slashes from tags
     $collector.output << $collector.fop               # for compatibility with other classes use of $collector
   end
   
   def copy_assets
-    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/up_green.png"), $path + "/")
+    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/*"), $path + "/")
   end
   
 end
