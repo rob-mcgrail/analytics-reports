@@ -2,14 +2,14 @@ class Report
   attr_accessor :name
   attr_reader :dir, :path
   
-  def initialize(name = "Prototype")
+  def initialize(name = "Biotech detailed report") #this tends to overwritten in bin, but not before setting @file
     @name = name
     @now = DateTime.now
     
     @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
     @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
     FileUtils.mkdir_p @path
-    @file = File.new(@path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
+    @file = File.new(@path + "/#{@name.gsub(" ", "-")}-#{@now.strftime("%d%m")}.xml",  "w+")
     $path = @path #export path variable for formatting classes that need it
   end
   
