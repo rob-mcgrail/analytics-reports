@@ -151,7 +151,7 @@ class Content
 
       end
     else
-      $display.ask_user "You seem to have not passed a segment or segment string argument into content.\nThis is probably ok, unless you want Content to be by-segment or limited to a part of the site\n"
+      $display << "You seem to have not passed a segment or segment string argument into content.\nThis is probably ok, unless you want Content to be by-segment or limited to a part of the site\n"
     end
 
     report.metrics :timeOnPage, :pageviews, :exits
