@@ -1,24 +1,24 @@
 class Report
   attr_accessor :name
-  attr_reader :dir
+  attr_reader :dir, :path
   
   def initialize(name = "Prototype")
     @name = name
     @now = DateTime.now
     
     @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
-    @file = File.new($path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
+    @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
+    FileUtils.mkdir_p @path
+    @file = File.new(@path + "/#{@name}-#{@now.strftime("%d%m")}.txt",  "w+")
+    $path = @path #export path variable for formatting classes that need it
   end
   
   def start
-    self.mkdir
     self.dates
     self.to_s
   end
   
-  def mkdir
-    FileUtils.mkdir_p "#{@dir}"
-  end
+
   
   def inspect
     puts "#{@name} times:\n"

@@ -6,6 +6,8 @@ class XML < Format
     if !defined? $collector
       $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new #this will be initialized by whichever object gets there first
+      $collector.output = String.new #this is so there is always an easy compatible print method in report classes
+      
     end
 
     #set values for arrows
