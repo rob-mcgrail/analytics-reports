@@ -64,7 +64,7 @@ class Report
     self.to_file
     self.to_screen
     self.timer
-    self.tell_user
+    self.path
   end
   
 end
