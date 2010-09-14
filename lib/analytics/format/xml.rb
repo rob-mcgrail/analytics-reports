@@ -221,12 +221,12 @@ class XML < Format
   def wash(xml)
     xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
 
-    # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
-    # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
+    # xml.gsub!(/<\/?[^>]*>/){|match| match.downcase}            # washing caps from tags
+    # xml.gsub!(/<\/?[^>]*>/){|match| match.gsub!(" ", "_")}     # washing caps from tags
 
     xml.gsub!(/<\/?[^>]*>/) do |match|
       match.downcase!
-      match.gsub!(" ", "_")
+      match.gsub(" ", "_")
     end
         
    xml
