@@ -1,14 +1,14 @@
 class Biotech < Report
   attr_accessor :name
   
-  def initialize(name = "Biotech-deatiled-report")
+  def initialize(name = "Biotech deatiled report")
     @name = name
     @now = DateTime.now
     
     @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
     @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
     FileUtils.mkdir_p @path
-    @file = File.new(@path + "/#{@name}-#{@now.strftime("%d%m")}.xml",  "w+")
+    @file = File.new(@path + "/#{@name.gsub(" ", "-")}-#{@now.strftime("%d%m")}.xml",  "w+")
     $path = @path #export path variable for formatting classes that need it
   end
 
@@ -19,7 +19,7 @@ class Biotech < Report
   end
   
   def main
-    $format.x.report{self.front_page
+    $format.x.tag!(@name){self.front_page
                      self.country("New Zealand", "1223813495")
                      self.country("Australia", "930734061")
                      self.country("United States", "759299489")
@@ -36,7 +36,7 @@ class Biotech < Report
     $format.finish
   end
   
-  def front_page
+  def front_page(title = "Front page")
     
     visits = Visits.new
     uniques = Uniques.new
@@ -48,7 +48,7 @@ class Biotech < Report
     new_returning = NewVisits.new
     
     
-    $format.x.page( "id" => "main" ){
+    $format.x.tag!(title){
       $format.x.comment!("Header!")
       $format.title("Sciencelearn.org.nz", "Traffic summary")
       $format.date_section
@@ -93,7 +93,7 @@ class Biotech < Report
     traffic_sources = WebSources.new
     engagement_pages = Content.new
     
-    $format.x.tag!("country", "id" => page ){
+    $format.x.tag!(page){
       $format.x.comment!("Header!")
       $format.title(page, "By Country")
       $format.date_section
