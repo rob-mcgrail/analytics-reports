@@ -14,8 +14,8 @@ class Report
   end
   
   def start
-    self.dates
-    self.to_s
+    $display.tell_user self.to_s
+    $display << self.dates
   end
   
 
