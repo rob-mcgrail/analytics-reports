@@ -178,18 +178,35 @@ class XML < Format
     #prints a table with title and headings
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
-
+    
+    
+    # @x.tag!(struct.title){
+    #   struct.rows.each do |row|
+    #     i = 0
+    #     row.each do |x|
+    #       @x.tag!(struct.header[0]){
+    #         @x.tag!(struct.header[i], x)
+    #         i = i + 1
+    #       }
+    # 
+    #     end
+    #   end
+    # }
+    
     @x.tag!(struct.title){
-      struct.rows.each do |thing|
-        struct.header.each do |h|
-          @x.tag!("#{h}" + "s"){
-            thing.each do |x|
-              @x.tag!(h, x)
-            end
-            }
-        end
+      struct.rows.each do |row|
+        i = 1
+        n = row.length
+        @x.tag!(struct.header[0]){
+          @x.tag!("struct.header[0]" + "_name")
+          while n > 0
+            @x.tag!(struct.header[i], row[i])
+            i+=1
+            n-=1
+          end
+        }
       end
-      }
+      }  
   end
 
   def block_full(struct)
