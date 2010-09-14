@@ -19,7 +19,7 @@ class Biotech < Report
   end
   
   def main
-    $format.x.tag!(@name.gsub(" ", "_").downcase){self.front_page
+    $format.x.tag!(@name){self.front_page
                      # self.country("New Zealand", "1223813495")
                      # self.country("Australia", "930734061")
                      # self.country("United States", "759299489")
@@ -44,7 +44,7 @@ class Biotech < Report
     new_returning = NewVisits.new
     
     
-    $format.x.tag!(title.gsub(" ", "_").downcase){
+    $format.x.tag!(title){
       $format.x.comment!("Header!")
       $format.title("Sciencelearn.org.nz", "Traffic summary")
       $format.date_section
@@ -89,7 +89,7 @@ class Biotech < Report
     traffic_sources = WebSources.new
     engagement_pages = Content.new
     
-    $format.x.tag!(page.gsub(" ", "_").downcase){
+    $format.x.tag!(page){
       $format.x.comment!("Header!")
       $format.title(page, "By Country")
       $format.date_section
