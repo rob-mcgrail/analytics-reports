@@ -53,8 +53,8 @@ class XML < Format
     #prints title and category
 
     @x.title_section {
-      @x.category("#{page_category}")
       @x.title("#{page_title}")
+      @x.category("#{page_category}")
     }
   end
 
