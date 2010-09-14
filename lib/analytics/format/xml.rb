@@ -173,13 +173,24 @@ class XML < Format
       @x.previous {
         @x.tag!(struct.title, struct.p_value)
         @x.tag!("#{struct.title}" + "_change", struct.p_change)
-        @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
+        if struct.p_arrow =~ /png|jpg|bmp/
+          @x.tag!("#{struct.title}" + "_arrow"){
+            @x.external_graphic(struct.p_arrow)
+          }
+        else
+          @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
+        end
       }
       @x.baseline {
         @x.tag!(struct.title, struct.b_value)
         @x.tag!("#{struct.title}" + "_change", struct.b_change)
-        @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
-      }
+        if struct.b_arrow =~ /png|jpg|bmp/
+          @x.tag!("#{struct.title}" + "_arrow"){
+            @x.external_graphic(struct.b_arrow)
+          }
+        else
+          @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
+        end      }
     }
 
   end
