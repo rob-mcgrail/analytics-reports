@@ -79,12 +79,21 @@ class Fop < XML
   def finish
     self.copy_assets
     $display.tell_user "Putting xml output in to $collector. Access with $collector.fop"
-    $collector.fop = @collector            # wash out caps, spaces and slashes from tags
+    $collector.fop = self.wash @collector             # wash out caps, spaces and slashes from tags, in xml.rb
     $collector.output << $collector.fop               # for compatibility with other classes use of $collector
   end
   
   def copy_assets
-    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/*"), $path + "/")
+    
+    #
+    #copies the arrow image files to the report folder in /output
+    #
+    
+    arrows = [@green_up, @green_down, @red_up, @red_down, @grey_up, @grey_down, @equals]
+    
+    arrows.each do |file|
+      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/#{file}"), $path + "/")
+    end
   end
   
 end
