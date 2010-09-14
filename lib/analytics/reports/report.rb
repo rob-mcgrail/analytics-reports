@@ -61,7 +61,7 @@ class Report
     $display.tell_user("The things I did are in: #{$path}")
   end
   
-  def endgame
+  def end_game
     self.to_file
     self.to_screen
     self.timer
