@@ -53,7 +53,6 @@ class Report
   
   def timer
     time_elapsed = "\n\nI took #{((DateTime.now - @now) * 24 * 60 * 60).to_i} seconds.\n"
-    @text_file << time_elapsed
     $display.tell_user(time_elapsed)
   end
   
