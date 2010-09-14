@@ -151,7 +151,7 @@ module DateHelper
 
     x = @array_of_start_dates.length - 1
 
-    puts"Dates"
+    puts "Dates"
     while x >= 0
       puts "#{@array_of_start_dates[x]}-#{@array_of_end_dates[x]}"
       x-=1
