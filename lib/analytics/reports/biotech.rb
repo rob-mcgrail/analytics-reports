@@ -88,13 +88,14 @@ class Biotech < Report
     uniques = Uniques.new
     bounces = BounceRate.new
     times = Times.new
+    pages_visits = PageViews.new
     new_returning = NewVisits.new
     traffic_sources = WebSources.new
     engagement_pages = Content.new
     
-    $format.x.page( "id" => page ){
+    $format.x.tag!("country", "id" => page ){
       $format.x.comment!("Header!")
-      $format.title( page, "By Country")
+      $format.title(page, "By Country")
       $format.date_section
       
         $format.x.comment!("Main body!")
