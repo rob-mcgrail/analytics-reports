@@ -47,16 +47,11 @@ class Fop < XML
     }
   end
   
-  
-
   def finish
-    $display.tell_user "Putting fop-ready xml output in to $collector. Access with $collector.fop"
-    $collector.fop = @collector.gsub(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-    $collector.output << $collector.fop                                        #for compatibility with other classes use of $collector
-    
+    $display.tell_user "Putting xml output in to $collector. Access with $collector.fop"
+    $collector.fop = self.wash(@collector)            # wash out caps, spaces and slashes from tags
+    $collector.output << $collector.fop               # for compatibility with other classes use of $collector
   end
   
-  
-
 end
 

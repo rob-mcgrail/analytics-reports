@@ -88,7 +88,7 @@ class XML < Format
         i = 0
         struct.data.each do |data|
 
-          @x.line("id"=>"#{struct.keys[i].gsub(" ", "_").downcase}" ){
+          @x.line("id"=>"#{struct.keys[i]}" ){
            data.each do |x|
               @x.value(x)
           end
@@ -143,14 +143,14 @@ class XML < Format
     #and :rows, an array of arrays of data.
 
     
-    @x.tag!(struct.title.gsub(" ", "_").downcase){
+    @x.tag!(struct.title){
       struct.rows.each do |row|
         i = 1
         n = row.length
-        @x.tag!(struct.header[0].gsub(" ", "_").downcase){
-          @x.tag!("#{struct.header[0].gsub(" ", "_").downcase}_name", row[0])
+        @x.tag!(struct.header[0]){
+          @x.tag!("#{struct.header[0]}_name", row[0])
           while n > 1
-            @x.tag!(struct.header[i].gsub(" ", "_").downcase, row[i])
+            @x.tag!(struct.header[i], row[i])
             i+=1
             n-=1
           end
@@ -166,19 +166,19 @@ class XML < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @x.tag!(struct.title.gsub(" ", "_").downcase + "_section") {
+    @x.tag!(struct.title + "_section") {
       @x.reporting {
-        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.r)
+        @x.tag!(struct.title, struct.r)
       }
       @x.previous {
-        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.p_value)
-        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_change", struct.p_change)
-        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_arrow", struct.p_arrow)
+        @x.tag!(struct.title, struct.p_value)
+        @x.tag!("#{struct.title}" + "_change", struct.p_change)
+        @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
       }
       @x.baseline {
-        @x.tag!(struct.title.gsub(" ", "_").downcase, struct.b_value)
-        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_change", struct.b_change)
-        @x.tag!("#{struct.title.gsub(" ", "_").downcase}" + "_arrow", struct.b_arrow)
+        @x.tag!(struct.title, struct.b_value)
+        @x.tag!("#{struct.title}" + "_change", struct.b_change)
+        @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
       }
     }
 
@@ -214,12 +214,27 @@ class XML < Format
     # </comparison_bar_graph>
   end
 
-#bar
+  def wash(xml)
+    xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
+
+
+    # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
+    # $collector.xml = @collector.gsub!(/<\/?[^>]*>/){|match| match.downcase}     # washing caps from tags
+
+
+    xml.gsub!(/<\/?[^>]*>/) do |match|
+      match.downcase!
+      match.sub!(" ", "_")
+    end
+        
+   xml
+  end
+
 
   def finish
     $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
-    $collector.xml = @collector.gsub(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-    $collector.output << $collector.xml                                        # for compatibility with other classes use of $collector
+    $collector.xml = self.wash(@collector)            # wash out caps, spaces and slashes from tags
+    $collector.output << $collector.xml               # for compatibility with other classes use of $collector
   end
 
 
