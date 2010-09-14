@@ -2,12 +2,12 @@
 
 require 'rubygems'
 require 'garb'
+require 'builder'
 require 'highline/import'
 require 'active_support'
 require 'action_pack'
 require 'action_view'
 require 'ostruct'
-require 'builder'
 require 'net/http'
 require 'gchart'
 require 'fileutils'
