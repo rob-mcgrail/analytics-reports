@@ -76,15 +76,15 @@ class XML < Format
     #prints the dates
 
     @x.dates {
-      @x.date_range("Reporting period #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}")
-      @x.date_range("Previous period #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
-      @x.date_range("Baseline period #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
+      @x.tag!("reporting", "#{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}")
+      @x.tag!("previous", "#{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
+      @x.tag!("baseline", "#{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
     }
 
   end
 
 
-  def main_graph(struct)
+  def main_graph(struct) #not refactored yet as it is done with google currently
 
     #makes the big three line graph
 
@@ -139,7 +139,7 @@ class XML < Format
 
   end
 
-  def bar_series(struct)
+  def bar_series(struct)  #not refactored yet as it is done with google currently
 
     #prints a bargraph for a single series
     #expects an ostruct containing:
@@ -179,62 +179,17 @@ class XML < Format
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
 
-    if struct.title != nil
-      @x.title(struct.title)
-    end
-    @x.table( "id" => struct.table_id ){
-      if struct.header != nil
-        @x.tr{
-          struct.header.each do |thing|
-            @x.th(thing)
-          end
-        }
-      end
+    @x.tag!(struct.title){
       struct.rows.each do |thing|
-        @x.tr{
-          thing.each do |data|
-            @x.td(data)
-          end
-        }
+        struct.header.each do |h|
+          @x.tag!("#{h}" + "s"){
+            thing.each do |x|
+              @x.tag!(h, x)
+            end
+            }
+        end
       end
-    }
-
-
-    # <title>Most popular content</title>
-    # <table id="popular">
-    #   <tr>
-    #     <th>Page</th>
-    #     <th>Pageviews</th>
-    #     <th>Avg session</th>
-    #   </tr>
-    #   <tr>
-    #     <td>/</td>
-    #     <td>4393</td>
-    #     <td>00:24</td>
-    #   </tr>
-    #   <tr>
-    #     <td>/themes/biotech_at_home/enzymes_in_washing_powders</td>
-    #     <td>3067</td>
-    #     <td>00:04</td>
-    #   </tr>
-    #   <tr>
-    #     <td>/themes/biotech_at_home/enzymes_in_washing_powders/</td>
-    #     <td>3030</td>
-    #     <td>04:11</td>
-    #   </tr>
-    #   <tr>
-    #     <td>/content/advancedsearch/</td>
-    #     <td>1494</td>
-    #     <td>00:34</td>
-    #   </tr>
-    #   <tr>
-    #     <td>/themes/biotech_therapies/stem_cells</td>
-    #     <td>797</td>
-    #     <td>00:04</td>
-    #   </tr>
-    # </table>
-
-
+      }
   end
 
   def block_full(struct)
@@ -244,20 +199,19 @@ class XML < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @x.block_item {
-      @x.main {
-        @x.value_title(struct.title)
-        @x.value(struct.r)
+    @x.tag!(struct.title + "_section") {
+      @x.reporting {
+        @x.tag!(struct.title, struct.r)
       }
       @x.previous {
-        @x.change(struct.p_change)
-        @x.arrow(struct.p_arrow)
-        @x.value(struct.p_value)
+        @x.tag!(struct.title, struct.p_value)
+        @x.tag!("#{struct.title}" + "_change", struct.p_change)
+        @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
       }
       @x.baseline {
-        @x.change(struct.b_change)
-        @x.arrow(struct.b_arrow)
-        @x.value(struct.b_value)
+        @x.tag!(struct.title, struct.b_value)
+        @x.tag!("#{struct.title}" + "_change", struct.b_change)
+        @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
       }
     }
 
@@ -283,7 +237,7 @@ class XML < Format
 
 
 
-  def comparison(array)
+  def comparison(array)  #not refactored yet as it is done with google currently
 
     #prints a bar divided between two proportions
     #expects an array with 4, and only 4, values
