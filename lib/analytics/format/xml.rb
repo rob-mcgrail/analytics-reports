@@ -234,8 +234,8 @@ class XML < Format
 
   def finish
     $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
-    $collector.output << @collector #for compatibility with other classes use of $collector
-    $collector.xml = @collector
+    $collector.output << @collector                                            #for compatibility with other classes use of $collector
+    $collector.xml = @collector.gsub(/((\<|\<\/)([a-z|\w])+)\//, "\\1-")       # washing forward slashes from tags
   end
 
 
