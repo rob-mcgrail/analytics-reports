@@ -4,10 +4,10 @@ class Startup
 # to add - please select your desired report items
 # todo - make this not unix terminal dependent... by passing view stuff off to Display maybe
 
-  def initialized
-    if !defined? $collector
+  def initialize
+    if !defined? $periods
       $periods = Periods.new  #ecapsulates dates
-      $display << "Startup is reating $periods object."
+      $display << "Startup is creating $periods object."
     end
   end
 
@@ -66,7 +66,7 @@ class Startup
   def select_reporting_period_arbitrary
     $display.ask_user('Enter the start date (inclusive) for the reporting period (dd/mm/yyyy)')
     begin
-      $periods.end_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
+      $periods.start_date_reporting = Date.strptime(gets.chomp, "%d/%m/%Y")
     rescue ArgumentError
       $display.alert_user "Bad date! Try again\n\n"
       self.select_reporting_period_arbitrary
