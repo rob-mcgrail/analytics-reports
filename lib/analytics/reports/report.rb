@@ -44,11 +44,11 @@ class Report
   end
   
   def to_file
-    $format.collector.each {|line| @file << line}
+    $collector.output.each {|line| @file << line}
   end
   
   def to_screen
-    $format.collector.each {|line| $display << line}
+    $collector.output.each {|line| $display << line}
   end
   
   def timer
