@@ -49,9 +49,10 @@ class Length
     
     keys_array = ["0-10", "11-30", "31-60", "61-180", "181+"]
     
-    data = [[@reporting[0].to_i, @reporting[1].to_i, @reporting[2].to_i, @reporting[3].to_i, @reporting[4].to_i]]   
-
-    hash = { :title => "Length of visit", :data => [@reporting], :keys => keys_array}
+    data = Array.new
+    data[0] = [@reporting[0].to_i, @reporting[1].to_i, @reporting[2].to_i, @reporting[3].to_i, @reporting[4].to_i]
+    
+    hash = { :title => "Length of visit", :data => data, :keys => keys_array}
 
     @all_results = OpenStruct.new(hash)
     @all_results
