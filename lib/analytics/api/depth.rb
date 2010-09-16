@@ -28,14 +28,14 @@ class Depth
   end
   
   def basic_five
-    
+        
     self.reporting(5)
     
-    @all_results = ["1 page = #{@reporting[0]}",
-                    "2 pages = #{@reporting[1]}",
-                    "3 pages = #{@reporting[2]}",
-                    "4 pages = #{@reporting[3]}",
-                    ">4 pages = #{@reporting[4]}"]
+    keys_array = ["1 page", "2 pages", "3 pages", "4 pages", "5+ pages"]
+                    
+    hash = { :title => "Depth of visit", :data => [@reporting], :keys => keys_array}
+    
+    @all_results = OpenStruct.new(hash)
     @all_results
   end
   
