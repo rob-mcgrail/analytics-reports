@@ -6,61 +6,19 @@ Biotech_session.new
 $format = Fop.new
 
 
-visits = Visits.new
-bounces = BounceRate.new
-countryvisits = CountryVisits.new("New Zealand")
-new_returning = NewVisits.new
-pages_visits = PageViews.new
-times = Times.new
-uniques = Uniques.new
-countries = CountrySource.new
-content = Content.new
-nav = Navigation.new
+# visits = Visits.new
+# bounces = BounceRate.new
+# countryvisits = CountryVisits.new("New Zealand")
+# new_returning = NewVisits.new
+# pages_visits = PageViews.new
+# times = Times.new
+# uniques = Uniques.new
+# countries = CountrySource.new
+# content = Content.new
+# nav = Navigation.new
 
+depth = Depth.new
 
+s = $format.wash($format.labelled_series(depth.basic_five))
 
-
-# $format.header
-# 
-# $format.x.comment!("Body!")
-# 
-# $format.x.body {
-# 
-#   $format.x.block_wrapper {
-#                             $format.x.block_wrapper_header {
-#                               $format.x.key_string("Previous")
-#                               $format.x.key_string("Baseline")
-# 
-#                             }
-# 
-# 
-                            $format.block_full(visits.three_with_changes)       #blocks
-                            $format.block_full(bounces.three_with_changes)
-                            $format.block_full(countryvisits.three_with_changes)
-                            $format.block_full(new_returning.three_with_changes)
-                            $format.block_full(pages_visits.three_with_changes_per_visit)
-                            $format.block_full(times.three_with_changes_as_averages)
-                            $format.block_full(uniques.three_monthly_averages)
-# 
-# 
-#                             $format.comparison(new_returning.reporting_only)      #bar
-# 
-#                             $format.main_graph(visits.main_graph)               #main graph
-# 
-#                             $format.bar_series(visits.hours_graph)              #hours graph
-# 
-                            $format.table(countries.processed_reporting)        #countries table
-                            $format.table(content.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 5))        #engagement table
-                            $format.table(content.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 5))   #popularity table
-
-                            $format.table(nav.arbitrary_in)                     #nav table
-                            $format.table(nav.arbitrary_out)                    #nav table
-                            $format.table(nav.all_reporting)                    #main navigation table with default arguments
-# 
-#                           }
-#                  }
-# 
-$format.finish #currently washes out the xml escapes...
-# 
-puts $collector.fop
-
+puts s
