@@ -25,9 +25,14 @@ class Biotech < Report
                           self.country("Australia", "930734061")
                           self.country("United States", "759299489")
                      
-                          self.country_no_bounce("New Zealand > 2 min", "1132433923")     
-                          self.visitor_type("Search", "-6")      
-                          self.visitor_type("New", "-2")
+                          self.country_no_bounce("New Zealand > 2 min", "1132433923")  
+                             
+                          self.visitor_type("Search visitors", "-6")      
+                          self.visitor_type("New visitors", "-2")
+                          self.visitor_type("New visitors (New Zealand)", "2138653054")
+                          self.visitor_type("Returning", "-3")
+                          self.visitor_type("Returning (New Zealand)", "868866970")
+                          
       }
     
     
@@ -144,6 +149,8 @@ class Biotech < Report
     new_returning = NewVisits.new
     traffic_sources = WebSources.new
     engagement_pages = Content.new
+    depth = Depth.new
+    length = Length.new
     
     $format.x.tag!(page){
       $format.x.comment!("Header!")
@@ -156,6 +163,10 @@ class Biotech < Report
         $format.main_graph(visits.main_graph)
         
         $format.table(traffic_sources.processed_reporting_bounce_and_time(5))
+        
+        $format.labelled_series(depth.basic_five)
+        $format.labelled_series(length.basic_five)
+        
         $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 8))
         $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 8))
         
