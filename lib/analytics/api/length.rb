@@ -43,13 +43,13 @@ class Length
     "#{@all_results}, #{@arbitrary}, #{@reporting}, #{@previous}, #{@baseline}, #{@zero_ten}, #{@eleven_thirty}, #{@thirtyone_sixty}, #{@sixtyone_oneeighty}, #{@oneeightyone_plus}, arbitrary? = #{self.arbitrary?}"
   end
   
-  def basic_five_reporting
+  def basic_five
     
     self.reporting
     
     keys_array = ["0-10", "11-30", "31-60", "61-180", "181+"]
     
-    data = [@reporting[0].to_i, @reporting[1].to_i, @reporting[2].to_i, @reporting[3].to_i, @reporting[4].to_i]    
+    data = [[@reporting[0].to_i, @reporting[1].to_i, @reporting[2].to_i, @reporting[3].to_i, @reporting[4].to_i]]   
 
     hash = { :title => "Length of visit", :data => [@reporting], :keys => keys_array}
 

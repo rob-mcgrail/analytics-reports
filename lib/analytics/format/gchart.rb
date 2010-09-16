@@ -38,9 +38,6 @@ module Charts
     
     min = data.min
     max = data.max
-    puts min
-    puts max
-    
     
     filename = "labelled_series" + "#{DateTime.now.strftime("%d%m%M%S")}.png"    
     
