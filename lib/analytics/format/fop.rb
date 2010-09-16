@@ -1,7 +1,7 @@
 class Fop < XML
   include Charts
   
-  def initialize
+  def initialize(stylesheet = nil)
     if !defined? $collector
       $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new #this will be initialized by whichever object gets there first
@@ -117,6 +117,11 @@ class Fop < XML
     
     arrows.each do |file|
       FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/#{file}"), $path + "/")
+    end
+    
+    #copies xsl-fo file
+    if stylesheet != nil
+      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{stylesheet}"), $path + "/")
     end
   end
   
