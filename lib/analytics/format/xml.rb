@@ -196,7 +196,9 @@ class XML < Format
   end
 
 
-
+  def labelled_series     #build me!
+    puts "I am not done yet"
+  end
 
 
   def comparison(array)  #not refactored yet as it is done with google currently
@@ -221,8 +223,7 @@ class XML < Format
   def wash(xml)
     xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
 
-    # xml.gsub!(/<\/?[^>]*>/){|match| match.downcase}            # washing caps from tags
-    # xml.gsub!(/<\/?[^>]*>/){|match| match.gsub!(" ", "_")}     # washing caps from tags
+    xml.gsub!("&amp;", "&")     # washing escapes!
 
     xml.gsub!(/<\/?[^>]*>/) do |match|
       match.downcase!
