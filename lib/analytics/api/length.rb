@@ -47,13 +47,16 @@ class Length
     
     self.reporting
     
-    @all_results = ["0-10 = #{@reporting[0].to_i}",
-                    "11-30 = #{@reporting[1].to_i}",
-                    "31-60 = #{@reporting[2].to_i}",
-                    "61-180 = #{@reporting[3].to_i}",
-                    "180+ = #{@reporting[4].to_i}"]
+    keys_array = ["0-10", "11-30", "31-60", "61-180", "181+"]
+    
+    data = [@reporting[0].to_i, @reporting[1].to_i, @reporting[2].to_i, @reporting[3].to_i, @reporting[4].to_i]    
+
+    hash = { :title => "Length of visit", :data => [@reporting], :keys => keys_array}
+
+    @all_results = OpenStruct.new(hash)
     @all_results
   end
+
   
   def reporting
     @reporting = self.arbitrary(@start_date_reporting, @end_date_reporting)
