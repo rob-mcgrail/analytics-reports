@@ -19,7 +19,7 @@ class Biotech < Report
   end
   
   def main
-    $format.x.tag!(@name){self.front_page
+    $format.x.tag!("report"){self.front_page
       
                           self.country("New Zealand", "1223813495")
                           self.country("Australia", "930734061")
@@ -175,7 +175,6 @@ class Biotech < Report
         $format.block_full(visits.three_with_changes) #blocks
         $format.block_full(bounces.three_with_changes)
 
-            #add depth #add loyalty
     }
     
     $profile.segment = nil #reset
