@@ -112,7 +112,7 @@ class Biotech < Report
 
         $format.block_full(visits.three_with_changes) #blocks
         $format.block_full(uniques.three_monthly_averages)
-        if !modifier != "b"
+        if modifier != "b"
           $format.block_full(bounces.three_with_changes)
         end        
         $format.block_full(times.three_with_changes_as_averages)
