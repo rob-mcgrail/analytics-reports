@@ -67,6 +67,24 @@ class Fop < XML
     }
   end
   
+  def labelled_series(struct)
+    
+    #
+    # gets chart class to return a png of the depth or length of visit style bar graph
+    #
+    # expects a :title, :data (array), :keys (array of strings)
+    #
+  
+    if struct.data[0].length != struct.keys.length
+      raise "Passed the Fop.labelled series a different ammount of values and keys..."
+    end
+  
+    src = Charts.labelled_series(struct.title, struct.data[0], struct.keys)
+  
+    @x.labelled_series{
+      @x.external_graphic(src)
+    }
+  end
 
   def main_graph(struct)
 
