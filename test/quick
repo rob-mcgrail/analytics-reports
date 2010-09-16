@@ -18,7 +18,9 @@ $format = Fop.new
 # nav = Navigation.new
 
 depth = Depth.new
+length = Length.new
 
 s = $format.wash($format.labelled_series(depth.basic_five))
+s << $format.wash($format.labelled_series(length.basic_five))
 
 puts s
