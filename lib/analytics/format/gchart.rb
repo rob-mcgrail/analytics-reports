@@ -27,7 +27,36 @@ module Charts
               
     filename
   end
+  
+  def Charts.labelled_series(title, data, keys, size = "300x200", color = "3072F3")
+    
+    if data[0].is_a? String
+      a = Array.new
+      data.each {|thing| a << thing.to_i}
+      data = a
+    end
+    
+    min = data.min
+    max = data.max
+    puts min
+    puts max
+    
+    
+    filename = "labelled_series" + "#{DateTime.now.strftime("%d%m%M%S")}.png"    
+    
+    Gchart.bar(:data => data,
+               :title => title,
+               :bar_colors => color,
+               :orientation => 'horizontal',
+               :size => size,
+               :axis_with_labels => ['y', 'x'],
+               :axis_labels => [[keys[4], keys[3], keys[2], keys[1], keys[0]], [0, max]]
+               # :format => 'file',
+               # :filename => "#{$path}" + "/" + filename
+               )
 
+    
+  end
   
   def Charts.comparison(title, value1, value_title1, value_title2, size = "320x60")
 
