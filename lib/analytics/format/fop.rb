@@ -1,7 +1,7 @@
 class Fop < XML
   include Charts
   
-  def initialize(stylesheet = nil)
+  def initialize(stylesheet = nil, logo = nil)
     if !defined? $collector
       $display << "The collector is not defined. I am instantiating it now..."
       $collector = OpenStruct.new #this will be initialized by whichever object gets there first
@@ -19,7 +19,7 @@ class Fop < XML
     # set name for stylesheet (passed in as argument from bin/)
     
     @stylesheet = stylesheet
-    
+    @logo = logo
     
     #set values for arrows
     
@@ -128,7 +128,11 @@ class Fop < XML
     end
     
     #copies cwa logo
-    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/logos/cwa_logo.png"), $path + "/")
+    if @logo != nil
+      if @logo == "cwa"
+        FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/logos/cwa_logo.png"), $path + "/")
+      end
+    end
   end
   
 end
