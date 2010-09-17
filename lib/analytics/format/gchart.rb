@@ -16,12 +16,19 @@ module Charts
     
     filename = "bar_series" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
+    x = data.length   #get the ammount of labels, less the ammount with names (so we can pack the middle with nothing)
+    x-=2
+        
+    labels = ['00:00 NZT']    #first time
+    x.times {labels << ""}    #pack the middle with nothing
+    labels << '23:00 NZT'     #last time
+    
     Gchart.bar(:data => data, 
               :title => title, 
               :bar_colors => color,
               :size => size,
               :axis_with_labels => 'x',
-              :axis_labels => [['00:00 NZT', '6:00 NZT', '12:00 NZT', '18:00 NZT', '23:00 NZT']],
+              :axis_labels => [labels],
               :format => 'file',
               :filename => "#{$path}" + "/" + filename)
               
