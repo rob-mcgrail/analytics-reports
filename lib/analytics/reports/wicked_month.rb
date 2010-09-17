@@ -1,4 +1,4 @@
-class WickedMonth
+class WickedMonth < Report
   attr_accessor :name
   
   def initialize(name = "Wicked month details")
@@ -26,6 +26,7 @@ class WickedMonth
     pageviews = PageViews.new
     bounce = BounceRate.new
     time = Times.new
+    engagement_pages = Content.new
     
     $format.single("Uniques", uniques.reporting.to_s)
     $format.single("Visits", visits.reporting.to_s)

@@ -37,6 +37,21 @@ class TXT < Format
     @collector << "\n"
     
   end
+  
+  def date_section
+    @collector << "\n"
+    
+    @collector << "Reporting period: #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}"
+    
+    if $periods.start_date_previous != nil
+      @collector << "Previous period: #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}"
+    end
+    
+    if $periods.start_date_baseline != nil
+      @collector << "Baseline period: #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}"
+    end
+    
+  end
 
 
 
