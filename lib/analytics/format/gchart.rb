@@ -47,12 +47,12 @@ module Charts
                :orientation => 'horizontal',
                :size => size,
                :axis_with_labels => ['y', 'x'],
-               :axis_labels => [[keys[4], keys[3], keys[2], keys[1], keys[0]], [0, max]]
-               # :format => 'file',
-               # :filename => "#{$path}" + "/" + filename
+               :axis_labels => [[keys[4], keys[3], keys[2], keys[1], keys[0]], [0, max]],
+               :format => 'file',
+               :filename => "#{$path}" + "/" + filename
                )
 
-    
+    filename
   end
   
   def Charts.comparison(title, value1, value_title1, value_title2, size = "320x60")
