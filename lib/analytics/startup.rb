@@ -127,6 +127,11 @@ class Startup
     $display.tell_user("Baseline period is #{$periods.start_date_baseline} through #{$periods.end_date_baseline}, inclusive.\n")
   end
 
+  def reporting_only
+    $periods.start_date_previous = nil
+    $periods.start_date_baseline = nil
+  end
+
   def get_dates_no_options
     #basic date collection
 
