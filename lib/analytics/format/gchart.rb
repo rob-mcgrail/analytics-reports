@@ -21,7 +21,7 @@ module Charts
               :bar_colors => color,
               :size => size,
               :axis_with_labels => 'x',
-              :axis_labels => ['00:00 NZT', '6:00 NZT', '12:00 NZT', '18:00 NZT', '23:00 NZT'],
+              :axis_labels => [['00:00 NZT', '6:00 NZT', '12:00 NZT', '18:00 NZT', '23:00 NZT']],
               :format => 'file',
               :filename => "#{$path}" + "/" + filename)
               
@@ -90,7 +90,7 @@ module Charts
                :legend => [data_title1, data_title2, data_title3],
                :bar_colors => ['5A9D5A','224499', 'FF9900'],
                :axis_with_labels => ['y'],
-               :axis_labels => [0, max],
+               :axis_labels => [[0, "#{max}"]],
                :format => 'file',
                :filename => "#{$path}" + "/" + filename
                )
