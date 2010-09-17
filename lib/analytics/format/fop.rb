@@ -126,6 +126,9 @@ class Fop < XML
     if @stylesheet != nil
       FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{@stylesheet}"), $path + "/")
     end
+    
+    #copies cwa logo
+    FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/logos/cwa_logo.png"), $path + "/")
   end
   
 end
