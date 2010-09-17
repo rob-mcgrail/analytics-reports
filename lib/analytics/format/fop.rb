@@ -16,8 +16,11 @@ class Fop < XML
 
     # @x.instruct! #apparently this is invalid...
     
+    # set name for stylesheet (passed in as argument from bin/)
     
-
+    @stylesheet = stylesheet
+    
+    
     #set values for arrows
     
     #
@@ -120,8 +123,8 @@ class Fop < XML
     end
     
     #copies xsl-fo file
-    if stylesheet != nil
-      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{stylesheet}"), $path + "/")
+    if @stylesheet != nil
+      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{@stylesheet}"), $path + "/")
     end
   end
   
