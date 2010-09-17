@@ -80,7 +80,9 @@ module Charts
   def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "710x200")
     
     filename = "large_linegraph" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
-
+    
+    a = [data1.max, data2.max, data3.max]
+    max = a.max
     
     Gchart.line(:data => [data1, data2, data3],
                :title => title,
@@ -88,6 +90,7 @@ module Charts
                :legend => [data_title1, data_title2, data_title3],
                :bar_colors => ['5A9D5A','224499', 'FF9900'],
                :axis_with_labels => ['y'],
+               :axis_labels => [0, max],
                :format => 'file',
                :filename => "#{$path}" + "/" + filename
                )
