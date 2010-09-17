@@ -21,7 +21,7 @@ margin-left="1cm" margin-right="1cm">
      <fo:flow flow-name="xsl-region-body" font="12pt Times">     
        <fo:block-container position="fixed" top="10mm" left="250mm">
          <fo:block>
-          <fo:external-graphic src="/home/shankar/Documents/xslfowork/cwa_logo.png" content-width="1in"/>
+          <fo:external-graphic src="cwa_logo.png" content-width="1in"/>
           </fo:block>                   
         </fo:block-container>
 
@@ -33,11 +33,11 @@ margin-left="1cm" margin-right="1cm">
          <fo:table-body>
            <fo:table-row>
              <fo:table-cell>
-               <fo:block text-align ="left" font="30pt Times" font-weight="bold"><xsl:value-of select="biotech_detailed_report_-_testing/front_page/title_section/title" /> </fo:block>
+               <fo:block text-align ="left" font="30pt Times" font-weight="bold"><xsl:value-of select="report/front_page/title_section/title" /> </fo:block>
              </fo:table-cell>
              <fo:table-cell >                
-                 <fo:block>Reporting period:<xsl:value-of select="biotech_detailed_report_-_testing/front_page/dates/reporting/text()" /> </fo:block>
-                 <fo:block>Baseline : <xsl:value-of select="biotech_detailed_report_-_testing/front_page/dates/baseline/text()" />   </fo:block>
+                 <fo:block>Reporting period:<xsl:value-of select="report/front_page/dates/reporting/text()" /> </fo:block>
+                 <fo:block>Baseline : <xsl:value-of select="report/front_page/dates/baseline/text()" />   </fo:block>
              </fo:table-cell>
            </fo:table-row>
            <fo:table-row>
@@ -66,7 +66,7 @@ margin-left="1cm" margin-right="1cm">
            </fo:table-row>
            <fo:table-row>
              <fo:table-cell>
-               <fo:block><fo:external-graphic src="{biotech_detailed_report_-_testing/front_page/main_graph/external_graphic}" content-width="5in"/> </fo:block>
+               <fo:block><fo:external-graphic src="{report/front_page/main_graph/external_graphic}" content-width="5in"/> </fo:block>
                
              </fo:table-cell>
              <fo:table-cell >                
@@ -109,7 +109,7 @@ margin-left="1cm" margin-right="1cm">
                            <fo:block text-align ="left" font="10pt Times"> Time </fo:block>   
                         </fo:table-cell>                       
                       </fo:table-row>
-                     <xsl:for-each select="biotech_detailed_report_-_testing/front_page/traffic_sources/source">
+                     <xsl:for-each select="report/front_page/traffic_sources/source">
 
                        <fo:table-row>
                         <fo:table-cell>
@@ -151,7 +151,7 @@ margin-left="1cm" margin-right="1cm">
                            <fo:block text-align ="left" font="10pt Times"> Time </fo:block>   
                         </fo:table-cell>                       
                       </fo:table-row>
-                     <xsl:for-each select="biotech_detailed_report_-_testing/front_page/geographic_sources/country">
+                     <xsl:for-each select="report/front_page/geographic_sources/country">
 
                        <fo:table-row>
                         <fo:table-cell>
