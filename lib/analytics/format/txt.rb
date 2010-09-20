@@ -32,7 +32,7 @@ class TXT < Format
     
     #puts together the whole header sections
 
-    self.title
+    self.title(page_title, page_category)
     self.date_section
     @collector << "\n"
     
@@ -66,7 +66,7 @@ class TXT < Format
 
   def single(name, value)
 
-    @collector << "#{title}: #{value}"
+    @collector << "#{name}: #{value}"
 
   end
 

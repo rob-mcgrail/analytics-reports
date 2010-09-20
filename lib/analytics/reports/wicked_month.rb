@@ -8,7 +8,7 @@ class WickedMonth < Report
     @dir = "wicked_monthlies"
     @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
     FileUtils.mkdir_p @path
-    @file = File.new(@path + "/#{@name.gsub(" ", "-").downcase}-#{@now.strftime("%d%m")}.txt",  "w+")
+    @file = File.new(@path + "/#{@name.gsub(" ", "-").downcase}-#{$periods.start_date_reporting.strftime("%d%m")}-#{$periods.end_date_reporting.strftime("%d%m")}.txt",  "w+")
     $path = @path #export path variable for formatting classes that need it
   end
 
@@ -18,7 +18,7 @@ class WickedMonth < Report
     $profile.garb = Garb::Profile.first('14608700')
   end
   
-  def all
+  def main
     $format.header("WickED", "Quick monthly summary")
     
     uniques = Uniques.new
@@ -36,6 +36,9 @@ class WickedMonth < Report
     
     $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 12))
     $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))    
+  
+    $format.finish
   end
+  
   
 end
