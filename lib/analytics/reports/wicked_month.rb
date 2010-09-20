@@ -35,6 +35,9 @@ class WickedMonth < Report
     $format.single("Average time", time.reporting_average.to_s)
     
     $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 12))
+    
+    engagement_pages.calculate_limit($periods.start_date_reporting, $periods.end_date_reporting) #filter outliers from engagement by time stat
+    
     $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))    
   
     $format.finish
