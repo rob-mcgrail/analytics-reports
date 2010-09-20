@@ -123,7 +123,7 @@ class TXT < Format
 
 
   def finish
-    $display.tell_user "Putting xml output in to $collector. Access with $collector.xml"
+    $display.tell_user "Putting text output in to $collector. Access with $collector.txt"
     $collector.txt = @collector                       # wash out caps, spaces and slashes from tags
     $collector.output << $collector.txt               # for compatibility with other classes use of $collector
   end
