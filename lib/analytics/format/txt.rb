@@ -66,7 +66,7 @@ class TXT < Format
 
   def single(name, value)
 
-    @collector << "#{name}: #{value}"
+    @collector << "#{name}: #{value}\n"
 
   end
 
@@ -78,31 +78,31 @@ class TXT < Format
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
 
-    @collector << "#{struct.title}\n"
+    @collector << "#{struct.title}\n\n"
     
     s = String.new
     
     struct.header.each do |head|
-      s + "| " + head + "|"
+      s << "  |  " + head
     end
     
-    @collector << s
+    @collector << s  + "\n"
+    
     x = s.length
     
     s = String.new
     
-    x.times { s + "-" }
-    @collector << s
-    
+    x.times { s << "-" }
+    @collector << s  + "\n"
     
     s = String.new
       
     struct.rows.each do |row|
       s = String.new
       row.each do |value|
-        s + "| " + value + "|"
+        s << "  |  " + value
       end
-      @collector << s
+      @collector << s  + "\n"
     end
     @collector << "\n"
   end
