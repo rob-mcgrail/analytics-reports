@@ -39,6 +39,22 @@ class WickedMonth < Report
     engagement_pages.calculate_limit($periods.start_date_reporting, $periods.end_date_reporting) #filter outliers from engagement by time stat
     
     $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))    
+    
+    $profile.segment = "1223813495"
+    
+    $format.single("Uniques", uniques.reporting.to_s)
+    $format.single("Visits", visits.reporting.to_s)
+    $format.single("Pageviews", pageviews.reporting.to_s)
+    $format.single("Bouncerate", "#{bounce.reporting.to_s}" + "%")
+    $format.single("Average time", time.reporting_average.to_s)
+    
+    $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 12))
+    
+    engagement_pages.calculate_limit($periods.start_date_reporting, $periods.end_date_reporting) #filter outliers from engagement by time stat
+    
+    $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))
+    
+    
   
     $format.finish
   end
