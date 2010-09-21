@@ -32,13 +32,20 @@ class WickedMonth < Report
     $format.single("Visits", visits.reporting.to_s)
     $format.single("Pageviews", pageviews.reporting.to_s)
     $format.single("Bouncerate", "#{bounce.reporting.to_s}" + "%")
-    $format.single("Average time", time.reporting_average.to_s)
+    $format.single("Average time", Num.make_seconds(time.reporting_average).strftime("%M:%S"))
     
     $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 12))
     
     engagement_pages.calculate_limit($periods.start_date_reporting, $periods.end_date_reporting) #filter outliers from engagement by time stat
     
     $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))    
+    
+    uniques = Uniques.new
+    visits = Visits.new
+    pageviews = PageViews.new
+    bounce = BounceRate.new
+    time = Times.new
+    engagement_pages = Content.new
     
     $profile.segment = "1223813495"
     
@@ -48,8 +55,8 @@ class WickedMonth < Report
     $format.single("Visits", visits.reporting.to_s)
     $format.single("Pageviews", pageviews.reporting.to_s)
     $format.single("Bouncerate", "#{bounce.reporting.to_s}" + "%")
-    $format.single("Average time", time.reporting_average.to_s)
-    
+    $format.single("Average time", Num.make_seconds(time.reporting_average).strftime("%M:%S"))
+        
     $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 12))
     
     engagement_pages.calculate_limit($periods.start_date_reporting, $periods.end_date_reporting) #filter outliers from engagement by time stat
