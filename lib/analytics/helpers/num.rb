@@ -45,7 +45,6 @@ module Num
     #use thing.strftime("%M:%S") or similar to then print
     #try and do this last... because other methods expect numbers, not
     #times (ie percentage change, average, etc...)
-    #check the test/crunch script for more
 
     @time_holder = Array.new
 
