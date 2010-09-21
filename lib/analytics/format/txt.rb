@@ -54,7 +54,7 @@ class TXT < Format
   end
 
   def x(string)   #this is provided for compatibility with other classes like xml, fop and html
-    @collector << string
+    @collector << "\n" + string + "\n"
   end
 
   def title(page_title = "Enter a title!", page_category = "Enter a category")
