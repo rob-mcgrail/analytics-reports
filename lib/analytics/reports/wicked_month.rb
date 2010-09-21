@@ -41,7 +41,8 @@ class WickedMonth < Report
     $format.table(engagement_pages.ordered_by_time($periods.start_date_reporting, $periods.end_date_reporting, 12))    
     
     $profile.segment = "1223813495"
-    $format.x "\nNew Zealand---------------\n"
+    
+    $format.x "New Zealand---------------"
     
     $format.single("Uniques", uniques.reporting.to_s)
     $format.single("Visits", visits.reporting.to_s)
