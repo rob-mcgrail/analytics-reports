@@ -60,14 +60,19 @@ module Num
       @time_holder.each {|thing| times << thing}
       times
     else
+      
       if times.is_a?(Float) #this was then needed because nan? doesn't work for integers...
+        
         if times.nan? # this was necessary to stop some error on periods with no values (ie newish content)
           times = 0
         end
       end
       times = Time.at(times.to_i)
     end
+    
     times
   end
+  
+  
 end
 
