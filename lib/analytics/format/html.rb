@@ -1,4 +1,4 @@
-class HTML
+class HTML < Format
   include Charts
   attr_accessor :x
   
@@ -55,7 +55,6 @@ class HTML
         @x.img("src"=>@logo)
       }
     }
-
 
   end
 
@@ -133,31 +132,22 @@ class HTML
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @x.tag!(struct.title + "_section") {
-      @x.reporting {
-        @x.tag!(struct.title, struct.r)
+    @x.div("id" => "block"){
+      @x.div("id" => "reporting_block"){
+        @x.span("#{struct.title}: #{struct.r}", "id" => "block_value_title")
       }
-      @x.previous {
-        @x.tag!(struct.title, struct.p_value)
-        @x.tag!("#{struct.title}" + "_change", struct.p_change)
-        if struct.p_arrow =~ /png|jpg|bmp/
-          @x.tag!("#{struct.title}" + "_arrow"){
-            @x.external_graphic(struct.p_arrow)
-          }
-        else
-          @x.tag!("#{struct.title}" + "_arrow", struct.p_arrow)
-        end
+      @x.div("id" => "previous_block"){
+        @x.span("Previous", "id"=>"label")
+        @x.span("#{struct.p_change} ", "id" => "block_value_change")
+        @x.img("src"=> struct.p_arrow)
+        @x.span("#{struct.p_value}", "id" => "block_value_second")
       }
-      @x.baseline {
-        @x.tag!(struct.title, struct.b_value)
-        @x.tag!("#{struct.title}" + "_change", struct.b_change)
-        if struct.b_arrow =~ /png|jpg|bmp/
-          @x.tag!("#{struct.title}" + "_arrow"){
-            @x.external_graphic(struct.b_arrow)
-          }
-        else
-          @x.tag!("#{struct.title}" + "_arrow", struct.b_arrow)
-        end      }
+      @x.div("id" => "baseline_block"){
+        @x.span("Baseline", "id"=>"label")
+        @x.span("#{struct.b_change} ", "id" => "block_value_change")
+        @x.img("src"=> struct.b_arrow)
+        @x.span("#{struct.b_value}", "id" => "block_value_second")
+      }
     }
 
   end
@@ -170,8 +160,9 @@ class HTML
 
     src = Charts.bar_series(struct.title, struct.data[0])
 
-    @x.series_graph{
-      @x.external_graphic(src)
+    @x.div("id"=>"bar_series_graph"){
+      @x.span("#{struct.title}", "id"=>"graph_title")
+      @x.img("src"=>src)
     }
   end
   
@@ -188,8 +179,9 @@ class HTML
 
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
-    @x.comparison_bar{
-      @x.external_graphic(src)
+    @x.div("id"=>"comparison_graph"){
+      @x.span("#{struct.title}", "id"=>"graph_title")
+      @x.img("src"=>src)
     }
   end
   
@@ -207,8 +199,9 @@ class HTML
   
     src = Charts.labelled_series(struct.title, struct.data[0], struct.keys)
   
-    @x.labelled_series{
-      @x.external_graphic(src)
+    @x.div("id"=>"labelled_series"){
+      @x.span("#{struct.title}", "id"=>"graph_title")
+      @x.img("src"=>src)
     }
   end
 
@@ -221,8 +214,9 @@ class HTML
     
     src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
     
-    @x.main_graph{
-      @x.external_graphic(src)
+    @x.div("id"=>"main_graph"){
+      @x.span("#{struct.title}", "id"=>"graph_title")
+      @x.img("src"=>src)
     }
   end
   
@@ -243,6 +237,7 @@ class HTML
   def finish
     # self.copy_assets
     $display.tell_user "Putting html output in to $collector. Access with $collector.html"
+    
     #$collector.html = self.wash @collector             # wash out caps, spaces and slashes from tags, in xml.rb
     
     $collector.html = @collector
