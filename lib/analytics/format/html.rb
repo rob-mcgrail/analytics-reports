@@ -166,7 +166,6 @@ class HTML < Format
     src = Charts.bar_series(struct.title, struct.data[0])
 
     @x.div("id"=>"bar_series_graph"){
-      @x.span("#{struct.title}", "id"=>"graph_title")
       @x.img("src"=>src)
     }
   end
@@ -185,7 +184,6 @@ class HTML < Format
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
     @x.div("id"=>"comparison_graph"){
-      @x.span("#{array[0]}", "id"=>"graph_title")
       @x.img("src"=>src)
     }
   end
@@ -205,7 +203,6 @@ class HTML < Format
     src = Charts.labelled_series(struct.title, struct.data[0], struct.keys)
   
     @x.div("id"=>"labelled_series"){
-      @x.span("#{struct.title}", "id"=>"graph_title")
       @x.img("src"=>src)
     }
   end
@@ -220,7 +217,6 @@ class HTML < Format
     src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
     
     @x.div("id"=>"main_graph"){
-      @x.span("#{struct.title}", "id"=>"graph_title")
       @x.img("src"=>src)
     }
   end
@@ -264,7 +260,7 @@ class HTML < Format
     
     #copies css file
     if @stylesheet != nil
-      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{@stylesheet}"), $path + "/")
+      FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/css/#{@stylesheet}"), $path + "/")
     end
     
     #copies cwa logo
