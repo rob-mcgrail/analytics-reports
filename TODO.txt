@@ -6,3 +6,5 @@ Make unit tests for everything
 
 Make a helper for globals?
 
+Should probably give up on complete seperation of $format from report,
+	instead could make $formats all have class methods, as helpers, and then do all the initialization stuff in the report class?
