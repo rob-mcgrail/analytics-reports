@@ -19,21 +19,23 @@ class Biotech < Report
   end
   
   def main
-    $format.x.tag!("report"){self.front_page
+    $format.x.html{ 
+      $format.stylesheet
+      $format.x.body{ self.front_page
       
-                          self.country("New Zealand", "1223813495")
-                          self.country("Australia", "930734061")
-                          self.country("United States", "759299489")
-                     
-                          self.country_no_bounce("New Zealand > 2 min", "1132433923")  
-                             
-                          self.visitor_type("Search visitors", "-6")      
-                          self.visitor_type("New visitors", "-2")
-                          self.visitor_type("New visitors (New Zealand)", "2138653054")
-                          self.visitor_type("Returning", "-3")
-                          self.visitor_type("Returning (New Zealand)", "868866970")
-                          
-      }
+                      # self.country("New Zealand", "1223813495")
+                      # self.country("Australia", "930734061")
+                      # self.country("United States", "759299489")
+                      #            
+                      # self.country_no_bounce("New Zealand > 2 min", "1132433923")  
+                      #                    
+                      # self.visitor_type("Search visitors", "-6")      
+                      # self.visitor_type("New visitors", "-2")
+                      # self.visitor_type("New visitors (New Zealand)", "2138653054")
+                      # self.visitor_type("Returning", "-3")
+                      # self.visitor_type("Returning (New Zealand)", "868866970")
+      }                 
+    }
     
     
     
@@ -52,39 +54,36 @@ class Biotech < Report
     countries = CountrySource.new
     new_returning = NewVisits.new
     
-    $format.x.html{ 
-      $format.stylesheet
-      $format.x.body{  
+  
         $format.x.div("id"=>"page"){
-          $format.x.comment!("Header!")
-          $format.title("Sciencelearn.org.nz", "Traffic summary")
+          $format.x.comment!("Heading!")
+          $format.title("biotechlearn.org.nz", "Traffic summary")
           $format.date_section
 
 
 
-            $format.x.comment!("Main body!")
+          $format.x.comment!("Main body!")
 
-            $format.main_graph(visits.main_graph)
+          $format.main_graph(visits.main_graph)
 
-            $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
+          $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
 
-            $format.table(countries.processed_reporting(7))
+          $format.table(countries.processed_reporting(7))
 
-            $format.bar_series(visits.hours_graph)
+          $format.bar_series(visits.hours_graph)
 
-            $format.x.comment!("Right hand section!")
+          $format.x.comment!("Right hand section!")
 
-            $format.block_full(visits.three_with_changes) #blocks
-            $format.block_full(uniques.three_monthly_averages)
-            $format.block_full(bounces.three_with_changes)
-            $format.block_full(times.three_with_changes_as_averages)
-            $format.block_full(pages_visits.three_with_changes_per_visit)
+          $format.block_full(visits.three_with_changes) #blocks
+          $format.block_full(uniques.three_monthly_averages)
+          $format.block_full(bounces.three_with_changes)
+          $format.block_full(times.three_with_changes_as_averages)
+          $format.block_full(pages_visits.three_with_changes_per_visit)
 
 
-            $format.comparison(new_returning.reporting_only)      #bar
+          $format.comparison(new_returning.reporting_only)      #bar
         }
-      }
-    }
+
   end
   
   # def country(page = "-", segment = nil, segment_string = nil, modifier = nil)
