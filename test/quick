@@ -3,24 +3,86 @@ require File.expand_path(File.dirname(__FILE__) + "/session/btech.rb")
 
 $display = Unix.new
 Biotech_session.new
-$format = Fop.new
+$format = HTML.new
 
 
-# visits = Visits.new
-# bounces = BounceRate.new
-# countryvisits = CountryVisits.new("New Zealand")
-# new_returning = NewVisits.new
-# pages_visits = PageViews.new
-# times = Times.new
-# uniques = Uniques.new
-# countries = CountrySource.new
-# content = Content.new
-# nav = Navigation.new
 
+visits = Visits.new
+uniques = Uniques.new
+bounces = BounceRate.new
+times = Times.new
+pages_visits = PageViews.new
+traffic_sources = WebSources.new
+countries = CountrySource.new
+new_returning = NewVisits.new
 depth = Depth.new
 length = Length.new
 
-s = $format.wash($format.labelled_series(depth.basic_five))
-s << $format.wash($format.labelled_series(length.basic_five))
+$format.x.comment!("Main body testing!")
 
-puts s
+$format.header("sciencelearn.org.nz", "main page things")
+
+    $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
+
+    $format.table(countries.processed_reporting(7))
+    
+    $format.x.div("id" => "details_block"){
+      
+        $format.block_full(visits.three_with_changes) #blocks
+        $format.block_full(uniques.three_monthly_averages)
+        $format.block_full(bounces.three_with_changes)
+        $format.block_full(times.three_with_changes_as_averages)
+        $format.block_full(pages_visits.three_with_changes_per_visit)
+
+    }
+
+
+$format.finish
+
+$collector.output.each {|s| puts s}
+
+# s = $format.wash($format.labelled_series(depth.basic_five))
+# s << $format.wash($format.labelled_series(length.basic_five))
+# 
+# puts s
+
+
+# visits = Visits.new
+# uniques = Uniques.new
+# bounces = BounceRate.new
+# times = Times.new
+# pages_visits = PageViews.new
+# traffic_sources = WebSources.new
+# countries = CountrySource.new
+# new_returning = NewVisits.new
+# 
+# 
+# $format.x.tag!(title){
+#   $format.x.comment!("Header!")
+#   $format.title("Sciencelearn.org.nz", "Traffic summary")
+#   $format.date_section
+# 
+# 
+# 
+#     $format.x.comment!("Main body!")
+# 
+# 
+#     $format.main_graph(visits.main_graph)
+# 
+#     $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
+# 
+#     $format.table(countries.processed_reporting(7))
+# 
+#     $format.bar_series(visits.hours_graph)
+# 
+#     $format.x.comment!("Right hand section!")
+# 
+#     $format.block_full(visits.three_with_changes) #blocks
+#     $format.block_full(uniques.three_monthly_averages)
+#     $format.block_full(bounces.three_with_changes)
+#     $format.block_full(times.three_with_changes_as_averages)
+#     $format.block_full(pages_visits.three_with_changes_per_visit)
+# 
+# 
+#     $format.comparison(new_returning.reporting_only)      #bar
+# }
