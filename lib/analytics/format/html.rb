@@ -1,5 +1,6 @@
 class HTML
   include Charts
+  attr_accessor :x
   
   def initialize(stylesheet = nil, logo = nil)
     if !defined? $collector
@@ -37,6 +38,8 @@ class HTML
     @grey_down = 'down_grey.png'
     @equals = 'equals.png'
     
+    @logo = "logo.png" #defining the logo file, if there is one
+    
   end
   
   def header(page_title = "Enter a title!", page_category = "Enter a category!") #pass you title and category in at this point...
@@ -45,10 +48,14 @@ class HTML
 
     @x.comment!("header!")
 
-    @x.header {
+    @x.div("id"=>"header"){
       self.title(page_title, page_category)
       self.date_section
+      @x.div("id"=>"logo"){
+        @x.img("src"=>@logo)
+      }
     }
+
 
   end
 
@@ -58,20 +65,29 @@ class HTML
 
     #prints title and category
 
-    @x.title_section {
-      @x.title("#{page_title}")
-      @x.category("#{page_category}")
+    @x.div("id"=>"title"){
+      @x.h1("#{page_title}")
+      @x.span("id"=>"category"){
+        @x.p("#{page_category}")
+      }
     }
+    
   end
 
   def date_section
 
     #prints the dates
 
-    @x.dates {
-      @x.tag!("reporting", "#{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}")
-      @x.tag!("previous", "#{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}")
-      @x.tag!("baseline", "#{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}")
+    @x.div("id"=>"dates"){
+      @x.p("id"=>"date"){
+        @x.span("Reporting period #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}", "id"=>"date_value")
+      }
+      @x.p("id"=>"date"){
+        @x.span("Previous period #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}", "id"=>"date_value")
+      }
+      @x.p("id"=>"date"){
+        @x.span("Baseline period #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}", "id"=>"date_value")
+      }
     }
 
   end
@@ -214,10 +230,13 @@ class HTML
 
   
   def finish
-    self.copy_assets
-    $display.tell_user "Putting xml output in to $collector. Access with $collector.fop"
-    $collector.fop = self.wash @collector             # wash out caps, spaces and slashes from tags, in xml.rb
-    $collector.output << $collector.fop               # for compatibility with other classes use of $collector
+    # self.copy_assets
+    $display.tell_user "Putting html output in to $collector. Access with $collector.html"
+    #$collector.html = self.wash @collector             # wash out caps, spaces and slashes from tags, in xml.rb
+    
+    $collector.html = @collector
+    
+    $collector.output << $collector.html               # for compatibility with other classes use of $collector
   end
   
   def copy_assets
