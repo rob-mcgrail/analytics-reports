@@ -37,9 +37,14 @@ class HTML < Format
     @grey_up = 'up_grey.png'
     @grey_down = 'down_grey.png'
     @equals = 'equals.png'
-    
-    @logo = "logo.png" #defining the logo file, if there is one
-    
+        
+  end
+  
+  def stylesheet
+    @x.comment!("stylehseet!")
+    @x.head{
+      x.link("rel"=>"stylesheet", "type"=>"text/css", "href"=>"#{@stylesheet}")
+    }
   end
   
   def header(page_title = "Enter a title!", page_category = "Enter a category!") #pass you title and category in at this point...
@@ -180,7 +185,7 @@ class HTML < Format
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
     @x.div("id"=>"comparison_graph"){
-      @x.span("#{struct.title}", "id"=>"graph_title")
+      @x.span("#{array[0]}", "id"=>"graph_title")
       @x.img("src"=>src)
     }
   end
@@ -220,25 +225,25 @@ class HTML < Format
     }
   end
   
-  def wash(xml)
-    xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-
-    xml.gsub!("&amp;", "&")     # washing escapes!
-
-    xml.gsub!(/<\/?[^>]*>/) do |match|
-      match.downcase!
-      match.gsub(" ", "_")
-    end
-        
-   xml
-  end
+  # def wash(xml)
+  #   xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
+  # 
+  #   xml.gsub!("&amp;", "&")     # washing escapes!
+  # 
+  #   xml.gsub!(/<\/?[^>]*>/) do |match|
+  #     match.downcase!
+  #     match.gsub(" ", "_")
+  #   end
+  #       
+  #  xml
+  # end
 
   
   def finish
-    # self.copy_assets
+    self.copy_assets
     $display.tell_user "Putting html output in to $collector. Access with $collector.html"
     
-    #$collector.html = self.wash @collector             # wash out caps, spaces and slashes from tags, in xml.rb
+    #$collector.html = self.wash @collector            # wash out caps, spaces and slashes from tags, in xml.rb
     
     $collector.html = @collector
     
@@ -257,7 +262,7 @@ class HTML < Format
       FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/arrows/#{file}"), $path + "/")
     end
     
-    #copies xsl-fo file
+    #copies css file
     if @stylesheet != nil
       FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/xsl/#{@stylesheet}"), $path + "/")
     end
