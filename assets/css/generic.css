@@ -11,7 +11,10 @@ div#page {
 	border-color: green;
 	
 	width: 730pt;
+	max-width: 730pt;
+	
 	height: 480pt;
+	max-height: 480pt;
 	
 	margin-top: 20pt;
 	margin-bottom: 15pt;	
