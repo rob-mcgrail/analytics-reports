@@ -103,7 +103,8 @@ class HTML < Format
     #and :rows, an array of arrays of data.
  
     @x.div("id" => "table"){
-      @x.table("id" => "#{struct.title}"){
+      @x.h3("#{struct.title}")
+      @x.table("id" => "info"){
           if struct.header != nil
           
             if struct.header.length != struct.rows[0].length
@@ -129,6 +130,18 @@ class HTML < Format
     }
     
   end
+  
+  def block_section_title
+    
+    @x.table("id" => "block_section_title"){
+      @x.tr{
+        @x.td("Reporting")
+        @x.td("Previous")
+        @x.td("Baseline")
+      }
+    }
+    
+  end
 
   def block_full(struct)
 
@@ -137,23 +150,48 @@ class HTML < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
+    # @x.div("id" => "block"){
+    #   @x.div("id" => "reporting_block"){
+    #     @x.span("#{struct.title}: #{struct.r}", "id" => "block_value_title")
+    #   }
+    #   @x.div("id" => "previous_block"){
+    #     @x.span("Previous", "id"=>"label")
+    #     @x.span("#{struct.p_change} ", "id" => "block_value_change")
+    #     @x.img("src"=> struct.p_arrow, "id" => "arrow")
+    #     @x.span("#{struct.p_value}", "id" => "block_value_second")
+    #   }
+    #   @x.div("id" => "baseline_block"){
+    #     @x.span("Baseline", "id"=>"label")
+    #     @x.span("#{struct.b_change} ", "id" => "block_value_change")
+    #     @x.img("src"=> struct.b_arrow, "id" => "arrow")
+    #     @x.span("#{struct.b_value}", "id" => "block_value_second")
+    #   }
+    # }
+    
     @x.div("id" => "block"){
-      @x.div("id" => "reporting_block"){
-        @x.span("#{struct.title}: #{struct.r}", "id" => "block_value_title")
+      @x.table("id" => "block"){
+        
+        @x.tr{
+          @x.th("id"=>"block_value_title"){
+            @x.span("#{struct.title}: #{struct.r}", "id"=>"block_value_title")
+          }
+          @x.th("id" => "value"){
+            @x.span("#{struct.p_change}", "id"=>"change")
+            @x.img("src"=> struct.p_arrow, "id" => "arrow") 
+            }
+          @x.th("id" => "value"){
+            @x.span("#{struct.b_change}", "id"=>"change")
+            @x.img("src"=> struct.b_arrow, "id" => "arrow")
+            }
+          }
+          
+        @x.tr{
+          @x.td("")
+          @x.td("#{struct.p_value}", "id" => "value")
+          @x.td("#{struct.b_value}", "id" => "value")
+          }
+        }
       }
-      @x.div("id" => "previous_block"){
-        @x.span("Previous", "id"=>"label")
-        @x.span("#{struct.p_change} ", "id" => "block_value_change")
-        @x.img("src"=> struct.p_arrow)
-        @x.span("#{struct.p_value}", "id" => "block_value_second")
-      }
-      @x.div("id" => "baseline_block"){
-        @x.span("Baseline", "id"=>"label")
-        @x.span("#{struct.b_change} ", "id" => "block_value_change")
-        @x.img("src"=> struct.b_arrow)
-        @x.span("#{struct.b_value}", "id" => "block_value_second")
-      }
-    }
 
   end
 
@@ -166,6 +204,7 @@ class HTML < Format
     src = Charts.bar_series(struct.title, struct.data[0])
 
     @x.div("id"=>"bar_series_graph"){
+      @x.h3("#{struct.title}")
       @x.img("src"=>src)
     }
   end
@@ -184,7 +223,8 @@ class HTML < Format
     src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
     
     @x.div("id"=>"comparison_graph"){
-      @x.img("src"=>src)
+      @x.span("#{array[0]} / #{array[1]}", "id"=>"comparison_value_title")
+      @x.img("src"=>src, "id"=>"comparison_value_graph")
     }
   end
   
@@ -203,6 +243,7 @@ class HTML < Format
     src = Charts.labelled_series(struct.title, struct.data[0], struct.keys)
   
     @x.div("id"=>"labelled_series"){
+      @x.h3("#{struct.title}")
       @x.img("src"=>src)
     }
   end
@@ -217,22 +258,23 @@ class HTML < Format
     src = Charts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
     
     @x.div("id"=>"main_graph"){
-      @x.img("src"=>src)
+      @x.h3("#{struct.title}")
+      @x.img("src"=>src, "width"=>"600")
     }
   end
   
-  # def wash(xml)
-  #   xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-  # 
-  #   xml.gsub!("&amp;", "&")     # washing escapes!
-  # 
-  #   xml.gsub!(/<\/?[^>]*>/) do |match|
-  #     match.downcase!
-  #     match.gsub(" ", "_")
-  #   end
-  #       
-  #  xml
-  # end
+  def wash(xml)
+    xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
+  
+    xml.gsub!("&amp;", "&")     # washing escapes!
+  
+    xml.gsub!(/<\/?[^>]*>/) do |match|
+      match.downcase!
+      match.gsub(" ", "_")
+    end
+        
+   xml
+  end
 
   
   def finish
@@ -267,6 +309,8 @@ class HTML < Format
     if @logo != nil
       if @logo == "cwa"
         FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/logos/cwa_logo.png"), $path + "/")
+      else
+        FileUtils.cp(File.expand_path(File.dirname(__FILE__) + "/../../../assets/logos/#{@logo}"), $path + "/")
       end
     end
   end
