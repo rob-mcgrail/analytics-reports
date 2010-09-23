@@ -24,7 +24,9 @@ module Charts
     labels << '23:00 NZT'     #last time
     
     Gchart.bar(:data => data, 
-              :title => title, 
+              # :title => title,
+              # :custom => '&chts=030000,11.5',
+              
               :bar_colors => color,
               :size => size,
               :axis_with_labels => 'x',
@@ -49,7 +51,10 @@ module Charts
     filename = "labelled_series" + "#{DateTime.now.strftime("%d%m%M%S")}.png"    
     
     Gchart.bar(:data => data,
-               :title => title,
+
+               # :title => title,
+               # :custom => '&chts=030000,11.5',
+               
                :bar_colors => color,
                :orientation => 'horizontal',
                :size => size,
@@ -62,7 +67,7 @@ module Charts
     filename
   end
   
-  def Charts.comparison(title, value1, value_title1, value_title2, size = "320x60")
+  def Charts.comparison(title, value1, value_title1, value_title2, size = "250x60")
 
     if value1.is_a? String
       s = value1.to_i
@@ -72,7 +77,10 @@ module Charts
     filename = "comparison" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
     Gchart.bar(:data => [[value1.to_i], [100]],
-               :title => title, 
+
+               # :title => title,
+               # :custom => '&chts=030000,11.5',
+               
                :bar_colors => ['5A9D5A','224499'],
                :size => size,
                :orientation => 'horizontal',
@@ -84,7 +92,7 @@ module Charts
       filename
   end
   
-  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "710x200")
+  def Charts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, size = "600x200")
     
     filename = "large_linegraph" + "#{DateTime.now.strftime("%d%m%M%S")}.png"
     
@@ -92,15 +100,20 @@ module Charts
     max = a.max
     
     Gchart.line(:data => [data1, data2, data3],
-               :title => title,
+
+               # :title => title,
+               # :custom => '&chts=030000,11.5',
+
                :size => size,
                :legend => [data_title1, data_title2, data_title3],
+               :custom => '&chdlp=t',
                :bar_colors => ['5A9D5A','224499', 'FF9900'],
                :axis_with_labels => ['y'],
                :axis_labels => [[0, "#{max}"]],
                :format => 'file',
                :filename => "#{$path}" + "/" + filename
                )
+               
         
     filename
   end
