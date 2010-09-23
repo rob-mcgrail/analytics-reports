@@ -1,4 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + "/format/gchart.rb") #module
+require File.expand_path(File.dirname(__FILE__) + "/format/scruff.rb") #module
 
 require File.expand_path(File.dirname(__FILE__) + "/format/format.rb") #parent
 
