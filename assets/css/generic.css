@@ -7,7 +7,7 @@ page-break-after: always;
 
 div#page {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: green;
 	
 	width: 730pt;
@@ -18,4 +18,144 @@ div#page {
 	
 	margin-top: 20pt;
 	margin-bottom: 15pt;	
+}
+
+* {
+	font-family: helvetica;
+}
+
+div#header{
+	padding-left: 5pt;
+	border-bottom-style:solid;
+	border-width:1pt;
+	line-height:3pt;
+}
+
+table#block_section_title{
+	width:80pt;
+	float:left;
+}
+
+div#title{
+	line-height:10pt;
+	padding-top:27pt;
+	
+}
+
+div#dates{
+	margin: 0pt;
+	position:absolute;
+	top:58pt;
+	left:595pt;
+	float:right;
+	
+}
+
+div#logo{
+	
+	position:absolute;
+	top:20pt;
+	left:631pt;
+}
+
+span#date_value{
+	
+	font-size:8pt;
+	font-weight:bold;
+	line-height:0pt;
+
+}
+
+h3 {
+	font-size: 10pt;
+	line-height:0pt;
+	padding-top:5pt;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+table#info{
+	width: 230pt;
+}
+
+table#info th {
+	text-align:left;
+	color: #555;
+	border-bottom: 1pt solid black;
+}
+
+
+table, th, td{
+/*	border: 0.5pt solid green;
+*/}
+
+
+
+div#table{
+	padding-right:10pt;
+	float:left;
+}
+
+div#bar_series_graph{
+	position:absolute;
+	top:440pt;
+}
+
+td, th {
+	padding:2.3pt;
+	font-size: 9pt;
+}
+
+
+
+h1 {
+	margin-bottom:0pt;
+}
+
+span#category {
+	font-size: 10pt;
+	
+}
+
+div#block_section {
+	font-size: 10pt;
+	position: absolute;
+	left: 510pt;
+	top: 112pt;	
+}
+
+div#block {
+	padding:3pt;
+}
+
+table#block {
+	width: 210pt;
+}
+
+table#block td, th {
+	width:70pt;
+}
+
+span#block_value_title{
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+#value{
+	text-align:center;
+}
+
+th#block_value_title{
+	float:left;
+	text-align:left;
+	width: 150px;
+}
+
+span#block_value_change{
+}
+
+span#block_value_second{
+	
 }
