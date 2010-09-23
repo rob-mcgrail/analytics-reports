@@ -120,9 +120,9 @@ class Visits
 
   def baseline_average
     if @baseline_average.nil?
-      @baseline_average = self.average_by_period
+      @baseline_average = self.average_by_period.to_i
     end
-    @baseline_average.to_i
+    @baseline_average
   end
 
   def previous_change
