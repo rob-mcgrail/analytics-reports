@@ -57,8 +57,7 @@ class Biotech < Report
   
         $format.x.div("id"=>"page"){
           $format.x.comment!("Heading!")
-          $format.title("biotechlearn.org.nz", "Traffic summary")
-          $format.date_section
+          $format.header("biotechlearn.org.nz", "Traffic summary")
 
 
 
@@ -73,15 +72,21 @@ class Biotech < Report
           $format.bar_series(visits.hours_graph)
 
           $format.x.comment!("Right hand section!")
+          
+          $format.x.div("id" => "block_section"){
+            
+              $format.block_section_title
+          
+              $format.block_full(visits.three_with_changes) #blocks
+              $format.block_full(uniques.three_monthly_averages)
+              $format.block_full(bounces.three_with_changes)
+              $format.block_full(times.three_with_changes_as_averages)
+              $format.block_full(pages_visits.three_with_changes_per_visit)
+              
+              $format.comparison(new_returning.reporting_only)      #bar
+              
+            }
 
-          $format.block_full(visits.three_with_changes) #blocks
-          $format.block_full(uniques.three_monthly_averages)
-          $format.block_full(bounces.three_with_changes)
-          $format.block_full(times.three_with_changes_as_averages)
-          $format.block_full(pages_visits.three_with_changes_per_visit)
-
-
-          $format.comparison(new_returning.reporting_only)      #bar
         }
 
   end
