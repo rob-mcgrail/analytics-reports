@@ -110,18 +110,101 @@ class TXT < Format
   end
 
 
-  # def wash(txt)
-  #   txt.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-  # 
-  #   txt.gsub!("&amp;", "&")     # washing escapes!
-  # 
-  #   txt.gsub!(/<\/?[^>]*>/) do |match|
-  #     match.downcase!
-  #     match.gsub(" ", "_")
-  #   end
-  #       
-  #  txt
-  # end
+  def block_full(struct)
+
+    #prints a value with previous and baseline changes
+    #expects an ostruct containing:
+
+    #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
+
+    @collector << "#{struct.title} | Main Graph\n\n"
+
+    @collector << "#{struct.r}" 
+
+    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{p_arrow}]"
+    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{b_arrow}]"
+    
+  end
+  
+  def comparison(array)
+
+    #prints a bar divided between two proportions
+    #expects an array with 3, and only 3, values
+
+    if array.length != 3
+      raise "Passed the TXT.relative method an array that is the wrong length. It should be three."
+    end
+
+    #make changes to the values so one is 100, one is itself
+
+    @collector << "#{array[0]}" + " / " + "#{array[1]}"
+    
+    @collector << "     #{array[2]}"
+
+  end
+  
+  def labelled_series(struct)
+    
+    #
+    # gets chart class to return a png of the depth or length of visit style bar graph
+    #
+    # expects a :title, :data (array), :keys (array of strings)
+    #
+  
+    if struct.data[0].length != struct.keys.length
+      raise "Passed the TXT.labelled_series a different ammount of values and keys..."
+    end
+    
+    values = data[0]
+    x = struct.keys.length
+    i = 0
+    
+    @collector << "#{struct.title}\n"
+    
+    while x > 0
+      @collector << "   #{struct.key[i]}:    #{values[i]}"
+    
+      i+=1
+      x-=1
+    end
+    
+  end
+
+  def main_graph(struct) #not refactored yet as it is done with google currently
+
+    #makes the big three line graph
+
+    #intended to make a lingraph with to flat averages
+    #but could make a genuine three line graph if passed right
+
+    #recieves ostruct containing .title (string)
+    #                            .key (array of strings)
+    #                            .data (an array of arrays - each array contains the data values)
+
+    @collector << "#{struct.title} | Main Graph\n\n"
+    
+    @collector << "     #{struct.title} | previous ave: #{struct.data[1].first}\n\n"
+    
+    @collector << "     #{struct.title} | baseline ave: #{struct.data[2].first}\n\n"
+
+    @collector << "     #{struct.title} | reporting:\n\n"
+
+    struct.data[0].each {|i| @collector << i}
+
+  end
+  
+  def bar_series(struct)  #not refactored yet as it is done with google currently
+
+    #prints a bargraph for a single series
+    #expects an ostruct containing:
+
+    # title, series (an array of values)
+
+    @collector << "#{struct.title} | Bar series\n\n"
+
+    struct.data[0].each {|i| @collector << i}
+
+  end  
 
 
   def finish
