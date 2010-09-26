@@ -1,4 +1,6 @@
-def Keywords
+class Keywords
+  attr_reader :all_results
+  
   
   def initialize
     @start_date_reporting = $periods.start_date_reporting
@@ -51,8 +53,8 @@ def Keywords
 
     hash = { :title => "Search keywords", :table_id => "search_keywords", :header => header, :rows => rows}
   
-    @in_results = OpenStruct.new(hash)
-    @in_results
+    @all_results = OpenStruct.new(hash)
+    @all_results
   end
   
 end
