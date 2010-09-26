@@ -8,7 +8,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
   interface.authenticate_session
   interface.arbitrary_periods
   
-  report = WickedMonth.new
+  report = BioMonth.new
   report.name = "Wicked month report"
   
   $display.tell_user "I can take a little while..."
