@@ -32,7 +32,11 @@ module Num
 
 
   def Num.to_p (num, precision=0)
-    	"%.#{precision}f" % num + "%"
+      if num == nil
+        return 0
+      else
+    	  "%.#{precision}f" % num + "%"
+    	end
   end
 
   def Num.short (num, precision=0)
