@@ -22,8 +22,8 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 # this is usually in the /output/ folder, but change here to suit
 #
 
-  report = Biotech.new
-  report.name = "Biotech detailed report - testing"
+  report = BioMonth.new
+  report.name = "Biotech monthly report - testing"
   
   $display.tell_user "I tend to take a long time..."
   
