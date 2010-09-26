@@ -12,5 +12,6 @@ require File.expand_path(File.dirname(__FILE__) + "/api/content.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/countrysource.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/navigation.rb")
 require File.expand_path(File.dirname(__FILE__) + "/api/length.rb")
+require File.expand_path(File.dirname(__FILE__) + "/api/keywords.rb")
 
 
