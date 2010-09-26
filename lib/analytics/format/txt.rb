@@ -121,8 +121,8 @@ class TXT < Format
 
     @collector << "#{struct.r}" 
 
-    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{p_arrow}]"
-    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{b_arrow}]"
+    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{struct.p_arrow}]"
+    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{struct.b_arrow}]"
     
   end
   
@@ -155,14 +155,14 @@ class TXT < Format
       raise "Passed the TXT.labelled_series a different ammount of values and keys..."
     end
     
-    values = data[0]
+    values = struct.data[0]
     x = struct.keys.length
     i = 0
     
     @collector << "#{struct.title}\n"
     
     while x > 0
-      @collector << "   #{struct.key[i]}:    #{values[i]}"
+      @collector << "   #{struct.keys[i]}:    #{values[i]}"
     
       i+=1
       x-=1
@@ -189,7 +189,7 @@ class TXT < Format
 
     @collector << "     #{struct.title} | reporting:\n\n"
 
-    struct.data[0].each {|i| @collector << i}
+    struct.data[0].each {|i| @collector << i.to_s}
 
   end
   
@@ -202,7 +202,7 @@ class TXT < Format
 
     @collector << "#{struct.title} | Bar series\n\n"
 
-    struct.data[0].each {|i| @collector << i}
+    struct.data[0].each {|i| @collector << i.to_s}
 
   end  
 
