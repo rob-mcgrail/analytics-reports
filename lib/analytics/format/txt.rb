@@ -41,14 +41,14 @@ class TXT < Format
   def date_section
     @collector << "\n"
     
-    @collector << "Reporting period: #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}"
+    @collector << "Reporting period: #{$periods.start_date_reporting.strftime("%d/%m/%y")} - #{$periods.end_date_reporting.strftime("%d/%m/%y")}\n"
     
     if $periods.start_date_previous != nil
-      @collector << "Previous period: #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}"
+      @collector << "Previous period: #{$periods.start_date_previous.strftime("%d/%m/%y")} - #{$periods.end_date_previous.strftime("%d/%m/%y")}\n"
     end
     
     if $periods.start_date_baseline != nil
-      @collector << "Baseline period: #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}"
+      @collector << "Baseline period: #{$periods.start_date_baseline.strftime("%d/%m/%y")} - #{$periods.end_date_baseline.strftime("%d/%m/%y")}\n"
     end
     
   end
@@ -117,12 +117,12 @@ class TXT < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @collector << "#{struct.title} | Main Graph\n\n"
+    @collector << "\n   #{struct.title} | Main Graph\n\n"
 
-    @collector << "#{struct.r}" 
+    @collector << "#{struct.r}\n" 
 
-    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{struct.p_arrow}]"
-    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{struct.b_arrow}]"
+    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{struct.p_arrow}]\n"
+    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{struct.b_arrow}]\n"
     
   end
   
@@ -162,7 +162,7 @@ class TXT < Format
     @collector << "#{struct.title}\n"
     
     while x > 0
-      @collector << "   #{struct.keys[i]}:    #{values[i]}"
+      @collector << "   #{struct.keys[i]}:    #{values[i]}\n"
     
       i+=1
       x-=1
@@ -181,7 +181,7 @@ class TXT < Format
     #                            .key (array of strings)
     #                            .data (an array of arrays - each array contains the data values)
 
-    @collector << "#{struct.title} | Main Graph\n\n"
+    @collector << "\n#{struct.title} | Main Graph\n\n"
     
     @collector << "     #{struct.title} | previous ave: #{struct.data[1].first}\n\n"
     
@@ -189,7 +189,7 @@ class TXT < Format
 
     @collector << "     #{struct.title} | reporting:\n\n"
 
-    struct.data[0].each {|i| @collector << i.to_s}
+    struct.data[0].each {|i| @collector << "#{i}\n"}
 
   end
   
@@ -202,7 +202,7 @@ class TXT < Format
 
     @collector << "#{struct.title} | Bar series\n\n"
 
-    struct.data[0].each {|i| @collector << i.to_s}
+    struct.data[0].each {|i| @collector << "#{i}\n"}
 
   end  
 
