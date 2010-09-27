@@ -30,12 +30,14 @@ class Loyalty
   def basic_five
     
     self.reporting(5)
-    
-    @all_results = ["1 time = #{@reporting[0]}",
-                    "2 times = #{@reporting[1]}",
-                    "3 times = #{@reporting[2]}",
-                    "4 times = #{@reporting[3]}",
-                    ">4 times = #{@reporting[4]}"]
+                    
+    self.reporting(5)
+
+    keys_array = ["1 time", "2 times", "3 times", "4 times", ">4 times"]
+
+    hash = { :title => "Loyalty", :data => [@reporting], :keys => keys_array}
+
+    @all_results = OpenStruct.new(hash)
     @all_results
   end
   
