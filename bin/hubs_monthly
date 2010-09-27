@@ -8,17 +8,16 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
   interface.authenticate_session
   interface.arbitrary_periods
   
-  report = HubsMonth.new
-  report.name = "Biotech month report"
-  
-  $display.tell_user "I can take a little while..."
-  
-    report.session_startup('6076893')
-    report.main
-    report.end_game
+  # report = HubsMonth.new("Biotechlearn month report")
+  # report.name = "Biotech month report"
+  # 
+  # $display.tell_user "I can take a little while..."
+  # 
+  #   report.session_startup('6076893')
+  #   report.main
+  #   report.end_game
     
-  report = HubsMonth.new
-  report.name = "Sciencelearn month report"
+  report = HubsMonth.new("Sciencelearn month report")
 
   $display.tell_user "I can take a little while..."
 
