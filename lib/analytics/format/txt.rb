@@ -117,7 +117,7 @@ class TXT < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @collector << "\n   #{struct.title} | Main Graph\n\n"
+    @collector << "\n   #{struct.title} | Block\n\n"
 
     @collector << "#{struct.r}\n" 
 
