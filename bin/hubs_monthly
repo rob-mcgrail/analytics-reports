@@ -21,6 +21,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
   $format = TXT.new                             #for outputing report data
   
   $collector = OpenStruct.new
+  $collector.output = String.new
     
   report = HubsMonth.new("Sciencelearn month report")
 
