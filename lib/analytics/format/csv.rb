@@ -26,17 +26,29 @@ class CSV < Format
 
   def header(columns) #pass an array of the colums...
 
-    columns.each {|thing| @collector << "#{thing}, "}
-
-    @collector << "\n"
+    x = columns.length
+    i = 0
+    
+    while x > 1
+      @collector << "#{columns[i]}, "
+      i+=1
+    end
+    
+    @collector << "#{columns[i]}\n"
     
   end
   
   def values(values)
     
-    values.each {|thing| @collector << "#{thing}, "}
+    x = values.length
+    i = 0
     
-    @collector << "\n"
+    while x > 1
+      @collector << "#{values[i]}, "
+      i+=1
+    end
+    
+    @collector << "#{values[i]}\n"
     
   end
   
