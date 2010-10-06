@@ -37,51 +37,50 @@ class Searches
   def wash_to_query(results)
     
     results.each do |result|
+      
           
-      if s =~ /search\?SearchText=([a-z|\w|\s|_]+)/
+      if result.page_path =~ /\?SearchText=([a-z|0-9|A-Z|\w|\s|\+]+)/
         result.page_path = "#{$1}"
       end
-      
+    
+      if result.page_path =~ /SearchText=&/
+        result.page_path = nil
+      end
     end
     
-  end
-  
-  
-  def wash(xml)
-    xml.gsub!(/((\<|\<\/)([a-z|\w|\s|_])+)\//, "\\1-")  # washing forward slashes from tags
-
-    xml.gsub!("&amp;", "&")     # washing escapes!
-
-    xml.gsub!(/<\/?[^>]*>/) do |match|
-      match.downcase!
-      match.gsub(" ", "_")
+    washed_results = Array.new
+    
+    results.each do |washed_result|
+      
+      if washed_result.page_path != nil
+        washed_results << washed_result
+      end
     end
-        
-   xml
+    
+    @results_arbitrary = washed_results
   end
+  
+  
 
   def arbitrary(start_date, end_date)
-    
-    @content
-    
     report = Garb::Report.new($profile.garb,
                               :start_date => start_date,
                               :end_date => end_date)
 
 
     report.filters do
-      contains(:pagePath, "search?SearchText=")
+      contains(:pagePath, "SearchText")
     end
+
 
     report.metrics :pageviews
     report.dimensions :pagePath
     report.sort :pageviews.desc
 
-
     @results_arbitrary = Array.new
 
     report.results.each do |thing|
-
+      
       hash = { "page_path" => thing.page_path, "pageviews" => thing.pageviews.to_i}
 
       @results_arbitrary << OpenStruct.new(hash) #make in to array
