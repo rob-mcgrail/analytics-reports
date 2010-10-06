@@ -7,4 +7,5 @@ require File.expand_path(File.dirname(__FILE__) + "/format/xml.rb")
 require File.expand_path(File.dirname(__FILE__) + "/format/fop.rb") #inherits from XML
 require File.expand_path(File.dirname(__FILE__) + "/format/txt.rb")
 require File.expand_path(File.dirname(__FILE__) + "/format/html.rb")
+require File.expand_path(File.dirname(__FILE__) + "/format/csv.rb")
 
