@@ -1,4 +1,4 @@
-class Community_Usage < Report
+class CommunityUsage < Report
   
   def initialize(name = "Community Usage Stats")
     @name = name
@@ -83,8 +83,7 @@ class Community_Usage < Report
     
     returning_visits = visits.reporting - new_visits.reporting 
     
-    $format.values [@profile_name, visits.reporting, pageviews.reporting, uniques.reporting, new_visits.reporting, returning_visits]
-    
+    $format.values [@profile_name, visits.reporting, pageviews.reporting, uniques.reporting, new_visits.reporting, returning_visits] 
     
   end
   
