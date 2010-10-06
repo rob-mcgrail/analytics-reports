@@ -20,13 +20,15 @@ class PortalSearch < Report
   def all
     self.header
     self.queries
+    $format.finish
+    
   end
   
   def queries
     searches = Searches.new
     
     searches.reporting.each do |result|
-      $format.values [result.page_path.to_s, result.pageviews.to_s]
+      $format.values ["#{result.page_path}", "#{result.pageviews}"]
     end
     
   end
