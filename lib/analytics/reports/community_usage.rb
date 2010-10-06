@@ -2,65 +2,66 @@ class Community_Usage < Report
   
   def initialize(name = "Community Usage Stats")
     @name = name
-    @collector = Array.new
     @now = DateTime.now
-    @filepath = "output/#{@name}-#{$periods.start_date_reporting.strftime("%d%m%y")}-#{$periods.end_date_reporting.strftime("%d%m%y")}.csv"
-    @text_file = File.new(@filepath, "w+")
-    @profile_name = nil
+    
+    @dir = "community_usage"
+    @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
+    FileUtils.mkdir_p @path
+    @file = File.new(@path + "/#{@name.gsub(" ", "-").downcase}-#{@now.strftime("%d%m")}.csv",  "w+")
+    $path = @path #export path variable for formatting classes that need it
   end
   
   def all
     $display.tell_user("I tend to take a long time...")
     
     self.header
-    self.report("35630502", "Portal")
+    self.values("35630502", "Portal")
         
-    self.report("14745867", "Ako Panuku")
-    self.report("34260881", "Arts Online")
-    self.report("7922426", "Asia Knowledge")
-    self.report("10449435", "Assessment Online")
-    self.report("9760563", "Digital technology Guidelines")
-    self.report("10448201", "e-asTTle")
-    self.report("12471470", "Education for Enterprise")
-    self.report("9029662", "Education for Sustainability")
-    self.report("16845949", "Educational Leaders")
-    self.report("24247105", "e-Learning as Inquiry")
-    self.report("14920696", "English Online")
-    self.report("9371510", "EOTC/LEOTC")
-    self.report("14920893", "ESOL Online")
-    self.report("14962720", "He Kohinga Rauemi a Ipu Rangi (MLC)")
-    self.report("22192627", "Hoatu Homai")
-    self.report("22900702", "Home-School Partnerships")
-    self.report("24329144", "ICT Helpdesk")
-    self.report("19644726", "Key Competencies")
-    self.report("26488837", "Kia Mau")
-    self.report("10617005", "Ki te Auturoa (Instep)")
-    self.report("9969846", "Language immersion Opportunities")
-    self.report("8272347", "LEAP")
-    self.report("24247423", "Learning Languages Guides")
-    self.report("24247516", "Learning languages with ICTs")
-    self.report("14920959", "Literacy Online")
-    self.report("34229704", "Literacy Learning Progressions")
-    self.report("26200548", "Ma te Pouaka (Maori Teachers Notes)")
-    self.report("9226697", "NZ Curriculum")
-    self.report("36101231", "Pasifika")
-    self.report("9786892", "Professional Learning")
-    self.report("8272137", "Promoting Healthy Lifestyles")
-    self.report("23725351", "Putaiao")
-    self.report("10354806", "RTLB")
-    self.report("34006372", "Science Online")
-    self.report("9760559", "Senior Secondary Guidelines")
-    self.report("11978273", "Software for Learning")
-    self.report("9555576", "Sounds and Words")
-    self.report("7992968", "SSOL")
-    self.report("9371496", "Success for Boys")
-    self.report("23522664", "Taihape Area School")
-    self.report("16617864", "Te Reo Maori")
-    self.report("19752543", "Te tere Auraki")
+    self.values("14745867", "Ako Panuku")
+    self.values("34260881", "Arts Online")
+    self.values("7922426", "Asia Knowledge")
+    self.values("10449435", "Assessment Online")
+    self.values("9760563", "Digital technology Guidelines")
+    self.values("10448201", "e-asTTle")
+    self.values("12471470", "Education for Enterprise")
+    self.values("9029662", "Education for Sustainability")
+    self.values("16845949", "Educational Leaders")
+    self.values("24247105", "e-Learning as Inquiry")
+    self.values("14920696", "English Online")
+    self.values("9371510", "EOTC/LEOTC")
+    self.values("14920893", "ESOL Online")
+    self.values("14962720", "He Kohinga Rauemi a Ipu Rangi (MLC)")
+    self.values("22192627", "Hoatu Homai")
+    self.values("22900702", "Home-School Partnerships")
+    self.values("24329144", "ICT Helpdesk")
+    self.values("19644726", "Key Competencies")
+    self.values("26488837", "Kia Mau")
+    self.values("10617005", "Ki te Auturoa (Instep)")
+    self.values("9969846", "Language immersion Opportunities")
+    self.values("8272347", "LEAP")
+    self.values("24247423", "Learning Languages Guides")
+    self.values("24247516", "Learning languages with ICTs")
+    self.values("14920959", "Literacy Online")
+    self.values("34229704", "Literacy Learning Progressions")
+    self.values("26200548", "Ma te Pouaka (Maori Teachers Notes)")
+    self.values("9226697", "NZ Curriculum")
+    self.values("36101231", "Pasifika")
+    self.values("9786892", "Professional Learning")
+    self.values("8272137", "Promoting Healthy Lifestyles")
+    self.values("23725351", "Putaiao")
+    self.values("10354806", "RTLB")
+    self.values("34006372", "Science Online")
+    self.values("9760559", "Senior Secondary Guidelines")
+    self.values("11978273", "Software for Learning")
+    self.values("9555576", "Sounds and Words")
+    self.values("7992968", "SSOL")
+    self.values("9371496", "Success for Boys")
+    self.values("23522664", "Taihape Area School")
+    self.values("16617864", "Te Reo Maori")
+    self.values("19752543", "Te tere Auraki")
     
-    self.to_file
-    self.timer
-    self.path
+    $format.finish
+
   end
   
   def profile(profile, profile_name)
@@ -71,37 +72,24 @@ class Community_Usage < Report
     $profile.string = profile
   end
   
-  def report(profile, profile_name)
+  def values(profile, profile_name)
     
     self.profile(profile, profile_name)
     
-    @collector << @profile_name
-    @collector << ", "
-    
     visits = Visits.new
-    @collector << visits.reporting
-    @collector << ", "
-    
     pageviews = PageViews.new
-    @collector << pageviews.reporting
-    @collector << ", "
-    
     uniques = Uniques.new
-    @collector << uniques.reporting
-    @collector << ", "
-    
     new_visits = NewVisits.new
-    @collector << new_visits.reporting
-    @collector << ", "
     
     returning_visits = visits.reporting - new_visits.reporting 
-    @collector << returning_visits
-    @collector << "\n"
+    
+    $format.values [@profile_name, visits.reporting, pageviews.reporting, uniques.reporting, new_visits.reporting, returning_visits]
+    
     
   end
   
   def header
-    @collector << "Name, Visits, PageViews, Uniques/Visitors, New Visits, Returning Visits\n"
+    $format.header ["Name", "Visits", "PageViews", "Uniques/Visitors", "New Visits", "Returning Visits"]
   end
   
 end
