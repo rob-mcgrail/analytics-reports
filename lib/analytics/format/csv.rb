@@ -32,6 +32,7 @@ class CSV < Format
     while x > 1
       @collector << "#{columns[i]}, "
       i+=1
+      x-=1
     end
     
     @collector << "#{columns[i]}\n"
@@ -46,6 +47,7 @@ class CSV < Format
     while x > 1
       @collector << "#{values[i]}, "
       i+=1
+      x-=1
     end
     
     @collector << "#{values[i]}\n"
@@ -54,7 +56,7 @@ class CSV < Format
   
 
   def finish
-    $display.tell_user "Putting text output in to $collector. Access with $collector.txt"
+    $display.tell_user "Putting text output in to $collector. Access with $collector.csv"
     $collector.csv = @collector                       # wash out caps, spaces and slashes from tags
     $collector.output << $collector.csv               # for compatibility with other classes use of $collector
   end
