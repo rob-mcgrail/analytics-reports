@@ -9,7 +9,7 @@ interface = Startup.new
 interface.authenticate_session
 interface.select_reporting_period_arbitrary
 
-report = Community_Usage.new
+report = CommunityUsage.new
 
 report.all
-report.endgame
+report.end_game
