@@ -15,7 +15,7 @@ class WickedMonth < Report
   def session_startup
     $profile = Profile.new
     $profile.string = "WickED"
-    $profile.garb = Garb::Profile.first('14608700')
+    $profile.garb = Garb::Profile.first('36101231')
   end
   
   def main
