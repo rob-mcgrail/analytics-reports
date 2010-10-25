@@ -17,7 +17,6 @@ class CommunityUsage < Report
     self.header
     self.values("35630502", "Portal")
         
-    self.values("14745867", "Ako Panuku")
     self.values("34260881", "Arts Online")
     self.values("7922426", "Asia Knowledge")
     self.values("10449435", "Assessment Online")
