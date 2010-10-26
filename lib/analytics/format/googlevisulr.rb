@@ -57,7 +57,7 @@ module GVisualCharts
                        
     unique = "#{title}-#{rand(100000)}"
     
-    js = @chart.render("unique")
+    js = @chart.render(unique)
     
     $format.x.div("id"=>"#{unique}"){
       $format.collector << js
@@ -97,7 +97,7 @@ module GVisualCharts
 
       unique = "#{title}-#{rand(100000)}"
 
-      js = @chart.render("unique")
+      js = @chart.render(unique)
 
       $format.x.div("id"=>"#{unique}"){
         $format.collector << js
