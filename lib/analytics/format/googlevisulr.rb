@@ -1,7 +1,7 @@
 module GVisualCharts
   require File.expand_path(File.dirname(__FILE__) + "../../../../plugins/winston-google_visualr/init.rb")
   
-  def GVisualCharts.large_linegraph(title, data1, data2, data3, data_title1, data_title2, data_title3, width = 630, height = 200)
+  def GVisualCharts.large_linegraph(title, data1, data2, data3, dates, data_title1, data_title2, data_title3, width = 630, height = 200)
     
     @chart = GoogleVisualr::LineChart.new    
 
@@ -19,16 +19,14 @@ module GVisualCharts
     end
 
     @chart.add_rows(data1.length)
-    
-    # @chart.set_value(0, 0, "#{$periods.end_date_reporting.strftime("%d/%m/%y")}")
-    # @chart.set_value(data1.length - 1, 0, "#{$periods.end_date_reporting.strftime("%d/%m/%y")}")
 
-    # i = 1
-    # 
-    # while i < (data1.length - 1)
-    #   @chart.set_value(i, 0, "")
-    #   i+=1
-    # end
+    i = 0
+    
+    while i < (dates.length)
+      dates[i].gsub!("-", "/")
+      @chart.set_value(i, 0, dates[i])
+      i+=1
+    end    
 
     i = 0
     
@@ -39,14 +37,14 @@ module GVisualCharts
 
     i = 0
     
-    while i < (data1.length)
+    while i < (data2.length)
       @chart.set_value(i, 2, data2[i])
       i+=1
     end
     
     i = 0
     
-    while i < (data1.length)
+    while i < (data3.length)
       @chart.set_value(i, 3, data3[i])
       i+=1
     end
@@ -54,7 +52,10 @@ module GVisualCharts
     @chart.width = width
     @chart.height = height
     @chart.legend = "bottom"
-               
+    @chart.title = title
+    @chart.lineSize = 2
+    @chart.pointSize = 3
+                   
     chart = @chart.render("#{title}")
     
     puts chart
