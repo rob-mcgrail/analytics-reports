@@ -45,15 +45,16 @@ div#title{
 div#dates{
 	margin: 0pt;
 	top:58pt;
+	position: absolute;
 	left:595pt;
 	float:right;
 	
 }
 
 div#logo{
-	
 	top:20pt;
-	left:631pt;
+	position: absolute;
+	left:660pt;
 }
 
 span#date_value{
@@ -117,6 +118,7 @@ span#category {
 }
 
 div#block_section {
+	position: absolute;
 	font-size: 10pt;
 	left: 510pt;
 	top: 112pt;	
