@@ -24,10 +24,12 @@ module GVisualCharts
 
     i = 0; x = 1
     [data1, data2, data3].each do |array|
+      i = 0
       while i < (array.length)
         @chart.set_value(i, x, array[i])
-        i+=1; x+=1
+        i+=1
       end
+      x+=1
     end
 
     @chart.width = width
@@ -37,6 +39,7 @@ module GVisualCharts
     @chart.titleFontSize = 13
     @chart.lineSize = 2
     @chart.pointSize = 1
+    @chart.axisFontSize = 11
                        
     unique = "#{title}-#{rand(100000)}"
     
@@ -48,7 +51,7 @@ module GVisualCharts
 
   end
  
-  def GVisualCharts.bar_series(title, data, width = 730, height = 85)
+  def GVisualCharts.bar_series(title, data, width = 730, height = 90)
   
       if data[0].is_a? String
         a = Array.new
@@ -75,6 +78,7 @@ module GVisualCharts
       @chart.legend = "none"
       @chart.title = title
       @chart.titleFontSize = 13
+      @chart.axisFontSize = 11
       
 
       unique = "#{title}-#{rand(100000)}"
