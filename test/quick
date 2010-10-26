@@ -1,88 +1,35 @@
 require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
 require File.expand_path(File.dirname(__FILE__) + "/session/btech.rb")
 
-$display = Unix.new
-Biotech_session.new
-$format = HTML.new
+  $display = Unix.new                           #for printing to the screen
+  
+  Biotech_session.new
+  
+  $format = HTML.new("generic.css", "cwa_logo.png")       #for outputing report data
 
+#
+# set up done
+#
+#
+# basic session info captured
+#
 
+#
+# created a global path, made a directory etc for report output to go
+#
+# this is usually in the /output/ folder, but change here to suit
+#
 
-visits = Visits.new
-uniques = Uniques.new
-bounces = BounceRate.new
-times = Times.new
-pages_visits = PageViews.new
-traffic_sources = WebSources.new
-countries = CountrySource.new
-new_returning = NewVisits.new
-depth = Depth.new
-length = Length.new
+  report = Biotech.new
+  report.name = "Biotech monthly report - testing"
+  
+  $display.tell_user "I tend to take a long time..."
+  
 
-$format.x.comment!("Main body testing!")
+    report.start                #print details, make directory
 
-$format.header("sciencelearn.org.nz", "main page things")
-
-    $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
-
-    $format.table(countries.processed_reporting(7))
+    report.session_startup      #saves entering account details (you still authenticate with interface object above)
     
-    $format.x.div("id" => "details_block"){
-      
-        $format.block_full(visits.three_with_changes) #blocks
-        $format.block_full(uniques.three_monthly_averages)
-        $format.block_full(bounces.three_with_changes)
-        $format.block_full(times.three_with_changes_as_averages)
-        $format.block_full(pages_visits.three_with_changes_per_visit)
-
-    }
-
-
-$format.finish
-
-$collector.output.each {|s| puts s}
-
-# s = $format.wash($format.labelled_series(depth.basic_five))
-# s << $format.wash($format.labelled_series(length.basic_five))
-# 
-# puts s
-
-
-# visits = Visits.new
-# uniques = Uniques.new
-# bounces = BounceRate.new
-# times = Times.new
-# pages_visits = PageViews.new
-# traffic_sources = WebSources.new
-# countries = CountrySource.new
-# new_returning = NewVisits.new
-# 
-# 
-# $format.x.tag!(title){
-#   $format.x.comment!("Header!")
-#   $format.title("Sciencelearn.org.nz", "Traffic summary")
-#   $format.date_section
-# 
-# 
-# 
-#     $format.x.comment!("Main body!")
-# 
-# 
-#     $format.main_graph(visits.main_graph)
-# 
-#     $format.table(traffic_sources.processed_reporting_bounce_and_time(7))
-# 
-#     $format.table(countries.processed_reporting(7))
-# 
-#     $format.bar_series(visits.hours_graph)
-# 
-#     $format.x.comment!("Right hand section!")
-# 
-#     $format.block_full(visits.three_with_changes) #blocks
-#     $format.block_full(uniques.three_monthly_averages)
-#     $format.block_full(bounces.three_with_changes)
-#     $format.block_full(times.three_with_changes_as_averages)
-#     $format.block_full(pages_visits.three_with_changes_per_visit)
-# 
-# 
-#     $format.comparison(new_returning.reporting_only)      #bar
-# }
+    report.main                 #the report
+    
+    report.end_game             #print to file, print to screen, print time and path etc
