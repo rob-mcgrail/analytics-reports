@@ -10,49 +10,31 @@ module GVisualCharts
     @chart.add_column('number', data_title2)
     @chart.add_column('number', data_title3)
 
-    if data1.length != data2.length
-      raise "You are sending GVisualCharts.large_linegraph arrays off differing lengths"
-    end
-    
-    if data1.length != data3.length
+    if data1.length != (data2.length + data3.length)/2
       raise "You are sending GVisualCharts.large_linegraph arrays off differing lengths"
     end
 
     @chart.add_rows(data1.length)
 
     i = 0
-    
     while i < (dates.length)
       @chart.set_value(i, 0, dates[i].strftime("%e/%m"))
       i+=1
     end    
 
-    i = 0
-    
-    while i < (data1.length)
-      @chart.set_value(i, 1, data1[i])
-      i+=1
-    end
-
-    i = 0
-    
-    while i < (data2.length)
-      @chart.set_value(i, 2, data2[i])
-      i+=1
-    end
-    
-    i = 0
-    
-    while i < (data3.length)
-      @chart.set_value(i, 3, data3[i])
-      i+=1
+    i = 0; x = 1
+    [data1, data2, data3].each do |array|
+      while i < (array.length)
+        @chart.set_value(i, x, array[i])
+        i+=1; x+=1
+      end
     end
 
     @chart.width = width
     @chart.height = height
     @chart.legend = "bottom"
     @chart.title = title
-    @chart.titleFontSize = 10
+    @chart.titleFontSize = 13
     @chart.lineSize = 2
     @chart.pointSize = 1
                        
@@ -66,7 +48,7 @@ module GVisualCharts
 
   end
  
-  def GVisualCharts.bar_series(title, data, width = 710, height = 85)
+  def GVisualCharts.bar_series(title, data, width = 730, height = 85)
   
       if data[0].is_a? String
         a = Array.new
@@ -82,20 +64,17 @@ module GVisualCharts
       @chart.add_rows(data.length)
       
       i = 0
-
       while i < (data.length)
         @chart.set_value(i, 1, data[i])
         i+=1
       end
-      
-      # @chart.set_value(0, 0, '00:00 NZT')
-      # @chart.set_value(data.length - 1, 0, '23:00 NZT')
+
   
       @chart.width = width
       @chart.height = height
-      @chart.legend = "bottom"
+      @chart.legend = "none"
       @chart.title = title
-      @chart.titleFontSize = 10
+      @chart.titleFontSize = 13
       
 
       unique = "#{title}-#{rand(100000)}"
