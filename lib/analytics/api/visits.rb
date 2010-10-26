@@ -230,7 +230,9 @@ class Visits
     @arbitrary_dates = Array.new
 
     report.results.each {|thing| @arbitrary_list << thing.visits.to_i}
-    report.results.each {|thing| @arbitrary_dates << Date.strptime(thing.date, "%d%m%Y")}
+    report.results.each {|thing| @arbitrary_dates << Date.strptime(thing.date, "%m%d%Y")}
+
+    puts @arbitrary_dates
 
     @arbitrary_list
   end
