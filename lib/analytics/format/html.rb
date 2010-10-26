@@ -41,10 +41,14 @@ class HTML < Format
   end
   
   def stylesheet
-    @x.comment!("stylehseet!")
     @x.head{
-      x.link("rel"=>"stylesheet", "type"=>"text/css", "href"=>"#{@stylesheet}")
+      @x.comment!("stylehseet!")
+      @x.link("rel"=>"stylesheet", "type"=>"text/css", "href"=>"#{@stylesheet}")
+      @x.comment!("google visualisation api!")
+      @x.script("src"=>"http://www.google.com/jsapi"){
+      }
     }
+    
   end
   
   def header(page_title = "Enter a title!", page_category = "Enter a category!") #pass you title and category in at this point...
@@ -255,12 +259,12 @@ class HTML < Format
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
     
-    src = Scruff.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
+    js = GVisualCharts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
     
-    @x.div("id"=>"main_graph"){
-      @x.h3("#{struct.title}")
-      @x.object("data"=>src, "type"=>"image/svg+xml")
-    }
+    @x.div("id"=>"#{struct.title}"){
+      # @x.h3("#{struct.title}")
+        @collector << js
+      }
   end
   
   def wash(xml)
