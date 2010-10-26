@@ -1,6 +1,6 @@
 class HTML < Format
   include Charts
-  attr_accessor :x
+  attr_accessor :x, :collector
   
   def initialize(stylesheet = nil, logo = nil)
     if !defined? $collector
@@ -74,7 +74,10 @@ class HTML < Format
     #prints title and category
 
     @x.div("id"=>"title"){
-      @x.h1("#{page_title}")
+      @x.h1{
+        @x.span("#{page_title}", "id"=>"main_title")
+        @x.span(" #{$periods.start_date_reporting.strftime("%h %e").downcase} - #{$periods.end_date_reporting.strftime("%h %e").downcase}", "id"=>"h1_date")
+      }
       @x.span("id"=>"category"){
         @x.p("#{page_category}")
       }
@@ -205,12 +208,15 @@ class HTML < Format
 
         # title, series (an array of values)
 
-    src = Charts.bar_series(struct.title, struct.data[0])
+    chart = GVisualCharts.bar_series(struct.title, struct.data[0])
 
-    @x.div("id"=>"bar_series_graph"){
-      @x.h3("#{struct.title}")
-      @x.img("src"=>src)
-    }
+    unique = "#{title}-#{rand(100000)}"
+
+    @x.div("id"=>"#{unique}"){
+      # @x.h3("#{struct.title}")
+        js = chart.render("#{unique}")
+        @collector << js
+      }
   end
   
   def comparison(array)
@@ -259,10 +265,13 @@ class HTML < Format
     #intended to make a lingraph with to flat averages
     #but could make a genuine three line graph if passed right
     
-    js = GVisualCharts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.keys[0], struct.keys[1], struct.keys[2])
+    chart = GVisualCharts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.data[3], struct.keys[0], struct.keys[1], struct.keys[2])
     
-    @x.div("id"=>"#{struct.title}"){
+    unique = "#{title}-#{rand(100000)}"
+    
+    @x.div("id"=>"#{unique}"){
       # @x.h3("#{struct.title}")
+        js = chart.render("#{unique}")
         @collector << js
       }
   end
