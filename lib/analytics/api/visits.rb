@@ -90,7 +90,7 @@ class Visits
       x-=1
     end
 
-    data = [@reporting_list, line2_array, line3_array]
+    data = [@reporting_list, line2_array, line3_array, @reporting_dates]
 
     keys_array = ["Visits", "Average for previous", "Average for baseline"]  #add in the keys
 
