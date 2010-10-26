@@ -106,7 +106,10 @@ td, th {
 	font-size: 9pt;
 }
 
-
+div#hours{
+	padding-top: 20px;
+	padding-left: 0px;
+}
 
 h1 {
 	margin-bottom:0pt;
