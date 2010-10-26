@@ -114,7 +114,10 @@ class Biotech < Report
   
   
         $format.main_graph(visits.main_graph)
-        $format.bar_series(visits.hours_graph)
+        
+        $format.x.div("id"=>"hours"){
+          $format.bar_series(visits.hours_graph)
+        }
         
         $format.table(traffic_sources.processed_reporting_bounce_and_time(5))
         $format.table(engagement_pages.ordered_by_pageviews($periods.start_date_reporting, $periods.end_date_reporting, 8))
