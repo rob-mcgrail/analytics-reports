@@ -51,7 +51,7 @@ module GVisualCharts
 
   end
  
-  def GVisualCharts.bar_series(title, data, width = 730, height = 90)
+  def GVisualCharts.bar_series(title, data, width = 630, height = 90)
   
       if data[0].is_a? String
         a = Array.new
