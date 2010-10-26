@@ -52,6 +52,7 @@ module GVisualCharts
     @chart.height = height
     @chart.legend = "bottom"
     @chart.title = title
+    @chart.titleFontSize = 10
     @chart.lineSize = 2
     @chart.pointSize = 1
                        
@@ -92,8 +93,10 @@ module GVisualCharts
   
       @chart.width = width
       @chart.height = height
-      @chart.legend = "right"
+      @chart.legend = "bottom"
       @chart.title = title
+      @chart.titleFontSize = 10
+      
 
       unique = "#{title}-#{rand(100000)}"
 
