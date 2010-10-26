@@ -210,13 +210,6 @@ class HTML < Format
 
     chart = GVisualCharts.bar_series(struct.title, struct.data[0])
 
-    unique = "#{title}-#{rand(100000)}"
-
-    @x.div("id"=>"#{unique}"){
-      # @x.h3("#{struct.title}")
-        js = chart.render("#{unique}")
-        @collector << js
-      }
   end
   
   def comparison(array)
@@ -266,14 +259,7 @@ class HTML < Format
     #but could make a genuine three line graph if passed right
     
     chart = GVisualCharts.large_linegraph(struct.title, struct.data[0], struct.data[1], struct.data[2], struct.data[3], struct.keys[0], struct.keys[1], struct.keys[2])
-    
-    unique = "#{title}-#{rand(100000)}"
-    
-    @x.div("id"=>"#{unique}"){
-      # @x.h3("#{struct.title}")
-        js = chart.render("#{unique}")
-        @collector << js
-      }
+
   end
   
   def wash(xml)
