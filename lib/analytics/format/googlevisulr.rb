@@ -23,8 +23,7 @@ module GVisualCharts
     i = 0
     
     while i < (dates.length)
-      dates[i].gsub!("-", "/")
-      @chart.set_value(i, 0, dates[i])
+      @chart.set_value(i, 0, dates[i].strftime("%e/%m"))
       i+=1
     end    
 
@@ -54,7 +53,7 @@ module GVisualCharts
     @chart.legend = "bottom"
     @chart.title = title
     @chart.lineSize = 2
-    @chart.pointSize = 3
+    @chart.pointSize = 2
                    
     chart = @chart.render("#{title}")
     
