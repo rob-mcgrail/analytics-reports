@@ -23,7 +23,7 @@ class Biotech < Report
       $format.stylesheet
       $format.x.body{ self.front_page
       
-                      # self.country("New Zealand", "1223813495")
+                      self.country("New Zealand", "1223813495")
                       # self.country("Australia", "930734061")
                       # self.country("United States", "759299489")
                       #            
@@ -105,7 +105,7 @@ class Biotech < Report
     traffic_sources = WebSources.new
     engagement_pages = Content.new
     
-    $format.x.tag!(page){
+    $format.x.div("id"=>"page"){
       $format.x.comment!("Header!")
       $format.title(page, "By Country")
       $format.date_section
@@ -122,16 +122,21 @@ class Biotech < Report
         
         $format.x.comment!("Right hand section!")
   
-        $format.block_full(visits.three_with_changes) #blocks
-        $format.block_full(uniques.three_monthly_averages)
-        if modifier != "b"
-          $format.block_full(bounces.three_with_changes)
-        end        
-        $format.block_full(times.three_with_changes_as_averages)
-        $format.block_full(pages_visits.three_with_changes_per_visit)
+        $format.x.div("id" => "block_section-country"){
+          
+            $format.block_section_title
+          
+            $format.block_full(visits.three_with_changes) #blocks
+            $format.block_full(uniques.three_monthly_averages)
+            if modifier != "b"
+              $format.block_full(bounces.three_with_changes)
+            end        
+            $format.block_full(times.three_with_changes_as_averages)
+            $format.block_full(pages_visits.three_with_changes_per_visit)
   
-        $format.comparison(new_returning.reporting_only)      #bar
-         
+            $format.comparison(new_returning.reporting_only)      #bar
+            
+         }
     }
     
     $profile.segment = nil #reset
