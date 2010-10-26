@@ -53,13 +53,56 @@ module GVisualCharts
     @chart.legend = "bottom"
     @chart.title = title
     @chart.lineSize = 2
-    @chart.pointSize = 2
-                   
-    chart = @chart.render("#{title}")
+    @chart.pointSize = 1
+                       
+    unique = "#{title}-#{rand(100000)}"
     
-    puts chart
+    js = @chart.render("unique")
     
-    chart
+    $format.x.div("id"=>"#{unique}"){
+      $format.collector << js
+    }
+
   end
+ 
+  def GVisualCharts.bar_series(title, data, width = 710, height = 85)
   
+      if data[0].is_a? String
+        a = Array.new
+        data.each {|thing| a << thing.to_i}
+        data = a
+      end
+      
+      @chart = GoogleVisualr::ColumnChart.new
+      
+      @chart.add_column('string', 'Hour')
+      @chart.add_column('number', 'Visits')
+  
+      @chart.add_rows(data.length)
+      
+      i = 0
+
+      while i < (data.length)
+        @chart.set_value(i, 1, data[i])
+        i+=1
+      end
+      
+      # @chart.set_value(0, 0, '00:00 NZT')
+      # @chart.set_value(data.length - 1, 0, '23:00 NZT')
+  
+      @chart.width = width
+      @chart.height = height
+      @chart.legend = "right"
+      @chart.title = title
+
+      unique = "#{title}-#{rand(100000)}"
+
+      js = @chart.render("unique")
+
+      $format.x.div("id"=>"#{unique}"){
+        $format.collector << js
+      }
+
+  end
+    
 end
