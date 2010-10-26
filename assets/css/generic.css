@@ -44,7 +44,6 @@ div#title{
 
 div#dates{
 	margin: 0pt;
-	position:absolute;
 	top:58pt;
 	left:595pt;
 	float:right;
@@ -53,7 +52,6 @@ div#dates{
 
 div#logo{
 	
-	position:absolute;
 	top:20pt;
 	left:631pt;
 }
@@ -99,7 +97,6 @@ div#table{
 }
 
 div#bar_series_graph{
-	position:absolute;
 	top:440pt;
 }
 
@@ -121,7 +118,6 @@ span#category {
 
 div#block_section {
 	font-size: 10pt;
-	position: absolute;
 	left: 510pt;
 	top: 112pt;	
 }
