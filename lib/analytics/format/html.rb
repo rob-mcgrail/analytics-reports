@@ -219,9 +219,9 @@ class HTML < Format
   def comparison(array, title)
 
     #prints a bar divided between two proportions
-    #expects an array with 3, and only 3, values
+    #expects an array with 4 values
 
-    if array.length != 3
+    if array.length != 4
       raise "Passed the HTML.comparison method an array that is the wrong length. It should be three."
     end
 
