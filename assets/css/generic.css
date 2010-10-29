@@ -144,6 +144,11 @@ span#block_value_title{
 	font-weight: bold;
 }
 
+span#block_value{
+	font-size: 11pt;
+	font-weight: bold;
+}
+
 #value{
 	text-align:center;
 }
@@ -151,7 +156,13 @@ span#block_value_title{
 th#block_value_title{
 	float:left;
 	text-align:left;
-	width: 150px;
+	width: 100px;
+}
+
+th#block_value{
+	float:left;
+	text-align:left;
+	width: 50px;
 }
 
 span#block_value_change{
