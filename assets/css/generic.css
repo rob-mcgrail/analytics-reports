@@ -132,12 +132,12 @@ div#block {
 }
 
 table#block {
-	width: 220pt;
+	width: 240pt;
 }
 
 table#block td, th {
-	width:70pt;
-}
+/*	width:70pt;
+*/}
 
 span#block_value_title{
 	font-size: 11pt;
@@ -156,14 +156,14 @@ span#block_value{
 th#block_value_title{
 	float:left;
 	text-align:left;
-	width: 100px;
-}
+/*	width: 100px;
+*/}
 
 th#block_value{
 	float:left;
 	text-align:left;
-	width: 50px;
-}
+/*	width: 50px;
+*/}
 
 span#block_value_change{
 }
