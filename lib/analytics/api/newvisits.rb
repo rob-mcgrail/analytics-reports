@@ -61,9 +61,10 @@ class NewVisits
   end
   
   def reporting_only #made for the hubs report
-    self.reporting_percentage
+                     #fix this up so it returns a struct like all the others
+    self.reporting
     
-    @all_results = ["New", "Returning", "#{Num.short(reporting_percentage)}"]
+    @all_results = ["New", "Returning", @reporting, (@visit_totals.reporting - @reporting)]
     
     @all_results
   end
