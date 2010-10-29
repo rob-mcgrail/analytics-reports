@@ -83,7 +83,7 @@ class Biotech < Report
               $format.block_full(times.three_with_changes_as_averages)
               $format.block_full(pages_visits.three_with_changes_per_visit)
               
-              $format.comparison(new_returning.reporting_only)      #bar
+              $format.comparison(new_returning.reporting_only, 'New/Returning')      #bar
               
             }
 
@@ -137,7 +137,7 @@ class Biotech < Report
             $format.block_full(times.three_with_changes_as_averages)
             $format.block_full(pages_visits.three_with_changes_per_visit)
   
-            $format.comparison(new_returning.reporting_only)      #bar
+            $format.comparison(new_returning.reporting_only, 'New/Returning')      #bar
             
          }
     }
