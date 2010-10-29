@@ -63,10 +63,10 @@ module GVisualCharts
     @chart.set_value(1, 0, array[1] )
     @chart.set_value(1, 1, (100 - array[2].to_i) )  
     
-    options = { :width => 200, :height => 200, :title => 'New/Returning'}
-    options.each_pair do | key, value |
-      @chart.send "#{key}=", value
-    end
+    @chart.width = 200
+    @chart.height = 200
+    # @chart.legend = "none"
+    @chart.title = "New/Returning"
     
     unique = "#{title}-#{rand(100000)}"
 
