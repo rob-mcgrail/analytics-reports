@@ -51,24 +51,25 @@ module GVisualCharts
 
   end
   
-  def GVisualCharts.pieslice(array)
+  def GVisualCharts.pieslice(array, title)
     #expects array [0]->valuetitle [1]->othertitle [2]->value
     
     @chart = GoogleVisualr::PieChart.new
     @chart.add_column('string', '')
-    @chart.add_column('number', 'New/Returning')
+    @chart.add_column('number', title)
     @chart.add_rows(2)
     @chart.set_value(0, 0, array[0] )
     @chart.set_value(0, 1, array[2].to_i )
     @chart.set_value(1, 0, array[1] )
     @chart.set_value(1, 1, (100 - array[2].to_i) )  
     
-    @chart.width = 200
-    @chart.height = 200
+    @chart.width = 70
+    @chart.height = 70
     # @chart.legend = "none"
     @chart.title = "New/Returning"
+    @chart.titleFontSize = 13
     
-    unique = "#{title}-#{rand(100000)}"
+    unique = "#{title.gsub!("/", "-")}-#{rand(100000)}"
 
     js = @chart.render(unique)
 
