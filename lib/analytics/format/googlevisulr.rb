@@ -51,7 +51,7 @@ module GVisualCharts
 
   end
   
-  def GVisualCharts.pieslice(array, title)
+  def GVisualCharts.pieslice(array, title, width = 110, height = 110)
     #expects array [0]->valuetitle [1]->othertitle [2]->value
     
     @chart = GoogleVisualr::PieChart.new
@@ -63,9 +63,8 @@ module GVisualCharts
     @chart.set_value(1, 0, array[1] )
     @chart.set_value(1, 1, (100 - array[2].to_i) )  
     
-    @chart.width = 70
-    @chart.height = 70
-    # @chart.legend = "none"
+    @chart.width = width
+    @chart.height = height
     @chart.title = "New/Returning"
     @chart.titleFontSize = 13
     
