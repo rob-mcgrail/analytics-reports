@@ -50,6 +50,33 @@ module GVisualCharts
     }
 
   end
+  
+  def GVisualCharts.pieslice(array)
+    #expects array [0]->valuetitle [1]->othertitle [3]->value
+    
+    @chart = GoogleVisualr::PieChart.new
+    @chart.add_column('string', '')
+    @chart.add_column('number', 'New/Returning')
+    @chart.add_rows(2)
+    @chart.set_value(0, 0, array[0] )
+    @chart.set_value(0, 1, array[3] )
+    @chart.set_value(1, 0, array[1] )
+    @chart.set_value(1, 1, (100-array[3]) )  
+    
+    options = { :width => 200, :height => 200, :title => 'New/Returning'}
+    options.each_pair do | key, value |
+      @chart.send "#{key}=", value
+    end
+    
+    unique = "#{title}-#{rand(100000)}"
+
+    js = @chart.render(unique)
+
+    $format.x.div("id"=>"#{unique}"){
+      $format.collector << js
+    }
+    
+  end
  
   def GVisualCharts.bar_series(title, data, width = 630, height = 90)
   
