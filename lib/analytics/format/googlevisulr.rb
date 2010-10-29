@@ -52,16 +52,16 @@ module GVisualCharts
   end
   
   def GVisualCharts.pieslice(array)
-    #expects array [0]->valuetitle [1]->othertitle [3]->value
+    #expects array [0]->valuetitle [1]->othertitle [2]->value
     
     @chart = GoogleVisualr::PieChart.new
     @chart.add_column('string', '')
     @chart.add_column('number', 'New/Returning')
     @chart.add_rows(2)
     @chart.set_value(0, 0, array[0] )
-    @chart.set_value(0, 1, array[3] )
+    @chart.set_value(0, 1, array[2].to_i )
     @chart.set_value(1, 0, array[1] )
-    @chart.set_value(1, 1, (100-array[3]) )  
+    @chart.set_value(1, 1, (100 - array[2].to_i) )  
     
     options = { :width => 200, :height => 200, :title => 'New/Returning'}
     options.each_pair do | key, value |
