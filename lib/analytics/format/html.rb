@@ -222,20 +222,13 @@ class HTML < Format
     #expects an array with 3, and only 3, values
 
     if array.length != 3
-      raise "Passed the Fop.relative method an array that is the wrong length. It should be three."
+      raise "Passed the HTML.comparison method an array that is the wrong length. It should be three."
     end
 
     #make changes to the values so one is 100, one is itself
 
-    chart = GVisualCharts.bar_series(array)
+    chart = GVisualCharts.pieslice(array)
 
-
-    # src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
-    # 
-    # @x.div("id"=>"comparison_graph"){
-    #   @x.span("#{array[0]} / #{array[1]}", "id"=>"comparison_value_title")
-    #   @x.img("src"=>src, "id"=>"comparison_value_graph")
-    # }
   end
   
   def labelled_series(struct)
