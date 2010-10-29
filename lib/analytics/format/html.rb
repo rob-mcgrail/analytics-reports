@@ -227,12 +227,15 @@ class HTML < Format
 
     #make changes to the values so one is 100, one is itself
 
-    src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
-    
-    @x.div("id"=>"comparison_graph"){
-      @x.span("#{array[0]} / #{array[1]}", "id"=>"comparison_value_title")
-      @x.img("src"=>src, "id"=>"comparison_value_graph")
-    }
+    chart = GVisualCharts.bar_series(array)
+
+
+    # src = Charts.comparison("#{array[0]}" + " / " + "#{array[1]}", array[2], array[0], array[1])
+    # 
+    # @x.div("id"=>"comparison_graph"){
+    #   @x.span("#{array[0]} / #{array[1]}", "id"=>"comparison_value_title")
+    #   @x.img("src"=>src, "id"=>"comparison_value_graph")
+    # }
   end
   
   def labelled_series(struct)
