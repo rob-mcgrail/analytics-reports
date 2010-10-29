@@ -61,7 +61,7 @@ module GVisualCharts
     @chart.set_value(0, 0, array[0] ) #confirm the order
     @chart.set_value(0, 1, array[2].to_i )
     @chart.set_value(1, 0, array[1] )
-    @chart.set_value(1, 1, (100 - array[2].to_i) )  
+    @chart.set_value(1, 1, array[3])  
     
     @chart.width = width
     @chart.height = height
