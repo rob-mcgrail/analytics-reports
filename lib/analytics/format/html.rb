@@ -180,19 +180,23 @@ class HTML < Format
         
         @x.tr{
           @x.th("id"=>"block_value_title"){
-            @x.span("#{struct.title}: #{struct.r}", "id"=>"block_value_title")
+            @x.span("#{struct.title}:", "id"=>"block_value_title")
           }
-          @x.th("id" => "value"){
-            @x.span("#{struct.p_change}", "id"=>"change")
-            @x.img("src"=> struct.p_arrow, "id" => "arrow") 
-            }
-          @x.th("id" => "value"){
-            @x.span("#{struct.b_change}", "id"=>"change")
-            @x.img("src"=> struct.b_arrow, "id" => "arrow")
-            }
+        @x.th("id"=>"block_value"){
+          @x.span("#{struct.r}", "id"=>"block_value")
+        }
+        @x.th("id" => "value"){
+          @x.span("#{struct.p_change}", "id"=>"change")
+          @x.img("src"=> struct.p_arrow, "id" => "arrow") 
           }
+        @x.th("id" => "value"){
+          @x.span("#{struct.b_change}", "id"=>"change")
+          @x.img("src"=> struct.b_arrow, "id" => "arrow")
+          }
+        }
           
         @x.tr{
+          @x.td("")
           @x.td("")
           @x.td("#{struct.p_value}", "id" => "value")
           @x.td("#{struct.b_value}", "id" => "value")
