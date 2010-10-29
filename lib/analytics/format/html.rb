@@ -216,7 +216,7 @@ class HTML < Format
 
   end
   
-  def comparison(array)
+  def comparison(array, title)
 
     #prints a bar divided between two proportions
     #expects an array with 3, and only 3, values
@@ -227,7 +227,7 @@ class HTML < Format
 
     #make changes to the values so one is 100, one is itself
 
-    chart = GVisualCharts.pieslice(array)
+    chart = GVisualCharts.pieslice(array, title)
 
   end
   
