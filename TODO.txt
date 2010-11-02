@@ -1,10 +1,15 @@
-Change final method for xml etc to strip out spaces and caps all in one go
 
-Make startup in to a module
 
-Make unit tests for everything
+Make Startup in to a module.
 
-Make a helper for globals?
+Remove highline dependencies.
 
-Should probably give up on complete seperation of $format from report,
-	instead could make $formats all have class methods, as helpers, and then do all the initialization stuff in the report class?
+Create a venor folder.
+
+Create everything via inheritance?
+
+Report -> standard. Select from TKI sites.
+
+Select format?
+
+Try for a model view controller approach?
