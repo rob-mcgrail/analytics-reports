@@ -131,15 +131,15 @@ class TXT < Format
     #prints a bar divided between two proportions
     #expects an array with 3, and only 3, values
 
-    if array.length != 3
-      raise "Passed the TXT.relative method an array that is the wrong length. It should be three."
+    if array.length != 4
+      raise "Passed the TXT.comparison method an array that is the wrong length. It should be three."
     end
 
     #make changes to the values so one is 100, one is itself
 
     @collector << "#{array[0]}" + " / " + "#{array[1]}"
     
-    @collector << "     #{array[2]}"
+    @collector << "#{array[1]}" + " / " + "#{array[2]}"
 
   end
   
