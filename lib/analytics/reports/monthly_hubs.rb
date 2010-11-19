@@ -36,7 +36,7 @@ class HubsMonth < Report
     
     $format.collector << "\n\nPage 1\n\n"
     
-    $format.header("Biotech", "Quick monthly summary")
+    $format.header(@name, "Quick monthly summary")
     
     $format.main_graph(visits.main_graph)
     
