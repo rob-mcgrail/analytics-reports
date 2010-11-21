@@ -137,9 +137,9 @@ class TXT < Format
 
     #make changes to the values so one is 100, one is itself
 
-    @collector << "#{array[0]}" + " / " + "#{array[1]}"
+    @collector << "#{array[0]}" + " / " + "#{array[1]}\n"
     
-    @collector << "#{array[1]}" + " / " + "#{array[2]}"
+    @collector << "#{array[2]}" + " / " + "#{array[3]}"
 
   end
   
