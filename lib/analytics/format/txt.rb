@@ -139,7 +139,7 @@ class TXT < Format
 
     @collector << "#{array[0]}" + " / " + "#{array[1]}\n"
     
-    @collector << "#{array[2]}" + " / " + "#{array[3]}"
+    @collector << "#{array[2]}" + " / " + "#{array[3]} (#{Num.to_p(Num.percentage(array[2], (array[2]+array[3])))}/#{Num.to_p(Num.percentage(array[3], (array[2]+array[3])))})"
 
   end
   
