@@ -146,7 +146,7 @@ class HubsMonth < Report
     
     
     $profile.segment = nil
-
+    
     $format.collector << "\n\nPage 5 -- Search\n\n"
     
       
