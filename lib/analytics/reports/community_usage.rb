@@ -44,6 +44,7 @@ class CommunityUsage < Report
     self.values("34229704", "Literacy Learning Progressions")
     self.values("26200548", "Ma te Pouaka (Maori Teachers Notes)")
     self.values("9226697", "NZ Curriculum")
+    self.values("15413802", "NZ Maths")
     self.values("36101231", "Pasifika")
     self.values("8272137", "Promoting Healthy Lifestyles")
     self.values("23725351", "Putaiao")
