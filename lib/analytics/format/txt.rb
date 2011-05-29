@@ -80,12 +80,12 @@ class TXT < Format
     #expects a ostruct with :title, :header (an array of heading titles)
     #and :rows, an array of arrays of data.
 
-    @collector << "#{struct.title}\n\n"
+    @collector << "=============== #{struct.title} table\n\n ====================="
     
     s = String.new
     
     struct.header.each do |head|
-      s << "  |  " + head
+      s << ", " + head
     end
     
     @collector << s  + "\n"
@@ -102,7 +102,7 @@ class TXT < Format
     struct.rows.each do |row|
       s = String.new
       row.each do |value|
-        s << "  |  " + value
+        s << ", " + value
       end
       @collector << s  + "\n"
     end
@@ -117,12 +117,12 @@ class TXT < Format
 
     #title, r, p_change, p_value, p_arrow, b_change, b_value, b_arrow
 
-    @collector << "\n   #{struct.title} | Block\n\n"
+    @collector << "\n=============== #{struct.title} ===============\n"
 
-    @collector << "#{struct.r}\n" 
+    @collector << "#{struct.r}\n\n" 
 
-    @collector << "   previous: #{struct.p_value} (#{struct.p_change}) [#{struct.p_arrow}]\n"
-    @collector << "   baseline: #{struct.b_value} (#{struct.b_change}) [#{struct.b_arrow}]\n"
+    @collector << "previous:\n#{struct.p_change}\n#{struct.p_value}\n#{struct.p_arrow} arrow\n\n"
+    @collector << "baseline:\n#{struct.b_change}\n#{struct.b_value}\n#{struct.b_arrow} arrow\n\n"
     
   end
   
@@ -137,9 +137,9 @@ class TXT < Format
 
     #make changes to the values so one is 100, one is itself
 
-    @collector << "#{array[0]}" + " / " + "#{array[1]}\n"
+    @collector << "\n=========== #{array[0]}" + " / " + "#{array[1]} ========== \n"
     
-    @collector << "#{array[2]}" + " / " + "#{array[3]} (#{Num.to_p(Num.percentage(array[2], (array[2]+array[3])))}/#{Num.to_p(Num.percentage(array[3], (array[2]+array[3])))})"
+    @collector << "#{array[2]}" + " / " + "#{array[3]}\n #{Num.to_p(Num.percentage(array[2], (array[2]+array[3])))}/#{Num.to_p(Num.percentage(array[3], (array[2]+array[3])))}"
 
   end
   
@@ -159,10 +159,10 @@ class TXT < Format
     x = struct.keys.length
     i = 0
     
-    @collector << "#{struct.title}\n"
+    @collector << "======= #{struct.title} ============\n"
     
     while x > 0
-      @collector << "   #{struct.keys[i]}:    #{values[i]}\n"
+      @collector << "#{struct.keys[i]}:\n#{values[i]}\n"
     
       i+=1
       x-=1
@@ -170,7 +170,7 @@ class TXT < Format
     
   end
 
-  def main_graph(struct) #not refactored yet as it is done with google currently
+  def main_graph(struct)
 
     #makes the big three line graph
 
@@ -181,13 +181,13 @@ class TXT < Format
     #                            .key (array of strings)
     #                            .data (an array of arrays - each array contains the data values)
 
-    @collector << "\n#{struct.title} | Main Graph\n\n"
+    @collector << "\n======= Main three-line Graph for #{struct.title} =========\n\n"
     
-    @collector << "     #{struct.title} | previous ave: #{struct.data[1].first}\n\n"
+    @collector << "Average:\n#{struct.data[1].first}\n\n"
     
-    @collector << "     #{struct.title} | baseline ave: #{struct.data[2].first}\n\n"
+    @collector << "Baseline average:\n#{struct.data[2].first}\n\n"
 
-    @collector << "     #{struct.title} | reporting:\n\n"
+    @collector << "#{struct.title} data (the wiggly line):\n"
 
     struct.data[0].each {|i| @collector << "#{i}\n"}
 
@@ -200,7 +200,7 @@ class TXT < Format
 
     # title, series (an array of values)
 
-    @collector << "#{struct.title} | Bar series\n\n"
+    @collector << "============== #{struct.title} Bar graph ==============\n\n"
 
     struct.data[0].each {|i| @collector << "#{i}\n"}
 
