@@ -97,7 +97,8 @@ h5. notes on "arrows"
 
 Every data class has methods @up_is_nothing?@ and @up_is_good?@ which are used by the class Crunch to decide how to interpret percentage changed.
 
-Percentage change results strings will include something like @#{self.arrow(@baseline_percentage_change)}@; Crunch's method "arrow" then runs through like:
+Percentage change results strings will include something like #{self.arrow(@baseline_percentage_change)}; Crunch's method "arrow" then runs through like:
+
 <pre>
     if change > 0
       if self.up_is_nothing?
@@ -113,9 +114,10 @@ h4. Startup class
 
 The Startup class contains methods for prompting the user to authenticate, enter date ranges etc. see startup.rb to see what is available.
 
-The Startup class usually instantiates and populates <code>$profile</code>, which is basically a holder for the account, profile and segment details. Every report needs this. It has accessor methods for these to change throughout a report. ie <code>$profile.segment</code>.
+The Startup class usually instantiates and populates @$profile@, which is basically a holder for the account, profile and segment details. Every report needs this. It has accessor methods for these to change throughout a report. ie @$profile.segment@.
 
-Example of a Startup method that populates <code>$profile</code>:
+Example of a Startup method that populates @$profile@:
+
 <pre>
 def select_profile
   $display.ask_user('Enter the profile you want stats for (ie 20425901)')
@@ -197,6 +199,7 @@ Many methods in these mixins depend upon there being a suitable method called 'a
 Most classes in /api have a basic method called arbitrary, which takes arguments for date range and possibly other parameters, that gets the data. Then 3 or more methods which call arbitrary, one for each reporting period ('reporting', 'previous', 'baseline'), which have the arguments for arbitrary baked in - pulling dates from the $periods object.
 
 So go:
+
 <pre>
 	visits = Visits.new
 
@@ -206,25 +209,4 @@ So go:
 
 	p visits.arbitrary(some_start_date, some_end_date) #needs date arguments (and possibly others...)
 </pre>
-
-h2. How to use it
-After your initial installation you should navigate to the root folder and run "<code>ruby test/all</code>" to make sure your dependencies are in place. 
-
-These tests aren't as complete as they should be, but the most dodgy and frequently called data classes have a fairly complete range of unit tests. If these pass you can assume you have everything you need to run reports.
-
-To run the tests you need to dump the following in to <code>/test/session/TESTINFO.rb</code>:
-
-<pre>
-$TEST_ACCOUNT = "account name"
-$TEST_PASSWORD = "password"
-</pre>
-
-
-A report should have a file in @lib/analytics/report/@ that grabs all the numbers and such.
-
-And then a file in /bin/ which boots up the $display, $format, $profile and $periods objects (probably via calls to the Startup class), and calls the main method for the report class.
-
-So running the report should be a case of typing @ruby bin/the_report@, and then entering your date ranges, authentication details etc.
-
-bin===>report===>format===>output.xml/txt/html...
 
