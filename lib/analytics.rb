@@ -23,10 +23,11 @@ module Net
 
         def initialize(*args)
             old_initialize(*args)
-            @read_timeout = 60     # 3 minutes
+            @read_timeout = 3*60     # 3 minutes
         end
     end
 end
+
 
 PATH = File.expand_path(File.dirname(__FILE__))
 
