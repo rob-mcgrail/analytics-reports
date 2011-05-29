@@ -1,3 +1,7 @@
+#
+# An impressive if foolhardy attempt to generate properly formatted html...
+#
+
 class Biotech < Report
   attr_accessor :name
   

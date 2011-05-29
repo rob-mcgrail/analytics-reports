@@ -1,3 +1,7 @@
+#
+# This report has been replaced by the standalone community_usage script
+#
+
 class CommunityUsage < Report
   
   def initialize(name = "Community Usage Stats")

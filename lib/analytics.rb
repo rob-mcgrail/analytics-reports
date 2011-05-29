@@ -2,21 +2,21 @@
 
 require 'rubygems'
 require 'garb'
-require 'builder'
-require 'highline/import'
+require 'gchart'
 require 'active_support'
 require 'action_pack'
 require 'action_view'
+require 'highline/import'
+
+require 'builder'
 require 'ostruct'
 require 'net/http'
-require 'gchart'
 require 'fileutils'
 
-# Monkey patch:
+# Monkeypatch to lengthen timeout in Net::HTTP
 
 require 'net/http'
 
-# Lengthen timeout in Net::HTTP
 module Net
     class HTTP
         alias old_initialize initialize
@@ -28,24 +28,18 @@ module Net
     end
 end
 
+PATH = File.expand_path(File.dirname(__FILE__))
 
 #external
-require File.expand_path(File.dirname(__FILE__) + "/analytics/array.rb")
-require File.expand_path(File.dirname(__FILE__) + "/analytics/startup.rb")
-require File.expand_path(File.dirname(__FILE__) + "/analytics/periods.rb")
-require File.expand_path(File.dirname(__FILE__) + "/analytics/profile.rb")
-
+require PATH + "/analytics/array.rb"
+require PATH + "/analytics/startup.rb"
+require PATH + "/analytics/periods.rb"
+require PATH + "/analytics/profile.rb"
+require PATH + "/analytics/format.rb"
+require PATH + "/analytics/report.rb"
 
 #sub-farms
-require File.expand_path(File.dirname(__FILE__) + "/analytics/helpers.rb")
-
-require File.expand_path(File.dirname(__FILE__) + "/analytics/display.rb")
-
-require File.expand_path(File.dirname(__FILE__) + "/analytics/api.rb")
-
-require File.expand_path(File.dirname(__FILE__) + "/analytics/reports.rb")
-
-require File.expand_path(File.dirname(__FILE__) + "/analytics/format.rb")
-
-
-
+Dir[PATH + '/analytics/display/*.rb'].each {|file| require file }
+Dir[PATH + '/analytics/helpers/*.rb'].each {|file| require file }
+Dir[PATH + '/analytics/reports/*.rb'].each {|file| require file }
+Dir[PATH + '/analytics/api/*.rb'].each {|file| require file }
