@@ -1,0 +1,230 @@
+h1. Warning - this was a first ever project, and it is irredeemably poor.
+
+h2. A system for creating automatic google analytics reports.
+
+h2. Basic structure
+
+h3. lib/analytics/reports
+
+reports boot up the session, and call data classes in <code>lib/analytics/api</code>, and are children of 'Report'.
+
+Report classes have an initialization method like:
+
+<pre>
+  def initialize(name = "Biotech deatiled report")
+    @name = name
+    @now = DateTime.now
+    
+    @dir = "#{DateTime.now.strftime("%d%m%M%S")}"
+    @path = File.expand_path(File.dirname(__FILE__) + "/../../../output/#{@dir}")
+    FileUtils.mkdir_p @path
+    @file = File.new(@path + "/#{@name.gsub(" ", "-").downcase}-#{@now.strftime("%d%m")}.html",  "w+")
+    $path = @path #export path variable for formatting classes that need it
+  end
+</pre>
+
+That sets the path and file for the report.
+
+The report then calls the <pre>$format</pre> formatter object. passing it the output of api class methods:
+
+<pre>
+    uniques = Uniques.new
+    visits = Visits.new
+    pageviews = PageViews.new
+
+    
+    $format.single("Uniques", uniques.reporting.to_s)
+    $format.table("Visits", visits.reporting.to_s)
+    $format.line_graph("Pageviews", pageviews.reporting.to_s)
+</pre>
+
+The API methods usually deliver an ostruct with all the things the formatting class is expecting... This will usually include an array of arrays called data, a title string, etc...
+
+Basically certain api class calls are matched losely to certain formatting calls. This should become increasingly flexible...
+
+h3. $periods, $format, $display, $profile, Startup, and /bin/====
+
+h4. $periods
+
+every report should have a <code>$periods</code> object <code>($periods = Periods.new)</code>, this contains the dates for the report. There are getter and setter methods like: <code>$periods.start_date_reporting, $periods.end_date_baseline</code> etc... 
+
+This will usually be populated by methods in the Startup class, like <code>Startup.new.select_reporting_period</code>
+
+Data classes then import date values from <code>$periods</code> on initialization.
+
+$periods can also be changed on the fly with setter methods (<code>$periods.start_date_previous = Date.new(y=2010,m=3,d=9)</code>)
+
+Reports are generally structured to a Reporting period (main period). A previous period, which is of the same length, up to the start of the Reporting period, and a baseline period, ending at the same point as the previous, but much longer.
+
+ie:
+
+<pre>Reporting period starts 2010-04-01 - 2010-04-30
+
+Previous period starts 2010-03-01 - 2010-03-31
+
+Baseline period starts 2009-03-31 - 2010-03-31</pre>
+
+The previous period is usually calculated automatically with the method <code>Startup.new.generate_previous_period</code>
+
+*note*
+
+Life is a lot simpler when all periods are even sets of months. (ie not 4.5 months etc). This is because some methods use Ruby's .month methods to adjust ranges, subdivide ranges etc.
+
+Another month related limitation is that you must set the $periods values @@reporting_number_of_months@ and @@baseline_number_of_months@. 
+
+This is usually taken care of by the relevant Startup methods, which will ask the user for the length of the baseline and reporting periods, in months.
+
+h4. $format
+
+Format decides on the report's formatting, and sets the file for output, the path for output etc. This is usually set in the @bin/bin_report@ section.
+
+Format sets all the arrow values on initialization. And it boots up the $collector object. This is a ostruct that has a main string at $collector.output, and then specific formats depending on what the report does... ie $collecotr.xml, $collector.txt. This is for reports that might output more than one format.
+
+The $format class has a method called "finish" that dumps that specific format's output in to $collector.
+
+Reports have a mathod called "end_game", that dumps the $collector content (populated from $format) to file, and to screen.
+
+This whole process is kind of confusing - the goal was to not paint myself in to a corner regarding the complexity of reports, but this will all be redesigned, using much more inheritance, much less "passing things around between a bunch of global objects"...
+
+h4. $display 
+
+Every report also requires a <code>$display</code> object. These are instances of classes that are children of 'Display', like 'Windows', 'Unix' etc ie <code>$display = Unix.new</code>
+
+Different Display classes handle methods like <code>ask_user, tell_user, alert_user</code> etc differently.
+
+
+h5. notes on "arrows"
+
+Every data class has methods @up_is_nothing?@ and @up_is_good?@ which are used by the class Crunch to decide how to interpret percentage changed.
+
+Percentage change results strings will include something like @#{self.arrow(@baseline_percentage_change)}@; Crunch's method "arrow" then runs through like:
+<pre>
+    if change > 0
+      if self.up_is_nothing?
+        @arrow = $display.grey_up
+        return @arrow.... etc etc...
+</pre>
+
+Getting the actual string from @$format@, depending on what booleans are returned by the calling class's @up_is_nothing?@ and @up_is_good?@ methods...
+
+This should just work, but something to be aware of when writing new classes, or making major changes to an existing class...
+
+h4. Startup class
+
+The Startup class contains methods for prompting the user to authenticate, enter date ranges etc. see startup.rb to see what is available.
+
+The Startup class usually instantiates and populates <code>$profile</code>, which is basically a holder for the account, profile and segment details. Every report needs this. It has accessor methods for these to change throughout a report. ie <code>$profile.segment</code>.
+
+Example of a Startup method that populates <code>$profile</code>:
+<pre>
+def select_profile
+  $display.ask_user('Enter the profile you want stats for (ie 20425901)')
+  chosen_profile = gets.chomp
+  
+  $profile = Profile.new
+  $profile.string = chosen_profile
+  $profile.garb = Garb::Profile.first(chosen_profile)
+end
+</pre>
+
+h4. Using segments with $profile
+
+Set segments like: @$profile.segment = "18378974"@
+
+Be sure to set segments back to nil when not in use (@$profile.segment = nil@) (many data methods check for segments with @$profile.segment?@ which is true if the segment variable isn't nil).
+
+The value @segment_string@ is a sort of ad-hoc segment, which is used by some content related data classes to limit results by path. ie:
+
+<pre>
+  def content_summaries
+    
+    content = Content.new
+    
+    $profile.segment_string = "/Contexts"
+    
+    content.info
+    
+    $profile.segment_string = "/Contexts/Earthquakes"
+    
+    content.info
+</pre>
+
+Used by class Content like:
+
+<pre>
+      if $profile.segment_string?
+        report.filters :pageviews.gt => @limit, :pagePath.contains => $profile.segment_string
+      else
+        report.filters :pageviews.gt => @limit
+      end
+</pre>
+
+Again you need to set these back to nil to avoid problems...
+
+And segments and segment_string can be combined (ie return values containing /Some_Section/, within segment 128744).
+
+h4. Example /bin/ file
+
+These objects are generally instantiated in the /bin/ files.
+
+<pre>
+
+require File.expand_path(File.dirname(__FILE__) + "/../lib/analytics.rb")
+
+$display = Unix.new
+$periods = Periods.new
+$format = CSV.new
+
+interface = Startup.new
+
+interface.authenticate_session
+interface.select_reporting_period_arbitrary
+
+report = CommunityUsage.new
+
+report.all
+report.end_game
+</pre>
+
+h4. lib/analytics/api
+
+The data crunching classes. 
+
+They use the mixins @Arrows@ (for managing arrows), and @StatGetters@ which has methods like "make_bounces_rates", and @DateHelper@ which has methods like "get_array_of_months" These are often expecting particular instance values in the class they are being mixed in with, so be careful. 
+
+Many methods in these mixins depend upon there being a suitable method called 'arbitrary' in the calling class. As a test for this, classes in /api contain a method 'arbitrary?' which returns true if it has an appropriate 'arbitrary' method.
+
+Most classes in /api have a basic method called arbitrary, which takes arguments for date range and possibly other parameters, that gets the data. Then 3 or more methods which call arbitrary, one for each reporting period ('reporting', 'previous', 'baseline'), which have the arguments for arbitrary baked in - pulling dates from the $periods object.
+
+So go:
+<pre>
+	visits = Visits.new
+
+	p visits.reporting #don't need arguments, they use the dates pulled out of $periods as arguments for arbitrary
+	p visits.previous
+	p visits.baseline
+
+	p visits.arbitrary(some_start_date, some_end_date) #needs date arguments (and possibly others...)
+</pre>
+
+h2. How to use it
+After your initial installation you should navigate to the root folder and run "<code>ruby test/all</code>" to make sure your dependencies are in place. 
+
+These tests aren't as complete as they should be, but the most dodgy and frequently called data classes have a fairly complete range of unit tests. If these pass you can assume you have everything you need to run reports.
+
+To run the tests you need to dump the following in to <code>/test/session/TESTINFO.rb</code>:
+
+<pre>
+$TEST_ACCOUNT = "account name"
+$TEST_PASSWORD = "password"
+</pre>
+
+
+A report should have a file in @lib/analytics/report/@ that grabs all the numbers and such.
+
+And then a file in /bin/ which boots up the $display, $format, $profile and $periods objects (probably via calls to the Startup class), and calls the main method for the report class.
+
+So running the report should be a case of typing @ruby bin/the_report@, and then entering your date ranges, authentication details etc.
+
+bin===>report===>format===>output.xml/txt/html...
+
